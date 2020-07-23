@@ -1,0 +1,14 @@
+nav#header{
+    background-color: yellow;
+}
+div.container{
+    background-color: red;
+}
+div.container-fluid{
+    background-color: blue;
+    text-align: left;
+    text-indent: 10%;
+}
+ul{
+    list-style-type: none;
+}
