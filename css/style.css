@@ -2,7 +2,7 @@ nav#header{
     background-color: yellow;
 }
 div.container{
-    background-color: red;
+    background-color:white;
 }
 div.container-fluid{
     background-color: blue;
@@ -11,4 +11,16 @@ div.container-fluid{
 }
 ul{
     list-style-type: none;
+}
+
+
+.menu_hangdienthoai button{
+    background-color:red;
+    color:white;
+    font-size:10px;
+    width:119px;
+}
+span.menu_khac
+{
+    
 }
