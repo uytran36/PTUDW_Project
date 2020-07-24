@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div>
-        <nav id="header" class="navbar navbar-expand-lg navbar-light justify-content-center">
+    <div id="header">
+        <nav id="nav_bar" class="navbar navbar-expand-lg navbar-light justify-content-center">
             <a class="navbar-brand" href="#">Logo</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -25,7 +25,7 @@
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="fa fa-apple">Apple</span>
+                    <span class="fa fa-apple"><br />Apple</span>
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Iphone 11 | 11 Pro Max</a>
@@ -36,28 +36,100 @@
                     <a class="dropdown-item" href="#">Iphone 6 | 6 Plus</a>
                   </div>
                 </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="fa fa-mobile-phone"><br />Điện thoại</span>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Samsung</a>
+                    <a class="dropdown-item" href="#">Oppo</a>
+                    <a class="dropdown-item" href="#">Xiaomi</a>
+                    <a class="dropdown-item" href="#">Huawei</a>
+                    <a class="dropdown-item" href="#">Vivo</a>
+                  </div>
+                </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Chercher</button>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
               </form>
             </div>
         </nav>
     </div>
-    <div class="container">
-        content
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm">
-                <ul>
-                    <li>Gọi mua hàng - 18000001</li>
-                    <li>Gọi khiếu nại - 18000002</li>
-                    <li>Gọi bảo hành - 18000003</li>
-                    <li>Hỗ trợ kỹ thuật - 18000004</li>
-                </ul>
+    <div class="container" id="body">
+      <div class="row">
+        <div class="col-sm-8">
+          <div id="demo" class="carousel slide" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="#">
+                  <img src="image/SamsungNote10+.jpg" width="912" height="320" style="max-width: 100%; height: auto;" alt="Note10+">
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img src="image/Iphone11.jpg" width="912" height="320" style="max-width: 100%; height: auto;" alt="Iphone11">
+                </a>
+              </div>
             </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
         </div>
+        <div class="col-sm-4">
+          <a href="#"><img id="banner1" src="image/redmi-k20-banner.jpg" width="360" height="200" alt="Mi_Banner"></a>
+          <a href="#"><img id="banner2" src="image/redmi-k20-banner.jpg" width="360" height="201" alt="Mi_Banner"></a>
+        </div>
+      </div>
+      <div class="row">
+        <span id="promotion">
+          <span class="spinner-grow spinner-grow-sm"></span>
+          <a href="#"><b> SUMMER SALE HOLIDAY: XS MAX 13.790| X 10.190</b></a>
+        </span>
+      </div>
+      <div class="row">
+        <span id="promotion_banner"><b>KHUYẾN MÃI HOT</b></span>
+        <br>
+        <div class="row">
+          <div class="manager_product_promotion">
+            <div class="product_promotion">
+              <a href="#">
+                <img src="image/xs_max-300x300.jpg" alt="xs_max">
+              </a>
+            </div>
+            <div class="product_promotion">
+              <a href="#">
+                <img src="image/xs-300x300.jpg" alt="xs">
+              </a>
+            </div>
+            <div class="product_promotion">
+              <a href="#">
+                <img src="image/8plus-300x300.jpg" alt="8plus">
+              </a>
+            </div>
+            <div class="product_promotion">
+              <a href="#">
+                <img src="image/7plus_2-300x300.jpg" alt="7plus">
+              </a>
+            </div>
+            <div class="product_promotion">
+              <a href="#">
+                <img src="image/thumb_Active3_5-300x300.jpg"" alt="vsAct3">
+              </a>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>  
+    <div class="container-fluid">
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

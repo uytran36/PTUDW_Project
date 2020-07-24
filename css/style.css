@@ -1,15 +1,64 @@
-nav#header{
+div#header{
     background-color: yellow;
 }
 div.container{
-    background-color: red;
+    background-color: whitesmoke;
 }
 div.container-fluid{
     background-color: blue;
     text-align: left;
     text-indent: 10%;
+    height: 100px;
 }
 ul{
     list-style-type: none;
 }
-
+.fa-mobile-phone{
+    text-align: center;
+}
+.fa-apple{
+    text-align: center;
+}
+.container{
+    padding: 0;
+    margin-top: 20px;
+}
+#banner2{
+    margin-top: 20px;
+}
+#promotion{
+    box-sizing: content-box;
+    width: 1140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding-top: 15px;
+    background-color: white;
+    color: red;
+}
+#promotion a{
+    color: red;
+    text-decoration: none;
+}
+#promotion_banner{
+    box-sizing: content-box;
+    width: 1140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding-top: 15px;
+    background-color: red;
+    color: white;
+}
+.product_promotion{
+    border: solid 1px #b7b7b7;
+    float: left;
+}
+.product_promotion a img {
+    width: 226px;
+}
+.manager_product_promotion{
+    margin-left: 30px;
+}
