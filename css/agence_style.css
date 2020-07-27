@@ -1,0 +1,51 @@
+nav#header{
+    background-color: yellow;
+}
+div.container{
+    background-color:white;
+}
+div.container-fluid{
+    background-color: blue;
+    text-align: left;
+    text-indent: 10%;
+}
+ul{
+    list-style-type: none;
+}
+
+
+.menu_hangdienthoai button{
+    background-color:red;
+    color:white;
+    font-size:10px;
+    width:119px;
+}
+
+#dienthoai{
+    margin-top: 20px; margin-left:-22px;font-weight:bold; font-size:17px;
+
+}
+#option_tien
+{
+    float:right; margin-top: 22px;font-size:14px;
+}
+#option_tien a {
+    color:red;
+    margin-left:12px;
+}
+#option1
+{
+    color:red; font-size:14px;margin-top:15px; margin-left:-13px; 
+}
+#option2
+{
+    color:red; font-size:14px;margin-top:15px; margin-left:-13px; 
+}
+#option3
+{
+    color:red; font-size:14px;margin-top:15px; margin-left:-13px; 
+}
+.dropdown a
+{
+    font-size:14px;color: red;
+}

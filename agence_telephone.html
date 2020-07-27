@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/minh.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/agence_style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 <body>
@@ -52,242 +53,121 @@
     <div id="content">
       <div class="container">
             <nav class="menu_hangdienthoai">
-              <button type="button" class="btn btn-primary">IPhone</button>
-              <button type="button" class="btn btn-primary">Samsung</button>
-              <button type="button" class="btn btn-primary">Xiaomi</button>
-              <button type="button" class="btn btn-outline-warning">Vsmart</button>
-              <button type="button" class="btn btn-primary">Realme</button>
-              <button type="button" class="btn btn-outline-success">Asus</button>  
-              <button type="button" class="btn btn-primary">Vivo</button>
-              <button type="button" class="btn btn-primary">LG</button>
-              <button type="button" class="btn btn-primary">Huawei</button>
+              <button type="button" class="btn btn">IPhone</button>
+              <button type="button" class="btn btn">Samsung</button>
+              <button type="button" class="btn btn">Xiaomi</button>
+              <button type="button" class="btn btn">Vsmart</button>
+              <button type="button" class="btn btn">Realme</button>
+              <button type="button" class="btn btn">Asus</button>  
+              <button type="button" class="btn btn">Vivo</button>
+              <button type="button" class="btn btn">LG</button>
+              <button type="button" class="btn btn">Huawei</button>
             </nav>
             <nav class="menu_giatien">
-                <!-- <div id="menu"> <span style="font-weight: bold;">Dien thoai</span> -->
                   <ul class="row">
-                    <li style="margin-top: 8px;">Dien thoai</li>
+                    <li id= "dienthoai">Điện thoại</li>
                     <li class="col-sm">
-                        <span style="float:right; margin-top: 8px;font-size:13px">
-                          <a href="#" style="color:red;">Duoi 3 trieu </a>
-                          <a href="#" style="color: red; margin-left:12px">Tu 3 den 7 trieu</a>
-                          <a href="#" style="color: red;margin-left:12px">Tu 7 den 10 trieu</a></span>
+                        <span id="option_tien">
+                          <a href="#">Dưới 3 triệu</a>
+                          <a href="#">Từ 3-7 triệu</a>
+                          <a href="#">Từ 7-10 triệu</a></span>
                         </li>
                       <li>
-                        <span class="dropdown">
-                          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="padding:0px; height: 20px; background-color: white;border:5px solid white ;color:black;margin-top:0px;font-size:13px; color:red; padding-left:0px;">
-                            Gia khac
+                        <div class="dropdown">
+                          <button id = "option1" type="button" class="btn btn dropdown-toggle" data-toggle="dropdown">
+                            Giá khác
                           </button>
-                          <span class="dropdown-menu">
-                            <a class="dropdown-item" href="#" style="font-size:14px;color: red;">Duoi 3 trieu</a>
-                            <a class="dropdown-item" href="#" style="font-size:14px;color:red">Tu 3 den 7 trieu</a>
-                            <a class="dropdown-item" href="#" style="font-size:14px;color:red">Tu 7 den 10 trieu</a>
-                          </span>
-                        </span>
+                          <div class="dropdown-menu" style="font-size:13px">
+                            <a class="dropdown-item" href="#">Dưới 3 triệu</a>
+                            <a class="dropdown-item" href="#">Từ 3- 7 triệu</a>
+                            <a class="dropdown-item" href="#">Từ 7- 10 triệu </a>
+                            <a class="dropdown-item" href="#">Từ 10- 15 triệu </a>
+                            <a class="dropdown-item" href="#">Trên 15 triệu</a>
+                          </div>
+                        </div>
                       </li> 
                       <li>
                         <span class="dropdown">
-                          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="padding:0px; height: 20px; background-color: white;border:5px solid white ;color:black;margin-top:0px;font-size:13px; color:red; padding-left:0px;">
+                          <button id = "option2" type="button" class="btn btn dropdown-toggle" data-toggle="dropdown">
                             Bo nho
                           </button>
-                          <span class="dropdown-menu">
-                            <a class="dropdown-item" href="#" style="font-size:14px;color: red;">8 GB</a>
-                            <a class="dropdown-item" href="#" style="font-size:14px;color:red">16 GB</a>
-                            <a class="dropdown-item" href="#" style="font-size:14px;color:red">32 GB</a>
+                          <span class="dropdown-menu" style="font-size:13px">
+                            <a class="dropdown-item" href="#">8 GB</a>
+                            <a class="dropdown-item" href="#">16 GB</a>
+                            <a class="dropdown-item" href="#">32 GB</a>
                           </span>
                         </span>
                       </li>
                       <li>
                         <span class="dropdown">
-                          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="padding:0px; height: 20px; background-color: white;border:5px solid white ;color:black;margin-top:0px;font-size:13px; color:red; padding-left:0px;padding-right: 6px;">
+                          <button id = "option3" type="button" class="btn btn dropdown-toggle" data-toggle="dropdown">
                             Sap xep
                           </button>
                           <span class="dropdown-menu">
-                            <a class="dropdown-item" href="#" style="font-size:14px;color: red;">San pham xem nhieu nhat</a>
-                            <a class="dropdown-item" href="#" style="font-size:14px;color:red">Gia thap den cao</a>
-                            <a class="dropdown-item" href="#" style="font-size:14px;color:red">Gia cao den thap</a>
+                            <a class="dropdown-item" href="#">San pham xem nhieu nhat</a>
+                            <a class="dropdown-item" href="#">Gia thap den cao</a>
+                            <a class="dropdown-item" href="#">Gia cao den thap</a>
                           </span>
                         </span>
                       </li>
                     </ul>
             </nav>
-              <ul class="row columns-5" style="margin-top:0px">
-                <li class="col-sm">
-                  <div class="card">
-                    <div class="card d-flex position-relative">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="position-absolute bg-success text-white  px-2 m-2" style="font-size:11px;">Moi ra mat</div>
-                      </div>
-                      <div class="col-md-6">
-                        <span class="badge badge-primary" style="margin-top: 7px; background-color: orange; font-size: 11px; margin-left:3px">Tra gop 0%</span>    
-                      </div>
-                    </div>
-                    <img class="card-img-top" src="img_phone/thumb_iP11_7.jpg" alt="Card image" style="width:100%;">
-                    <p class="card-text" style="font-size: 13px;">Lenovo Legion Duel <br><br><br><span style="color:red">11,990,000</span></p>
-                    </div>
+              <div class="row">
+                <div class="manager_product_promotion">
+                  <div class="product_promotion">
+                    <a href="#">
+                      <img src="img_phone/samsung/Samsung A/SS Galaxy A10.jpg" alt="ss_galaxyA10">
+                    </a>
+                    <br />
+                    <span class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</span><br />
+                    <span class="name_phone"><a href="#">Samsung Galaxy A8</a></span>
                   </div>
-                  <li class="col-sm">
-                    <div class="card">
-                      <div class="card d-flex position-relative">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="position-absolute bg-success text-white  px-2 m-2" style="font-size:11px;">Moi ra mat</div>
-                        </div>
-                        <div class="col-md-6">
-                          <span class="badge badge-primary" style="margin-top: 7px; background-color: orange; font-size: 11px; margin-left:3px">Tra gop 0%</span>    
-                        </div>
-                      </div>
-                      <img class="card-img-top" src="https://msg2viw9dj.vcdn.com.vn/uploads/2019/09/IP11-300x300.jpg" alt="Card image" style="width:100%">
-                      
-                      <p class="card-text" style="font-size: 13px;">Apple iphone 11 64GB Moi Tran chua active</p>
-                      <p class="card-text" style="color:red; font-size:13px;">11,990,000 <span style="color:grey;text-decoration: line-through; font-size: 13px; padding-right: 4px;">    15,900,000</span></p>
-                     </div>
-                    </div>
-                  </li>
-                  <li class="col-sm">
-                    <div class="card">
-                      <div class="card d-flex position-relative">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="position-absolute bg-success text-white  px-2 m-2" style="font-size:11px;">Moi ra mat</div>
-                        </div>
-                        <div class="col-md-6">
-                          <span class="badge badge-primary" style="margin-top: 7px; background-color: orange; font-size: 11px; margin-left:3px">Tra gop 0%</span>    
-                        </div>
-                      </div>
-                      <img class="card-img-top" src="https://msg2viw9dj.vcdn.com.vn/uploads/2019/09/IP11-300x300.jpg" alt="Card image" style="width:100%">
-                      
-                      <p class="card-text" style="font-size: 13px;">Apple iphone 11 64GB Moi Tran chua active</p>
-                      <p class="card-text" style="color:red; font-size:13px;">11,990,000 <span style="color:grey;text-decoration: line-through; font-size: 13px; padding-right: 4px;">    15,900,000</span></p>
-                     </div>
-                    </div>
-                  </li>
-                  <li class="col-sm">
-                    <div class="card">
-                      <div class="card d-flex position-relative">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="position-absolute bg-success text-white  px-2 m-2" style="font-size:11px;">Moi ra mat</div>
-                        </div>
-                        <div class="col-md-6">
-                          <span class="badge badge-primary" style="margin-top: 7px; background-color: orange; font-size: 11px; margin-left:3px">Tra gop 0%</span>    
-                        </div>
-                      </div>
-                      <img class="card-img-top" src="https://msg2viw9dj.vcdn.com.vn/uploads/2019/09/IP11-300x300.jpg" alt="Card image" style="width:100%">
-                      
-                      <p class="card-text" style="font-size: 13px;">Apple iphone 11 64GB Moi Tran chua active</p>
-                      <p class="card-text" style="color:red; font-size:13px;">11,990,000 <span style="color:grey;text-decoration: line-through; font-size: 13px; padding-right: 4px;">    15,900,000</span></p>
-                     </div>
-                    </div>
-                  </li>
-                  <li class="col-sm">
-                    <div class="card">
-                      <div class="card d-flex position-relative">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="position-absolute bg-success text-white  px-2 m-2" style="font-size:11px;">Moi ra mat</div>
-                        </div>
-                        <div class="col-md-6">
-                          <span class="badge badge-primary" style="margin-top: 7px; background-color: orange; font-size: 11px; margin-left:3px">Tra gop 0%</span>    
-                        </div>
-                      </div>
-                      <img class="card-img-top" src="https://msg2viw9dj.vcdn.com.vn/uploads/2019/09/IP11-300x300.jpg" alt="Card image" style="width:100%">
-                      
-                      <p class="card-text" style="font-size: 13px;">Apple iphone 11 64GB Moi Tran chua active</p>
-                      <p class="card-text" style="color:red; font-size:13px;">11,990,000 <span style="color:grey;text-decoration: line-through; font-size: 13px; padding-right: 4px;">    15,900,000</span></p>
-                     </div>
-                    </div>
-                  </li>   
-              </ul>
-              <ul class="row columns-5">
-                <li class="col-sm">
-                  <div class="card">
-                    <div class="card d-flex position-relative">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="position-absolute bg-success text-white  px-2 m-2" style="font-size:11px;">Moi ra mat</div>
-                      </div>
-                      <div class="col-md-6">
-                        <span class="badge badge-primary" style="margin-top: 7px; background-color: orange; font-size: 11px; margin-left:3px">Tra gop 0%</span>    
-                      </div>
-                    </div>
-                    <img class="card-img-top" src="img_phone/thumb_iP11_7.jpg" alt="Card image" style="width:100%;">
-                    <p class="card-text" style="font-size: 13px;">Lenovo Legion Duel <br><br><br><span style="color:red">11,990,000</span></p>
-                    </div>
+                  <div class="product_promotion">
+                    <a href="#">
+                      <img src="image/xs-300x300.jpg" alt="xs">
+                    </a>
+                    <br />
+                    <span class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</span><br />
+                    <span class="name_phone"><a href="#">Iphone XS 64Gb Quốc tế</a></span>
                   </div>
-                  <li class="col-sm">
-                    <div class="card">
-                      <div class="card d-flex position-relative">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="position-absolute bg-success text-white  px-2 m-2" style="font-size:11px;">Moi ra mat</div>
-                        </div>
-                        <div class="col-md-6">
-                          <span class="badge badge-primary" style="margin-top: 7px; background-color: orange; font-size: 11px; margin-left:3px">Tra gop 0%</span>    
-                        </div>
-                      </div>
-                      <img class="card-img-top" src="https://msg2viw9dj.vcdn.com.vn/uploads/2019/09/IP11-300x300.jpg" alt="Card image" style="width:100%">
-                      
-                      <p class="card-text" style="font-size: 13px;">Apple iphone 11 64GB Moi Tran chua active</p>
-                      <p class="card-text" style="color:red; font-size:13px;">11,990,000 <span style="color:grey;text-decoration: line-through; font-size: 13px; padding-right: 4px;">    15,900,000</span></p>
-                     </div>
-                    </div>
-                  </li>
-                  <li class="col-sm">
-                    <div class="card">
-                      <div class="card d-flex position-relative">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="position-absolute bg-success text-white  px-2 m-2" style="font-size:11px;">Moi ra mat</div>
-                        </div>
-                        <div class="col-md-6">
-                          <span class="badge badge-primary" style="margin-top: 7px; background-color: orange; font-size: 11px; margin-left:3px">Tra gop 0%</span>    
-                        </div>
-                      </div>
-                      <img class="card-img-top" src="https://msg2viw9dj.vcdn.com.vn/uploads/2019/09/IP11-300x300.jpg" alt="Card image" style="width:100%">
-                      
-                      <p class="card-text" style="font-size: 13px;">Apple iphone 11 64GB Moi Tran chua active</p>
-                      <p class="card-text" style="color:red; font-size:13px;">11,990,000 <span style="color:grey;text-decoration: line-through; font-size: 13px; padding-right: 4px;">    15,900,000</span></p>
-                     </div>
-                    </div>
-                  </li>
-                  <li class="col-sm">
-                    <div class="card">
-                      <div class="card d-flex position-relative">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="position-absolute bg-success text-white  px-2 m-2" style="font-size:11px;">Moi ra mat</div>
-                        </div>
-                        <div class="col-md-6">
-                          <span class="badge badge-primary" style="margin-top: 7px; background-color: orange; font-size: 11px; margin-left:3px">Tra gop 0%</span>    
-                        </div>
-                      </div>
-                      <img class="card-img-top" src="https://msg2viw9dj.vcdn.com.vn/uploads/2019/09/IP11-300x300.jpg" alt="Card image" style="width:100%">
-                      
-                      <p class="card-text" style="font-size: 13px;">Apple iphone 11 64GB Moi Tran chua active</p>
-                      <p class="card-text" style="color:red; font-size:13px;">11,990,000 <span style="color:grey;text-decoration: line-through; font-size: 13px; padding-right: 4px;">    15,900,000</span></p>
-                     </div>
-                    </div>
-                  </li>
-                  <li class="col-sm">
-                    <div class="card">
-                      <div class="card d-flex position-relative">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="position-absolute bg-success text-white  px-2 m-2" style="font-size:11px;">Moi ra mat</div>
-                        </div>
-                        <div class="col-md-6">
-                          <span class="badge badge-primary" style="margin-top: 7px; background-color: orange; font-size: 11px; margin-left:3px">Tra gop 0%</span>    
-                        </div>
-                      </div>
-                      <img class="card-img-top" src="https://msg2viw9dj.vcdn.com.vn/uploads/2019/09/IP11-300x300.jpg" alt="Card image" style="width:100%">
-                      
-                      <p class="card-text" style="font-size: 13px;">Apple iphone 11 64GB Moi Tran chua active</p>
-                      <p class="card-text" style="color:red; font-size:13px;">11,990,000 <span style="color:grey;text-decoration: line-through; font-size: 13px; padding-right: 4px;">    15,900,000</span></p>
-                     </div>
-                    </div>
-                  </li>                
-              </ul>
+                  <div class="product_promotion">
+                    <a href="#">
+                      <img src="image/8plus-300x300.jpg" alt="8plus">
+                    </a>
+                    <br />
+                    <span class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</span><br />
+                    <span class="name_phone"><a href="#">Iphone 8 Plus 64Gb Chính hãng</a></span>
+                  </div>
+                  <div class="product_promotion">
+                    <a href="#">
+                      <img src="image/7plus_2-300x300.jpg" alt="7plus">
+                    </a>
+                    <br />
+                    <span class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</span><br />
+                    <span class="name_phone"><a href="#">Iphone 7 Plus 32Gb Quốc tế</a></span>
+                  </div>
+                  <div class="product_promotion">
+                    <span class="badge badge-pill badge-primary" style="background-color:green; position: absolute; margin-left: 0.2%; margin-top: 0.2%;">Mới ra mắt</span>
+                    <span class="badge badge-primary" style="background-color:orange; position: absolute; margin-left: 9%; margin-top: 0.2%">Trả góp 0%</span>
+                    <a href="#">
+                      <img src="image/thumb_Active3_5-300x300.jpg" alt="vsAct3">
+                    </a>
+                    <br />
+                    <span class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</span><br />
+                    <span class="name_phone"><a href="#">Vsmart Active 3 Ram 6Gb 64Gb Chính hãng</a></span>
+                  </div>
+                  <div class="product_promotion">
+                    <span class="badge badge-pill badge-primary" style="background-color:green; position: absolute; margin-left: 0.2%; margin-top: 0.2%;">Mới ra mắt</span>
+                    <span class="badge badge-primary" style="background-color:orange; position: absolute; margin-left: 9%; margin-top: 0.2%">Trả góp 0%</span>
+                    <a href="#">
+                      <img src="image/thumb_Active3_5-300x300.jpg" alt="vsAct3">
+                    </a>
+                    <br />
+                    <span class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</span><br />
+                    <span class="name_phone"><a href="#">Vsmart Active 3 Ram 6Gb 64Gb Chính hãng</a></span>
+                  </div>
+                </div> 
+              </div>
               </div>
       </div>
     <div class="container-fluid">
