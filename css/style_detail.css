@@ -27,3 +27,16 @@
     background-color: yellow;
     border: 10px solid yellow;
 }
+.giadt{
+  color: red;
+}
+.kmandtl{
+  border: 2px solid whitesmoke;
+  
+}
+.khuyenmai{
+  list-style: circle;
+}
+#dichvu{
+  margin-left: 1em;
+}
