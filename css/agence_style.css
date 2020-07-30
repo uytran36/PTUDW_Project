@@ -49,3 +49,119 @@ ul{
 {
     font-size:14px;color: red;
 }
+.prix
+{
+    color:red;
+    padding-left:10px;
+    padding-top:-100px; 
+    font-weight: bold;
+}
+#content 
+{
+    margin-top:10px;
+    background-color:#f0f0f0;
+    border:1px solid black;
+}
+.container
+{
+    padding-top:15px;
+    padding-left:10px;
+    background-color: #ffffff;
+}
+nav.menu_hangdienthoai
+{
+    
+}
+nav.menu_giatien
+{
+    margin-top:-25px;
+}
+#promotion{
+    box-sizing: content-box;
+    width: 1140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding-top: 15px;
+    background-color: white;
+    color: red;
+}
+#promotion a{
+    color: red;
+    text-decoration: none;
+}
+#promotion_banner{
+    box-sizing: content-box;
+    width: 1140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding-top: 15px;
+    background-color: red;
+    color: white;
+}
+.product_promotion{
+    background-color: white;
+    border: 1px solid white;
+    float: left;
+    height: 350px;
+    width: 19.5%;
+    box-shadow: white;
+}
+.product_promotion:hover{
+    box-shadow: #000    ;
+}
+img:hover {
+    background-color: rgb(238, 232, 232);
+}
+.product_promotion a img {
+    width: 226px;
+}
+.manager_product_promotion{
+    margin-left: 10px;
+}
+.info_promotion{
+    padding: 1px 5px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: linear-gradient(-90deg, #ec1f1f 0%, #ff9c00 100%);
+    border-radius: 4px;
+    margin-left: 16%;
+}
+.name_phone{
+    text-align: justify;
+    margin-left: 5px;
+}
+.name_phone a{
+    color: black;
+    text-decoration: none;
+}
+.name_phone a:hover{
+    color: blue
+}
+.name_phone a:active{
+    color: hotpink
+}
+
+div.container-fluid{
+    background-color: blue;
+    text-align: left;
+    text-indent: 10%;
+    height: 100px;
+}
+#banner1{
+    width: 100%;    
+    height: 48%;
+}
+#banner2{
+    width: 100%;
+    height: 48%;
+    margin-top: 16px;
+}
+#row_dienthoai {
+    margin-top:-14px;
+}
+
