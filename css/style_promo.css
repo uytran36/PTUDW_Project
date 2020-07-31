@@ -1,0 +1,52 @@
+.promotion {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#carouselExampleInterval {
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 50px;
+    background-color: greenyellow;
+}
+
+.promo-pic {
+    width: 400px;
+    height: 200px;
+}
+p {
+    width: 400px;
+    text-align: center;
+    font-size: 40px;
+    padding: 0;
+    height: fit-content;
+    border: 4px dotted red;
+    margin-top: 50px;
+    font-weight: bold;
+    color: red;
+}
+
+#promo_2 {
+    width: 700px;
+    height: 330px;
+    margin-bottom: 50px;
+}
+#rog3_promo {
+    width: 700px;
+    height: 300px;
+}
+
+
+h4 {
+    height: 30px;
+    background-color: greenyellow;
+    margin: 0;
+    text-align: center;
+}
+
+.media {
+    margin-bottom: 50px;
+}
