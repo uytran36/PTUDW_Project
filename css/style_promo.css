@@ -1,6 +1,10 @@
 .promotion {
+    margin: 0;
+    padding: 0;
+    border: 0;
     margin-left: 50px;
     margin-right: 50px;
+
 }
 #carouselExampleInterval {
     height: 200px;
@@ -9,13 +13,13 @@
     font-size: 50px;
     font-weight: bold;
     color: red;
-    margin-bottom: 50px;
-    background-color: greenyellow;
+    margin: 0;
 }
 
 .promo-pic {
     width: 400px;
     height: 200px;
+   
 }
 p {
     width: 400px;
@@ -24,29 +28,57 @@ p {
     padding: 0;
     height: fit-content;
     border: 4px dotted red;
-    margin-top: 50px;
     font-weight: bold;
     color: red;
 }
 
 #promo_2 {
-    width: 700px;
-    height: 330px;
+    width: 600px;
+    height: 284px;
+    margin: 0;
     margin-bottom: 50px;
+    background-color: red;
 }
 #rog3_promo {
-    width: 700px;
-    height: 300px;
+    width: 600px;
+    height: 200px;
 }
 
-
-h4 {
-    height: 30px;
+#rog_title {
+    max-width: 300px;
+    width: 300px;
+    height: 50px;
     background-color: greenyellow;
-    margin: 0;
     text-align: center;
+    margin: auto;
 }
 
 .media {
     margin-bottom: 50px;
+}
+
+#Sale_Slide {
+    margin: 50px 50px 50px 0;
+    width: 400px;
+    height: 284px;
+    float: left;
+}
+
+bold {
+    font-weight: bold;
+}
+
+.mr-3 {
+    width: 200px;
+    height: 117px;
+}
+
+#popularNews, #hotdeal {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    width: auto;
+}
+.media {
+    border: 1px outset;
 }
