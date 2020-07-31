@@ -1,0 +1,167 @@
+/*HEADER VÀ FOOTER*/
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4E7AC7;
+    color: black;
+    padding: 1px;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    width: 120px;
+    height: 25px;
+
+}
+  
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #fff;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    margin-top: 8px;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn span{
+    color: black;
+    font-weight: bold;
+}
+
+/*temp*/
+div#header{
+    background-color: #4E7AC7;
+}
+
+.dropbtn:focus {
+    outline: none;
+}
+
+#logo, #navbarSupportedContent {
+    float: left;
+}
+
+.wrapHead {
+    height: 40px;
+    margin-left: 30em;
+    margin-right: 25em;
+}
+
+div.container{
+    background-color: whitesmoke;
+}
+
+#btn-search {
+    background-color: #4E7AC7;
+    color: black;
+    border: none;
+}
+
+#btn-search:active, #btn-search:focus {
+    outline: none;
+}
+
+#footer p {
+    font-weight: bold;
+}
+
+#footer {
+    margin-top: 10px;
+}
+/*END OF HEADER, FOOTER*/
+
+#banner1{
+    width: 100%;
+    height: 48%;
+}
+#banner2{
+    width: 100%;
+    height: 48%;
+    margin-top: 16px;
+}
+#promotion{
+    box-sizing: content-box;
+    width: 1140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding-top: 15px;
+    background-color: white;
+    color: red;
+}
+#promotion a{
+    color: red;
+    text-decoration: none;
+}
+#promotion_banner{
+    box-sizing: content-box;
+    width: 1140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding-top: 15px;
+    background-color: red;
+    color: white;
+}
+.product_promotion{
+    background-color: white;
+    border: solid 1px #b7b7b7;
+    float: left;
+    height: 350px;
+    width: 228px;
+}
+.product_promotion a img {
+    width: 226px;
+}
+.manager_product_promotion{
+    margin-left: 30px;
+}
+.info_promotion{
+    padding: 1px 5px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: linear-gradient(-90deg, #ec1f1f 0%, #ff9c00 100%);
+    border-radius: 4px;
+    margin-left: 16%;
+}
+.name_phone{
+    text-align: justify;
+    margin-left: 5px;
+}
+.name_phone a{
+    color: black;
+    text-decoration: none;
+}
+.name_phone a:hover{
+    color: blue
+}
+.name_phone a:active{
+    color: hotpink
+}
