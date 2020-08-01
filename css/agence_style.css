@@ -1,30 +1,134 @@
-nav#header{
-    background-color: yellow;
+
+body {
+    background-color: whitesmoke;
 }
+/*HEADER VÀ FOOTER*/
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4E7AC7;
+    color: black !important;
+    padding: 1px;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    width: 120px;
+    height: 25px;
+
+}
+  
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: black !important;
+    font-weight:bold;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #fff;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn span{
+    color: black !important;
+    font-weight: bold;
+}
+
+.dropdown span a {
+    text-decoration: none;
+    color: black !important;
+}
+
+.dropdown span a:active, .dropdown span a:focus {
+    outline: none;
+}
+
+div#header{
+    background-color: #4E7AC7;
+}
+
+.dropbtn:focus {
+    outline: none;
+}
+
+#logo, #navbarSupportedContent {
+    float: left;
+}
+
+.wrapHead {
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 div.container{
-    background-color:white;
-}
-div.container-fluid{
-    background-color: blue;
-    text-align: left;
-    text-indent: 10%;
-}
-ul{
-    list-style-type: none;
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 
+#btn-search {
+    background-color: #4E7AC7;
+    color: black;
+    border: none;
+}
 
-.menu_hangdienthoai button{
+#btn-search:active, #btn-search:focus {
+    outline: none;
+}
+
+#iphone a {
+    width: 200px;
+}
+
+#footer p {
+    font-weight: bold;
+}
+
+#footer {
+    margin-top: 10px;
+}
+/*END OF HEADER, FOOTER*/
+
+
+
+ .menu_hangdienthoai button{
     background-color:red;
     color:white;
     font-size:10px;
     width:119px;
+    
 }
+
 
 #dienthoai{
     margin-top: 20px; margin-left:-22px;font-weight:bold; font-size:17px;
 
 }
+
 #option_tien
 {
     float:right; margin-top: 22px;font-size:14px;
@@ -49,6 +153,7 @@ ul{
 {
     font-size:14px;color: red;
 }
+
 .prix
 {
     color:red;
@@ -103,19 +208,32 @@ nav.menu_giatien
     color: white;
 }
 .product_promotion{
-    background-color: white;
-    border: 1px solid white;
+     /* background-color: white; */
+    /* border: 1px solid #f0f0f0 !important;   */
     float: left;
     height: 350px;
     width: 19.5%;
-    box-shadow: white;
+    /* box-shadow: white; */ 
+    transition: box-shadow .3s;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin-left:3px;
+    margin-bottom: 3px;
+    
+
+}
+.product_promotion:hover span.name_phone a 
+{
+    color:rgb(87, 87, 190);
 }
 .product_promotion:hover{
-    box-shadow: #000    ;
-}
-img:hover {
-    background-color: rgb(238, 232, 232);
-}
+    /* box-shadow:red;
+    border:1x solid #000; */
+    box-shadow: 0 0 11px rgba(10, 10, 10);
+
+} 
+
 .product_promotion a img {
     width: 226px;
 }
@@ -164,4 +282,16 @@ div.container-fluid{
 #row_dienthoai {
     margin-top:-14px;
 }
-
+ 
+li 
+{
+    list-style: none !important;
+}
+#content {
+    border:1px solid #f0f0f0;
+    margin-top:30px;
+    margin-bottom:70px;
+}
+#img_dienthoai{
+    width:200px;
+}
