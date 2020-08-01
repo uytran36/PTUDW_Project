@@ -77,8 +77,8 @@ div#header{
 
 .wrapHead {
     height: 40px;
-    margin-left: 30em;
-    margin-right: 25em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div.container{
