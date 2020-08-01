@@ -1,7 +1,119 @@
-body {
-  background-color: whitesmoke;
+/*CSS - content*/
+#form1{
+  width: 30%;
+  background-color: violet;
+  float: left;
+}
+#form2{
+  width: 34%;
+  float: left;
+  margin-left: 1%;
+}
+#form3{
+  width: 34%;
+  float: left;
+  margin-left: 1%;
+}
+#form4{
+  width: 60%;
+  float: left;
+  border-top: 1px dotted gray;
+  margin-top: 1%;
+}
+#form5{
+  width: 38%;
+  height: 500px;
+  margin-left: 2%;
+  float: left;
+  margin-top: 1%;
+  border-top: 1px dotted gray;
+}
+.picform1{
+  width: 100%;
+}
+.kmdvform2{
+  padding: 0.5em;
+  margin-bottom: 1%;
+}
+.giadtform2 {
+  color: red;
+}
+.giadtform2 span {
+  font-size: small;
+  
+}
+.nutmuaform2{
+  font-size: small;
+}
+.hainutmuaform2{
+  margin-top: 1%;
+}
+.sdtform2{
+  
+  width:100%; 
+  color: grey;
+  border-radius: 2px white;
+}
+.tuvanform2{
+  margin-top: 3%;
+}
+.datmuaform2{
+  text-align: center;
+}
+.thform3{
+  padding: 3%;
+  text-align: inherit;
+}
+.trform3{
+  border-top: 1px solid wheat;
+}
+.tableform3{
+  border-spacing: 2px;
+}
+#d1_form4{
+  width: 20%;
+  height: 50px;
+  border: 11px solid yellow;
+  border-radius: 5px;
+  float: left;
+}
+#d2_form4{
+  width: 58%;
+  height: 50px;
+  float: left;
+  margin-left: 1%;
+  background-color: blue;
+}
+#d3_form4{
+  width: 19%;
+  height: 50px;
+  float: left;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 3%;
+
+}
+.pform4{
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+  background-color: yellow;
+}
+.buttonform4{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  letter-spacing: 2px; 
+  
+  
+}
+.buttonform4:hover{
+  color:#000;
+  background-color: #D9E8F5;
 }
 
+/*zoom hover chưa tính đc*/
 * {box-sizing: border-box;}
 
 .img-zoom-container {
@@ -25,24 +137,7 @@ body {
 .image_primar{
     float: left;
 }
-.grade{
-    margin-top: 12px;
-    background-color: yellow;
-    border: 10px solid yellow;
-}
-.giadt{
-  color: red;
-}
-.kmandtl{
-  border: 2px solid white;
-  
-}
-.khuyenmai{
-  list-style: circle;
-}
-#dichvu{
-  margin-left: 1em;
-}
+
 
 /*HEADER VÀ FOOTER*/
 /* Dropdown Button */
@@ -147,9 +242,7 @@ div.container{
 #footer p {
   font-weight: bold;
 }
-
 #footer {
   margin-top: 10px;
-
 }
 /*END OF HEADER, FOOTER*/
