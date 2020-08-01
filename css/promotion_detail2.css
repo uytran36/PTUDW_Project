@@ -1,0 +1,127 @@
+body {
+    background-color: whitesmoke;
+}
+/*HEADER VÀ FOOTER*/
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4E7AC7;
+    color: black;
+    padding: 1px;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    width: 120px;
+    height: 25px;
+
+}
+  
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #fff;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn span{
+    color: black;
+    font-weight: bold;
+}
+
+.dropdown span a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown span a:active, .dropdown span a:focus {
+    outline: none;
+}
+
+div#header{
+    background-color: #4E7AC7;
+}
+
+.dropbtn:focus {
+    outline: none;
+}
+
+#logo, #navbarSupportedContent {
+    float: left;
+}
+
+.wrapHead {
+    height: 40px;
+    margin-left: 30em;
+    margin-right: 25em;
+}
+
+div.container{
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#btn-search {
+    background-color: #4E7AC7;
+    color: black;
+    border: none;
+}
+
+#btn-search:active, #btn-search:focus {
+    outline: none;
+}
+
+#iphone a {
+    width: 200px;
+}
+
+#footer p {
+    font-weight: bold;
+}
+
+#footer {
+    margin-top: 10px;
+}
+/*END OF HEADER, FOOTER*/
+
+/*article*/
+.titre {
+    color: #AA1E28;
+    font-weight: bolder;
+}
+
+.content ul span {
+    font-weight: bold;
+    color: red;
+}
+
+.content img {
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+}

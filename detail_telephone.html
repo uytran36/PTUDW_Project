@@ -8,10 +8,84 @@
     <script src="js/script_detail.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
   </head>
-  <body>
+  <body style="background-color:whitesmoke;" >
+    <!--HEADER-->
+    <div id="header">
+      <nav id="nav_bar" class="navbar navbar-expand-lg navbar-light">
+          <div class="wrapHead">
+              <a class="navbar-brand" id="logo" href="acceuil.html">
+                  <img src="image/KDM.png" style="width: 85px;">
+              </a>           
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Rechercher sur KDM" style="width: 400px;" aria-label="Search">
+                      <!-- button submit -->
+                      <button  id="btn-search" type="submit">
+                          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                        </svg>
+                      </button>
+                      <!--end of button submit -->
+                  </form>
+              </div>
+              
+              <!-- chia column cho các buton -->
+              <div class="row" id="menu">
+                  <div class="col" id="iphone">
+                      <!-- button iphone -->
+                      <div class="dropdown">
+                          <button class="dropbtn">
+                              <span class="fa fa-apple"><br />IPHONE</span>
+                          </button>
+                          <div class="dropdown-content">
+                              <a href="#">Iphone 11 | 11 Pro Max</a>
+                              <a href="#">Iphone XS | XS Max</a>
+                              <a href="#">Iphone X | XR</a>
+                              <a href="">Iphone 8 | 8 Plus</a>
+                              <a href="">Iphone 7 | 7 Plus</a>
+                              <a href="">Iphone 6 | 6 Plus</a>
+                          </div>
+                      </div>
+                      <!-- end of button iphone -->
+                  </div>
+                  <div class="col" id="phone">
+                      <!-- button phone -->
+                      <div class="dropdown">
+                          <button class="dropbtn">
+                              <span class="fa fa-mobile-phone"><br />PHONE</span>
+                          </button>
+                          <div class="dropdown-content">
+                              <a href="#">Samsung</a>
+                              <a href="#">Oppo</a>
+                              <a href="#">Xiaomi</a>
+                              <a href="">Huawei</a>
+                              <a href="">Vivo</a>
+                          </div>
+                      </div>
+                      <!-- end of button phone -->
+                  </div>
+                  <div class="col">
+                      <!-- button promotion -->
+                      <div class="dropdown">
+                          <button class="dropbtn">
+                              <span class="fa fa-percent"><br />
+                                  <a href="promotion.html">PROMOTION</a>
+                              </span>
+                          </button>
+                      </div>
+                      <!-- end of button promotion -->
+                  </div>
+              </div>
+              <!-- kết thúc chia column -->
+          </div>
+      </nav>
+    </div>
+
+    <!--CONTENT-->
     <div class="container">
       <h1>Xiaomi Mi 10 Pro Ram 8GB 256GB</h1>      
       <hr>
@@ -171,7 +245,7 @@
           <div class="col-3">
             <button type="button" class="btn btn-secondary" style="margin-top: 15px;">FEEDBACK</button>
           </div>
-          <div style="background-color: whitesmoke;margin-top: 1em;">
+          <div style="background-color: white;margin-top: 1em;">
             <span>
               <b>HY</b>
               <p>
@@ -273,6 +347,61 @@
     </div>
     
 
+  <!--FOOTER-->
+    <div class="container" id="footer">
+      <div class="row">
+          <div class="col">
+              <p>INFORMATIONS D'ASSISTANCE</p>
+              <hr>
+              <ul>
+                  <li>
+                      <a href="">Politique de garantie</a>
+                  </li>
+                  <li>
+                      <a href="">Politique de confidentialité des informations du client</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="col">
+              <p>LES COMMUNICATIONS</p>
+              <hr>
+              <ul>
+                  Numéro de téléphone:
+                  <li>
+                      0941.559.273
+                  </li>
+                  <li>
+                      0937.022.743
+                  </li>
+                  Email:
+                  <li>
+                      kdmobile@gmail.com
+                  </li>
+                  <li>
+                      kdmobile@yahoo.com
+                  </li>
+              </ul>
+          </div>
+          <div class="col">
+              <p>L'ADRESSE DU MAGASIN</p>
+              <hr>
+              <ul>
+                  <li>
+                      252 Võ Văn Ngân, Thủ Đức, HCM
+                  </li>
+                  <li>
+                      290 Hoàng Văn Thụ, Tân Bình, HCM
+                  </li>
+                  <li>
+                      43 Cầu Giấy, Hà Nội
+                  </li>
+                  <li>
+                      453 Nguyễn Trãi, Hà Nội
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
