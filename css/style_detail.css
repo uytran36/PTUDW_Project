@@ -1,38 +1,9 @@
 /*CSS - content*/
-#form1{
-  width: 30%;
-  background-color: violet;
-  float: left;
-}
-#form2{
-  width: 34%;
-  float: left;
-  margin-left: 1%;
-}
-#form3{
-  width: 34%;
-  float: left;
-  margin-left: 1%;
-}
-#form4{
-  width: 60%;
-  float: left;
-  border-top: 1px dotted gray;
-  margin-top: 1%;
-}
-#form5{
-  width: 38%;
-  height: 500px;
-  margin-left: 2%;
-  float: left;
-  margin-top: 1%;
-  border-top: 1px dotted gray;
-}
 .picform1{
   width: 100%;
 }
 .kmdvform2{
-  padding: 0.5em;
+  padding: 4px;
   margin-bottom: 1%;
 }
 .giadtform2 {
@@ -40,7 +11,6 @@
 }
 .giadtform2 span {
   font-size: small;
-  
 }
 .nutmuaform2{
   font-size: small;
@@ -91,7 +61,6 @@
   margin-left: 1%;
   margin-right: 1%;
   margin-top: 3%;
-
 }
 .pform4{
   font-weight: bold;
@@ -105,8 +74,6 @@
   border-radius: 0.5em;
   padding: 0.5em 1em;
   letter-spacing: 2px; 
-  
-  
 }
 .buttonform4:hover{
   color:#000;
@@ -150,14 +117,12 @@
   text-align: center;
   width: 120px;
   height: 25px;
-
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
-
 }
 
 /* Dropdown Content (Hidden by Default) */
