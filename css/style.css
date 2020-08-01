@@ -1,16 +1,117 @@
-div#header{
-    background-color: yellow;
-}
-div.container{
+body {
     background-color: whitesmoke;
 }
-div.container-fluid{
-    background-color: blue;
-    text-align: left;
-    text-indent: 10%;
-    height: 100px;
-    margin-top: 10%;
+/*HEADER VÀ FOOTER*/
+/* Dropdown Button */
+.dropbtn {
+    background-color: #008EEF;
+    color: black;
+    padding: 1px;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    width: 120px;
+    height: 25px;
+
 }
+  
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #fff;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn span{
+    color: black;
+    font-weight: bold;
+}
+
+.dropdown span a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown span a:active, .dropdown span a:focus {
+    outline: none;
+}
+
+div#header{
+    background-color: #008EEF;
+}
+
+.dropbtn:focus {
+    outline: none;
+}
+
+#logo, #navbarSupportedContent {
+    float: left;
+}
+
+.wrapHead {
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.container{
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#btn-search {
+    background-color: #008EEF;
+    color: black;
+    border: none;
+}
+
+#btn-search:active, #btn-search:focus {
+    outline: none;
+}
+
+#iphone a {
+    width: 200px;
+}
+
+#footer p {
+    font-weight: bold;
+}
+
+#footer {
+    margin-top: 10px;
+}
+div.container{
+    background-color: white;
+}
+
 ul{
     list-style-type: none;
 }
@@ -61,7 +162,7 @@ ul{
 }
 .product_promotion{
     background-color: white;
-    border: solid 1px #b7b7b7;
+    border: solid 1px whitesmoke;
     float: left;
     height: 350px;
     width: 228px;
@@ -110,7 +211,7 @@ ul{
     margin-top: 2%;
 }
 #row4{
-    background-color: pink;
+    background-color: lightgreen;
     width: 1140px;
     margin-left: 0%;
     height: 53px;
