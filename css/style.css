@@ -196,6 +196,9 @@ ul{
 .product a:hover {
     color: blue
 }
+.product a img:hover{
+    margin-top: 20px;
+}
 .product a:active{
     color: hotpink
 }
