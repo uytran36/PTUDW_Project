@@ -215,7 +215,7 @@ nav.menu_giatien
     /* border: 1px solid #f0f0f0 !important;   */
     float: left;
     height: 350px;
-    width: 19.5%;
+    width:210px;
     /* box-shadow: white; */ 
     transition: box-shadow .3s;
     border-radius:10px;
