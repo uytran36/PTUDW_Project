@@ -9,8 +9,9 @@
 .giadtform2 {
   color: red;
 }
-.giadtform2 span {
-  font-size: small;
+.giadtform2 sup {
+  font-size: large;
+
 }
 .nutmuaform2{
   font-size: small;
@@ -19,7 +20,6 @@
   margin-top: 1%;
 }
 .sdtform2{
-  
   width:100%; 
   color: grey;
   border-radius: 2px white;
@@ -29,6 +29,8 @@
 }
 .datmuaform2{
   text-align: center;
+  color: red;
+  font-weight: bold;
 }
 .thform3{
   padding: 3%;
@@ -37,48 +39,40 @@
 .trform3{
   border-top: 1px solid wheat;
 }
+#tr1form3{
+  background-color: #E0E9F1;
+}
+#tr2form3{
+  background-color: #F1FFE1;
+}
 .tableform3{
   border-spacing: 2px;
 }
-#d1_form4{
-  width: 20%;
-  height: 50px;
-  border: 11px solid yellow;
-  border-radius: 5px;
-  float: left;
-}
-#d2_form4{
-  width: 58%;
-  height: 50px;
-  float: left;
-  margin-left: 1%;
-  background-color: blue;
-}
-#d3_form4{
-  width: 19%;
-  height: 50px;
-  float: left;
-  margin-left: 1%;
-  margin-right: 1%;
-  margin-top: 3%;
-}
 .pform4{
   font-weight: bold;
-  font-size: larger;
+  font-size:x-large;
   text-align: center;
-  background-color: yellow;
+  color: orange;
 }
-.buttonform4{
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 0.5em;
-  padding: 0.5em 1em;
-  letter-spacing: 2px; 
+.card-titlett{
+  color:#F1FFE1;
+  
 }
-.buttonform4:hover{
-  color:#000;
-  background-color: #D9E8F5;
+.card-titlett:hover{
+  color: orange;
+  
 }
+#dichvuform2{
+  margin-left: 3%;
+}
+.shorttext{
+  display: none;
+}
+@media (max-width: 1200px){
+  .shorttext {display: inline-block;}
+  .fulltext {display: none;}
+}
+
 
 /*zoom hover chưa tính đc*/
 * {box-sizing: border-box;}

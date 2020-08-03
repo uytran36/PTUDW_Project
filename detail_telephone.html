@@ -91,10 +91,31 @@
         <hr>
         <div class="row ">
           <div class="col-4">
-            <img class="picform1" src="img_phone/xiaomi/Mi Series/Mi Note 10 Pro.png" alt="image" >
+            <div class="row">
+              <img class="picform1" src="img_phone/xiaomi/Mi Series/Mi Note 10 Pro.png" alt="image" >
+            </div>
+            <div class="row" style="margin-top: 1%;">
+              <div class="col-4" >
+                <a href="">
+                  <img class="picform1" src="img_phone/xiaomi/Mi Series/Mi Note 10 Pro.png" alt="image" >
+                </a>
+              </div>
+              <div class="col-4" >
+                <a href="">
+                  <img class="picform1" src="img_phone/xiaomi/Mi Series/Mi Note 10 Pro.png" alt="image" >
+                </a>
+              </div>
+              <div class="col-4" >
+                <a href="">
+                  <img class="picform1" src="img_phone/xiaomi/Mi Series/Mi Note 10 Pro.png" alt="image" >
+                </a>
+              </div>
+              
+            </div>
+           
           </div>
           <div class="col-5">
-            <h2 class="giadtform2"> Giá: 10.000.000<span>₫</span></h2>
+            <h2 class="giadtform2"> Giá: 10.000.000<sup >₫</sup></h2>
             <!--Khuyen mai & dich vu khach hang -->
             <div class="kmdvform2">
                 <h4>Khuyến mãi</h4>
@@ -104,13 +125,13 @@
                 </ul>
                 <hr>
                 <h4>Chọn thêm các dịch vụ miễn phí</h4>
-                <input type="checkbox"  id="dichvu">
+                <input type="checkbox"  id="dichvuform2">
                 <label for="" >Giao hàng từ cửa hàng gần nhất</label><br>
-                <input type="checkbox"  id="dichvu">
+                <input type="checkbox"  id="dichvuform2">
                 <label for="">Chuyển danh bạ, dữ liệu qua máy mới</label><br>
-                <input type="checkbox" id="dichvu">
+                <input type="checkbox" id="dichvuform2">
                 <label for="">Mang theo điện thoại khác để bạn xem</label><br>
-                <input type="checkbox"  id="dichvu">
+                <input type="checkbox"  id="dichvuform2">
                 <label for="">Mang nhiều màu để bạn lựa chọn</label>
             </div>
             <!-- nhan mua dien thoai -->
@@ -121,21 +142,26 @@
                 Mua ngay <br><span class="nutmuaform2">Giao hàng trực tiếp hoặc nhận tại siêu thị</span>
             </button>
             <div class="hainutmuaform2">
-                <button  type="button" class="btn btn-primary btn-lg" style="width: 49%;">
+              <div class="row">
+                <div class="col-6" >
+                  <button type="button" class="btn btn-primary btn-lg btn-block">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-card-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
                       <path fill-rule="evenodd" d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
                     </svg>
                     Mua trả góp <br><span class="nutmuaform2">Thủ tục đơn giản</span>
-                </button> 
-
-                <button  type="button" class="btn btn-primary btn-lg" style="width: 49%;">
+                  </button>
+                </div>
+                <div class="col-6" >
+                  <button type="button" class="btn btn-primary btn-lg btn-block">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-credit-card" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
                       <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
                     </svg>
                     Trả góp thẻ <br><span class="nutmuaform2">VISA, MASTER, JBC</span>
-                </button> 
+                  </button>
+                </div>
+              </div>
             </div>
             <!-- Tu van khach hang -->
             <div class="tuvanform2">
@@ -154,42 +180,42 @@
 
           <!--Thong tin kỹ thuật-->
           <div class="col-3">
-            <h2>Thông tin kỹ thuật</h2>
+            <h3>Thông tin kỹ thuật</h3>
             <table class="tableform3">
                 <tbody class="tbodyform3">
-                    <tr class="trform3">
+                    <tr class="trform3" id="tr1form3"  >
                         <th class="thform3"> Hệ điều hành</th>
                         <td class="tdform3">MIUI 11 – Android 10</td>
                     </tr>
-                    <tr class="trform3">
+                    <tr class="trform3" id="tr2form3"  >
                         <th class="thform3">Kích thước màn hình</th>
                         <td class="tdform3">6.67 inches</td>
                     </tr>
-                    <tr class="trform3">
+                    <tr class="trform3" id="tr1form3" >
                         <th class="thform3"> Camera sau</th>
                         <td class="tdform3">4 camera(108MP + 20MP + 12MP + 8MP)</td>
                     </tr>
-                    <tr class="trform3">
+                    <tr class="trform3" id="tr2form3" >
                         <th class="thform3">Camera trước</th>
                         <td class="tdform3">20MP</td>
                     </tr>
-                    <tr class="trform3">
+                    <tr class="trform3" id="tr1form3" >
                         <th class="thform3">CPU</th>
                         <td class="tdform3">Qualcomm Snapdragon 865</td>
                     </tr>
-                    <tr class="trform3">
+                    <tr class="trform3"id="tr2form3" >
                         <th class="thform3">RAM</th>
                         <td class="tdform3">8 GB</td>
                     </tr>
-                    <tr class="trform3">
+                    <tr class="trform3" id="tr1form3" >
                         <th class="thform3">Bộ nhớ</th>
                         <td class="tdform3">256 GB</td>
                     </tr>
-                    <tr class="trform3">
+                    <tr class="trform3" id="tr2form3" >
                         <th class="thform3">Độ phân giải</th>
                         <td class="tdform3">1080 x 2340 pixels</td>
                     </tr>
-                    <tr class="trform3">
+                    <tr class="trform3" id="tr1form3" >
                         <th class="thform3">Dung lượng pin</th>
                         <td class="tdform3">Li-Po 4500mAH</td>
                     </tr>
@@ -200,135 +226,133 @@
     </div>
 
     <div class="container" id="content2">
-        <div class="row">
-            <div class="col-7">
-                <h4>Đánh giá & Nhận xét Xiaomi Mi 10 Pro Ram 8GB 256GB</h4>
-            <div id="d1_form4">
-                <p class="pform4">
-                    4.5 
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                </p>
+      <div class="row">
+        <div class="col-7" >
+          <h4>Đánh giá & Nhận xét Xiaomi Mi 10 Pro Ram 8GB 256GB</h4> 
+          <div class="row">
+            <div  class="col-2" >
+              <p class="pform4">
+                  4.5 
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+              </p>
             </div>
-            <div id="d2_form4">
-                <div class="progress">
-                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">very bad</div>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">bad</div>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">good</div>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">very good</div>
-                  </div>
-            </div>
-            <div id="d3_form4">
-                <a class="buttonform4" href="#" style="text-decoration: none;">FEEDBACK</a>
-            </div>
-            <div>
-                <span>
-                    <b>HY</b>
-                    <p>
-                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                      </svg>
-                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                      </svg>
-                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                      </svg>
-                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                      </svg>
-                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                      </svg>
-                      Máy thiết kế đẹp, mượt, nhiều tính năng, màu sắc ổn, camera khá, chụp không đẹp trong môi trường thiếu sáng, camera lồi dễ trầy xước, sạc pin nhanh (không nhanh bằng VOOC) trung bình 1 phút được 1%, sử dụng liên tục tầm 12 tiếng (độ sáng thấp) chế độ tối màu tầm 13 tiếng.</p>
-                  </span>
-                  <span>
-                    <b>A Ha</b>
-                    <p>
-                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                      </svg>
-                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                      </svg>
-                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                      </svg>
-                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                      </svg>
-                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                      </svg>
-                      Đt máy đẹp, pin trâu. Chỉ vào youtube, fb, zalo, ko chơi game nên 2 ngày mới sạc 1 lần. Cảm thấy pin ổn. Mấy ngày đầu vào các ứng dụng còn bị đơ, tự out ra. Nhưng dc nv kĩ thuật hỗ trợ nên máy chạy mượt hơn rồi. Vào cho bù 5 sao.
-                    </p>
-                  </span>
-                  <span>
-                    <b>Tùng</b>
-                    <p>
-                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                      </svg>
-                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                      </svg>
-                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                      </svg>
-                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                      </svg>
-                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-half" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M5.354 5.119L7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.519.519 0 0 1-.146.05c-.341.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.171-.403.59.59 0 0 1 .084-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027c.08 0 .16.018.232.056l3.686 1.894-.694-3.957a.564.564 0 0 1 .163-.505l2.906-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.002 2.223 8 2.226v9.8z"/>
-                      </svg>
-                      Mua hơn 1 tháng xài tốt pin trâu chụp hình đẹp , game hạng nặng mượt, nói chung rất OK . Mọi người cần máy giá rẻ mà ram cao thì nên chọn nó nhé :)))
-                    </p>
-                  </span>
-            </div>
-            </div>
-            <div class="col-5">
-                <h3>Tin tức</h3>
-            <div class="card mb-3">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="image/tintuc_images/tintuc1.jpg" class="card-img" alt="image">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title"><a href="#"> Smartphone chuyên game Legion Gaming của Lenovo với Snapdragon 865 5G và RAM ít nhất 8GB</a></h5>
-                      <p class="card-text">Smartphone chuyên game Legion Gaming của Lenovo đã xuất hiện dưới dạng tin đồn vào tháng 2...
-                      </p>
-                    </div>
-                  </div>
-                </div>
-            </div>
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="image/tintuc_images/tintuc2.jpg" class="card-img" alt="image">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title"><a href="#">Trên tay hàng độc Realme X50m (Realme X3)</a></h5>
-                      <p class="card-text">Realme vừa ra mắt một mẫu smartphone mới trong series X50 tại Trung Quốc, có tên gọi là Realme X50m 5G…</p>
-                    </div>
-                  </div>
-                </div>
+            <div class="col-7" >
+              <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
+            <div class="col-2">
+              <span class="fulltext">
+                <a href="" >
+                  <button type="button" class="btn btn-secondary btn-lg">
+                    FEEDBACK
+                  </button>
+                </a>
+              </span>
+              <span class="shorttext">
+                <a href="">
+                  <button type="button" class="btn btn-secondary btn-lg">
+                    FB
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                    </svg>
+                  </button>    
+                </a>
+              </span>
+            </div>
+          </div>
+
+          <div class="row">
+            <span>
+              <h5>HY</h5>
+              <p>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                </svg>
+                Máy thiết kế đẹp, mượt, nhiều tính năng, màu sắc ổn, camera khá, chụp không đẹp trong môi trường thiếu sáng, camera lồi dễ trầy xước, sạc pin nhanh (không nhanh bằng VOOC) trung bình 1 phút được 1%, sử dụng liên tục tầm 12 tiếng (độ sáng thấp) chế độ tối màu tầm 13 tiếng.</p>
+            </span>
+            <span>
+              <h5>A Ha</h5>
+              <p>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                Đt máy đẹp, pin trâu. Chỉ vào youtube, fb, zalo, ko chơi game nên 2 ngày mới sạc 1 lần. Cảm thấy pin ổn. Mấy ngày đầu vào các ứng dụng còn bị đơ, tự out ra. Nhưng dc nv kĩ thuật hỗ trợ nên máy chạy mượt hơn rồi. Vào cho bù 5 sao.
+              </p>
+            </span>
+            <span>
+              <h5>Tùng</h5>
+              <p>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-half" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M5.354 5.119L7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.519.519 0 0 1-.146.05c-.341.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.171-.403.59.59 0 0 1 .084-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027c.08 0 .16.018.232.056l3.686 1.894-.694-3.957a.564.564 0 0 1 .163-.505l2.906-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.002 2.223 8 2.226v9.8z"/>
+                </svg>
+                Mua hơn 1 tháng xài tốt pin trâu chụp hình đẹp , game hạng nặng mượt, nói chung rất OK . Mọi người cần máy giá rẻ mà ram cao thì nên chọn nó nhé :)))
+              </p>
+            </span>
+          </div>
         </div>
-        
+
+        <!--Tin tuc-->
+        <div class="col-5">
+          <h3>Tin tức</h3>
+          <div class="card bg-dark text-white">
+            <img src="image/tintuc_images/tintuc1.jpg" class="card-img" alt="image">
+            <div class="card-img-overlay">
+              <h5 ><a href="#" class="card-titlett"> Smartphone chuyên game Legion Gaming của Lenovo với Snapdragon 865 5G và RAM ít nhất 8GB</a></h5>
+              <p class="card-text">Smartphone chuyên game Legion Gaming của Lenovo đã xuất hiện dưới dạng tin đồn vào tháng 2...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    
-
-
 
     <div class="container" id="footer"  >
         <div class="row">
