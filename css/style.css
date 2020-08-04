@@ -1,5 +1,6 @@
 body {
     background-color: whitesmoke;
+    font: 14px/18px Helvetica,Arial,sans-serif;
 }
 /*HEADER VÀ FOOTER*/
 /* Dropdown Button */
@@ -154,13 +155,16 @@ ul{
 #promotion_banner{
     box-sizing: content-box;
     width: 1140px;
-    height: 40px;
+    height: 35px;
     text-align: center;
     margin-top: 20px;
     margin-left: 15px;
-    padding-top: 15px;
+    padding-top: 10px;
     background-color: #BF3326;
-    color: #F29422;
+    color: #f1f1f1;
+}
+#title_phone{
+    padding-top: 6px;
 }
 .product{
     background-color: white;
@@ -196,17 +200,17 @@ ul{
     text-decoration: none;
 }
 .product a:hover{
-    color: blue;
+    color: #18778C;
     font-weight: bold;
 }
 .product img:hover{
     margin-top: 25px;
 }
 .product a:active{
-    color: hotpink
+    color: #ff9c00
 }
 .price{
-    color: red;
+    color: #BF3326;
     text-align: justify;
     margin-left: 5px;
 }
@@ -246,10 +250,12 @@ ul{
     box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
 .btn{
-    background-color: white;
+    background-color: #ff9c00;
 }
 .btn:hover{
+    background-color: #D95829;
+}
+.btn a{
     text-decoration: none;
-    color: black;
-    background-color: #F2E6CE;
+    color: #F2E6CE;
 }
