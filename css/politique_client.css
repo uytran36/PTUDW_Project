@@ -1,0 +1,117 @@
+body{
+    background-color: whitesmoke;
+}
+
+.bcolor{
+    color: #F29422;
+}
+
+
+/*HEADER VÀ FOOTER*/
+/* Dropdown Button */
+.dropbtn {
+    background-color: #18778C;
+    color: #F2E6CE;
+    padding: 1px;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    width: 120px;
+    height: 25px;
+  
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #fff;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn span{
+    color: #F2E6CE;
+    font-weight: bold;
+  }
+  
+  .dropdown span a {
+    text-decoration: none;
+    color: #F2E6CE;
+  }
+  
+  .dropdown span a:active, .dropdown span a:focus {
+    outline: none;
+  }
+  
+  div#header{
+    background-color: #18778C;
+  }
+  
+  .dropbtn:focus {
+    outline: none;
+  }
+  
+  #logo, #navbarSupportedContent {
+    float: left;
+  }
+  
+  .wrapHead {
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.container{
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  
+  #btn-search {
+    background-color: #18778C;
+    color: #F2E6CE;
+    border: none;
+  }
+  
+  #btn-search:active, #btn-search:focus {
+    outline: none;
+  }
+  
+  #iphone a {
+    width: 200px;
+  }
+  
+  #footer p {
+    font-weight: bold;
+  }
+  
+  #footer {
+    margin-top: 10px;
+  }
+  /*END OF HEADER, FOOTER*/
