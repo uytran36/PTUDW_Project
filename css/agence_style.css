@@ -280,17 +280,9 @@ div.container-fluid{
     text-indent: 10%;
     height: 100px;
 }
-#banner1{
-    width: 100%;    
-    height: 48%;
-}
-#banner2{
-    width: 100%;
-    height: 48%;
-    margin-top: 16px;
-}
+
 #row_dienthoai {
-    margin-top:0px;
+    margin-top:-20px;
     clear: both;
 }
  
@@ -312,3 +304,4 @@ button#option2  {
 button#option3 {
     margin-left:-10px;
 }
+
