@@ -1,6 +1,9 @@
-/*CSS - content*/
+/*CSS - content- detail_telephone*/
 .picform1{
   width: 100%;
+}
+.imagectcontent1{
+  text-align: center;
 }
 .kmdvform2{
   padding: 4px;
@@ -15,9 +18,6 @@
 }
 .nutmuaform2{
   font-size: small;
-}
-.hainutmuaform2{
-  margin-top: 1%;
 }
 .sdtform2{
   width:100%; 
@@ -45,9 +45,6 @@
 #tr2form3{
   background-color: #F1FFE1;
 }
-.tableform3{
-  border-spacing: 2px;
-}
 .pform4{
   font-weight: bold;
   font-size:x-large;
@@ -72,6 +69,31 @@
   .shorttext {display: inline-block;}
   .fulltext {display: none;}
 }
+.starcontainer2:active{
+  background-color: orange;
+}
+#btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+#rowhiendg{
+  margin-left: 1%;
+}
+
+.nxquydinh{
+  color: red;
+}
+
+/*CSS content image_detail_telephone*/
+#imagedtcontent{
+  color: black;
+  text-align: center;
+}
+
 
 
 /*zoom hover chưa tính đc*/

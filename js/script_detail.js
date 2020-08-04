@@ -53,3 +53,11 @@ function imageZoom(imgID, resultID) {
     return {x : x, y : y};
   }
 }
+
+var btnsb = document.getElementById('submitbtn');
+btnsb.onclick = function checkformnx(){
+  
+  document.getElementById("textnx").innerHTML = "Vui lòng nhập nội dung này";
+}
+
+checkformnx();
