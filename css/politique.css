@@ -1,11 +1,12 @@
 body {
     background-color: whitesmoke;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 /*HEADER VÀ FOOTER*/
 /* Dropdown Button */
 .dropbtn {
-    background-color: #4E7AC7;
-    color: black;
+    background-color: #18778C;
+    color: #F2E6CE;
     padding: 1px;
     font-size: 18px;
     border: none;
@@ -50,13 +51,13 @@ body {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn span{
-    color: black;
+    color: #F2E6CE;
     font-weight: bold;
 }
 
 .dropdown span a {
     text-decoration: none;
-    color: black;
+    color: #F2E6CE;
 }
 
 .dropdown span a:active, .dropdown span a:focus {
@@ -64,7 +65,7 @@ body {
 }
 
 div#header{
-    background-color: #4E7AC7;
+    background-color: #18778C;
 }
 
 .dropbtn:focus {
@@ -85,11 +86,17 @@ div.container{
     background-color: white;
     margin-top: 10px;
     padding-top: 10px;
+    font-family: Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    background: #fff;
+    font-size: 14px;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 #btn-search {
-    background-color: #4E7AC7;
-    color: black;
+    background-color: #18778C;
+    color: #F2E6CE;
     border: none;
 }
 
@@ -108,23 +115,40 @@ div.container{
 #footer {
     margin-top: 10px;
 }
-/*END OF HEADER, FOOTER*/
 
-/*article*/
-.titre {
-    color: #AA1E28;
-    font-weight: bolder;
+.content {
+    margin:20px auto;
+}
+*
+{
+    box-sizing: border-box;
+}
+p
+{
+    font-size: 14px;
+    line-height: 1.8;
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+}
+ h2
+{
+    margin-bottom: 25px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d3d3d3;
+    font-weight:600;
 }
 
-.content ul span {
-    font-weight: bold;
-    color: red;
-}
-
-
-.content img {
-    border: 1px solid #D9D9D9;
-    border-radius: 10px;
-    max-width: 100%;
-    height: auto;
+div.navbar a::before
+{
+    content: '';
+    width: 0;
+    height: 0;
+    border-right: 7px solid #e10c00;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    position: absolute;
+    left: 0;
+    top: 2px;
 }
