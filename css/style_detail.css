@@ -14,7 +14,6 @@
 }
 .giadtform2 sup {
   font-size: large;
-
 }
 .nutmuaform2{
   font-size: small;
@@ -26,6 +25,10 @@
 }
 .tuvanform2{
   margin-top: 3%;
+}
+#nutmuangay{
+  background-color: #BF3326; 
+  color: #F2E6CE;
 }
 .datmuaform2{
   text-align: center;
@@ -40,10 +43,10 @@
   border-top: 1px solid wheat;
 }
 #tr1form3{
-  background-color: #E0E9F1;
+  background-color: #E9F2F1;
 }
 #tr2form3{
-  background-color: #F1FFE1;
+  background-color: #F8F8F8;
 }
 .pform4{
   font-weight: bold;
@@ -64,14 +67,19 @@
 }
 .shorttext{
   display: none;
+  
 }
 @media (max-width: 1200px){
-  .shorttext {display: inline-block;}
+  .shorttext {
+    display: inline-block;
+    
+  }
   .fulltext {display: none;}
 }
 .starcontainer2:active{
   background-color: orange;
 }
+
 #btn {
   border: none;
   outline: none;
@@ -83,17 +91,24 @@
 #rowhiendg{
   margin-left: 1%;
 }
-
 .nxquydinh{
   color: red;
 }
 
 /*CSS content image_detail_telephone*/
 #imagedtcontent{
-  color: black;
+  color: #18778C;
   text-align: center;
 }
-
+#nutfb{
+  background-color: #18778C;
+  color: #F2E6CE;
+}
+#submitbtn{
+  background-color: #18778C;
+  font-weight: bold;
+  color: #F2E6CE;
+}
 
 
 /*zoom hover chưa tính đc*/
@@ -125,20 +140,22 @@
 /*HEADER VÀ FOOTER*/
 /* Dropdown Button */
 .dropbtn {
-  background-color: #4E7AC7;
-  color: black;
+  background-color: #18778C;
+  color: #F2E6CE;
   padding: 1px;
   font-size: 18px;
   border: none;
   text-align: center;
   width: 120px;
   height: 25px;
+
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
+
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -169,13 +186,13 @@
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn span{
-  color: black;
+  color: #F2E6CE;
   font-weight: bold;
 }
 
 .dropdown span a {
   text-decoration: none;
-  color: black;
+  color: #F2E6CE;
 }
 
 .dropdown span a:active, .dropdown span a:focus {
@@ -183,7 +200,7 @@
 }
 
 div#header{
-  background-color: #4E7AC7;
+  background-color: #18778C;
 }
 
 .dropbtn:focus {
@@ -207,8 +224,8 @@ div.container{
 }
 
 #btn-search {
-  background-color: #4E7AC7;
-  color: black;
+  background-color: #18778C;
+  color: #F2E6CE;
   border: none;
 }
 
@@ -223,6 +240,7 @@ div.container{
 #footer p {
   font-weight: bold;
 }
+
 #footer {
   margin-top: 10px;
 }
