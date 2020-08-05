@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+
+        .ratings {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        direction: rtl;
+        text-align: left;
+        }
+
+        .star {
+        position: relative;
+        line-height: 60px;
+        display: inline-block;
+        transition: color 0.2s ease;
+        color: #ebebeb;
+        }
+
+        .star:before {
+        content: '\2605';
+        width: 60px;
+        height: 60px;
+        font-size: 60px;
+        }
+
+        .star:hover,
+        .star.selected,
+        .star:hover ~ .star,
+        .star.selected ~ .star{
+        transition: color 0.8s ease;
+        color: black;
+        }
+    </style>
+</head>
+<body>
+    <ul class="ratings">
+        <li class="star"></li>
+        <li class="star"></li>
+        <li class="star"></li>
+        <li class="star"></li>
+        <li class="star"></li>
+    </ul>
+
+    <script type="text/javascript">
+        $(function (){
+        var star = '.star',
+            selected = '.selected';
+        
+        $(star).on('click', function(){
+            $(selected).each(function(){
+            $(this).removeClass('selected');
+            });
+            $(this).addClass('selected');
+        });
+        
+        });
+    </script>
+</body>
+</html>

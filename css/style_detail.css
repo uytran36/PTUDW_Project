@@ -76,18 +76,39 @@
   }
   .fulltext {display: none;}
 }
-.starcontainer2:active{
-  background-color: orange;
-}
+/*Đánh giá sao*/
+.ratings {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  direction: rtl;
+  text-align: left;
+  }
 
-#btn {
-  border: none;
-  outline: none;
-  padding: 10px 16px;
-  background-color: #f1f1f1;
-  cursor: pointer;
-  font-size: 18px;
-}
+  .star {
+  position: relative;
+  line-height: 60px;
+  display: inline-block;
+  transition: color 0.2s ease;
+  color: wheat;
+  }
+
+  .star:before {
+  content: '\2605';
+  width: 30%;
+  height: 30%;
+  font-size:xxx-large;
+  }
+
+  .star:hover,
+  .star.selected,
+  .star:hover ~ .star,
+  .star.selected ~ .star{
+  transition: color 0.8s ease;
+  color:orange;
+  }
+
 #rowhiendg{
   margin-left: 1%;
 }
