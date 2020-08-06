@@ -4,8 +4,8 @@ body {
 /*HEADER VÀ FOOTER*/
 /* Dropdown Button */
 .dropbtn {
-    background-color: #4E7AC7;
-    color: black;
+    background-color: #18778C;
+    color: #F2E6CE;
     padding: 1px;
     font-size: 18px;
     border: none;
@@ -50,13 +50,13 @@ body {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn span{
-    color: black;
+    color: #F2E6CE;
     font-weight: bold;
 }
 
 .dropdown span a {
     text-decoration: none;
-    color: black;
+    color: #F2E6CE;
 }
 
 .dropdown span a:active, .dropdown span a:focus {
@@ -64,7 +64,7 @@ body {
 }
 
 div#header{
-    background-color: #4E7AC7;
+    background-color: #18778C;
 }
 
 .dropbtn:focus {
@@ -73,6 +73,12 @@ div#header{
 
 #logo, #navbarSupportedContent {
     float: left;
+}
+
+#navbarSupportedContent input {
+    width: 400px;
+    resize: horizontal;
+    height: auto;
 }
 
 .wrapHead {
@@ -88,8 +94,8 @@ div.container{
 }
 
 #btn-search {
-    background-color: #4E7AC7;
-    color: black;
+    background-color: #18778C;
+    color: #F2E6CE;
     border: none;
 }
 
@@ -127,4 +133,11 @@ div.container{
     border-radius: 10px;
     max-width: 100%;
     height: auto;
+}
+
+/*chuyển menu thành icon khi thay đổi size */
+@media screen and (max-width: 1000px) {
+    #menu {
+        display: inline-block;
+    }
 }
