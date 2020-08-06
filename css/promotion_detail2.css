@@ -2,17 +2,19 @@ body {
     background-color: whitesmoke;
 }
 /*HEADER VÀ FOOTER*/
+.wrapMenu {
+    float: right;
+}
 /* Dropdown Button */
 .dropbtn {
-    background-color: #4E7AC7;
-    color: black;
+    background-color: #18778C;
+    color: #F2E6CE;
     padding: 1px;
     font-size: 18px;
     border: none;
     text-align: center;
     width: 120px;
     height: 25px;
-
 }
   
 /* The container <div> - needed to position the dropdown content */
@@ -50,13 +52,13 @@ body {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn span{
-    color: black;
+    color: #F2E6CE;
     font-weight: bold;
 }
 
 .dropdown span a {
     text-decoration: none;
-    color: black;
+    color: #F2E6CE;
 }
 
 .dropdown span a:active, .dropdown span a:focus {
@@ -64,21 +66,33 @@ body {
 }
 
 div#header{
-    background-color: #4E7AC7;
+    background-color: #18778C;
 }
 
 .dropbtn:focus {
     outline: none;
 }
 
+#kdm {
+    width: 85px;
+    margin-top: -7px;
+}
+
 #logo, #navbarSupportedContent {
     float: left;
 }
 
+#navbarSupportedContent input {
+    width: 400px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
 .wrapHead {
     height: 40px;
-    margin-left: 30em;
-    margin-right: 25em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div.container{
@@ -88,8 +102,8 @@ div.container{
 }
 
 #btn-search {
-    background-color: #4E7AC7;
-    color: black;
+    background-color: #18778C;
+    color: #F2E6CE;
     border: none;
 }
 
@@ -108,6 +122,81 @@ div.container{
 #footer {
     margin-top: 10px;
 }
+
+/*chuyển menu thành icon khi thay đổi size */
+@media screen and (max-width: 1100px) {
+    .line {
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 5px;
+    }
+
+    .hamburger {
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 15px;
+     
+    }
+
+    .wrapHead {
+        height: 40px;
+        margin-left: 1%;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .wrapMenu {
+        display: none;
+    }
+
+    .wrapMenu.open {
+        display: block;
+        background-color: white;
+        height: 70px;
+        width: 100%;
+        text-align: center;
+
+    } 
+    
+    nav.open {
+        padding-bottom: 100px;
+    }
+
+    .dropbtn {
+        background-color: white;
+        border: 2px solid #F2E6CE;
+        border-radius: 5px;
+        color: black;
+        padding: 1px;
+        font-size: 13px;
+        text-align: center;
+        width: 95px;
+        height: 45px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .dropdown:hover .dropbtn span {
+        color: black;
+        font-weight: bold;
+    }
+    
+    #kdm {
+        content: url(logo.png);
+        width: 35px;
+        margin-top: -7px;
+    }
+
+    #navbarSupportedContent input {
+        width: 300px;
+    
+        margin-top: -7px;
+    }
+}
+/* kết thúc chuyển menu */
+
 /*END OF HEADER, FOOTER*/
 
 /*article*/
@@ -124,4 +213,7 @@ div.container{
 .content img {
     border: 1px solid #D9D9D9;
     border-radius: 10px;
+    max-width: 100%;
+    height: auto;
 }
+
