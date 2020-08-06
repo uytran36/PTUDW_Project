@@ -111,6 +111,7 @@ div.container{
 }
 div.container{
     background-color: white;
+    border: solid 1px whitesmoke;
 }
 
 ul{
@@ -140,7 +141,7 @@ ul{
 #promotion{
     box-sizing: content-box;
     height: 40px;
-    width: 1140px;
+    width: 1138px;
     text-align: center;
     margin-top: 20px;
     margin-left: 15px;
@@ -154,7 +155,7 @@ ul{
 }
 #promotion_banner{
     box-sizing: content-box;
-    width: 1140px;
+    width: 1138px;
     height: 35px;
     text-align: center;
     margin-top: 20px;
@@ -171,7 +172,7 @@ ul{
     border: solid 1px whitesmoke;
     float: left;
     height: 350px;
-    width: 228px;
+    width: 227.7px;
 }
 .product a img {
     width: 180px;
@@ -237,7 +238,7 @@ ul{
 }
 #row4{
     background-color: #18778C;
-    width: 1140px;
+    width: 1138px;
     margin-left: 0%;
     height: 53px;
     align-content: center;

@@ -1,382 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minh</title>
-    <link rel="icon" href="image/logo.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/agence_style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minh</title>
+  <link rel="icon" href="image/logo.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/agence_style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
   <div id="header">
     <nav id="nav_bar" class="navbar navbar-expand-lg navbar-light">
-        <div class="wrapHead">
-            <a class="navbar-brand" id="logo" href="acceuil.html">
-                <img src="image/KDM.png" style="width: 85px;">
-            </a>           
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Rechercher sur KDM" style="width: 400px;" aria-label="Search">
-                    <!-- button submit -->
-                    <button  id="btn-search" type="submit">
-                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
-                        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
-                      </svg>
-                    </button>
-                    <!--end of button submit -->
-                </form>
-            </div>
-            
-            <!-- chia column cho các buton -->
-            <div class="row" id="menu">
-                <div class="col" id="iphone">
-                    <!-- button iphone -->
-                    <div class="dropdown">
-                        <button class="dropbtn">
-                            <span class="fa fa-apple"><br />IPHONE</span>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="#">Iphone 11 | 11 Pro Max</a>
-                            <a href="#">Iphone XS | XS Max</a>
-                            <a href="#">Iphone X | XR</a>
-                            <a href="">Iphone 8 | 8 Plus</a>
-                            <a href="">Iphone 7 | 7 Plus</a>
-                            <a href="">Iphone 6 | 6 Plus</a>
-                        </div>
-                    </div>
-                    <!-- end of button iphone -->
-                </div>
-                <div class="col" id="phone">
-                    <!-- button phone -->
-                    <div class="dropdown">
-                        <button class="dropbtn">
-                            <span class="fa fa-mobile-phone"><br />PHONE</span>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="#">Samsung</a>
-                            <a href="#">Oppo</a>
-                            <a href="#">Xiaomi</a>
-                            <a href="">Huawei</a>
-                            <a href="">Vivo</a>
-                        </div>
-                    </div>
-                    <!-- end of button phone -->
-                </div>
-                <div class="col">
-                    <!-- button promotion -->
-                    <div class="dropdown">
-                        <button class="dropbtn">
-                            <span class="fa fa-percent"><br />
-                                <a href="promotion.html">PROMOTION</a>
-                            </span>
-                        </button>
-                    </div>
-                    <!-- end of button promotion -->
-                </div>
-            </div>
-            <!-- kết thúc chia column -->
+      <div class="wrapHead">
+        <a class="navbar-brand" id="logo" href="acceuil.html">
+          <img src="image/KDM.png" style="width: 85px;">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Rechercher sur KDM" style="width: 400px;"
+              aria-label="Search">
+            <!-- button submit -->
+            <button id="btn-search" type="submit">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                <path fill-rule="evenodd"
+                  d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+              </svg>
+            </button>
+            <!--end of button submit -->
+          </form>
         </div>
-    </nav>
-</div>
-    <div id="content">
-      <div class="container">
-            <nav class="menu_hangdienthoai">
-              <button type="button" class="btn btn" style="width:20%">IPhone</button>
-              <button type="button" class="btn btn" style="width:20%">Samsung</button>
-              <button type="button" class="btn btn" style="width:20%">Xiaomi</button>
-              <button type="button" class="btn btn" style="width:25%">Sony</button>
-            </nav>
-            <hr>
-            <!-- <div>
-              <p style="width:10%; float:left">Điện thoại</p>
-            <nav class="navbar navbar-light navbar-expand-md"; style="width:80%;float:left; margin-top:-11px;margin-left:111px; padding-left:130px">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" style="margin-top:-60px">
-                <span class="navbar-toggler-icon"></span>
+
+        <!-- chia column cho các buton -->
+        <div class="row" id="menu">
+          <div class="col" id="iphone">
+            <!-- button iphone -->
+            <div class="dropdown">
+              <button class="dropbtn">
+                <span class="fa fa-apple"><br />IPHONE</span>
               </button>
-              <div class="collapse navbar-collapse" id="navbar1" style="padding-left: 150px;">
-                <ul class="navbar-nav mr-auto">
-                  <li class="option">
-                    <a href="#">Dưới 3 triệu</a>
-                  </li>
-                  <li class="option">
-                    <a href="#">Từ 3-7 triệu</a>
-                  </li>
-                  <li class="option">
-                    <a href="#">Từ 7-10 triệu</a>
-                  </li>
-                  <li class="nav-item">
-                    <div class="dropdown">
-                      <button id = "option1" type="button" class="btn btn dropdown-toggle" data-toggle="dropdown">
-                        Giá khác
-                      </button>
-                      <div class="dropdown-menu" style="font-size:13px">
-                        <a class="dropdown-item" href="#">Dưới 3 triệu</a>
-                        <a class="dropdown-item" href="#">Từ 3- 7 triệu</a>
-                        <a class="dropdown-item" href="#">Từ 7- 10 triệu </a>
-                        <a class="dropdown-item" href="#">Từ 10- 15 triệu </a>
-                        <a class="dropdown-item" href="#">Trên 15 triệu</a>
-                      </div>
-                    </div>  
-                  </li>
-                  <li>
-                    <span class="dropdown">
-                      <button id = "option2" type="button" class="btn btn dropdown-toggle" data-toggle="dropdown">
-                        Bộ nhớ
-                      </button>
-                      <span class="dropdown-menu" style="font-size:13px">
-                        <a class="dropdown-item" href="#">8 GB</a>
-                        <a class="dropdown-item" href="#">16 GB</a>
-                        <a class="dropdown-item" href="#">32 GB</a>
-                      </span>
-                    </span>
-                  </li>
-                  <li>
-                    <span class="dropdown">
-                      <button id = "option3" type="button" class="btn btn dropdown-toggle" data-toggle="dropdown">
-                        Sắp xếp
-                      </button>
-                      <span class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Sản phầm xem nhiều nhất</a>
-                        <a class="dropdown-item" href="#">Giá thấp đến cao</a>
-                        <a class="dropdown-item" href="#">Giá cao đến thấp</a>
-                      </span>
-                    </span>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-            </div> -->
-            <div class="navbar" style="height:30px;width:100%; box-sizing: border-box;margin-top:-10px;margin-left:-12px;height:auto">
-              <p>Điện thoại</p>
-              <div id="boloc" style="box-sizing: border-box; margin-right:100px;margin-top:-20px;margin-right:-50px">
-                <div id="option" style="width:95px; float:left;box-sizing: border-box;font-size:13px; margin-top:-10px">
-                  <a href="#" id="option_tien">Dưới 3 triệu</a>
-                </div>
-                <div id="option"style="width:95px;float:left;box-sizing: border-box;font-size:13px; margin-top:-10px">
-                  <a href="#" id="option_tien">Từ 3-7 triệu</a>
-                </div>
-                <div id="option" style="width:95px;float:left;box-sizing: border-box;font-size:13px;margin-top:-10px">
-                  <a href="#" id="option_tien">Từ 7-10 triệu</a>
-                </div>
-                <div id="option" style="width:95px;float:left;box-sizing: border-box;font-size:13px">
-                  <div class="dropdown">
-                    <button id = "option1" type="button" class="btn btn dropdown-toggle" data-toggle="dropdown">
-                      Giá khác
-                    </button>
-                    <div class="dropdown-menu" style="font-size:13px">
-                      <a class="dropdown-item" href="#">Dưới 3 triệu</a>
-                      <a class="dropdown-item" href="#">Từ 3- 7 triệu</a>
-                      <a class="dropdown-item" href="#">Từ 7- 10 triệu </a>
-                      <a class="dropdown-item" href="#">Từ 10- 15 triệu </a>
-                      <a class="dropdown-item" href="#">Trên 15 triệu</a>
-                    </div>
-                  </div>
-                </div>
-                <div id="option" style="width:95px;float:left;box-sizing: border-box;font-size:13px">
-                  <div class="dropdown">
-                    <button id = "option2" type="button" class="btn btn dropdown-toggle" data-toggle="dropdown">
-                      Bộ nhớ
-                    </button>
-                    <div class="dropdown-menu" style="font-size:13px">
-                      <a class="dropdown-item" href="#">8 GB</a>
-                      <a class="dropdown-item" href="#">16 GB</a>
-                      <a class="dropdown-item" href="#">32 GB</a>
-                    </div>
-                  </div>
-                </div>
-                <div id="option" style="width:95px;float:left;box-sizing: border-box;font-size:13px">
-                  <div class="dropdown">
-                    <button id = "option3" type="button" class="btn btn dropdown-toggle" data-toggle="dropdown">
-                      Sắp xếp
-                    </button>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Sản phẩm xem nhiều nhất</a>
-                      <a class="dropdown-item" href="#">Giá thấp đến cao</a>
-                      <a class="dropdown-item" href="#">Giá cao đến thấp</a>
-                    </div>
-                  </div>
-                </div>
+              <div class="dropdown-content">
+                <a href="#">Iphone 11 | 11 Pro Max</a>
+                <a href="#">Iphone XS | XS Max</a>
+                <a href="#">Iphone X | XR</a>
+                <a href="">Iphone 8 | 8 Plus</a>
+                <a href="">Iphone 7 | 7 Plus</a>
+                <a href="">Iphone 6 | 6 Plus</a>
               </div>
             </div>
-              <div class="row" id="row_dienthoai" style="height:auto">
-                <div class="manager_product_promotion">
-                  <hr>
-                  <div class="product_promotion">
-                    <span class="badge badge-pill badge-primary" style="background-color:green; position: absolute;">Mới ra mắt</span>
-                    <span class="badge badge-primary" style="background-color:orange; margin-left: 65%; margin-top: 0.2%">Trả góp 0%</span>
-                    <a href="#">
-                      <br>
-                      <img src="img_phone/samsung/Samsung A/SS Galaxy A10.jpg" alt="ss_galaxyA10" id="img_dienthoai">
-                    </a>
-                    <br />
-                    <span class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</span><br />
-                    <br>
-                    <span class="name_phone"><a href="#">Samsung Galaxy A10</a></span>
-                    <span class="prix">3,140,000 ₫</span>
-                    <br>
-                  </div>
-                  <div class="product_promotion">
-                    <span class="badge badge-pill badge-primary" style="background-color:green; position: absolute;">Mới ra mắt</span>
-                    <span class="badge badge-primary" style="background-color:orange; margin-left: 65%; margin-top: 0.2%">Trả góp 0%</span>
-                    <a href="#">
-                      <br>
-                      <img src="img_phone/samsung/Samsung A/SS Galaxy A20.jpg" alt="ss_galaxyA20" id="img_dienthoai">
-                    </a>
-                    <br />
-                    <span class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</span><br />
-                    <br>
-                    <span class="name_phone"><a href="#">Samsung Galaxy A20</a></span>
-                    <span class="prix">3,560,000 ₫</span>
-                    <br>
-                  </div>
-                  <div class="product_promotion">
-                    <span class="badge badge-pill badge-primary" style="background-color:green; position: absolute;">Mới ra mắt</span>
-                    <span class="badge badge-primary" style="background-color:orange; margin-left: 65%; margin-top: 0.2%">Trả góp 0%</span>
-                    <a href="#">
-                      <br>
-                      <img src="img_phone/samsung/Samsung A/SS Galaxy A30.jpg" alt="ss_galaxyA20" id="img_dienthoai">
-                    </a>
-                    <br />
-                    <span class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</span><br />
-                    <br>
-                    <span class="name_phone"><a href="#">Samsung Galaxy A30</a></span>
-                    <span class="prix">3,990,000 ₫</span>
-                    <br>
-                  </div>
-                  <div class="product_promotion">
-                    <span class="badge badge-pill badge-primary" style="background-color:green; position: absolute;">Mới ra mắt</span>
-                    <span class="badge badge-primary" style="background-color:orange; margin-left: 65%; margin-top: 0.2%">Trả góp 0%</span>
-                    <a href="#">
-                      <br>
-                      <img src="img_phone/samsung/Samsung A/SS Galaxy A50.jpg" alt="ss_galaxyA20" id="img_dienthoai" id="img_dienthoai">
-                    </a>
-                    <br />
-                    <span class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</span><br />
-                    <br>
-                    <span class="name_phone"><a href="#">Samsung Galaxy A50</a></span>
-                    <span class="prix">4,670,000 ₫</span>
-                    <br>
-                  </div>
-                  <div class="product_promotion">
-                    <span class="badge badge-pill badge-primary" style="background-color:green; position: absolute;">Mới ra mắt</span>
-                    <span class="badge badge-primary" style="background-color:orange; margin-left: 65%; margin-top: 0.2%">Trả góp 0%</span>
-                    <a href="#">
-                      <br>
-                      <img src="img_phone/samsung/Samsung A/SS Galaxy A51.jpg" alt="ss_galaxyA20" id="img_dienthoai">
-                    </a>
-                    <br />
-                    <span class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</span><br />
-                    <br>
-                    <span class="name_phone"><a href="#">Samsung Galaxy A50</a></span>
-                    <span class="prix">5,950,000 ₫</span>
-                    <br>
-                  </div>
-                  <div class="product_promotion">
-                    <span class="badge badge-pill badge-primary" style="background-color:green; position: absolute;">Mới ra mắt</span>
-                    <span class="badge badge-primary" style="background-color:orange; margin-left: 65%; margin-top: 0.2%">Trả góp 0%</span>
-                    <a href="#">
-                      <br>
-                      <img src="img_phone/samsung/Samsung A/SS Galaxy A70.jpg" alt="ss_galaxyA70" id="img_dienthoai">
-                    </a>
-                    <br />
-                    <span class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</span><br />
-                    <br>
-                    <span class="name_phone"><a href="#">Samsung Galaxy A70</a></span>
-                    <span class="prix">1,990,000 ₫</span>
-                    <br>
-                  </div>
-                  <div class="product_promotion">
-                    <span class="badge badge-pill badge-primary" style="background-color:green; position: absolute;">Mới ra mắt</span>
-                    <span class="badge badge-primary" style="background-color:orange; margin-left: 65%; margin-top: 0.2%">Trả góp 0%</span>
-                    <a href="#">
-                      <br>
-                      <img src="img_phone/samsung/Samsung A/SS Galaxy A71.jpg" alt="ss_galaxyA71" id="img_dienthoai">
-                    </a>
-                    <br />
-                    <span class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</span><br />
-                    <br>
-                    <span class="name_phone"><a href="#">Samsung Galaxy A71</a></span>
-                    <span class="prix">8,390,000 ₫</span>
-                    <br>
-                  </div>
-                  <div class="product_promotion">
-                    <span class="badge badge-pill badge-primary" style="background-color:green; position: absolute;">Mới ra mắt</span>
-                    <span class="badge badge-primary" style="background-color:orange; margin-left: 65%; margin-top: 0.2%">Trả góp 0%</span>
-                    <a href="#">
-                      <br>
-                      <img src="img_phone/samsung/Samsung A/SS Galaxy A80.jpg" alt="ss_galaxyA80" id="img_dienthoai">
-                    </a>
-                    <br />
-                    <span class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</span><br />
-                    <br>
-                    <span class="name_phone"><a href="#">Samsung Galaxy A80</a></span>
-                    <span class="prix">6,990,000 ₫</span>
-                    <br>
-                  </div>
-                </div> 
+            <!-- end of button iphone -->
+          </div>
+          <div class="col" id="phone">
+            <!-- button phone -->
+            <div class="dropdown">
+              <button class="dropbtn">
+                <span class="fa fa-mobile-phone"><br />PHONE</span>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Samsung</a>
+                <a href="#">Oppo</a>
+                <a href="#">Xiaomi</a>
+                <a href="">Huawei</a>
+                <a href="">Vivo</a>
               </div>
-              </div>
+            </div>
+            <!-- end of button phone -->
+          </div>
+          <div class="col">
+            <!-- button promotion -->
+            <div class="dropdown">
+              <button class="dropbtn">
+                <span class="fa fa-percent"><br />
+                  <a href="promotion.html">PROMOTION</a>
+                </span>
+              </button>
+            </div>
+            <!-- end of button promotion -->
+          </div>
+        </div>
+        <!-- kết thúc chia column -->
       </div>
-    <!-- footer -->
-    <div class="container" id="footer">
-      <div class="row">
-          <div class="col">
-              <p>THÔNG TIN HỖ TRỢ</p>
-              <hr>
-              <ul>
-                  <li>
-                      <a href="">Chính sách bảo hành</a>
-                  </li>
-                  <li>
-                      <a href="politique_client.html">Chính sách bảo mật thông tin khách hàng</a>
-                  </li>
-              </ul>
-          </div>
-          <div class="col">
-              <p>THÔNG TIN LIÊN LẠC</p>
-              <hr>
-              <ul>
-                  Số điện thoại:
-                  <li>
-                      0941.559.273
-                  </li>
-                  <li>
-                      0937.022.743
-                  </li>
-                  Email:
-                  <li>
-                      kdmobile@gmail.com
-                  </li>
-                  <li>
-                      kdmobile@yahoo.com
-                  </li>
-              </ul>
-          </div>
-          <div class="col">
-              <p>Địa chỉ cửa hàng</p>
-              <hr>
-              <ul>
-                  <li>
-                      252 Võ Văn Ngân, Thủ Đức, HCM
-                  </li>
-                  <li>
-                      290 Hoàng Văn Thụ, Tân Bình, HCM
-                  </li>
-                  <li>
-                      43 Cầu Giấy, Hà Nội
-                  </li>
-                  <li>
-                      453 Nguyễn Trãi, Hà Nội
-                  </li>
-              </ul>
-          </div>
+    </nav>
+  </div>
+  <div class="container">
+    <div class="row" id="row1">
+      <div id="type_phone">
+        <button type="button" class="btn" id="main_type_phone"><a href="#">Xiaomi</a></button>
+        <button type="button" class="btn"><a href="#">Iphone</a></button>
+        <button type="button" class="btn"><a href="#">Samsung</a></button>
+        <button type="button" class="btn"><a href="#">Sony</a></button>
       </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <hr />
+    <div class="row">
+      <div class="navbar" id="navBar">
+        <h4>Điện thoại</h4>
+        <nav>
+          <a href="#">Dưới 3 triệu</a></li>
+          <a href="#">Từ 3-7 triệu</a></li>
+          <a href="#">Từ 7-10 triệu</a></li>
+          <div class="dropdown">
+            <button id="sort" type="button" class="btn btn dropdown-toggle" data-toggle="dropdown">Sắp xếp</button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Giá thấp đến cao</a>
+              <a class="dropdown-item" href="#">Giá cao đến thấp</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="row" id="row5">
+      <div class="row" id="list_phone1">
+        <div class="manager_product">
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/iPhone/iPhone XR.jpg" alt="XR">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div>
+              <div class="name_phone">iPhone XR 64GB</div>
+              <div class="price">15.990.000đ</div>
+              <div class="promo_price">Giảm thêm 1.500.000đ</div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/Sony/Sony Xperia 5.jpg" alt="Xperia5">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div>
+              <div class="name_phone">Sony Xperia 5</div>
+              <div class="price">12.990.000đ</div>
+              <div class="promo_price">Quà 1.500.000đ</div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/iPhone/iPhone 11 Pro Max.jpg" alt="11_pro_max">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div>
+              <div class="name_phone">iPhone 11 Pro Max 64GB</div>
+              <div class="price">33.990.000đ</div>
+              <div class="promo_price">Giảm thêm 4.500.000đ</div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/iPhone/iPhone XS.jpg" alt="XS">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div>
+              <div class="name_phone">iPhone XS 64GB</div>
+              <div class="price">19.990.000đ</div>
+              <div class="promo_price">Giảm thêm 1.500.000đ</div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/samsung/Samsung M/SS Galaxy M30.jpg" alt="M30">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div>
+              <div class="name_phone">Samsung Galaxy M30</div>
+              <div class="price">4.690.000đ</div>
+              <div class="promo_price">Giá cũ: <span style="text-decoration: line-through;">5.690.000đ</span></div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="list_phone2">
+        <div class="manager_product">
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/samsung/Samsung A/SS Galaxy A51.jpg" alt="A51">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div>
+              <div class="name_phone">Samsung Galaxy A51</div>
+              <div class="price">7.890.000đ</div>
+              <div class="promo_price">Giá cũ: <span style="text-decoration: line-through;">8.390.000đ</span></div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/samsung/Samsung Note/SS Galaxy Note 10+.jpg" alt="10+">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div>
+              <div class="name_phone">Samsung Galaxy Note 10+</div>
+              <div class="price">17.990.000đ</div>
+              <div class="promo_price">Giá cũ: <span style="text-decoration: line-through;">26.990.000đ</span></div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/xiaomi/Mi Series/Mi Note 10 Pro.png" alt="Mi10Pro">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div>
+              <div class="name_phone">Xiaomi Mi Note 10 Pro</div>
+              <div class="price">13.990.000đ</div>
+              <div class="promo_price">Giá cũ: <span style="text-decoration: line-through;">14.990.000đ</span></div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/iPhone/iPhone 11.jpg" alt="I11">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div>
+              <div class="name_phone">iPhone 11 128GB</div>
+              <div class="price">23.990.000đ</div>
+              <div class="promo_price">Giảm thêm 1.500.000đ</div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/samsung/Samsung S/SS Galaxy S20.jpg" alt="S20">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div>
+              <div class="name_phone">Samsung Galaxy S20</div>
+              <div class="price">18.490.000đ</div>
+              <div class="promo_price">Giá cũ: <span style="text-decoration: line-through;">21.490.000đ</span></div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="list_phone3">
+        <div class="manager_product">
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/Sony/Sony Xperia XZ Premium.jpg" alt="XZPre">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div>
+              <div class="name_phone">Sony Xperia XZ Premium</div>
+              <div class="price">5.490.000đ</div>
+              <div class="promo_price">Quà 500.000đ</div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/xiaomi/Redmi Series/Redmi Note 9.png" alt="RedmiNote9">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div>
+              <div class="name_phone">Xiaomi Redmi Note 9</div>
+              <div class="price">4.990.000đ</div>
+              <div class="promo_price">Giảm thêm 500.000đ</div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/xiaomi/Redmi Series/Redmi Note 9 Pro.png" alt="Redmi9Pro">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div>
+              <div class="name_phone">Xiaomi Redmi Note 9 Pro</div>
+              <div class="price">6.990.000đ</div>
+              <div class="promo_price">Quà 1.000.000đ</div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/samsung/Samsung S/SS Galaxy S20 Ultra.jpg" alt="S20Ultra">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div>
+              <div class="name_phone">Samsung Galaxy S20 Ultra</div>
+              <div class="price">18.990.000đ</div>
+              <div class="promo_price" style="text-decoration: line-through;">22.990.000đ</div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/samsung/Samsung A/SS Galaxy A80.jpg" alt="A80">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div>
+              <div class="name_phone">Samsung Galaxy A80</div>
+              <div class="price">8.990.000đ</div>
+              <div class="promo_price">Giảm thêm 1.000.000đ</div>
+            </a>
+          </div>
+        </div>
+      </div>    
+    </div>
+  </div>
+  <!-- footer -->
+  <div class="container" id="footer">
+    <div class="row">
+      <div class="col">
+        <p>THÔNG TIN HỖ TRỢ</p>
+        <hr>
+        <ul>
+          <li>
+            <a href="">Chính sách bảo hành</a>
+          </li>
+          <li>
+            <a href="politique_client.html">Chính sách bảo mật thông tin khách hàng</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <p>THÔNG TIN LIÊN LẠC</p>
+        <hr>
+        <ul>
+          Số điện thoại:
+          <li>
+            0941.559.273
+          </li>
+          <li>
+            0937.022.743
+          </li>
+          Email:
+          <li>
+            kdmobile@gmail.com
+          </li>
+          <li>
+            kdmobile@yahoo.com
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <p>Địa chỉ cửa hàng</p>
+        <hr>
+        <ul>
+          <li>
+            252 Võ Văn Ngân, Thủ Đức, HCM
+          </li>
+          <li>
+            290 Hoàng Văn Thụ, Tân Bình, HCM
+          </li>
+          <li>
+            43 Cầu Giấy, Hà Nội
+          </li>
+          <li>
+            453 Nguyễn Trãi, Hà Nội
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
