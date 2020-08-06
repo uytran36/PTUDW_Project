@@ -76,38 +76,6 @@
   }
   .fulltext {display: none;}
 }
-/*Đánh giá sao*/
-.ratings {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  direction: rtl;
-  text-align: left;
-  }
-
-  .star {
-  position: relative;
-  line-height: 60px;
-  display: inline-block;
-  transition: color 0.2s ease;
-  color: wheat;
-  }
-
-  .star:before {
-  content: '\2605';
-  width: 30%;
-  height: 30%;
-  font-size:xxx-large;
-  }
-
-  .star:hover,
-  .star.selected,
-  .star:hover ~ .star,
-  .star.selected ~ .star{
-  transition: color 0.8s ease;
-  color:orange;
-  }
 
 #rowhiendg{
   margin-left: 1%;
@@ -121,40 +89,11 @@
   color: #18778C;
   text-align: center;
 }
-#nutfb{
-  background-color: #18778C;
-  color: #F2E6CE;
-}
+
 #submitbtn{
   background-color: #18778C;
   font-weight: bold;
   color: #F2E6CE;
-}
-
-
-/*zoom hover chưa tính đc*/
-* {box-sizing: border-box;}
-
-.img-zoom-container {
-  position: relative;
-}
-
-.img-zoom-lens {
-  position: absolute;
-  border: 1px solid #d4d4d4;
-  /*set the size of the lens:*/
-  width: 40px;
-  height: 40px;
-}
-
-.img-zoom-result {
-  border: 1px solid #d4d4d4;
-  /*set the size of the result div:*/
-  width: 300px;
-  height: 300px;
-}
-.image_primar{
-    float: left;
 }
 
 
@@ -266,3 +205,30 @@ div.container{
   margin-top: 10px;
 }
 /*END OF HEADER, FOOTER*/
+
+/**
+* Để cho đơn giản nhất mình dùng icon star của font awesome.
+* À mà khoan, ở đây chúng ta chỉ làm tut nhỏ nên thấy import cả 1 library font-awesome có vẻ hơi quá đáng đã vậy còn ngược lại tiêu chí 
+* "HẠN CHẾ TỐI DÙNG THƯ VIỆN NGOÀI" :D chắc các bạn nghĩ thế nhỉ? Hiện tại chúng ta chỉ implement 1 tut nhỏ thì có vẻ thừa, 
+* nhưng trong project mình đang code có sẵn font-awesome nên trên thực tế mình đâu có * thêm gì đâu :D
+*/
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+/*reset css*/
+div,label{margin:0;padding:0;}
+body{margin:20px;}
+h1{font-size:1.5em;margin:10px;}
+/****** Style Star Rating Widget *****/
+#rating{border:none;float:left;}
+#rating>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
+#rating>label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating>.half:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
+#rating>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+/*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
+#rating>input:checked~label,
+#rating:not(:checked)>label:hover, 
+#rating:not(:checked)>label:hover~label{color:#FFD700;}
+/* Hover vào các sao phía trước ngôi sao đã chọn*/
+#rating>input:checked+label:hover,
+#rating>input:checked~label:hover,
+#rating>label:hover~input:checked~label,
+#rating>input:checked~label:hover~label{color:#FFED85;}
