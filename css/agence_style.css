@@ -4,12 +4,13 @@
 }
 body {
     background-color: whitesmoke;
+    font: 15px Helvetica,Arial,sans-serif;
 }
 /*HEADER VÀ FOOTER*/
 /* Dropdown Button */
 .dropbtn {
-    background-color: #4E7AC7;
-    color: black !important;
+    background-color: #18778C;
+    color: #F2E6CE !important;
     padding: 1px;
     font-size: 18px;
     border: none;
@@ -23,9 +24,7 @@ body {
 .dropdown {
     position: relative;
     display: inline-block;
-    color: black !important;
-    font-weight:bold;
-
+    color: #F2E6CE !important;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -62,7 +61,7 @@ body {
 
 .dropdown span a {
     text-decoration: none;
-    color: black !important;
+    color: #F2E6CE !important;
 }
 
 .dropdown span a:active, .dropdown span a:focus {
@@ -70,7 +69,7 @@ body {
 }
 
 div#header{
-    background-color: #4E7AC7;
+    background-color: #18778C;
 }
 
 .dropbtn:focus {
@@ -95,8 +94,8 @@ div.container{
 }
 
 #btn-search {
-    background-color: #4E7AC7;
-    color: black;
+    background-color: #18778C;
+    color: #F2E6CE;
     border: none;
 }
 
@@ -171,7 +170,7 @@ div.container{
     background-color: white;
     border: solid 1px whitesmoke;
     float: left;
-    height: 350px;
+    height: 380px;
     width: 227.7px;
 }
 .product a img {
@@ -210,6 +209,9 @@ div.container{
 .product a:active{
     color: #ff9c00
 }
+.product .btnBuy:hover{
+    background-color: #D95829;
+}
 .price{
     color: #BF3326;
     text-align: justify;
@@ -233,19 +235,18 @@ div.container{
     text-align: right;
     padding-right: 5%;
 }
-#list_phone1{
+#list_phone{
     margin-top: 2%;
 }
-#row4{
-    background-color: #18778C;
-    width: 1140px;
-    margin-left: 0%;
-    height: 53px;
-    align-content: center;
-    color: #F2E6CE;
-}
-#row5{
-    margin-top: -2%;
+.btnBuy{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: solid 1px #ff9c00;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+    color: #ff9c00;
 }
 .product:hover{
     box-shadow: 0 0 11px rgba(33,33,33,.2); 
