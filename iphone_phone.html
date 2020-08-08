@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minh</title>
+  <link rel="icon" href="image/logo.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/iphone_phone.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div id="header">
+    <nav id="nav_bar" class="navbar navbar-expand-lg navbar-light">
+      <!-- phần để tạo 3 dấu gạch -->
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="wrapHead">
+        <a class="navbar-brand" id="logo" href="acceuil.html">
+          <img id="kdm" src="image/KDM.png">
+        </a>
+        <div id="navbarSupportedContent">
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Rechercher sur KDM" aria-label="Search">
+            <!-- button submit -->
+            <button id="btn-search" type="submit">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                <path fill-rule="evenodd"
+                  d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+              </svg>
+            </button>
+            <!--end of button submit -->
+          </form>
+        </div>
+        <!-- kết thúc phần để tạo 3 dấu gạch -->
+        <div class="wrapMenu">
+          <!-- button iphone -->
+          <div class="dropdown">
+            <button class="dropbtn">
+              <span class="fa fa-apple"><br />IPHONE</span>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Iphone 11 | 11 Pro Max</a>
+              <a href="#">Iphone XS | XS Max</a>
+              <a href="#">Iphone X | XR</a>
+              <a href="">Iphone 8 | 8 Plus</a>
+              <a href="">Iphone 7 | 7 Plus</a>
+              <a href="">Iphone 6 | 6 Plus</a>
+            </div>
+          </div>
+          <!-- end of button iphone -->
+          <!-- button phone -->
+          <div class="dropdown">
+            <button class="dropbtn">
+              <span class="fa fa-mobile-phone"><br />PHONE</span>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Samsung</a>
+              <a href="#">Oppo</a>
+              <a href="#">Xiaomi</a>
+              <a href="">Huawei</a>
+              <a href="">Vivo</a>
+            </div>
+          </div>
+          <!-- end of button phone -->
+          <!-- button promotion -->
+          <div class="dropdown">
+            <button class="dropbtn">
+              <span class="fa fa-percent"><br />
+                <a href="promotion.html"></a>
+                PROMOTION
+              </span>
+            </button>
+          </div>
+          <!-- end of button promotion -->
+          <!-- button news -->
+          <div class="dropdown">
+            <button class="dropbtn">
+              <span class="fa fa-newspaper-o"><br />
+                <a href="news.html"></a>
+                NEWS
+              </span>
+            </button>
+          </div>
+          <!-- end of button news -->
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="container">
+    <div class="row" id="row1">
+      <div id="type_phone">
+        <button type="button" class="btn"><a href="xiaomi_phone.html">Xiaomi</a></button>
+        <button type="button" class="btn" id="main_type_phone"><a href="#">Iphone</a></button>
+        <button type="button" class="btn"><a href="#">Samsung</a></button>
+        <button type="button" class="btn"><a href="#">Sony</a></button>
+      </div>
+    </div>
+    <hr />
+    <div class="row" id="row2">
+      <div class="navbar" id="navBar">
+        <h4>Điện thoại</h4>
+        <nav>
+          <a href="#">Dưới 3 triệu</a></li>
+          <a href="#">Từ 3-7 triệu</a></li>
+          <a href="#">Từ 7-10 triệu</a></li>
+          <div class="dropdown">
+            <button id="sort" type="button" class="btn btn dropdown-toggle" data-toggle="dropdown">Sắp xếp</button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Giá thấp đến cao</a>
+              <a class="dropdown-item" href="#">Giá cao đến thấp</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="row" id="row3">
+      <div class="row" id="list_phone">
+        <div class="manager_product">
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/iPhone/iPhone 11 Pro Max.jpg" alt="11_pro_max" />
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div><br />
+              <div class="name_phone">iPhone 11 Pro Max 64GB</div>
+              <div class="price">33.990.000đ</div>
+              <div class="promo_price">Giảm thêm 4.500.000đ</div>
+              <div>
+                <button class="btnBuy">Mua ngay</button>
+              </div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/iPhone/iPhone 11 Pro.jpg" alt="11_pro">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div><br />
+              <div class="name_phone">iPhone 11 Pro 256GB</div>
+              <div class="price">34.990.000đ</div>
+              <div class="promo_price">Giảm thêm 4.000.000đ</div>
+              <div>
+                <button class="btnBuy">Mua ngay</button>
+              </div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/iPhone/iPhone XR.jpg" alt="XR">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div><br />
+              <div class="name_phone">iPhone XR 64GB</div>
+              <div class="price">15.990.000đ</div>
+              <div class="promo_price">Giảm thêm 1.500.000đ</div>
+              <div>
+                <button class="btnBuy">Mua ngay</button>
+              </div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/iPhone/iPhone XS.jpg" alt="XS">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div><br />
+              <div class="name_phone">iPhone XS 64GB</div>
+              <div class="price">19.990.000đ</div>
+              <div class="promo_price">Giảm thêm 1.500.000đ</div>
+              <div>
+                <button class="btnBuy">Mua ngay</button>
+              </div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/iPhone/iPhone 11.jpg" alt="I11">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div><br />
+              <div class="name_phone">iPhone 11 128GB</div>
+              <div class="price">23.990.000đ</div>
+              <div class="promo_price">Giảm thêm 1.500.000đ</div>
+              <div>
+                <button class="btnBuy">Mua ngay</button>
+              </div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/xiaomi/Redmi Series/Redmi Note 9.png" alt="RedmiNote9">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div><br />
+              <div class="name_phone">Xiaomi Redmi Note 9</div>
+              <div class="price">4.990.000đ</div>
+              <div class="promo_price">Giảm thêm 500.000đ</div>
+              <div>
+                <button class="btnBuy">Mua ngay</button>
+              </div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/xiaomi/Redmi Series/Redmi 9.png" alt="Redmi9">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div><br />
+              <div class="name_phone">Xiaomi Redmi 9</div>
+              <div class="price">3.990.000đ</div>
+              <div class="promo_price">Quà 200.000đ</div>
+              <div>
+                <button class="btnBuy">Mua ngay</button>
+              </div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/xiaomi/Redmi Series/Redmi 8.jpg" alt="Redmi8">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div><br />
+              <div class="name_phone">Xiaomi Redmi 8</div>
+              <div class="price">2.990.000đ</div>
+              <div class="promo_price">Giảm thêm: 300.000đ</span></div>
+              <div>
+                <button class="btnBuy">Mua ngay</button>
+              </div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/xiaomi/Redmi Series/Redmi 8A.jpg" alt="Redmi8A">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div><br />
+              <div class="name_phone">Xiaomi Redmi 8A</div>
+              <div class="price">2.290.000đ</div>
+              <div class="promo_price">Giá cũ: <span style="text-decoration: line-through;">2.690.000đ</span></div>
+              <div>
+                <button class="btnBuy">Mua ngay</button>
+              </div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/xiaomi/Redmi Series/Redmi Note 7 Pro.jpg" alt="Redmi7Pro">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div><br />
+              <div class="name_phone">Xiaomi Redmi Note 7 Pro</div>
+              <div class="price">5.290.000đ</div>
+              <div class="promo_price">Giảm thêm: 1.000.000đ</span></div>
+              <div>
+                <button class="btnBuy">Mua ngay</button>
+              </div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/xiaomi/Redmi Series/Redmi Note 8.png" alt="Redmi8">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div><br />
+              <div class="name_phone">Xiaomi Redmi Note 8</div>
+              <div class="price">4.290.000đ</div>
+              <div class="promo_price">Quà 500.000đ</div>
+              <div>
+                <button class="btnBuy">Mua ngay</button>
+              </div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/xiaomi/Redmi Series/Redmi 7A.png" alt="Redmi7A">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div><br />
+              <div class="name_phone">Xiaomi Redmi 7A</div>
+              <div class="price">1.890.000đ</div>
+              <div class="promo_price">Quà 100.000đ</div>
+              <div>
+                <button class="btnBuy">Mua ngay</button>
+              </div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/xiaomi/Mi Series/Mi 8 Pro.jpg" alt="Mi8Pro">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div><br />
+              <div class="name_phone">Xiaomi Mi 8 Pro</div>
+              <div class="price">6.290.000đ</div>
+              <div class="promo_price">Quà 300.000đ</div>
+              <div>
+                <button class="btnBuy">Mua ngay</button>
+              </div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/xiaomi/Mi Series/Mi 9.png" alt="Mi9">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div><br />
+              <div class="name_phone">Xiaomi Mi 9</div>
+              <div class="price">7.990.000đ</div>
+              <div class="promo_price">Quà 1.500.000đ</div>
+              <div>
+                <button class="btnBuy">Mua ngay</button>
+              </div>
+            </a>
+          </div>
+          <div class="product">
+            <a href="#">
+              <img src="img_phone/xiaomi/Mi Series/Mi 9T.png" alt="Mi9SE">
+              <div class="info_promotion">Hotsale từ ngày 24/7 đến 26/7</div><br />
+              <div class="name_phone">Xiaomi Mi 9T</div>
+              <div class="price">7.990.000đ</div>
+              <div class="promo_price">Quà 1.500.000đ</div>
+              <div>
+                <button class="btnBuy">Mua ngay</button>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <div class="container" id="footer">
+    <div class="row">
+      <div class="col">
+        <p>THÔNG TIN HỖ TRỢ</p>
+        <hr>
+        <ul>
+          <li>
+            <a href="">Chính sách bảo hành</a>
+          </li>
+          <li>
+            <a href="politique_client.html">Chính sách bảo mật thông tin khách hàng</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <p>THÔNG TIN LIÊN LẠC</p>
+        <hr>
+        <ul>
+          Số điện thoại:
+          <li>
+            0941.559.273
+          </li>
+          <li>
+            0937.022.743
+          </li>
+          Email:
+          <li>
+            kdmobile@gmail.com
+          </li>
+          <li>
+            kdmobile@yahoo.com
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <p>Địa chỉ cửa hàng</p>
+        <hr>
+        <ul>
+          <li>
+            252 Võ Văn Ngân, Thủ Đức, HCM
+          </li>
+          <li>
+            290 Hoàng Văn Thụ, Tân Bình, HCM
+          </li>
+          <li>
+            43 Cầu Giấy, Hà Nội
+          </li>
+          <li>
+            453 Nguyễn Trãi, Hà Nội
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
