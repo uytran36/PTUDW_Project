@@ -1,0 +1,396 @@
+body {
+    background-color: whitesmoke;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+/*HEADER VÀ FOOTER*/
+/* Dropdown Button */
+.dropbtn {
+    background-color: #18778C;
+    color: #F2E6CE;
+    padding: 1px;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    width: 120px;
+    height: 25px;
+
+}
+  
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #fff;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn span{
+    color: #F2E6CE;
+    font-weight: bold;
+}
+
+.dropdown span a {
+    text-decoration: none;
+    color: #F2E6CE;
+}
+
+.dropdown span a:active, .dropdown span a:focus {
+    outline: none;
+}
+
+div#header{
+    background-color: #18778C;
+}
+
+.dropbtn:focus {
+    outline: none;
+}
+
+#logo, #navbarSupportedContent {
+    float: left;
+}
+
+.wrapHead {
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.container{
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#btn-search {
+    background-color: #18778C;
+    color: #F2E6CE;
+    border: none;
+}
+
+#btn-search:active, #btn-search:focus {
+    outline: none;
+}
+
+#iphone a {
+    width: 200px;
+}
+
+#footer p {
+    font-weight: bold;
+}
+
+#footer {
+    margin-top: 10px;
+}
+
+/* @media screen and (min-width: 1200px) */
+div#content div.container {
+    background-color: whitesmoke;;
+}
+div.container div.bill
+{
+    
+    max-width:600px;
+   
+} 
+
+div.content1 
+{
+    margin:0px auto;
+    width: 600px;
+    
+}
+
+input.input-text {
+    margin-top: 12px;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#billing_city 
+{
+    margin-top:12px;
+    height:34px;
+    width:100%;
+    padding: 6px 12px;
+    font-size:13px;
+    line-height:1.42857143;
+    color:#555;
+    background-color: #fff;
+    background-image: none;
+    border:1px solid #ccc;
+    border-radius: 4px;
+}
+h3.check_1 
+{
+    float:left;
+    clear:none;
+}
+h3.check_1 label
+{
+    margin-bottom: 0px;
+    margin-top:15px;
+}
+h3.check_1 
+{
+    vertical-align: top;
+    margin-top:3px;
+    margin-right: 5px;
+}
+.bill1
+{
+    margin-top:40px;
+    background: #fff;
+}
+.bill1 table.bill1_table 
+{
+    border: 1px solid rgba(0,0,0,.1);
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+    border-collapse: separate;
+    border-radius: 5px;
+    border-spacing: 0px;
+    font-size: 13px;
+}
+table
+{
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 2px;
+    border-color: grey;
+}
+tr
+{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+table.bill1_table th#th {
+    padding: 6px 12px;background: #f1f1f1;
+}
+th {
+    padding: 6px 12px;
+    
+}
+tbody 
+{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tbody tr td {
+    border-top: 1px solid rgba(0,0,0,.1);
+    padding: 9px 12px;
+    vertical-align: middle;
+    line-height: 1.5em;
+}
+tfoot 
+{
+    display: table-footer-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tfoot tr td 
+{
+    border-top: 1px solid rgba(0,0,0,.1);
+    padding: 9px 12px;
+    vertical-align: middle;
+    line-height: 1.5em;
+}
+tfoot tr th 
+{
+    border-top: 1px solid rgba(0,0,0,.1);
+    padding: 9px 12px;
+    vertical-align: middle;
+    line-height: 1.5em;
+}
+.Price 
+{
+    color:red;
+}
+
+div.payment 
+{
+    border: 1px dashed #d3d3d3;
+    background: #ffffff;
+    border-radius: 5px;
+}
+ul.payment1 
+{
+    text-align: left;
+    padding: 1em;
+    border-bottom: 1px solid #d3ced2;
+    margin: 0;
+    list-style: none outside;
+}
+
+.confirm 
+{
+    padding:1em;
+}
+div.confirm div.confirm1 button.button_alt
+{
+    width:100px;
+    height:40px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #fff;
+    background-color: #c21d32;
+    border:1px solid #c21d32;
+} 
+div.confirm div.confirm1 
+{
+    font-size: 14px;
+    line-height: 1.8;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+div.navbar a
+{   
+    color: #e10c00;
+    overflow: hidden;
+    position: relative;
+    padding: 0px 0 0 15px;
+}
+div.navbar span {
+    float:right;
+}
+
+.div.navbar a:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-right: 7px solid #e10c00;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    position: absolute;
+    left: 0;
+    top: 2px;
+  }
+  
+
+ul.bill_detail
+{
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px dashed #d3ced2;
+    margin-bottom: 15px;
+    margin: 0 0 3em;
+    list-style: none;
+}
+ul.bill_detail li {
+    border-right: 0px;
+    margin-right: 0px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #d3ced2;
+    
+}
+ul.bill_detail li#bill_method 
+{
+    border-bottom:1px solid white;
+}
+
+div.payer
+{
+    padding: 15px;
+    background: #fff;
+}
+
+div.payer h3 
+{
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+
+div.payer h2 
+{
+    font-size: 16px;
+    font-weight:600;
+}
+
+div.order_details 
+{
+    margin-top:-10px;   
+    margin-bottom: 15px;
+}
+
+div.order_details table
+{   
+    margin-bottom: 0px;
+    font-size: 13px;
+    border: 1px solid rgba(0,0,0,.1);
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+    border-collapse: separate;
+    border-radius: 5px;
+}
+div.order_details table thead 
+{
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit
+}
+div.order_details table thead tr td.product_name
+{
+    background: #f1f1f1;
+}
+
+div.order_details table thead tr th {
+    font-weight: 700;
+    padding: 9px 12px;
+    line-height: 1.5em;
+}
+
+tbody tr td.product_name
+{
+        border-top: 1px solid rgba(0,0,0,.1);
+        padding: 9px 12px;
+        vertical-align: middle;
+        line-height: 1.5em;
+}
+div.content 
+{
+    margin-bottom:10px;
+}
