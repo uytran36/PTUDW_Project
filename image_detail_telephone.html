@@ -9,18 +9,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style_detail.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
+    <title>Hình ảnh chi tiết</title>
   </head>
   <body style=" background-color: whitesmoke;">
     <div id="header">
         <nav id="nav_bar" class="navbar navbar-expand-lg navbar-light">
+            <!-- phần để tạo 3 dấu gạch -->
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
             <div class="wrapHead">
                 <a class="navbar-brand" id="logo" href="acceuil.html">
-                    <img src="image/KDM.png" style="width: 85px;">
+                    <img id="kdm" src="image/KDM.png">
                 </a>           
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div id="navbarSupportedContent">
                     <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Rechercher sur KDM" style="width: 400px;" aria-label="Search">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Rechercher sur KDM" aria-label="Search" >
                         <!-- button submit -->
                         <button  id="btn-search" type="submit">
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -31,55 +37,57 @@
                         <!--end of button submit -->
                     </form>
                 </div>
-                
-                <!-- chia column cho các buton -->
-                <div class="row" id="menu">
-                    <div class="col" id="iphone">
-                        <!-- button iphone -->
-                        <div class="dropdown">
-                            <button class="dropbtn">
-                                <span class="fa fa-apple"><br />IPHONE</span>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#">Iphone 11 | 11 Pro Max</a>
-                                <a href="#">Iphone XS | XS Max</a>
-                                <a href="#">Iphone X | XR</a>
-                                <a href="">Iphone 8 | 8 Plus</a>
-                                <a href="">Iphone 7 | 7 Plus</a>
-                                <a href="">Iphone 6 | 6 Plus</a>
-                            </div>
+                <!-- kết thúc phần để tạo 3 dấu gạch -->
+                <div class="wrapMenu">
+                    <!-- button iphone -->
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <span class="fa fa-apple"><br />IPHONE</span>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Iphone 11 | 11 Pro Max</a>
+                            <a href="#">Iphone XS | XS Max</a>
+                            <a href="#">Iphone X | XR</a>
+                            <a href="">Iphone 8 | 8 Plus</a>
+                            <a href="">Iphone 7 | 7 Plus</a>
+                            <a href="">Iphone 6 | 6 Plus</a>
                         </div>
-                        <!-- end of button iphone -->
                     </div>
-                    <div class="col" id="phone">
-                        <!-- button phone -->
-                        <div class="dropdown">
-                            <button class="dropbtn">
-                                <span class="fa fa-mobile-phone"><br />PHONE</span>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#">Samsung</a>
-                                <a href="#">Oppo</a>
-                                <a href="#">Xiaomi</a>
-                                <a href="">Huawei</a>
-                                <a href="">Vivo</a>
-                            </div>
+                    <!-- end of button iphone -->
+                    <!-- button phone -->
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <span class="fa fa-mobile-phone"><br />PHONE</span>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Samsung</a>
+                            <a href="#">Oppo</a>
+                            <a href="#">Xiaomi</a>
+                            <a href="">Huawei</a>
+                            <a href="">Vivo</a>
                         </div>
-                        <!-- end of button phone -->
                     </div>
-                    <div class="col">
-                        <!-- button promotion -->
-                        <div class="dropdown">
-                            <button class="dropbtn">
-                                <span class="fa fa-percent"><br />
-                                    <a href="promotion.html">PROMOTION</a>
-                                </span>
-                            </button>
-                        </div>
-                        <!-- end of button promotion -->
+                    <!-- end of button phone -->
+                    <!-- button promotion -->
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <span class="fa fa-percent"><br />
+                                <a href="promo.html">PROMOTION</a>
+                                
+                            </span>
+                        </button>
                     </div>
+                    <!-- end of button promotion -->        
+                    <!-- button news -->
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <span class="fa fa-newspaper-o"><br />
+                                <a href="news.html">NEWS</a>
+                            </span>
+                        </button>
+                    </div>
+                    <!-- end of button news -->               
                 </div>
-                <!-- kết thúc chia column -->
             </div>
         </nav>
     </div>
@@ -166,6 +174,7 @@
 
 
     <!-- Optional JavaScript -->
+    <script src="js/promotion_detail.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

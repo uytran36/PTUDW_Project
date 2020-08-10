@@ -15,7 +15,6 @@ body {
     text-align: center;
     width: 120px;
     height: 25px;
-
 }
   
 /* The container <div> - needed to position the dropdown content */
@@ -66,7 +65,7 @@ body {
     outline: none;
 }
 
-#header{
+div#header{
     background-color: #18778C;
 }
 
@@ -123,26 +122,6 @@ div.container{
 #footer {
     margin-top: 10px;
 }
-/*END OF HEADER, FOOTER*/
-
-/*article*/
-.titre {
-    color: #AA1E28;
-    font-weight: bolder;
-}
-
-.content ul span {
-    font-weight: bold;
-    color: red;
-}
-
-
-.content img {
-    border: 1px solid #D9D9D9;
-    border-radius: 10px;
-    max-width: 100%;
-    height: auto;
-}
 
 /*chuyển menu thành icon khi thay đổi size */
 @media screen and (max-width: 1100px) {
@@ -160,7 +139,7 @@ div.container{
         top: 15px;
      
     }
-    
+
     .wrapHead {
         height: 40px;
         margin-left: 1%;
@@ -175,10 +154,10 @@ div.container{
     .wrapMenu.open {
         display: block;
         background-color: white;
-        height: fit-content;
+        height: 70px;
         width: 100%;
         text-align: center;
-        padding-bottom: 10px;
+
     } 
     
     nav.open {
@@ -215,7 +194,6 @@ div.container{
         margin-top: -7px;
     }
 }
-
 
 @media screen and (max-width: 425px) {
     .line {
@@ -286,4 +264,64 @@ div.container{
         width: 150px;
         margin-top: -7px;
     }
+}
+
+/* kết thúc chuyển menu */
+
+/*END OF HEADER, FOOTER*/
+
+/*article*/
+.titre {
+    color: #AA1E28;
+    font-weight: bolder;
+}
+
+.content ul span {
+    font-weight: bold;
+    color: red;
+}
+
+.content img {
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.popularNews {
+    margin-top: 15px;
+}
+
+.product{
+    background-color: white;
+    border: solid 1px whitesmoke;
+    float: left;
+    height: 350px;
+    width: 227.7px;
+}
+.product a img {
+    width: 180px;
+    height: 180px;
+    margin: 30px 20px;
+}
+.manager_product{
+    margin-left: 30px;
+}
+
+.product a{
+    color: black;
+    text-decoration: none;
+}
+.product a:hover{
+    color: #18778C;
+    font-weight: bold;
+}
+.product img:hover{
+    margin-top: 25px;
+}
+.product a:active{
+    color: #ff9c00
+}
+.product:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
