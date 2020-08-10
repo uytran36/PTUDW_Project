@@ -115,12 +115,18 @@ div.container{
 div#content div.container {
     background-color: whitesmoke;;
 }
+div.container .content1 
+{
+    margin:0 auto;
+    max-width:80%;
+}
 div.container div.bill
 {
-    
-    max-width:600px;
+    /* margin:0 auto;
+    max-width:600px; */
    
 } 
+
 .payer 
 {
     background-color:white;
@@ -165,6 +171,7 @@ input.input-text {
     background-image: none;
     border:1px solid #ccc;
     border-radius: 4px;
+    
 }
 h3.check_1 
 {
