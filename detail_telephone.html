@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Xiaomi Mi 10 Pro</title>
     <link rel="icon" href="image/logo.png">
 
     <!-- Bootstrap CSS -->
@@ -15,75 +15,84 @@
 <body style="background-color:whitesmoke;">
     <!--HEADER-->
     <div id="header">
-        <nav id="nav_bar" class="navbar navbar-expand-lg navbar-light">
-            <div class="wrapHead">
-                <a class="navbar-brand" id="logo" href="acceuil.html">
-                    <img src="image/KDM.png" style="width: 85px;">
-                </a>           
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Rechercher sur KDM" style="width: 400px;" aria-label="Search">
-                        <!-- button submit -->
-                        <button  id="btn-search" type="submit">
-                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
-                            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
-                          </svg>
-                        </button>
-                        <!--end of button submit -->
-                    </form>
-                </div>
-                
-                <!-- chia column cho các buton -->
-                <div class="row" id="menu">
-                    <div class="col" id="iphone">
-                        <!-- button iphone -->
-                        <div class="dropdown">
-                            <button class="dropbtn">
-                                <span class="fa fa-apple"><br />IPHONE</span>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#">Iphone 11 | 11 Pro Max</a>
-                                <a href="#">Iphone XS | XS Max</a>
-                                <a href="#">Iphone X | XR</a>
-                                <a href="">Iphone 8 | 8 Plus</a>
-                                <a href="">Iphone 7 | 7 Plus</a>
-                                <a href="">Iphone 6 | 6 Plus</a>
-                            </div>
-                        </div>
-                        <!-- end of button iphone -->
-                    </div>
-                    <div class="col" id="phone">
-                        <!-- button phone -->
-                        <div class="dropdown">
-                            <button class="dropbtn">
-                                <span class="fa fa-mobile-phone"><br />PHONE</span>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#">Samsung</a>
-                                <a href="#">Oppo</a>
-                                <a href="#">Xiaomi</a>
-                                <a href="">Huawei</a>
-                                <a href="">Vivo</a>
-                            </div>
-                        </div>
-                        <!-- end of button phone -->
-                    </div>
-                    <div class="col">
-                        <!-- button promotion -->
-                        <div class="dropdown">
-                            <button class="dropbtn">
-                                <span class="fa fa-percent"><br />
-                                    <a href="promotion.html">PROMOTION</a>
-                                </span>
-                            </button>
-                        </div>
-                        <!-- end of button promotion -->
-                    </div>
-                </div>
-                <!-- kết thúc chia column -->
-            </div>
-        </nav>
+      <nav id="nav_bar" class="navbar navbar-expand-lg navbar-light">
+          <!-- phần để tạo 3 dấu gạch -->
+              <div class="hamburger">
+                  <div class="line"></div>
+                  <div class="line"></div>
+                  <div class="line"></div>
+              </div>
+          <div class="wrapHead">
+              <a class="navbar-brand" id="logo" href="acceuil.html">
+                  <img id="kdm" src="image/KDM.png">
+              </a>           
+              <div id="navbarSupportedContent">
+                  <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Rechercher sur KDM" aria-label="Search" >
+                      <!-- button submit -->
+                      <button  id="btn-search" type="submit">
+                          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                        </svg>
+                      </button>
+                      <!--end of button submit -->
+                  </form>
+              </div>
+              <!-- kết thúc phần để tạo 3 dấu gạch -->
+              <div class="wrapMenu">
+                  <!-- button iphone -->
+                  <div class="dropdown">
+                      <button class="dropbtn">
+                          <span class="fa fa-apple"><br />IPHONE</span>
+                      </button>
+                      <div class="dropdown-content">
+                          <a href="#">Iphone 11 | 11 Pro Max</a>
+                          <a href="#">Iphone XS | XS Max</a>
+                          <a href="#">Iphone X | XR</a>
+                          <a href="">Iphone 8 | 8 Plus</a>
+                          <a href="">Iphone 7 | 7 Plus</a>
+                          <a href="">Iphone 6 | 6 Plus</a>
+                      </div>
+                  </div>
+                  <!-- end of button iphone -->
+                  <!-- button phone -->
+                  <div class="dropdown">
+                      <button class="dropbtn">
+                          <span class="fa fa-mobile-phone"><br />PHONE</span>
+                      </button>
+                      <div class="dropdown-content">
+                          <a href="#">Samsung</a>
+                          <a href="#">Oppo</a>
+                          <a href="#">Xiaomi</a>
+                          <a href="">Huawei</a>
+                          <a href="">Vivo</a>
+                      </div>
+                  </div>
+                  <!-- end of button phone -->
+                  <!-- button promotion -->
+                  <div class="dropdown">
+                      <button class="dropbtn">
+                          <span class="fa fa-percent"><br />
+                              <a href="promotion.html"></a>
+                              PROMOTION
+                          </span>
+                      </button>
+                  </div>
+                  <!-- end of button promotion -->        
+                  <!-- button news -->
+                  <div class="dropdown">
+                      <button class="dropbtn">
+                          <span class="fa fa-newspaper-o"><br />
+                              <a href="news.html"></a>
+                              NEWS
+                          </span>
+                      </button>
+                  </div>
+                  <!-- end of button news -->               
+              </div>
+          </div>
+      </nav>
     </div>
 
     <!--CONTENT-->
@@ -421,6 +430,7 @@
       
     <!--JS-->
     <script src="js/script_detail.js"></script>
+    <script src="js/promotion_detail.js"></script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
