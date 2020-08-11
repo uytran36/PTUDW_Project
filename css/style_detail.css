@@ -278,6 +278,10 @@ div.container{
       width: 300px;
       margin-top: -7px;
   }
+  
+  #promo, #news {
+    color: black;
+}
 }
 
 @media screen and (max-width: 425px) {
@@ -349,6 +353,10 @@ div.container{
       width: 150px;
       margin-top: -7px;
   }
+
+  #promo, #news {
+    color: black;
+}
 }
 
 #footer p {

@@ -214,6 +214,14 @@ div.container{
         width: 300px;
         margin-top: -7px;
     }
+
+    #promo, #news {
+        color: black;
+    }
+
+    #promo, #news {
+        color: black;
+    }
 }
 
 
@@ -285,5 +293,13 @@ div.container{
     #navbarSupportedContent input {
         width: 150px;
         margin-top: -7px;
+    }
+
+    #promo, #news {
+        color: black;
+    }
+
+    #promo, #news {
+        color: black;
     }
 }

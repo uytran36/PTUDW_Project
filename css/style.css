@@ -346,6 +346,10 @@ ul{
         width: 300px;
         margin-top: -7px;
     }
+
+    #promo, #news {
+        color: black;
+    }
 }
 
 
@@ -417,5 +421,9 @@ ul{
     #navbarSupportedContent input {
         width: 150px;
         margin-top: -7px;
+    }
+    
+    #promo, #news {
+        color: black;
     }
 }
