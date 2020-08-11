@@ -35,19 +35,18 @@
   color: red;
   font-weight: bold;
 }
-.thform3{
-  padding: 3%;
-  text-align: inherit;
-}
-.trform3{
-  border-top: 1px solid wheat;
-}
+
 #tr1form3{
   background-color: #E9F2F1;
+  border-top: 1px solid wheat;
+  padding: 1%;
 }
 #tr2form3{
   background-color: #F8F8F8;
+  border-top: 1px solid wheat;
+  padding: 1%;
 }
+
 .pform4{
   font-weight: bold;
   font-size:x-large;
@@ -67,12 +66,10 @@
 }
 .shorttext{
   display: none;
-  
 }
 @media (max-width: 1200px){
   .shorttext {
     display: inline-block;
-    
   }
   .fulltext {display: none;}
 }
@@ -424,4 +421,27 @@ h1{
 #rating>label:hover~input:checked~label,
 #rating>input:checked~label:hover~label{
   color:wheat;
+}
+
+/*Chinh thu nhỏ*/
+@media screen and (max-width: 1100px){
+  .sdtform3{
+    font-size: x-small;
+  }
+  #div2{
+    font-size: medium;
+  }
+  .giadtform2{
+    font-size: x-large;
+  }
+  .kmh4{
+    font-size:large;
+  }
+  .ttkt{
+    font-size: x-large;
+  }
+  .h1content{
+    font-size: xx-large;
+  }
+  
 }
