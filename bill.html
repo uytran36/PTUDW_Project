@@ -1,17 +1,15 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoá đơn</title>
     <link rel="icon" href="image/logo.png">
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/politique_client.css">
+    <link rel="stylesheet" href="css/bill.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Chính sách bảo mật thông tin khách hàng</title>
-  </head>
-  <body>
+</head>
+<body>
     <div id="header">
         <nav id="nav_bar" class="navbar navbar-expand-lg navbar-light">
             <!-- phần để tạo 3 dấu gạch -->
@@ -90,49 +88,79 @@
             </div>
         </nav>
     </div>
-    <div class="container">
-        <h3>Chính sách bảo mật thông tin khách hàng</h3>
-        <hr>
-        <b>1. Mục đích và phạm vi thu thập thông tin</b>
-        <p><b class="bcolor">KD Mobile</b> không bán, chia sẻ hay trao đổi thông tin cá nhân của khách hàng thu thập trên trang web cho một bên thứ ba nào khác. </p>
-        <p>Thông tin cá nhân thu thập được sẽ chỉ được sử dụng trong nội bộ công ty.</p>
+
+    <div id="content">
+        <div class="container">
+            <div class="content1">
+            <div class="bill">
+                <div class="navbar">
+                    <a href="#" style="margin-left:-10px; margin-bottom:10px">  
+                     Mua thêm sản phẩm khác</a>
+                    <span>Giỏ hàng của bạn</span>
+                </div>
+                <div class="payer">
+                    <h3>Cảm ơn bạn. Đơn hàng của bạn đã được nhận</h3>
+                    <ul class="bill_detail">
+                        <li id="code_bill">
+                            Mã đơn hàng: <br><strong>109381</strong>
+                        </li>
+                        <li id="bill_date">
+                            Ngày: <br><strong>09/08/2020</strong>
+                        </li>
+                        <li id="bill_total">
+                           Tổng cộng: <br><strong style="color:red">56,980,000₫</strong>
+                        </li>
+                        <li id="bill_method">
+                            Phương thức thanh toán:<br><strong>Chuyển khoản ngân hàng</strong>
+                        </li>
+                    </ul>
+                    <div class="order_details">
+                        <h2 class="details_title">Chi tiết đơn hàng</h2>
+                        <table class="_order_details">
+                            <thead style="background-color:whitesmoke">
+                                <tr>
+                                    <th class="product_name">Sản phẩm</th>
+                                    <th class="product total">Tổng</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="order_items">
+                                    <td class="product_name">
+                                        <a href="#" style="color:black">Samsung galaxy Note20</a>
+                                        <strong>x 1</strong>
+                                        <br>
+                                       <span style="font-weight: 600;">Màu sắc:</span> grey
+                                    </td>
+                                    <td class="price" style="color:red">23,900,000₫</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th>Giao nhận hàng</th>
+                                    <td>Miễn phí giao hàng</td>
+                                </tr>
+                                <tr>
+                                    <th>Phương thức thanh toán</th>
+                                    <td>Chuyển khoản ngân hàng</td>
+                                </tr>
+                                <tr>
+                                    <th>Tổng cộng:</th>
+                                    <td style="color:red">69,000,000₫</td>
+                                </tr>
+                                <tr>
+                                    <th>Lưu ý:</th>
+                                    <td>Không có</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            </div>
         
-        <b>2. Phạm vi sử dụng thông tin</b>
-        <p>Thông tin cá nhân thu thập được sẽ chỉ được <b class="bcolor">KD Mobile</b> sử dụng trong nội bộ công ty và cho một hoặc tất cả các mục đích sau đây: </p>
-        <ul>
-            <li>Hỗ trợ khách hàng</li>
-            <li>Cung cấp thông tin liên quan đến dịch vụ</li>
-            <li>Xử lý đơn đặt hàng và cung cấp dịch vụ và thông tin qua trang web của chúng tôi theo yêu cầu của bạn</li>
-            <li>Chúng tôi có thể sẽ gửi thông tin sản phẩm, dịch vụ mới, thông tin về các sự kiện sắp tới</li>
-            <li>Ngoài ra, chúng tôi sẽ sử dụng thông tin bạn cung cấp để hỗ trợ quản lý tài khoản khách hàng; xác nhận và thực hiện các giao dịch tài chính liên quan đến các khoản thanh toán trực tuyến của bạn.</li>
-        </ul>
-
-        <b>3. Thời gian lưu trữ thông tin</b>
-        <p>Đối với thông tin cá nhân, <b class="bcolor">KD Mobile</b> chỉ xóa đi dữ liệu này nếu khách hàng có yêu cầu, khách hàng yêu cầu gửi mail về <span>kdmobile@gmail.com</span>.</p>
-
-        <b>4. Địa chỉ của đơn vị thu thập và quản lý thông tin cá nhân</b>
-        <p>Địa chỉ: 252 Võ Văn Ngân, Thủ Đức, HCM</p>
-        <p>Hotline: 0941.559.273 hay 0937.022.743</p>
-        <p>Website: </p>
-        <p>Email: kdmobile@gmail.com hay kdmobile@yahoo.com </p>
-
-        <b>5. Phương tiện và công cụ để người dùng tiếp cận và chỉnh sửa dữ liệu cá nhân của mình</b>
-        <p><b class="bcolor">KD Mobile</b>  không thu thập thông tin khách hàng qua trang web, thông tin cá nhân khách hàng được thực hiện thu thập qua email liên hệ đặt mua sản phẩm, dịch vụ gửi về hộp mail của chúng tôi: <b> kdmobile@gmail.com </b> hoặc số điện thoại liên hệ đặt mua sản phẩm gọi về <b> 0941.559.273 </b> hay 0937.022.743 .</p>
-        <p>Bạn có thể liên hệ địa chỉ email cùng số điện thoại trên để yêu cầu <b class="bcolor">KD Mobile</b> chỉnh sửa dữ liệu cá nhân của mình.</p>
-        
-        <b>6. Cam kết bảo mật thông tin cá nhân khách hàng</b>
-        <p >
-            Tại <b class="bcolor">KD Mobile</b>, việc bảo vệ thông tin cá nhân của bạn là rất quan trọng, bạn được đảm bảo rằng thông tin cung cấp cho chúng tôi sẽ được bảo mật. <b class="bcolor">KD Mobile</b> cam kết không chia sẻ, bán hoặc cho thuê thông tin cá nhân của bạn cho bất kỳ người nào khác. <b class="bcolor">KD Mobile</b> cam kết chỉ sử dụng các thông tin của bạn vào các trường hợp sau:
-            <ul>
-                <li>Nâng cao chất lượng dịch vụ dành cho khách hàng</li>
-                <li>Giải quyết các tranh chấp, khiếu nại</li>
-                <li>Khi cơ quan pháp luật có yêu cầu.</li>
-            </ul>
-             
-            <b class="bcolor">KD Mobile</b> hiểu rằng quyền lợi của bạn trong việc bảo vệ thông tin cá nhân cũng chính là trách nhiệm của chúng tôi nên trong bất kỳ trường hợp có thắc mắc, góp ý nào liên quan đến chính sách bảo mật của <b class="bcolor">KD Mobile</b>, vui lòng liên hệ qua số hotline 0941.559.273 hoặc email: kdmobile@gmail.com.
-        </p>
-
+        </div>
     </div>
+    <br><br>
     <div class="container" id="footer">
         <div class="row">
             <div class="col">
@@ -187,13 +215,11 @@
             </div>
         </div>
       </div>
-
-
-    <!-- Optional JavaScript -->
-    <script src="js/promotion_detail.js"></script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </div>
+      <script src="js/promotion_detail.js"></script>
+      <script src="js/acheter.js" type="text/javascript"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
-</html>
+  </html>

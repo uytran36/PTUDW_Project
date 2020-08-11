@@ -2,6 +2,7 @@ body {
     background-color: whitesmoke;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
+
 /*HEADER VÀ FOOTER*/
 .wrapMenu {
     float: right;
@@ -268,34 +269,17 @@ div.container{
     margin-top: 10px;
 }
 /*END OF HEADER AND FOOTER*/
-
 /* @media screen and (min-width: 1200px) */
 div#content div.container {
     background-color: whitesmoke;;
 }
-div.container .content1 
-{
-    margin:0 auto;
-    max-width:80%;
-}
 div.container div.bill
 {
-    /* margin:0 auto;
-    max-width:600px; */
+    
+    max-width:600px;
    
 } 
 
-.payer 
-{
-    background-color:white;
-    padding:15px;
-    box-shadow: 0px 0px 5px 5px #ccc;
-}
-.payer h3 
-{
-    font-size: 16px;
-    font-weight: bold;
-}
 div.content1 
 {
     margin:0px auto;
@@ -329,7 +313,6 @@ input.input-text {
     background-image: none;
     border:1px solid #ccc;
     border-radius: 4px;
-    
 }
 h3.check_1 
 {
@@ -480,3 +463,92 @@ div.navbar span {
     top: 2px;
   }
   
+
+ul.bill_detail
+{
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px dashed #d3ced2;
+    margin-bottom: 15px;
+    margin: 0 0 3em;
+    list-style: none;
+}
+ul.bill_detail li {
+    border-right: 0px;
+    margin-right: 0px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #d3ced2;
+    
+}
+ul.bill_detail li#bill_method 
+{
+    border-bottom:1px solid white;
+}
+
+div.payer
+{
+    padding: 15px;
+    background: #fff;
+}
+
+div.payer h3 
+{
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+
+div.payer h2 
+{
+    font-size: 16px;
+    font-weight:600;
+}
+
+div.order_details 
+{
+    margin-top:-10px;   
+    margin-bottom: 15px;
+}
+
+div.order_details table
+{   
+    margin-bottom: 0px;
+    font-size: 13px;
+    border: 1px solid rgba(0,0,0,.1);
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+    border-collapse: separate;
+    border-radius: 5px;
+}
+div.order_details table thead 
+{
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit
+}
+div.order_details table thead tr td.product_name
+{
+    background: #f1f1f1;
+}
+
+div.order_details table thead tr th {
+    font-weight: 700;
+    padding: 9px 12px;
+    line-height: 1.5em;
+}
+
+tbody tr td.product_name
+{
+        border-top: 1px solid rgba(0,0,0,.1);
+        padding: 9px 12px;
+        vertical-align: middle;
+        line-height: 1.5em;
+}
+div.content 
+{
+    margin-bottom:10px;
+}
