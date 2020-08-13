@@ -54,11 +54,11 @@
   color: orange;
 }
 .card-titlett{
-  color:#F1FFE1;
+  color: black;
   
 }
 .card-titlett:hover{
-  color: orange;
+  color: rgb(82, 78, 78);
   
 }
 #dichvuform2{
@@ -80,6 +80,11 @@
 .nxquydinh{
   color: red;
 }
+
+#namenx, #email{
+  width: 40%;
+}
+
 
 /*CSS content image_detail_telephone*/
 #imagedtcontent{
@@ -451,5 +456,5 @@ h1{
   .h1content{
     font-size: xx-large;
   }
-  
 }
+
