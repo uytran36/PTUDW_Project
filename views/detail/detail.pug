@@ -74,7 +74,8 @@ head
         // end of button news
 // CONTENT
 #content1.container
-  h1#tensp1.h1content #{name}
+  h1#tensp1.h1content 
+    span=phone.name
   hr
   .row
     #div1.col-3
@@ -90,7 +91,8 @@ head
           p H&igrave;nh &#x1EA3;nh
     #div2.col-5
       h2.giadtform2
-        | Gi&aacute;: #{prix}
+        | Gi&aacute;: 
+        span=phone.prix
         sup &#x20AB;
       // Khuyen mai & dich vu khach hang
       .kmdvform2

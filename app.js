@@ -11,11 +11,13 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.set('view engine', 'pug');
 app.set('views', './views');
 app.use(express.static(path.join(__dirname, 'views')));
+app.use(express.static(path.join(__dirname, 'public')));
 
-var userRoutes = require('./routes/index')
+var indexRoutes = require('./routes/index')
+var payerRoutes = require('./routes/payer')
 
-app.use('/acceuil', userRoutes)
-
+app.use('/acceuil', indexRoutes)
+app.use('/', payerRoutes);
 
 app.listen(port, function()
 {
