@@ -1,0 +1,336 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  title Xiaomi Mi 10 Pro
+  link(rel='icon', href='../image/logo.png')
+  // Bootstrap CSS
+  link(rel='stylesheet', href='../css/style_detail.css')
+  link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css', integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk', crossorigin='anonymous')
+  link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+  title Uyen
+// HEADER
+#header
+  nav#nav_bar.navbar.navbar-expand-lg.navbar-light
+    // phần để tạo 3 dấu gạch
+    .hamburger
+      .line
+      .line
+      .line
+    .wrapHead
+      a#logo.navbar-brand(href='acceuil.html')
+        img#kdm(src='../image/KDM.png')
+      #navbarSupportedContent
+        form.form-inline.my-2.my-lg-0
+          input.form-control.mr-sm-2(type='search', placeholder='Rechercher sur KDM', aria-label='Search')
+          // button submit
+          button#btn-search(type='submit')
+            svg.bi.bi-search(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+              path(fill-rule='evenodd', d='M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z')
+              path(fill-rule='evenodd', d='M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z')
+          // end of button submit
+      // kết thúc phần để tạo 3 dấu gạch
+      .wrapMenu
+        // button iphone
+        .dropdown
+          button.dropbtn
+            span.fa.fa-apple
+              br
+              | IPHONE
+          .dropdown-content
+            a(href='#') Iphone 11 | 11 Pro Max
+            a(href='#') Iphone XS | XS Max
+            a(href='#') Iphone X | XR
+            a(href='') Iphone 8 | 8 Plus
+            a(href='') Iphone 7 | 7 Plus
+            a(href='') Iphone 6 | 6 Plus
+        // end of button iphone
+        // button phone
+        .dropdown
+          button.dropbtn
+            span.fa.fa-mobile-phone
+              br
+              | PHONE
+          .dropdown-content
+            a(href='#') Samsung
+            a(href='#') Oppo
+            a(href='#') Xiaomi
+            a(href='') Huawei
+            a(href='') Vivo
+        // end of button phone
+        // button promotion
+        .dropdown
+          button.dropbtn
+            span.fa.fa-percent
+              br
+              a#promo(href='promo.html') PROMOTION
+        // end of button promotion
+        // button news
+        .dropdown
+          button.dropbtn
+            span.fa.fa-newspaper-o
+              br
+              a#news(href='news.html') NEWS
+        // end of button news
+// CONTENT
+#content1.container
+  h1#tensp1.h1content #{name}
+  hr
+  .row
+    #div1.col-3
+      .row
+        img.picform1(src= phone.img, alt='image')
+      .imagectcontent1
+        a(href='image_detail_telephone.html', style='text-decoration: none;')
+          button.btn.btn-outline-dark.btn-lg(style='margin-top: 2%;', type='button')
+            svg.bi.bi-image(width='1.5em', height='1.5em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+              path(fill-rule='evenodd', d='M14.002 2h-12a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zm-12-1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12z')
+              path(d='M10.648 7.646a.5.5 0 0 1 .577-.093L15.002 9.5V14h-14v-2l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71z')
+              path(fill-rule='evenodd', d='M4.502 7a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z')
+          p H&igrave;nh &#x1EA3;nh
+    #div2.col-5
+      h2.giadtform2
+        | Gi&aacute;: #{prix}
+        sup &#x20AB;
+      // Khuyen mai & dich vu khach hang
+      .kmdvform2
+        h4.kmh4 Khuy&#x1EBF;n m&atilde;i
+        ul.khuyenmai
+          li Gi&#x1EA3;m ngay 500.000&dstrok; (&aacute;p d&#x1EE5;ng &dstrok;&#x1EB7;t v&agrave; nh&#x1EAD;n h&agrave;ng t&#x1EEB; 3 - 31/7) (&dstrok;a&#x303; tr&#x1B0;&#x300; va&#x300;o gia&#x301;)
+          li T&#x1EB7;ng 2 su&#x1EA5;t mua &Dstrok;&#x1ED3;ng h&#x1ED3; th&#x1EDD;i trang gi&#x1EA3;m 40% (kh&ocirc;ng &aacute;p d&#x1EE5;ng th&ecirc;m khuy&#x1EBF;n m&atilde;i kh&aacute;c)
+        hr
+        h4.kmh4 Ch&#x1ECD;n th&ecirc;m c&aacute;c d&#x1ECB;ch v&#x1EE5; mi&#x1EC5;n ph&iacute;
+        input#dichvuform2(type='checkbox')
+        label(for='') Giao h&agrave;ng t&#x1EEB; c&#x1EED;a h&agrave;ng g&#x1EA7;n nh&#x1EA5;t
+        br
+        input#dichvuform2(type='checkbox')
+        label(for='') Chuy&#x1EC3;n danh b&#x1EA1;, d&#x1EEF; li&#x1EC7;u qua m&aacute;y m&#x1EDB;i
+        br
+        input#dichvuform2(type='checkbox')
+        label(for='') Mang theo &dstrok;i&#x1EC7;n tho&#x1EA1;i kh&aacute;c &dstrok;&#x1EC3; b&#x1EA1;n xem
+        br
+        input#dichvuform2(type='checkbox')
+        label(for='') Mang nhi&#x1EC1;u m&agrave;u &dstrok;&#x1EC3; b&#x1EA1;n l&#x1EF1;a ch&#x1ECD;n
+      // nhan mua dien thoai
+      a(href='acheter_product.html', style='text-decoration: none;')
+        button#nutmuangay.btn.btn-outline-warning.btn-lg.btn-block(type='button')
+          svg.bi.bi-cart3(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+            path(fill-rule='evenodd', d='M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z')
+          |                 Mua ngay 
+          br
+          span.nutmuaform2 Giao h&agrave;ng tr&#x1EF1;c ti&#x1EBF;p ho&#x1EB7;c nh&#x1EAD;n t&#x1EA1;i si&ecirc;u th&#x1ECB;
+      // SDT dat mua
+      p.datmuaform2
+        | G&#x1ECD;i &dstrok;&#x1EB7;t mua: 1800.1234 
+        br
+        span (mi&#x1EC5;n ph&iacute; - 7:30-22:00) 
+    // Thong tin kỹ thuật
+    #div3.col-4
+      h2.ttkt Th&ocirc;ng tin k&#x1EF9; thu&#x1EAD;t
+      .row
+        #tr1form3.col-6
+          span  H&#x1EC7; &dstrok;i&#x1EC1;u h&agrave;nh
+        #tr1form3.col-6
+          span.tdform3 MIUI 11 &ndash; Android 10
+        #tr2form3.col-6
+          p K&iacute;ch th&#x1B0;&#x1EDB;c m&agrave;n h&igrave;nh
+        #tr2form3.col-6
+          p.tdform3 6.67 inches
+        #tr1form3.col-6
+          span  Camera sau
+        #tr1form3.col-6
+          span.tdform3 4 camera (108MP + 20MP + 12MP + 8MP) 
+        #tr2form3.col-6
+          span Camera tr&#x1B0;&#x1EDB;c
+        #tr2form3.col-6
+          p.tdform3 20MP
+        #tr1form3.col-6
+          span CPU
+        #tr1form3.col-6
+          span.tdform3 Qualcom Snap Dragon 865
+        #tr2form3.col-6
+          span RAM
+          | &gt;
+        #tr2form3.col-6
+          span.tdform3 8 GB
+          | &gt;
+        #tr1form3.col-6
+          span B&#x1ED9; nh&#x1EDB;
+          | &gt;
+        #tr1form3.col-6
+          span.tdform3 256 GB
+        #tr2form3.col-6
+          span &Dstrok;&#x1ED9; ph&acirc;n gi&#x1EA3;i
+          | &gt;
+        #tr2form3.col-6
+          span.tdform3 1080 x 2340 pixels
+          | &gt;
+        #tr1form3.col-6
+          span Dung l&#x1B0;&#x1EE3;ng pin
+          | &gt;
+        #tr1form3.col-6
+          span.tdform3 Li-Po 4500 mAH
+#content2.container
+  .row
+    .col-7
+      h4 &Dstrok;&aacute;nh gi&aacute; &amp; Nh&#x1EAD;n x&eacute;t Xiaomi Mi 10 Pro Ram 8GB 256GB
+      .row
+        .col-2
+          p.pform4
+            | 4.5 
+            svg.bi.bi-star-fill(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+              path(d='M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z')
+        .col-7
+          .progress
+            .progress-bar.bg-success(role='progressbar', style='width: 25%', aria-valuenow='25', aria-valuemin='0', aria-valuemax='100')
+          .progress
+            .progress-bar.bg-info(role='progressbar', style='width: 50%', aria-valuenow='50', aria-valuemin='0', aria-valuemax='100')
+          .progress
+            .progress-bar.bg-warning(role='progressbar', style='width: 75%', aria-valuenow='75', aria-valuemin='0', aria-valuemax='100')
+          .progress
+            .progress-bar.bg-danger(role='progressbar', style='width: 100%', aria-valuenow='100', aria-valuemin='0', aria-valuemax='100')
+        .col-2
+          span.fulltext
+            a(href='#rating')
+              button.btn.btn-secondary.btn-lg(type='button')
+                | FEEDBACK
+          span.shorttext
+            a(href='#rating')
+              button.btn.btn-secondary.btn-lg(type='button')
+                | FB
+                svg.bi.bi-envelope(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+                  path(fill-rule='evenodd', d='M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z')
+      #rowhiendg.row
+        div
+          h6 HY
+          span
+            p
+              svg.bi.bi-star-fill(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+                path(d='M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z')
+              svg.bi.bi-star-fill(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+                path(d='M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z')
+              svg.bi.bi-star-fill(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+                path(d='M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z')
+              svg.bi.bi-star-fill(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+                path(d='M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z')
+              svg.bi.bi-star(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+                path(fill-rule='evenodd', d='M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z')
+              |                     M&aacute;y thi&#x1EBF;t k&#x1EBF; &dstrok;&#x1EB9;p, m&#x1B0;&#x1EE3;t, nhi&#x1EC1;u t&iacute;nh n&abreve;ng, m&agrave;u s&#x1EAF;c &#x1ED5;n, camera kh&aacute;, ch&#x1EE5;p kh&ocirc;ng &dstrok;&#x1EB9;p trong m&ocirc;i tr&#x1B0;&#x1EDD;ng thi&#x1EBF;u s&aacute;ng, camera l&#x1ED3;i d&#x1EC5; tr&#x1EA7;y x&#x1B0;&#x1EDB;c, s&#x1EA1;c pin nhanh (kh&ocirc;ng nhanh b&#x1EB1;ng VOOC) trung b&igrave;nh 1 ph&uacute;t &dstrok;&#x1B0;&#x1EE3;c 1%, s&#x1EED; d&#x1EE5;ng li&ecirc;n t&#x1EE5;c t&#x1EA7;m 12 ti&#x1EBF;ng (&dstrok;&#x1ED9; s&aacute;ng th&#x1EA5;p) ch&#x1EBF; &dstrok;&#x1ED9; t&#x1ED1;i m&agrave;u t&#x1EA7;m 13 ti&#x1EBF;ng.
+        div
+          h6 A Ha
+          span
+            p
+              svg.bi.bi-star-fill(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+                path(d='M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z')
+              svg.bi.bi-star-fill(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+                path(d='M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z')
+              svg.bi.bi-star-fill(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+                path(d='M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z')
+              svg.bi.bi-star-fill(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+                path(d='M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z')
+              svg.bi.bi-star-fill(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+                path(d='M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z')
+              |                     &Dstrok;t m&aacute;y &dstrok;&#x1EB9;p, pin tr&acirc;u. Ch&#x1EC9; v&agrave;o youtube, fb, zalo, ko ch&#x1A1;i game n&ecirc;n 2 ng&agrave;y m&#x1EDB;i s&#x1EA1;c 1 l&#x1EA7;n. C&#x1EA3;m th&#x1EA5;y pin &#x1ED5;n. M&#x1EA5;y ng&agrave;y &dstrok;&#x1EA7;u v&agrave;o c&aacute;c &#x1EE9;ng d&#x1EE5;ng c&ograve;n b&#x1ECB; &dstrok;&#x1A1;, t&#x1EF1; out ra. Nh&#x1B0;ng dc nv k&itilde; thu&#x1EAD;t h&#x1ED7; tr&#x1EE3; n&ecirc;n m&aacute;y ch&#x1EA1;y m&#x1B0;&#x1EE3;t h&#x1A1;n r&#x1ED3;i. V&agrave;o cho b&ugrave; 5 sao.
+        div
+          h6 A T&ugrave;ng
+          span
+            p
+              svg.bi.bi-star-fill(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+                path(d='M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z')
+              svg.bi.bi-star-fill(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+                path(d='M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z')
+              svg.bi.bi-star-fill(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+                path(d='M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z')
+              svg.bi.bi-star-fill(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+                path(d='M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z')
+              svg.bi.bi-star-half(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+                path(fill-rule='evenodd', d='M5.354 5.119L7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.519.519 0 0 1-.146.05c-.341.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.171-.403.59.59 0 0 1 .084-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027c.08 0 .16.018.232.056l3.686 1.894-.694-3.957a.564.564 0 0 1 .163-.505l2.906-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.002 2.223 8 2.226v9.8z')
+              |                     Mua h&#x1A1;n 1 th&aacute;ng x&agrave;i t&#x1ED1;t pin tr&acirc;u ch&#x1EE5;p h&igrave;nh &dstrok;&#x1EB9;p , game h&#x1EA1;ng n&#x1EB7;ng m&#x1B0;&#x1EE3;t, n&oacute;i chung r&#x1EA5;t OK . M&#x1ECD;i ng&#x1B0;&#x1EDD;i c&#x1EA7;n m&aacute;y gi&aacute; r&#x1EBB; m&agrave; ram cao th&igrave; n&ecirc;n ch&#x1ECD;n n&oacute; nh&eacute; :)))
+      // Form feedback
+      h5 &Dstrok;&aacute;nh gi&aacute; c&#x1EE7;a b&#x1EA1;n
+      // danh gia sao
+      #rating
+        input#star5(type='radio', name='rating', value='5')
+        label.full(for='star5', title='Awesome - 5 stars')
+        input#star4(type='radio', name='rating', value='4')
+        label.full(for='star4', title='Pretty good - 4 stars')
+        input#star3(type='radio', name='rating', value='3')
+        label.full(for='star3', title='Meh - 3 stars')
+        input#star2(type='radio', name='rating', value='2')
+        label.full(for='star2', title='Kinda bad - 2 stars')
+        input#star1(type='radio', name='rating', value='1')
+        label.full(for='star1', title='Sucks big time - 1 star')
+      br
+      br
+      h5 Nh&#x1EAD;n x&eacute;t c&#x1EE7;a b&#x1EA1;n
+      p
+        textarea#textnx(name='', cols='35', rows='3', required='')
+      p.nxquydinh * &Dstrok;&aacute;nh d&#x1EA5;u kh&ocirc;ng c&ocirc;ng khai th&ocirc;ng tin
+      p
+        label(for='') T&ecirc;n
+        input(type='text')
+      p
+        label(for='')
+          | Email
+          span.nxquydinh *
+        input(type='email')
+      // làm js
+      p
+        button#submitbtn.btn.btn-secondary(type='submit', onclick='checkformnx()') Submit
+    // Tin tuc
+    .col-5
+      h3 Tin t&#x1EE9;c
+      .card.bg-dark.text-white
+        img.card-img(src='../image/tintuc_images/tintuc1.jpg', alt='image')
+        .card-img-overlay
+          h5
+            a.card-titlett(href='#')
+              | Smartphone chuy&ecirc;n game Legion Gaming c&#x1EE7;a Lenovo v&#x1EDB;i Snapdragon 865 5G v&agrave; RAM &iacute;t nh&#x1EA5;t 8GB
+          p.card-text
+            | Smartphone chuy&ecirc;n game Legion Gaming c&#x1EE7;a Lenovo &dstrok;&atilde; xu&#x1EA5;t hi&#x1EC7;n d&#x1B0;&#x1EDB;i d&#x1EA1;ng tin &dstrok;&#x1ED3;n v&agrave;o th&aacute;ng 2...
+// FOOTER
+#footer.container
+  .row
+    .col
+      p TH&Ocirc;NG TIN H&#x1ED6; TR&#x1EE2;
+      hr
+      ul
+        li
+          a(href='') Ch&iacute;nh s&aacute;ch b&#x1EA3;o h&agrave;nh
+        li
+          a(href='politique_client.html') Ch&iacute;nh s&aacute;ch b&#x1EA3;o m&#x1EAD;t th&ocirc;ng tin kh&aacute;ch h&agrave;ng
+    .col
+      p TH&Ocirc;NG TIN LI&Ecirc;N L&#x1EA0;C
+      hr
+      ul
+        | S&#x1ED1; &dstrok;i&#x1EC7;n tho&#x1EA1;i:
+        li
+          | 0941.559.273
+        li
+          | 0937.022.743
+        |                     Email:
+        li
+          | kdmobile@gmail.com
+        li
+          | kdmobile@yahoo.com
+    .col
+      p &Dstrok;&#x1ECB;a ch&#x1EC9; c&#x1EED;a h&agrave;ng
+      hr
+      ul
+        li
+          | 252 V&otilde; V&abreve;n Ng&acirc;n, Th&#x1EE7; &Dstrok;&#x1EE9;c, HCM
+        li
+          | 290 Ho&agrave;ng V&abreve;n Th&#x1EE5;, T&acirc;n B&igrave;nh, HCM
+        li
+          | 43 C&#x1EA7;u Gi&#x1EA5;y, H&agrave; N&#x1ED9;i
+        li
+          | 453 Nguy&#x1EC5;n Tr&atilde;i, H&agrave; N&#x1ED9;i
+// JS
+script(src='js/script_detail.js')
+script(src='js/promotion_detail.js')
+// Optional JavaScript
+// jQuery first, then Popper.js, then Bootstrap JS
+script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js', integrity='sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj', crossorigin='anonymous')
+script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo', crossorigin='anonymous')
+script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js', integrity='sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI', crossorigin='anonymous')
+

@@ -1,0 +1,336 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  title KD Mobile
+  link(rel='icon', href='image/logo.png')
+  link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css', integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk', crossorigin='anonymous')
+  link(rel='stylesheet', href='css/style.css')
+  link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+#header
+  nav#nav_bar.navbar.navbar-expand-lg.navbar-light
+    // phần để tạo 3 dấu gạch
+    .hamburger
+      .line
+      .line
+      .line
+    .wrapHead
+      a#logo.navbar-brand(href='acceuil.html')
+        img#kdm(src='image/KDM.png')
+      #navbarSupportedContent
+        form.form-inline.my-2.my-lg-0
+          input.form-control.mr-sm-2(id='', type='search', placeholder='Rechercher sur KDM', aria-label='Search')
+          // button submit
+          button#btn-search(type='submit')
+            svg.bi.bi-search(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+              path(fill-rule='evenodd', d='M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z')
+              path(fill-rule='evenodd', d='M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z')
+          // end of button submit
+      // kết thúc phần để tạo 3 dấu gạch
+      .wrapMenu
+        // button iphone
+        .dropdown
+          button.dropbtn
+            span.fa.fa-apple
+              br
+              | IPHONE
+          .dropdown-content
+            a(href='#') Iphone 11 | 11 Pro Max
+            a(href='#') Iphone XS | XS Max
+            a(href='#') Iphone X | XR
+            a(href='') Iphone 8 | 8 Plus
+            a(href='') Iphone 7 | 7 Plus
+            a(href='') Iphone 6 | 6 Plus
+        // end of button iphone
+        // button phone
+        .dropdown
+          button.dropbtn
+            span.fa.fa-mobile-phone
+              br
+              | PHONE
+          .dropdown-content
+            a(href='#') Samsung
+            a(href='#') Oppo
+            a(href='#') Xiaomi
+            a(href='') Huawei
+            a(href='') Vivo
+        // end of button phone
+        // button promotion
+        .dropdown
+          button.dropbtn
+            span.fa.fa-percent
+              br
+              a#promo(href='promo.html') PROMOTION
+        // end of button promotion
+        // button news
+        .dropdown
+          button.dropbtn
+            span.fa.fa-newspaper-o
+              br
+              a#news(href='news.html') NEWS
+        // end of button news
+#body.container
+  #row1.row
+    .col-sm-8
+      #demo.carousel.slide(data-ride='carousel', data-interval='3000')
+        ul.carousel-indicators
+          li.active(data-target='#demo', data-slide-to='0')
+          li(data-target='#demo', data-slide-to='1')
+        .carousel-inner
+          .carousel-item.active
+            a(href='#')
+              img(src='image/SamsungNote10+.jpg', width='100%', height='auto', style='max-width: 100%; height: auto;', alt='Note10+')
+          .carousel-item
+            a(href='#')
+              img(src='image/Iphone11.jpg', width='100%', height='auto', style='max-width: 100%; height: auto;', alt='Iphone11')
+        a.carousel-control-prev(href='#demo', data-slide='prev')
+          span.carousel-control-prev-icon
+        a.carousel-control-next(href='#demo', data-slide='next')
+          span.carousel-control-next-icon
+    .col-sm-4
+      a(href='#')
+        img#banner1(src='image/redmi-k20-banner.jpg', alt='Mi_Banner')
+      a(href='#')
+        img#banner2(src='image/redmi-k20-banner.jpg', alt='Mi_Banner')
+  #row2.row
+    #promotion
+      .spinner-grow.spinner-grow-sm
+      a(href='#')
+        b  SUMMER SALE HOLIDAY: XS MAX 13.790 | X 10.190
+  #row3.row
+    #promotion_banner
+      h4
+        b KHUY&#x1EBE;N M&Atilde;I HOT
+    .row
+      .manager_product
+        .product
+          a(href='/acceuil/'+phone[0].id)
+            img(src='img_phone/iPhone/iPhone 11 Pro Max.jpg', alt='11_pro_max')
+            .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+            br
+            .name_phone iPhone 11 Pro Max 64GB
+            .price 33.990.000&dstrok;
+            .promo_price Gi&#x1EA3;m th&ecirc;m 4.500.000&dstrok;
+        .product
+          a(href='/acceuil/' + phone[1].id)
+            img(src='img_phone/iPhone/iPhone 11 Pro.jpg', alt='11_pro')
+            .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+            br
+            .name_phone iPhone 11 Pro 256GB
+            .price 34.990.000&dstrok;
+            .promo_price Gi&#x1EA3;m th&ecirc;m 4.000.000&dstrok;
+        .product
+          a(href='#')
+            img(src='img_phone/samsung/Samsung Note/SS Galaxy Note 10+.jpg', alt='Note10+')
+            .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+            br
+            .name_phone Samsung Galaxy Note 10+
+            .price 17.990.000&dstrok;
+            .promo_price
+              | Gi&aacute; c&utilde;: 
+              span(style='text-decoration: line-through;') 26.990.000&dstrok;
+        .product
+          a(href='#')
+            img(src='img_phone/samsung/Samsung S/SS Galaxy S20 Ultra.jpg', alt='20Ultra')
+            .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+            br
+            .name_phone Samsung Galaxy S20 Ultra
+            .price 18.990.000&dstrok;
+            .promo_price(style='text-decoration: line-through;') 22.990.000&dstrok;
+        .product
+          a(href='#')
+            img(src='img_phone/samsung/Samsung A/SS Galaxy A80.jpg', alt='SsA80')
+            .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+            br
+            .name_phone Samsung Galaxy A80
+            .price 8.990.000&dstrok;
+            .promo_price Gi&#x1EA3;m th&ecirc;m 1.000.000&dstrok;
+  #row4.row
+    #title_phone
+      h4 &Dstrok;i&#x1EC7;n tho&#x1EA1;i n&#x1ED5;i b&#x1EAD;t
+    #type_phone
+      button.btn(type='button')
+        a(href='#') Xiaomi
+      button.btn(type='button')
+        a(href='#') Iphone
+      button.btn(type='button')
+        a(href='#') Samsung
+      button.btn(type='button')
+        a(href='#') Sony
+  #row5.row
+    #list_phone1.row
+      .manager_product
+        .product
+          a(href='#')
+            img(src='img_phone/iPhone/iPhone XR.jpg', alt='XR')
+            .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+            br
+            .name_phone iPhone XR 64GB
+            .price 15.990.000&dstrok;
+            .promo_price Gi&#x1EA3;m th&ecirc;m 1.500.000&dstrok;
+        .product
+          a(href='#')
+            img(src='img_phone/Sony/Sony Xperia 5.jpg', alt='Xperia5')
+            .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+            br
+            .name_phone Sony Xperia 5
+            .price 12.990.000&dstrok;
+            .promo_price Qu&agrave; 1.500.000&dstrok;
+        .product
+          a(href='#')
+            img(src='img_phone/iPhone/iPhone 11 Pro Max.jpg', alt='11_pro_max')
+            .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+            br
+            .name_phone iPhone 11 Pro Max 64GB
+            .price 33.990.000&dstrok;
+            .promo_price Gi&#x1EA3;m th&ecirc;m 4.500.000&dstrok;
+        .product
+          a(href='#')
+            img(src='img_phone/iPhone/iPhone XS.jpg', alt='XS')
+            .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+            br
+            .name_phone iPhone XS 64GB
+            .price 19.990.000&dstrok;
+            .promo_price Gi&#x1EA3;m th&ecirc;m 1.500.000&dstrok;
+        .product
+          a(href='#')
+            img(src='img_phone/samsung/Samsung M/SS Galaxy M30.jpg', alt='M30')
+            .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+            br
+            .name_phone Samsung Galaxy M30
+            .price 4.690.000&dstrok;
+            .promo_price
+              | Gi&aacute; c&utilde;: 
+              span(style='text-decoration: line-through;') 5.690.000&dstrok;
+    #list_phone2.row
+      .manager_product
+        .product
+          a(href='#')
+            img(src='img_phone/samsung/Samsung A/SS Galaxy A51.jpg', alt='A51')
+            .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+            br
+            .name_phone Samsung Galaxy A51
+            .price 7.890.000&dstrok;
+            .promo_price
+              | Gi&aacute; c&utilde;: 
+              span(style='text-decoration: line-through;') 8.390.000&dstrok;
+        .product
+          a(href='#')
+            img(src='img_phone/samsung/Samsung Note/SS Galaxy Note 10+.jpg', alt='10+')
+            .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+            br
+            .name_phone Samsung Galaxy Note 10+
+            .price 17.990.000&dstrok;
+            .promo_price
+              | Gi&aacute; c&utilde;: 
+              span(style='text-decoration: line-through;') 26.990.000&dstrok;
+        .product
+          a(href='#')
+            img(src='img_phone/xiaomi/Mi Series/Mi Note 10 Pro.png', alt='Mi10Pro')
+            .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+            br
+            .name_phone Xiaomi Mi Note 10 Pro
+            .price 13.990.000&dstrok;
+            .promo_price
+              | Gi&aacute; c&utilde;: 
+              span(style='text-decoration: line-through;') 14.990.000&dstrok;
+        .product
+          a(href='#')
+            img(src='img_phone/iPhone/iPhone 11.jpg', alt='I11')
+            .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+            br
+            .name_phone iPhone 11 128GB
+            .price 23.990.000&dstrok;
+            .promo_price Gi&#x1EA3;m th&ecirc;m 1.500.000&dstrok;
+        .product
+          a(href='#')
+            img(src='img_phone/samsung/Samsung S/SS Galaxy S20.jpg', alt='S20')
+            .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+            br
+            .name_phone Samsung Galaxy S20
+            .price 18.490.000&dstrok;
+            .promo_price
+              | Gi&aacute; c&utilde;: 
+              span(style='text-decoration: line-through;') 21.490.000&dstrok;
+    #list_phone3.row
+      .manager_product
+        .product
+          a(href='#')
+            img(src='img_phone/Sony/Sony Xperia XZ Premium.jpg', alt='XZPre')
+            .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+            br
+            .name_phone Sony Xperia XZ Premium
+            .price 5.490.000&dstrok;
+            .promo_price Qu&agrave; 500.000&dstrok;
+        .product
+          a(href='#')
+            img(src='img_phone/xiaomi/Redmi Series/Redmi Note 9.png', alt='RedmiNote9')
+            .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+            br
+            .name_phone Xiaomi Redmi Note 9
+            .price 4.990.000&dstrok;
+            .promo_price Gi&#x1EA3;m th&ecirc;m 500.000&dstrok;
+        .product
+          a(href='#')
+            img(src='img_phone/xiaomi/Redmi Series/Redmi Note 9 Pro.png', alt='Redmi9Pro')
+            .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+            br
+            .name_phone Xiaomi Redmi Note 9 Pro
+            .price 6.990.000&dstrok;
+            .promo_price Qu&agrave; 1.000.000&dstrok;
+        .product
+          a(href='#')
+            img(src='img_phone/samsung/Samsung S/SS Galaxy S20 Ultra.jpg', alt='S20Ultra')
+            .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+            br
+            .name_phone Samsung Galaxy S20 Ultra
+            .price 18.990.000&dstrok;
+            .promo_price(style='text-decoration: line-through;') 22.990.000&dstrok;
+        .product
+          a(href='#')
+            img(src='img_phone/samsung/Samsung A/SS Galaxy A80.jpg', alt='A80')
+            .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+            br
+            .name_phone Samsung Galaxy A80
+            .price 8.990.000&dstrok;
+            .promo_price Gi&#x1EA3;m th&ecirc;m 1.000.000&dstrok;
+#footer.container
+  .row
+    .col
+      p TH&Ocirc;NG TIN H&#x1ED6; TR&#x1EE2;
+      hr
+      ul
+        li
+          a(href='') Ch&iacute;nh s&aacute;ch b&#x1EA3;o h&agrave;nh
+        li
+          a(href='politique_client.html') Ch&iacute;nh s&aacute;ch b&#x1EA3;o m&#x1EAD;t th&ocirc;ng tin kh&aacute;ch h&agrave;ng
+    .col
+      p TH&Ocirc;NG TIN LI&Ecirc;N L&#x1EA0;C
+      hr
+      ul
+        | S&#x1ED1; &dstrok;i&#x1EC7;n tho&#x1EA1;i:
+        li
+          | 0941.559.273
+        li
+          | 0937.022.743
+        |           Email:
+        li
+          | kdmobile@gmail.com
+        li
+          | kdmobile@yahoo.com
+    .col
+      p &Dstrok;&#x1ECB;a ch&#x1EC9; c&#x1EED;a h&agrave;ng
+      hr
+      ul
+        li
+          | 252 V&otilde; V&abreve;n Ng&acirc;n, Th&#x1EE7; &Dstrok;&#x1EE9;c, HCM
+        li
+          | 290 Ho&agrave;ng V&abreve;n Th&#x1EE5;, T&acirc;n B&igrave;nh, HCM
+        li
+          | 43 C&#x1EA7;u Gi&#x1EA5;y, H&agrave; N&#x1ED9;i
+        li
+          | 453 Nguy&#x1EC5;n Tr&atilde;i, H&agrave; N&#x1ED9;i
+script(src='js/promotion_detail.js')
+script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js', integrity='sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj', crossorigin='anonymous')
+script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo', crossorigin='anonymous')
+script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js', integrity='sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI', crossorigin='anonymous')
