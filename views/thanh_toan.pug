@@ -2,5 +2,274 @@ doctype html
 head
   meta(charset='UTF-8')
   meta(name='viewport', content='width=device-width, initial-scale=1.0')
-  title H&#x1ECC;c v&#x1EC1; local
-script(src='js/local.js', type='text/javascript')
+  title Thanh to&aacute;n
+  link(rel='icon', href='image/logo.png')
+  link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css', integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk', crossorigin='anonymous')
+  link(rel='stylesheet', href='css/acheter_style.css')
+  link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+#header
+  nav#nav_bar.navbar.navbar-expand-lg.navbar-light
+    // phần để tạo 3 dấu gạch
+    .hamburger
+      .line
+      .line
+      .line
+    .wrapHead
+      a#logo.navbar-brand(href='acceuil.html')
+        img#kdm(src='image/KDM.png')
+      #navbarSupportedContent
+        form.form-inline.my-2.my-lg-0
+          input.form-control.mr-sm-2(type='search', placeholder='Rechercher sur KDM', aria-label='Search')
+          // button submit
+          button#btn-search(type='submit')
+            svg.bi.bi-search(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+              path(fill-rule='evenodd', d='M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z')
+              path(fill-rule='evenodd', d='M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z')
+          // end of button submit
+      // kết thúc phần để tạo 3 dấu gạch
+      .wrapMenu
+        // button iphone
+        .dropdown
+          button.dropbtn
+            span.fa.fa-apple
+              br
+              | IPHONE
+          .dropdown-content
+            a(href='#') Iphone 11 | 11 Pro Max
+            a(href='#') Iphone XS | XS Max
+            a(href='#') Iphone X | XR
+            a(href='') Iphone 8 | 8 Plus
+            a(href='') Iphone 7 | 7 Plus
+            a(href='') Iphone 6 | 6 Plus
+        // end of button iphone
+        // button phone
+        .dropdown
+          button.dropbtn
+            span.fa.fa-mobile-phone
+              br
+              | PHONE
+          .dropdown-content
+            a(href='#') Samsung
+            a(href='#') Oppo
+            a(href='#') Xiaomi
+            a(href='') Huawei
+            a(href='') Vivo
+        // end of button phone
+        // button promotion
+        .dropdown
+          button.dropbtn
+            span.fa.fa-percent
+              br
+              a#promo(href='promo.html') PROMOTION
+        // end of button promotion
+        // button news
+        .dropdown
+          button.dropbtn
+            span.fa.fa-newspaper-o
+              br
+              a#news(href='news.html') NEWS
+        // end of button news
+#content
+  .container
+    .content1
+      .bill
+        .navbar(style='margin-bottom: 10px;')
+          a(href='/acceuil', style='margin-left:-10px; margin-bottom:0px')
+            | Mua th&ecirc;m s&#x1EA3;n ph&#x1EA9;m kh&aacute;c
+          span Gi&#x1ECF; h&agrave;ng c&#x1EE7;a b&#x1EA1;n
+        #payer_minh.payer
+          h3 Th&ocirc;ng tin thanh to&aacute;n
+          .info
+            #info1
+              span.input-wrapper
+                input#billing_last_name.input-text(type='text', placeholder='Họ và tên', value='', style='width:45%')
+              span.input-wrapper
+                input#billing_phone.input-text(type='tel', placeholder='Điện thoại', value='', autocomplete='tel', style='width:51.6%; margin-left:2%')
+            #info2
+              span.input-wrapper(style='width:100%;')
+                input#billing_last_name.input-text(type='text', placeholder='Email', value='', style='width:99.5%')
+              span.input-wrapper
+            #info3
+              span.input-wrapper
+                select#billing_city.select(autocomplete='address-level2', data-allow_clear='true', data-placeholder='Tỉnh / Thành phố', style='width:99.5%')
+                  option(value='', selected='selected') T&#x1EC9;nh / Th&agrave;nh ph&#x1ED1;
+                  option(value='An Giang') An Giang
+                  option(value='Vũng Tàu') V&utilde;ng T&agrave;u
+                  option(value='Bắc Giang') B&#x1EAF;c Giang
+                  option(value='Bắc Kạn') B&#x1EAF;c K&#x1EA1;n
+                  option(value='Bạc Liêu') B&#x1EA1;c Li&ecirc;u
+                  option(value='Bắc Ninh') B&#x1EAF;c Ninh
+                  option(value='Bến Tre') B&#x1EBF;n Tre
+                  option(value='Bình Định') B&igrave;nh &Dstrok;&#x1ECB;nh
+                  option(value='Bình Dương') B&igrave;nh D&#x1B0;&#x1A1;ng
+                  option(value='Bình Phước') B&igrave;nh Ph&#x1B0;&#x1EDB;c
+                  option(value='Bình Thuận') B&igrave;nh Thu&#x1EAD;n
+                  option(value='Cà Mau') C&agrave; Mau
+                  option(value='Cần Thơ') C&#x1EA7;n Th&#x1A1;
+                  option(value='Cao Bằng') Cao B&#x1EB1;ng
+                  option(value='Đà Nẵng') &Dstrok;&agrave; N&#x1EB5;ng
+                  option(value='Đắk Lắk') &Dstrok;&#x1EAF;k L&#x1EAF;k
+                  option(value='Đắk Nông') &Dstrok;&#x1EAF;k N&ocirc;ng
+                  option(value='Điện Biên') &Dstrok;i&#x1EC7;n Bi&ecirc;n
+                  option(value='Đồng Nai') &Dstrok;&#x1ED3;ng Nai
+                  option(value='Đồng Tháp') &Dstrok;&#x1ED3;ng Th&aacute;p
+                  option(value='Gia Lai') Gia Lai
+                  option(value='Hà Giang') H&agrave; Giang
+                  option(value='Hà Nam') H&agrave; Nam
+                  option(value='Hà Nội') H&agrave; N&#x1ED9;i
+                  option(value='Hà Tĩnh') H&agrave; T&itilde;nh
+                  option(value='Hải Dương') H&#x1EA3;i D&#x1B0;&#x1A1;ng
+                  option(value='Hải Phòng') H&#x1EA3;i Ph&ograve;ng
+                  option(value='Hậu Giang') H&#x1EAD;u Giang
+                  option(value='Hòa Bình') H&ograve;a B&igrave;nh
+                  option(value='Hồ Chí Minh') H&#x1ED3; Ch&iacute; Minh
+                  option(value='Hưng Yên') H&#x1B0;ng Y&ecirc;n
+                  option(value='Khánh Hòa') Kh&aacute;nh H&ograve;a
+                  option(value='Kiên Giang') Ki&ecirc;n Giang
+                  option(value='Kon Tum') Kon Tum
+                  option(value='Lai Châu') Lai Ch&acirc;u
+                  option(value='Lâm Đồng') L&acirc;m &Dstrok;&#x1ED3;ng
+                  option(value='Lạng Sơn') L&#x1EA1;ng S&#x1A1;n
+                  option(value='Lào Cai') L&agrave;o Cai
+                  option(value='Long An') Long An
+                  option(value='Nam Định') &#x9;Nam &Dstrok;&#x1ECB;nh
+                  option(value='Nghệ An') Ngh&#x1EC7; An
+                  option(value='Ninh Bình') Ninh B&igrave;nh
+                  option(value='Ninh Thuận') Ninh Thu&#x1EAD;n
+                  option(value='Phú Thọ') Ph&uacute; Th&#x1ECD;
+                  option(value='Phú Yên') Ph&uacute; Y&ecirc;n
+                  option(value='Quảng Bình') Qu&#x1EA3;ng B&igrave;nh
+                  option(value='Quảng Nam') Qu&#x1EA3;ng Nam
+                  option(value='Quảng Ngãi') Qu&#x1EA3;ng Ng&atilde;i
+                  option(value='Quảng Ninh') Qu&#x1EA3;ng Ninh
+                  option(value='Quảng Trị') Qu&#x1EA3;ng Tr&#x1ECB;
+                  option(value='Sóc Trăng') S&oacute;c Tr&abreve;ng
+                  option(value='Sơn La') S&#x1A1;n La
+                  option(value='Tây Ninh') T&acirc;y Ninh
+                  option(value='Thái Bình') Th&aacute;i B&igrave;nh
+                  option(value='Thái Nguyên') Th&aacute;i Nguy&ecirc;n
+                  option(value='Thanh Hóa') Thanh H&oacute;a
+                  option(value='Thừa Thiên Huế') Th&#x1EEB;a Thi&ecirc;n Hu&#x1EBF;
+                  option(value='Tiền Giang') Ti&#x1EC1;n Giang
+                  option(value='Trà Vinh') Tr&agrave; Vinh
+                  option(value='Tuyên Quang') Tuy&ecirc;n Quang
+                  option(value='Vĩnh Long') V&itilde;nh Long
+                  option(value='Vĩnh Phúc') V&itilde;nh Ph&uacute;c
+                  option(value='Yên Bái') Y&ecirc;n B&aacute;i
+            #info4
+              span.input-wrapper(style='width:100%')
+                input#billing_last_name.input-text(type='text', placeholder='Số nhà, tên đường, phường/ xã', value='', style='width:99.5%')
+              span.input-wrapper
+          .adresse_other
+            .check
+              h3.check_1(style='width:100%')
+                label.checkbox(style='margin-top:20px')
+                  input#ship-checkbox.input-checkbox(type='checkbox', value='1')
+                  span(style='margin-left:10px') Giao h&agrave;ng t&#x1EDB;i &dstrok;&#x1ECB;a ch&#x1EC9; kh&aacute;c?
+            #info_other
+            .note
+              label(for='order_comments', style='width:100%; font-weight:bold; margin-top:10px;margin-bottom: 8px;')
+                | Ghi ch&uacute; &dstrok;&#x1A1;n h&agrave;ng&nbsp;
+                span.optional (tu&#x1EF3; ch&#x1ECD;n)
+              span.input-wrapper(style='width:100%')
+                input#billing_last_name.input-text(type='text', placeholder='Ghi chú về đơn hàng, ví dụ: thời gian hay chỉ dẫn địa điểm giao hàng chi tiết hơn.', value='', style='margin-top:0px')
+          .bill1
+            table.bill1_table
+              thead
+                tr
+                  th#th.product-remove Xo&aacute;
+                  th#th.product-name S&#x1EA3;n ph&#x1EA9;m
+                  th#th.product-total T&#x1ED5;ng
+              tbody#menu_product
+              //
+                tr.product_1
+
+                    <td><a href="#" class="remove" aria-label="Xóa sản phẩm này" data-product_id="" data-product_sku="">×</a></td>
+                    <td class="product-name">
+                    Asus ROG Phone 3 (Strix Edition) - Black&nbsp;<strong class="product-quantity">× 1</strong><br></td>
+                    <td class="product-total">
+                    <span class="prix">13,450,000&nbsp;<span class="class_prix">₫</span></span></td>
+              tfoot
+                tr.cart-subtotal
+                  //
+                    <th colspan="2">Tạm tính</th>
+                    <td><span class="Price">58,480,000&nbsp;<span>₫</span></span></td>
+                tr.shipping-totals.shipping
+                  th(colspan='2') Giao h&agrave;ng
+                  td
+                    span.Price mi&#x1EC5;n ph&iacute;
+                tr.order-total
+                  th(colspan='2') Dung l&#x1B0;&#x1EE3;ng - 8GB/128GB
+                  td
+                    strong
+                      span._Price
+                        | 0&nbsp;
+                        span._Price &#x20AB;
+                tr.order-total
+                  th(colspan='2')
+                    | G&oacute;i b&#x1EA3;o h&agrave;nh - Icare (12 th&aacute;ng ph&#x1EA7;n c&#x1EE9;ng kh&ocirc;ng bao g&#x1ED3;m ngu&#x1ED3;n, m&agrave;n h&igrave;nh v&agrave; v&acirc;n tay)
+                  td
+                    strong
+                      span._Price
+                        | 0&nbsp;
+                        span._Price &#x20AB;
+                tr#total_order.order-total
+                  //
+                    <th colspan="2">Tổng</th>
+                    <td><strong><span class="_Price" style="color:red;font-size:18px">58,480,000&nbsp;<span class="_Price">₫</span></span></strong></td>
+          .payment
+            ul.payment1
+              li
+                input(type='radio', name='op', value='bacs', checked='')
+                span(style='margin-left:15px') Chuy&#x1EC3;n kho&#x1EA3;n ng&acirc;n h&agrave;ng
+              li
+                input(type='radio', name='op', value='')
+                span(style='margin-left:15px; margin-top:10px') Tr&#x1EA3; ti&#x1EC1;n khi nh&acirc;n h&agrave;ng
+            .confirm
+              .confirm1
+                p
+                  | Th&ocirc;ng tin c&aacute; nh&acirc;n c&#x1EE7;a b&#x1EA1;n s&#x1EBD; &dstrok;&#x1B0;&#x1EE3;c s&#x1EED; d&#x1EE5;ng &dstrok;&#x1EC3; x&#x1EED; l&yacute; &dstrok;&#x1A1;n &dstrok;&#x1EB7;t h&agrave;ng c&#x1EE7;a b&#x1EA1;n, h&#x1ED7; tr&#x1EE3; tr&#x1EA3;i nghi&#x1EC7;m c&#x1EE7;a b&#x1EA1;n tr&ecirc;n to&agrave;n b&#x1ED9; trang web v&agrave; cho c&aacute;c m&#x1EE5;c &dstrok;&iacute;ch kh&aacute;c &dstrok;&#x1B0;&#x1EE3;c m&ocirc; t&#x1EA3; trong 
+                  a.woocommerce-privacy-policy-link(href='https://clickbuy.com.vn/?page_id=3', target='_blank') ch&iacute;nh s&aacute;ch ri&ecirc;ng t&#x1B0;
+                  |  c&#x1EE7;a ch&uacute;ng t&ocirc;i.
+                button#place_order.button_alt(type='submit', value='Đặt hàng', data-value='Đặt hàng') &Dstrok;&#x1EB7;t h&agrave;ng
+#footer.container
+  .row
+    .col
+      p TH&Ocirc;NG TIN H&#x1ED6; TR&#x1EE2;
+      hr
+      ul
+        li
+          a(href='') Ch&iacute;nh s&aacute;ch b&#x1EA3;o h&agrave;nh
+        li
+          a(href='politique_client.html') Ch&iacute;nh s&aacute;ch b&#x1EA3;o m&#x1EAD;t th&ocirc;ng tin kh&aacute;ch h&agrave;ng
+    .col
+      p TH&Ocirc;NG TIN LI&Ecirc;N L&#x1EA0;C
+      hr
+      ul
+        | S&#x1ED1; &dstrok;i&#x1EC7;n tho&#x1EA1;i:
+        li
+          | 0941.559.273
+        li
+          | 0937.022.743
+        |                     Email:
+        li
+          | kdmobile@gmail.com
+        li
+          | kdmobile@yahoo.com
+    .col
+      p &Dstrok;&#x1ECB;a ch&#x1EC9; c&#x1EED;a h&agrave;ng
+      hr
+      ul
+        li
+          | 252 V&otilde; V&abreve;n Ng&acirc;n, Th&#x1EE7; &Dstrok;&#x1EE9;c, HCM
+        li
+          | 290 Ho&agrave;ng V&abreve;n Th&#x1EE5;, T&acirc;n B&igrave;nh, HCM
+        li
+          | 43 C&#x1EA7;u Gi&#x1EA5;y, H&agrave; N&#x1ED9;i
+        li
+          | 453 Nguy&#x1EC5;n Tr&atilde;i, H&agrave; N&#x1ED9;i
+script(src='js/promotion_detail.js')
+script(src='js/acheter.js', type='text/javascript')
+script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js', integrity='sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj', crossorigin='anonymous')
+script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo', crossorigin='anonymous')
+script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js', integrity='sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI', crossorigin='anonymous')
