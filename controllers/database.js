@@ -777,7 +777,7 @@ var xiaomiMI = [
     },
     //Mi Note 10 Lite
     {
-        "name" :"Xiaomi Mi Mi Note 10 Lite",
+        "name" :"Xiaomi Mi Note 10 Lite",
         "prix":"7.990.000",
         "img":"../img_phone/xiaomi/Mi Series/Mi Mi Note 10 Lite.png",
         "operating system":"Android 8.1",
@@ -792,7 +792,7 @@ var xiaomiMI = [
     },
     //Mi Note 10 Pro
     {
-        "name" :"Xiaomi Mi Mi Note 10 Pro",
+        "name" :"Xiaomi Mi Note 10 Pro",
         "prix":"13.490.000",
         "img":"../img_phone/xiaomi/Mi Series/Mi Mi Note 10 Pro.png",
         "operating system":"Android 8.1",
@@ -807,7 +807,174 @@ var xiaomiMI = [
     }
 ]
 
-
+//Redmi Series
+var xiaomiRM = [
+    // Redmi 7
+    {
+        "name" :"Xiaomi Redmi 7",
+        "prix":"3.190.000",
+        "img":"../img_phone/xiaomi/Redmi Series/Redmi 7.png",
+        "operating system":"Android 9.0",
+        "screen size": "6.47 inches",
+        "camera truoc":"13 MP",
+        "camera sau":"Dual 48 MP + 5 MP",
+        "CPU": "Snapdragon 660",
+        "RAM":"3GB",
+        "memoire":"32 GB",
+        "do_phan_giai":"720 x 1440 pixels",
+        "dung_luong_pin":"Li-Po 4000mAh"
+    },
+    //Redmi 7A
+    {
+        "name" :"Xiaomi Redmi 7A",
+        "prix":"2.990.000",
+        "img":"../img_phone/xiaomi/Redmi Series/Redmi 7A.png",
+        "operating system":"Android OS",
+        "screen size": "5.45 inches",
+        "camera truoc":"5 MP",
+        "camera sau":"13MP",
+        "CPU": "Snapdragon 439",
+        "RAM":"2GB",
+        "memoire":"32 GB",
+        "do_phan_giai":"720 x 1440 pixels",
+        "dung_luong_pin":"Li-Po 4000mAh"
+    },
+    //Redmi 8
+    {
+        "name" :"Xiaomi Redmi 8",
+        "prix":"2.190.000",
+        "img":"../img_phone/xiaomi/Redmi Series/Redmi 8.jpg",
+        "operating system":"Android 9.0",
+        "screen size": "6.2 inches",
+        "camera truoc":"8MP",
+        "camera sau":"12MP +2MP",
+        "CPU": "Snapdragon 439",
+        "RAM":"3GB",
+        "memoire":"32 GB",
+        "do_phan_giai":"720 x 1520 pixels",
+        "dung_luong_pin":"Li-Po 5000mAh"
+    },
+    //Redmi 8A
+    {
+        "name" :"Xiaomi Redmi 8A",
+        "prix":"2.190.000",
+        "img":"../img_phone/xiaomi/Redmi Series/Redmi 8A.jpg",
+        "operating system":"Android OS",
+        "screen size": "6.22 inches",
+        "camera truoc":"8MP",
+        "camera sau":"12MP",
+        "CPU": "Snapdragon 439",
+        "RAM":"2GB",
+        "memoire":"32 GB",
+        "do_phan_giai":"720 x 1520 pixels",
+        "dung_luong_pin":"Li-Po 5000mAh"
+    },
+    //Redmi 9
+    {
+        "name" :"Xiaomi Redmi 9",
+        "prix":"2.990.000",
+        "img":"../img_phone/xiaomi/Redmi Series/Redmi 9.png",
+        "operating system":"Android 10",
+        "screen size": "6.53 inches",
+        "camera truoc":"5MP",
+        "camera sau":"13MP + 5MP + 2MP",
+        "CPU": "Snapdragon 439",
+        "RAM":"3GB",
+        "memoire":"64 GB",
+        "do_phan_giai":"720 x 1600 pixels",
+        "dung_luong_pin":"Li-Po 5000mAh"
+    },
+    //Redmi Note 7 Pro
+    {
+        "name" :"Xiaomi Redmi Note 7 Pro",
+        "prix":"3.790.000",
+        "img":"../img_phone/xiaomi/Redmi Series/Redmi Note 7 Pro.jpg",
+        "operating system":"Android 9.0",
+        "screen size": "6.3 inches",
+        "camera truoc":"13MP",
+        "camera sau":"48MP",
+        "CPU": "Snapdragon 675",
+        "RAM":"4 GB",
+        "memoire":"64 GB",
+        "do_phan_giai":"720 x 1520 pixels",
+        "dung_luong_pin":"Li-Po 5000mAh"
+    },
+    //Redmi Note 8
+    {
+        "name" :"Xiaomi Redmi Note 8",
+        "prix":"3.450.000",
+        "img":"../img_phone/xiaomi/Redmi Series/Redmi Note 8.png",
+        "operating system":"Android 9",
+        "screen size": "6.3 inches",
+        "camera truoc":"13MP",
+        "camera sau":"48MP +8MP + 2MP + 2MP",
+        "CPU": "Snapdragon 665",
+        "RAM":"4 GB",
+        "memoire":"64 GB",
+        "do_phan_giai":"1080 x 2340 pixels",
+        "dung_luong_pin":"Li-Po 4000mAh"
+    },
+    //Redmi Note 8 Pro
+    {
+        "name" :"Xiaomi Redmi Note 8 Pro",
+        "prix":"4.290.000",
+        "img":"../img_phone/xiaomi/Redmi Series/Redmi Note 8 Pro.png",
+        "operating system":"Android 9",
+        "screen size": "6.53 inches",
+        "camera truoc":"20MP",
+        "camera sau":"64MP + 8MP + 2MP + 2MP",
+        "CPU": "Snapdragon 665",
+        "RAM":"6 GB",
+        "memoire":"64 GB",
+        "do_phan_giai":"1080 x 2340 pixels",
+        "dung_luong_pin":"Li-Po 4500mAh"
+    },
+    //Redmi Note 9
+    {
+        "name" :"Xiaomi Redmi Note 9",
+        "prix":"4.600.000",
+        "img":"../img_phone/xiaomi/Redmi Series/Redmi Note 9.png",
+        "operating system":"Android 10",
+        "screen size": "6.53 inches",
+        "camera truoc":"13MP",
+        "camera sau":"48MP +8MP + 2MP + 2MP",
+        "CPU": "Snapdragon 665",
+        "RAM":"4 GB",
+        "memoire":"128 GB",
+        "do_phan_giai":"1080 x 2340 pixels",
+        "dung_luong_pin":"Li-Po 5020mAh"
+    },
+    //Redmi Note 9 Pro
+    {
+        "name" :"Xiaomi Redmi Note 9 Pro",
+        "prix":"5.900.000",
+        "img":"../img_phone/xiaomi/Redmi Series/Redmi Note 9 Pro.png",
+        "operating system":"Android 10",
+        "screen size": "6.67 inches",
+        "camera truoc":"16MP",
+        "camera sau":"64MP +8MP + 2MP + 2MP",
+        "CPU": "Snapdragon 720",
+        "RAM":"6 GB",
+        "memoire":"128 GB",
+        "do_phan_giai":"1080 x 2400 pixels",
+        "dung_luong_pin":"Li-Po 5020mAh"
+    },
+    //Redmi Note 9S
+    {
+        "name" :"Xiaomi Redmi Note 9S",
+        "prix":"4.690.000",
+        "img":"../img_phone/xiaomi/Redmi Series/Redmi Note 9S.png",
+        "operating system":"Android 10",
+        "screen size": "6.67 inches",
+        "camera truoc":"16MP",
+        "camera sau":"48MP +8MP + 2MP + 2MP",
+        "CPU": "Snapdragon 720",
+        "RAM":"4 GB",
+        "memoire":"64 GB",
+        "do_phan_giai":"1080 x 2340 pixels",
+        "dung_luong_pin":"Li-Po 5020mAh"
+    }
+]
 
 
 
@@ -819,3 +986,4 @@ module.exports = samsungN;
 module.exports = samsungS;
 module.exports = sony;
 module.exports = xiaomiMI;
+module.exports = xiaomiRM;
