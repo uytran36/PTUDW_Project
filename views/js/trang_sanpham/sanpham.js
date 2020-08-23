@@ -18,11 +18,15 @@ function Product(x)
             var name_phone = x.children[3].innerHTML;
             for(items of data)
             {
-                if(items.name == name_phone)
-                {
-                    console.log(true);
-                    return;
-                }
+                // if(items.name == name_phone)
+                // {
+                //     x.href = "/acceuil/1";
+                // }
+                // if(items.name == name_phone)
+                // {
+                //     console.log();
+                // }
+                console.log(items);
             }
             
         }
