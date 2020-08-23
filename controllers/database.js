@@ -1,14 +1,15 @@
 //IPHONE
 var iPhone = [
-    //Iphone 6
+
     {
         "name" :"iPhone 6",
         "prix":"3.000.000",
+        "type":"iPhone",
         "img":"../img_phone/iPhone/iPhone 6 .jpg",
-        "operating system":"iOS 12",
-        "screen size": "4.7 inches",
-        "camera truoc":"5.0 MP",
-        "camera sau":"12 MP",
+        "operating_system":"iOS 12",
+        "screen_size": "4.7 inches",
+        "camera_truoc":"5.0 MP",
+        "camera_sau":"12 MP",
         "CPU": "Apple A9",
         "RAM":"2GB",
         "memoire":"64 GB",
@@ -19,11 +20,12 @@ var iPhone = [
     {
         "name" :"iPhone 7",
         "prix":"4.500.000",
+        "type":"iPhone",
         "img":"../img_phone/iPhone/iPhone 7 .jpg",
-        "operating system":"iOS 10",
-        "screen size": "4.7 inches",
-        "camera truoc":"7.0 MP",
-        "camera sau":"12 MP",
+        "operating_system":"iOS 10",
+        "screen_size": "4.7 inches",
+        "camera_truoc":"7.0 MP",
+        "camera_sau":"12 MP",
         "CPU": "Apple A10 Fusion",
         "RAM":"2GB",
         "memoire":"32 GB",
@@ -34,11 +36,12 @@ var iPhone = [
     {
         "name" :"iPhone 7 Plus",
         "prix":"7.200.000",
+        "type":"iPhone",
         "img":"../img_phone/iPhone/iPhone 7 Plus.jpg",
-        "operating system":"iOS 12",
-        "screen size": "5.5 inches",
-        "camera truoc":"7.0 MP",
-        "camera sau":"12 MP",
+        "operating_system":"iOS 12",
+        "screen_size": "5.5 inches",
+        "camera_truoc":"7.0 MP",
+        "camera_sau":"12 MP",
         "CPU": "Apple A10 Fusion",
         "RAM":"3GB",
         "memoire":"32 GB",
@@ -49,11 +52,12 @@ var iPhone = [
     {
         "name" :"iPhone 8 Plus",
         "prix":"9.000.000",
+        "type":"iPhone",
         "img":"../img_phone/iPhone/iPhone 8 Plus.jpg",
-        "operating system":"iOS 12",
-        "screen size": "5.5 inches",
-        "camera truoc":"7.0 MP",
-        "camera sau":"12 MP",
+        "operating_system":"iOS 12",
+        "screen_size": "5.5 inches",
+        "camera_truoc":"7.0 MP",
+        "camera_sau":"12 MP",
         "CPU": "Apple A11 Blonic",
         "RAM":"3GB",
         "memoire":"64 GB",
@@ -64,11 +68,12 @@ var iPhone = [
     {
         "name" :"iPhone 11",
         "prix":"18.500.000",
+        "type":"iPhone",
         "img":"../img_phone/iPhone/iPhone 11.jpg",
-        "operating system":"iOS 13",
-        "screen size": "6.1 inches",
-        "camera truoc":"12 MP",
-        "camera sau":"12 MP",
+        "operating_system":"iOS 13",
+        "screen_size": "6.1 inches",
+        "camera_truoc":"12 MP",
+        "camera_sau":"12 MP",
         "CPU": "Apple A13 Bionic",
         "RAM":"4GB",
         "memoire":"64 GB",
@@ -79,11 +84,12 @@ var iPhone = [
     {
         "name" :"iPhone 11 Pro",
         "prix":"26.500.000",
+        "type":"iPhone",
         "img":"../img_phone/iPhone/iPhone 11 Pro.jpg",
-        "operating system":"iOS 13",
-        "screen size": "5.8 inches",
-        "camera truoc":"12 MP",
-        "camera sau":"Triple 12 MP*3",
+        "operating_system":"iOS 13",
+        "screen_size": "5.8 inches",
+        "camera_truoc":"12 MP",
+        "camera_sau":"Triple 12 MP*3",
         "CPU": "Apple A13 Bionic",
         "RAM":"4GB",
         "memoire":"64 GB",
@@ -94,11 +100,12 @@ var iPhone = [
     {
         "name" :"iPhone 11 Pro Max",
         "prix":"27.000.000",
+        "type":"iPhone",
         "img":"../img_phone/iPhone/iPhone 11 Pro Max.jpg",
         "operating system":"iOS 13",
-        "screen size": "6.5 inches",
-        "camera truoc":"12 MP",
-        "camera sau":"Triple 12 MP*3",
+        "screen_size": "6.5 inches",
+        "camera_truoc":"12 MP",
+        "camera_sau":"Triple 12 MP*3",
         "CPU": "Apple A13 Bionic",
         "RAM":"4GB",
         "memoire":"64 GB",
@@ -109,11 +116,12 @@ var iPhone = [
     {
         "name" :"iPhone X",
         "prix":"8.800.000",
+        "type":"iPhone",
         "img":"../img_phone/iPhone/iPhone X.jpg",
         "operating system":" Apples iOS",
-        "screen size": "5.8 inches",
-        "camera truoc":"7.0 MP",
-        "camera sau":"Dual 12 MP",
+        "screen_size": "5.8 inches",
+        "camera_truoc":"7.0 MP",
+        "camera_sau":"Dual 12 MP",
         "CPU": "Apple A11 Bionic",
         "RAM":"3GB",
         "memoire":"64 GB",
@@ -124,11 +132,12 @@ var iPhone = [
     {
         "name" :"iPhone XR",
         "prix":"11.200.000",
+        "type":"iPhone",
         "img":"../img_phone/iPhone/iPhone XR.jpg",
-        "operating system":"iOS 12",
-        "screen size": "5.8 inches",
-        "camera truoc":"7.0 MP",
-        "camera sau":"12 MP",
+        "operating_system":"iOS 12",
+        "screen_size": "5.8 inches",
+        "camera_truoc":"7.0 MP",
+        "camera_sau":"12 MP",
         "CPU": "Apple A12 Bionic 6 nhân",
         "RAM":"3GB",
         "memoire":"64 GB",
@@ -139,11 +148,12 @@ var iPhone = [
     {
         "name" :"iPhone XS",
         "prix":"20.500.000",
+        "type":"iPhone",
         "img":"../img_phone/iPhone/iPhone XS.jpg",
-        "operating system":"iOS 12",
-        "screen size": "5.8 inches",
-        "camera truoc":"7.0 MP",
-        "camera sau":"Dual 12 MP",
+        "operating_system":"iOS 12",
+        "screen_size": "5.8 inches",
+        "camera_truoc":"7.0 MP",
+        "camera_sau":"Dual 12 MP",
         "CPU": "Apple A12",
         "RAM":"3GB",
         "memoire":"64 GB",
@@ -154,11 +164,12 @@ var iPhone = [
     {
         "name" :"iPhone XS Max",
         "prix":"23.000.000",
+        "type":"iPhone",
         "img":"../img_phone/iPhone/iPhone XS Max.jpg",
-        "operating system":"iOS 12",
-        "screen size": "6.5 inches",
-        "camera truoc":"7.0 MP",
-        "camera sau":"Dual 12 MP",
+        "operating_system":"iOS 12",
+        "screen_size": "6.5 inches",
+        "camera_truoc":"7.0 MP",
+        "camera_sau":"Dual 12 MP",
         "CPU": "Apple A12 Bionic 6 nhân",
         "RAM":"4GB",
         "memoire":"64 GB",
@@ -173,6 +184,8 @@ var samsungA =[
     {
         "name" :"Samsung Galaxy A10",
         "prix":"2.900.000",
+        "type":"samsung",
+        "type_concrete":"samsungA",
         "img":"../img_phone/samsung/Samsung A/SS Galaxy A10.jpg",
         "operating system":"Android 9.0",
         "screen size": "6.2 inches",
@@ -188,6 +201,8 @@ var samsungA =[
     {
         "name" :"Samsung Galaxy A20s",
         "prix":"3.500.000",
+        "type":"samsung",
+        "type_concrete":"samsungA",
         "img":"../img_phone/samsung/Samsung A/SS Galaxy A20s.jpg",
         "operating system":"Android 9.0",
         "screen size": "6.5 inches",
@@ -203,6 +218,8 @@ var samsungA =[
     {
         "name" :"Samsung Galaxy A30",
         "prix":"6.000.000",
+        "type":"samsung",
+        "type_concrete":"samsungA",
         "img":"../img_phone/samsung/Samsung A/SS Galaxy A30.jpg",
         "operating system":"Android 9.0",
         "screen size": "6.4 inches",
@@ -218,6 +235,8 @@ var samsungA =[
     {
         "name" :"Samsung Galaxy A50",
         "prix":"6.100.000",
+        "type":"samsung",
+        "type_concrete":"samsungA",
         "img":"../img_phone/samsung/Samsung A/SS Galaxy A50.jpg",
         "operating system":"Android 9.0",
         "screen size": "6.4 inches",
@@ -233,6 +252,8 @@ var samsungA =[
     {
         "name" :"Samsung Galaxy A51",
         "prix":"6.300.000",
+        "type":"samsung",
+        "type_concrete":"samsungA",
         "img":"../img_phone/samsung/Samsung A/SS Galaxy A51.jpg",
         "operating system":"Android 9.0",
         "screen size": "6.5 inches",
@@ -248,6 +269,8 @@ var samsungA =[
     {
         "name" :"Samsung Galaxy A70",
         "prix":"6.500.000",
+        "type":"samsung",
+        "type_concrete":"samsungA",
         "img":"../img_phone/samsung/Samsung A/SS Galaxy A70.jpg",
         "operating system":"Android 9.0",
         "screen size": "6.7 inches",
@@ -263,6 +286,8 @@ var samsungA =[
     {
         "name" :"Samsung Galaxy A71",
         "prix":"7.900.000",
+        "type":"samsung",
+        "type_concrete":"samsungA",
         "img":"../img_phone/samsung/Samsung A/SS Galaxy A71.jpg",
         "operating system":"Android 10",
         "screen size": "6.7 inches",
@@ -278,6 +303,8 @@ var samsungA =[
     {
         "name" :"Samsung Galaxy A80",
         "prix":"8.500.000",
+        "type":"samsung",
+        "type_concrete":"samsungA",
         "img":"../img_phone/samsung/Samsung A/SS Galaxy A80.jpg",
         "operating system":"Android 9.0",
         "screen size": "6.7 inches",
@@ -297,6 +324,8 @@ var samsungM = [
     {
         "name" :"Samsung Galaxy M10",
         "prix":"3.000.000",
+        "type":"samsung",
+        "type_concrete":"samsungM",
         "img":"../img_phone/samsung/Samsung M/SS Galaxy M10.jpg",
         "operating system":"Android 8.1",
         "screen size": "6.2 inches",
@@ -312,6 +341,8 @@ var samsungM = [
     {
         "name" :"Samsung Galaxy M11",
         "prix":"3.500.000",
+        "type":"samsung",
+        "type_concrete":"samsungM",
         "img":"../img_phone/samsung/Samsung M/SS Galaxy M11.jpg",
         "operating system":"Android 10",
         "screen size": "6.4 inches",
@@ -327,6 +358,8 @@ var samsungM = [
     {
         "name" :"Samsung Galaxy M20",
         "prix":"4.890.000",
+        "type":"samsung",
+        "type_concrete":"samsungM",
         "img":"../img_phone/samsung/Samsung M/SS Galaxy M20.jpg",
         "operating system":"Android 8.1",
         "screen size": "6.3 inches",
@@ -342,6 +375,8 @@ var samsungM = [
     {
         "name" :"Samsung Galaxy M21",
         "prix":"4.500.000",
+        "type":"samsung",
+        "type_concrete":"samsungM",
         "img":"../img_phone/samsung/Samsung M/SS Galaxy M21.jpg",
         "operating system":"Android 10",
         "screen size": "6.4 inches",
@@ -357,6 +392,8 @@ var samsungM = [
     {
         "name" :"Samsung Galaxy M30",
         "prix":"3.800.000",
+        "type":"samsung",
+        "type_concrete":"samsungM",
         "img":"../img_phone/samsung/Samsung M/SS Galaxy M30.jpg",
         "operating system":"Android 9.0",
         "screen size": "6.4 inches",
@@ -372,6 +409,8 @@ var samsungM = [
     {
         "name" :"Samsung Galaxy M30s",
         "prix":"6.890.000",
+        "type":"samsung",
+        "type_concrete":"samsungM",
         "img":"../img_phone/samsung/Samsung M/SS Galaxy M30s.jpg",
         "operating system":"Android 9.0",
         "screen size": "6.4 inches",
@@ -387,6 +426,8 @@ var samsungM = [
     {
         "name" :"Samsung Galaxy M31",
         "prix":"6.190.000",
+        "type":"samsung",
+        "type_concrete":"samsungM",
         "img":"../img_phone/samsung/Samsung M/SS Galaxy M30s.jpg",
         "operating system":"Android 9.0",
         "screen size": "6.4 inches",
@@ -406,6 +447,8 @@ var samsungN = [
     {
         "name" :"Samsung Galaxy Note 8",
         "prix":"6.490.000",
+        "type":"samsung",
+        "type_concrete":"samsungN",
         "img":"../img_phone/samsung/Samsung Note/SS Galaxy Note 8.jpg",
         "operating system":"Android OS,v7.1.2",
         "screen size": "6.3 inches",
@@ -421,6 +464,8 @@ var samsungN = [
     {
         "name" :"Samsung Galaxy Note 9",
         "prix":"7.490.000",
+        "type":"samsung",
+        "type_concrete":"samsungN",
         "img":"../img_phone/samsung/Samsung Note/SS Galaxy Note 9.jpg",
         "operating system":"Android OS,v8.1",
         "screen size": "6.4 inches",
@@ -436,6 +481,8 @@ var samsungN = [
     {
         "name" :"Samsung Galaxy Note 10",
         "prix":"22.900.000",
+        "type":"samsung",
+        "type_concrete":"samsungN",
         "img":"../img_phone/samsung/Samsung Note/SS Galaxy Note 10.jpg",
         "operating system":"Android 9.0",
         "screen size": "6.3 inches",
@@ -451,6 +498,8 @@ var samsungN = [
     {
         "name" :"Samsung Galaxy Note 10 Lite",
         "prix":"13.900.000",
+        "type":"samsung",
+        "type_concrete":"samsungN",
         "img":"../img_phone/samsung/Samsung Note/SS Galaxy Note 10 Lite.jpg",
         "operating system":"Android 10",
         "screen size": "6.7 inches",
@@ -466,6 +515,8 @@ var samsungN = [
     {
         "name" :"Samsung Galaxy Note 10 Plus",
         "prix":"26.900.000",
+        "type":"samsung",
+        "type_concrete":"samsungN",
         "img":"../img_phone/samsung/Samsung Note/SS Galaxy Note 10+.jpg",
         "operating system":"Android 9.0",
         "screen size": "6.8 inches",
@@ -481,6 +532,8 @@ var samsungN = [
     {
         "name" :"Samsung Galaxy Note 10 Lite",
         "prix":"9.900.000",
+        "type":"samsung",
+        "type_concrete":"samsungN",
         "img":"../img_phone/samsung/Samsung Note/SS Galaxy Note 10+.jpg",
         "operating system":"Android 7.0",
         "screen size": "5.7 inches",
@@ -500,6 +553,8 @@ var samsungS = [
     {
         "name" :"Samsung Galaxy S8",
         "prix":"7.000.000",
+        "type":"samsung",
+        "type_concrete":"samsungS",
         "img":"../img_phone/samsung/Samsung S/SS Galaxy S8.jpg",
         "operating system":"Android 7.0",
         "screen size": "5.8 inches",
@@ -515,6 +570,8 @@ var samsungS = [
     {
         "name" :"Samsung Galaxy S8 Plus",
         "prix":"14.000.000",
+        "type":"samsung",
+        "type_concrete":"samsungS",
         "img":"../img_phone/samsung/Samsung S/SS Galaxy S8+.jpg",
         "operating system":"Android 7.0",
         "screen size": "6.2 inches",
@@ -530,6 +587,8 @@ var samsungS = [
     {
         "name" :"Samsung Galaxy S9",
         "prix":"6.000.000",
+        "type":"samsung",
+        "type_concrete":"samsungS",
         "img":"../img_phone/samsung/Samsung S/SS Galaxy S9.jpg",
         "operating system":"Android 8.0",
         "screen size": "5.8 inches",
@@ -545,6 +604,8 @@ var samsungS = [
     {
         "name" :"Samsung Galaxy S9 Plus",
         "prix":"6.800.000",
+        "type":"samsung",
+        "type_concrete":"samsungS",
         "img":"../img_phone/samsung/Samsung S/SS Galaxy S9+.jpg",
         "operating system":"Android 8.0",
         "screen size": "6.2 inches",
@@ -560,6 +621,8 @@ var samsungS = [
     {
         "name" :"Samsung Galaxy S10 Plus",
         "prix":"11.400.000",
+        "type":"samsung",
+        "type_concrete":"samsungS",
         "img":"../img_phone/samsung/Samsung S/SS Galaxy S10+.jpg",
         "operating system":"Android 9.0",
         "screen size": "6.4 inches",
@@ -575,6 +638,8 @@ var samsungS = [
     {
         "name" :"Samsung Galaxy S20",
         "prix":"21.400.000",
+        "type":"samsung",
+        "type_concrete":"samsungS",
         "img":"../img_phone/samsung/Samsung S/SS Galaxy S20.jpg",
         "operating system":"Android 10",
         "screen size": "6.2 inches",
@@ -590,6 +655,8 @@ var samsungS = [
     {
         "name" :"Samsung Galaxy S20 Ultra",
         "prix":"29.900.000",
+        "type":"samsung",
+        "type_concrete":"samsungS",
         "img":"../img_phone/samsung/Samsung S/SS Galaxy S20 Ultra.jpg",
         "operating system":"Android 10",
         "screen size": "6.9 inches",
@@ -609,6 +676,7 @@ var sony = [
     {
         "name" :"Sony Xperia 5",
         "prix":"17.990.000",
+        "type":"sony",
         "img":"../img_phone/Sony/Sony Xperia 5.jpg",
         "operating system":"Android 9.0",
         "screen size": "6.1 inches",
@@ -624,6 +692,7 @@ var sony = [
     {
         "name" :"Sony Xperia I",
         "prix":"20.000.000",
+        "type":"sony",
         "img":"../img_phone/Sony/Sony Xperia I.jpg",
         "operating system":"Android 10",
         "screen size": "6.5 inches",
@@ -639,6 +708,7 @@ var sony = [
     {
         "name" :"Sony Xperia I mark II",
         "prix":"20.990.000",
+        "type":"sony",
         "img":"../img_phone/Sony/Sony Xperia I mark II.jpg",
         "operating system":"Android 10",
         "screen size": "6.5 inches",
@@ -654,6 +724,7 @@ var sony = [
     {
         "name" :"Sony Xperia XZ Premium",
         "prix":"18.490.000",
+        "type":"sony",
         "img":"../img_phone/Sony/Sony Xperia XZ Premium.jpg",
         "operating system":"Android 8.0",
         "screen size": "5.5 inches",
@@ -669,6 +740,7 @@ var sony = [
     {
         "name" :"Sony Xperia XZ2",
         "prix":"4.290.000",
+        "type":"sony",
         "img":"../img_phone/Sony/Sony Xperia XZ2.jpg",
         "operating system":"Android OS",
         "screen size": "5.7 inches",
@@ -689,6 +761,7 @@ var xiaomiMI = [
     {
         "name" :"Xiaomi Mi 8 Pro",
         "prix":"12.290.000",
+        "type":"xiaomiMI",
         "img":"../img_phone/xiaomi/Mi Series/Mi 8 Pro.jpg",
         "operating system":"Android 8.1",
         "screen size": "5.7 inches",
@@ -704,6 +777,7 @@ var xiaomiMI = [
     {
         "name" :"Xiaomi Mi 9",
         "prix":"11.090.000",
+        "type":"xiaomiMI",
         "img":"../img_phone/xiaomi/Mi Series/Mi 9.png",
         "operating system":"Android 9.0",
         "screen size": "6.4 inches",
@@ -719,6 +793,7 @@ var xiaomiMI = [
     {
         "name" :"Xiaomi Mi 9 SE",
         "prix":"6.990.000",
+        "type":"xiaomiMI",
         "img":"../img_phone/xiaomi/Mi Series/Mi 9 SE.png",
         "operating system":"Android 9.0",
         "screen size": "5.92 inches",
@@ -734,6 +809,7 @@ var xiaomiMI = [
     {
         "name" :"Xiaomi Mi 9T",
         "prix":"7.290.000",
+        "type":"xiaomiMI",
         "img":"../img_phone/xiaomi/Mi Series/Mi 9T.png",
         "operating system":"Android 9.0",
         "screen size": "6.39 inches",
@@ -749,6 +825,7 @@ var xiaomiMI = [
     {
         "name" :"Xiaomi Mi A3",
         "prix":"3.990.000",
+        "type":"xiaomiMI",
         "img":"../img_phone/xiaomi/Mi Series/Mi A3.png",
         "operating system":"Android OS",
         "screen size": "6.01 inches",
@@ -764,6 +841,7 @@ var xiaomiMI = [
     {
         "name" :"Xiaomi Mi Max 3",
         "prix":"3.790.000",
+        "type":"xiaomiMI",
         "img":"../img_phone/xiaomi/Mi Series/Mi Max 3.png",
         "operating system":"Android 8.1",
         "screen size": "6.9 inches",
@@ -779,6 +857,7 @@ var xiaomiMI = [
     {
         "name" :"Xiaomi Mi Mi Note 10 Lite",
         "prix":"7.990.000",
+        "type":"xiaomiMI",
         "img":"../img_phone/xiaomi/Mi Series/Mi Mi Note 10 Lite.png",
         "operating system":"Android 8.1",
         "screen size": "6.47 inches",
@@ -794,6 +873,7 @@ var xiaomiMI = [
     {
         "name" :"Xiaomi Mi Mi Note 10 Pro",
         "prix":"13.490.000",
+        "type":"xiaomiMI",
         "img":"../img_phone/xiaomi/Mi Series/Mi Mi Note 10 Pro.png",
         "operating system":"Android 8.1",
         "screen size": "6.47 inches",
@@ -806,10 +886,6 @@ var xiaomiMI = [
         "dung_luong_pin":"Li-Po 5260mAh"
     }
 ]
-
-
-
-
 
 
 module.exports = iPhone;

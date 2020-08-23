@@ -104,7 +104,7 @@ head
     .row
       .manager_product
         .product
-          a(href='/acceuil/'+phone[0].id)
+          a(href='', onclick='return Product(this)')
             img(src='img_phone/iPhone/iPhone 11 Pro Max.jpg', alt='11_pro_max')
             .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
             br
@@ -112,7 +112,7 @@ head
             .price 33.990.000&dstrok;
             .promo_price Gi&#x1EA3;m th&ecirc;m 4.500.000&dstrok;
         .product
-          a(href='/acceuil/' + phone[1].id)
+          a(href='', onclick='return Product(this)')
             img(src='img_phone/iPhone/iPhone 11 Pro.jpg', alt='11_pro')
             .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
             br
@@ -331,6 +331,7 @@ head
         li
           | 453 Nguy&#x1EC5;n Tr&atilde;i, H&agrave; N&#x1ED9;i
 script(src='js/promotion_detail.js')
+script(src='js/trang_sanpham/sanpham.js')
 script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js', integrity='sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj', crossorigin='anonymous')
 script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo', crossorigin='anonymous')
 script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js', integrity='sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI', crossorigin='anonymous')
