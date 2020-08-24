@@ -1,18 +1,17 @@
-var phone = [
-    {id:1, name:'iPhone 11 Pro Max 64GB', prix:'33.990.000', img:'../img_phone/iPhone/iPhone 11 Pro Max.jpg'},
-    {id:2, name:'iPhone 11 Pro 256GB', prix:'34.990.000', img:'../img_phone/iPhone/iPhone 11 Pro.jpg'}
-]
+var phone = require('../models/phone.model')
 
 const homepage=(req,res)=>
 {
-    res.render('acceuil', {phone: phone})
+    res.render('acceuil')
 }
-
 const detail=(req,res)=>
 {
-    var id = parseInt(req.params.id);
-    var _phone = phone.find(x=>x.id===id);
-    res.render('detail/detail', {phone:_phone})
+    var name_phone = req.params.name_phone;
+    phone.find({name:name_phone}).then(function(phones)
+    {
+        res.render('detail/detail', {phones: phones[0]})
+    }
+    )
 }
 
 const payer=(req,res)=>

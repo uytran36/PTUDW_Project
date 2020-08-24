@@ -1,11 +1,11 @@
 
 function Product(x)
 {
-    fetch('http://localhost:3000/API/phone',
+    var name_phone = x.children[3].innerHTML;
+    var url = 'http://localhost:3000/API/phone/search?q='+name_phone
+    fetch(url,
         {
-    
-     method: 'GET'
-        
+            method: 'GET'
         }).then(onResponse)
         .then(onJsonReady);
 
@@ -15,19 +15,6 @@ function Product(x)
         }
         function onJsonReady(data)
         {
-            var name_phone = x.children[3].innerHTML;
-            for(items of data)
-            {
-                // if(items.name == name_phone)
-                // {
-                //     x.href = "/acceuil/1";
-                // }
-                // if(items.name == name_phone)
-                // {
-                //     console.log();
-                // }
-                console.log(items);
-            }
-            
+            location.href = "acceuil/"+name_phone
         }
 }

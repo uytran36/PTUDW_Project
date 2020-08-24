@@ -6,7 +6,7 @@ const ctrlPage = require('../controllers/details')
 
 router.get('/', ctrlPage.homepage)
 
-router.get('/:id', ctrlPage.detail)
+router.get('/:name_phone', ctrlPage.detail)
 
 
 module.exports = router;
