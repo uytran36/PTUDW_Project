@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 const path = require('path');
 // database
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/web_dienthoai')
+mongoose.connect('mongodb://localhost/web_dienthoai', {useNewUrlParser: true, useUnifiedTopology: true})
 
 
 var port =3000;
@@ -18,11 +18,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 var indexRoutes = require('./routes/index')
 var payerRoutes = require('./routes/payer')
-var APIPhoneRoute = require('./API/routes/phone.api.routes')
+var APIPhoneRoute = require('./API/routes/phone.api.routes');
+const { response } = require('express');
 
 app.use('/acceuil', indexRoutes)
 app.use('/', payerRoutes);
 app.use('/API/phone', APIPhoneRoute)
+app.use('/search', indexRoutes)
 
 
 app.listen(port, function()

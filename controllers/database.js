@@ -887,8 +887,7 @@ var xiaomiMI = [
     }
 ]
 
-<<<<<<< HEAD
-=======
+
 //Redmi Series
 var xiaomiRM = [
     // Redmi 7
@@ -1058,9 +1057,6 @@ var xiaomiRM = [
     }
 ]
 
-
-
->>>>>>> cffcacdb3aab7ce1a6c19b3978a2b3fe120ac7a3
 
 module.exports = iPhone;
 module.exports = samsungA;

@@ -15,6 +15,4 @@ module.exports.FindPhone = async function(req, res)
         res.json(phones)
     }
     )
-
-
 }
