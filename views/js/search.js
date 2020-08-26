@@ -1,7 +1,7 @@
 var btnSearch = document.getElementById("btn-search");
 btnSearch.onclick = function(){
     var name_phone = document.getElementById("txtSearch").value;
-    var url = 'http://localhost:3000/API/phone/search?q='+name_phone
+    var url = 'http://localhost:3000/API/phone/search?q=' + name_phone;
     fetch(url,
         {
             method: 'GET'
