@@ -39,7 +39,7 @@ document.getElementById("ship-checkbox").onclick = function(e)
 var list_product = JSON.parse(localStorage.getItem('list_product'))
 HienThiDanhSach()
 
-
+var string_total='';
 function HienThiDanhSach()
 { 
     var bill = document.getElementById("menu_product")
@@ -58,8 +58,9 @@ function HienThiDanhSach()
     }
     _total = total.reduce((a,b)=>a+b,0)
     console.log(_total)
-    var string_total =_total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    string_total =_total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     var total_prix = document.getElementById("total_order");
+    localStorage.setItem('Total', string_total)
     total_prix.innerHTML =  '   <th colspan="2">Tổng</th>  '  + 
     '                      <td><strong><span class="_Price" style="color:red;font-size:18px">'+string_total+'&nbsp;<span class="_Price">₫</span></span></strong></td>  ' ; 
     bill.innerHTML = html;
@@ -82,6 +83,11 @@ function xoa(x)
     }
     var json_list_product = JSON.stringify(list_product)
     localStorage.setItem('list_product', json_list_product)
+}
+
+function bill()
+{
+    location.href = '/bill';
 }
 
 CheckArrayNull()
