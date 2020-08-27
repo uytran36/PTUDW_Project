@@ -2,9 +2,6 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 const path = require('path');
-// database
-var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/web_dienthoai', {useNewUrlParser: true, useUnifiedTopology: true});
 
 
 var port =3000;
@@ -32,4 +29,3 @@ app.listen(port, function()
 {
     console.log('Server listening on port ' + port);
 })
-

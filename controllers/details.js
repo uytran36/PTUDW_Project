@@ -22,6 +22,10 @@ const payer=(req,res)=>
 {
     res.render('thanh_toan');
 }
+const bill=(req,res)=>
+{
+    res.render('bill');
+}
 
 const search=(req,res)=>{
     var name_phone = req.params.name_phone.toLowerCase();
@@ -44,5 +48,6 @@ module.exports = {
     homepage,
     detail,
     payer,
-    search
+    search,
+    bill
 }

@@ -18,3 +18,4 @@ function Product(x)
             location.href = "acceuil/"+name_phone
         }
 }
+

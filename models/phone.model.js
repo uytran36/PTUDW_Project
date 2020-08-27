@@ -1,4 +1,14 @@
 var mongoose = require('mongoose')
+mongoose.connect('mongodb://localhost/web_dienthoai', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connection.on('open', function()
+{
+    console.log('Connect success!')
+})
+mongoose.connection.on('error', function(err)
+{
+    console.log('err')
+})
+
 
 var phoneSchema = new mongoose.Schema({
     name: String,
