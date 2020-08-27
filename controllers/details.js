@@ -1,18 +1,10 @@
-var phone = require('../models/phone.model')
+var phone = require('../models/phone.model');
+const { render } = require('pug');
 
 const homepage=(req,res)=>
 {
     res.render('acceuil')
 }
-// const detail=(req,res)=>
-// {
-//     var name_phone = req.params.name_phone;
-//     phone.find({name:name_phone}).then(function(phones)
-//     {
-//         res.render('detail/detail', {phones: phones[0]})
-//     }
-//     )
-// }
 const detail=(req,res)=>
 {
     var name_phone = req.params.name_phone;
@@ -22,23 +14,40 @@ const detail=(req,res)=>
         res.render('detail/detail', {phones: phones[0]})
     })
     .catch(() => {
-        res.render('detail/thanh_toan')
+        res.render('notfound')
     })
 }
+
 const payer=(req,res)=>
 {
     res.render('thanh_toan');
 }
-
-const bill = (req,res)=>
+const bill=(req,res)=>
 {
-    res.render('bill')
+    res.render('bill');
 }
 
+const search=(req,res)=>{
+    var name_phone = req.params.name_phone.toLowerCase();
+    var flag = false;
+    phone.find().then(function(phones){
+        for (var p of phones)
+            if (p.name.toLowerCase() == name_phone){
+                flag = true   
+                res.render('detail/detail', {phones: phones[phones.indexOf(p)]});
+            }
+            if(!flag)    
+                throw new Error('Not found');
+    })
+    .catch(() => {
+        res.render('notfound')
+    })
+}
 
 module.exports = {
     homepage,
     detail,
     payer,
+    search,
     bill
 }
