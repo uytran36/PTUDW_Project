@@ -1,5 +1,5 @@
-var btnSearch = document.getElementById("btn-search");
-btnSearch.onclick = function(){
+var form = document.getElementById("formSearch");
+form.onsubmit = function(){
     var name_phone = document.getElementById("txtSearch").value;
     var url = 'http://localhost:3000/API/phone/search?q=' + name_phone;
     fetch(url,
@@ -14,6 +14,6 @@ btnSearch.onclick = function(){
         }
         function onJsonReady(data)
         {
-            location.href = "search/"+name_phone
+            location.href = "search/"+name_phone;
         }
 }

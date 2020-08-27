@@ -18,7 +18,7 @@ head
       a#logo.navbar-brand(href='acceuil')
         img#kdm(src='image/KDM.png')
       #navbarSupportedContent
-        form.form-inline.my-2.my-lg-0(action="/API/phone/search", method="GET")
+        form.form-inline.my-2.my-lg-0(action="/API/phone/search", method="GET" id="formSearch")
           input.form-control.mr-sm-2(id='txtSearch', type='search', placeholder='Rechercher sur KDM', aria-label='Search')
           // button submit
           button#btn-search(type='submit')
