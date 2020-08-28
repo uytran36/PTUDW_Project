@@ -6,5 +6,6 @@ var router = express.Router();
 
 router.get('/', controller.index);
 router.get('/search', controller.FindPhone);
+router.get('/keyword', controller.RelativePhone);
 module.exports = router;
 

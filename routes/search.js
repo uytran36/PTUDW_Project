@@ -3,6 +3,6 @@ var router = express.Router();
 
 const searchPage = require('../controllers/details')
 
-router.get('/:name_phone', searchPage.search)
+router.get('/', searchPage.search)
 
 module.exports = router
