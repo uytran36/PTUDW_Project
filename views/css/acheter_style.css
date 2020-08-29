@@ -488,3 +488,17 @@ div.navbar span {
     top: 2px;
   }
   
+  div.warning 
+  {
+    font-size: 13px;
+    padding: 0.2em 15px 0.5em 3.5em;
+    margin: 0 0 15px;
+    position: relative;
+    background-color: #fff;
+    color: red;
+    border: 1px solid #c21d32;
+    border-radius: 4px;
+    list-style: none outside;
+    width: auto;
+    height:50px;
+  }

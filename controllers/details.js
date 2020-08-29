@@ -44,10 +44,34 @@ const search=(req,res)=>{
     })
 }
 
+const post_comment=(req,res)=>
+{
+    var name_phone = req.params.name_phone;
+    phone.update(
+        {name:name_phone},
+        { $push:
+            { feedback: req.body}},
+        {new:true},
+        function(err, result)
+        {
+            if(err)
+            {
+                console.log(err)
+            }
+            console.log(result)
+        }
+    )
+    res.redirect('/acceuil/'+name_phone)
+    console.log(req.body)
+}
+
+
+
 module.exports = {
     homepage,
     detail,
     payer,
     search,
-    bill
+    bill,
+    post_comment
 }

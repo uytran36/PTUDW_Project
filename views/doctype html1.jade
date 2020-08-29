@@ -7,10 +7,6 @@ head
   link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css', integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk', crossorigin='anonymous')
   link(rel='stylesheet', href='css/acheter_style.css')
   link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
-  style.
-    html {
-    scroll-behavior: smooth;
-    }
 #header
   nav#nav_bar.navbar.navbar-expand-lg.navbar-light
     // phần để tạo 3 dấu gạch
@@ -78,10 +74,9 @@ head
     .content1
       .bill
         .navbar(style='margin-bottom: 10px;')
-          a(href='#', style='margin-left:-10px; margin-bottom:0px')
+          a(href='/acceuil', style='margin-left:-10px; margin-bottom:0px')
             | Mua th&ecirc;m s&#x1EA3;n ph&#x1EA9;m kh&aacute;c
           span Gi&#x1ECF; h&agrave;ng c&#x1EE7;a b&#x1EA1;n
-        #_warning
         #payer_minh.payer
           h3 Th&ocirc;ng tin thanh to&aacute;n
           form
@@ -184,65 +179,65 @@ head
                   span.optional (tu&#x1EF3; ch&#x1ECD;n)
                 span.input-wrapper(style='width:100%')
                   input#billing_last_name.input-text(type='text', placeholder='Ghi chú về đơn hàng, ví dụ: thời gian hay chỉ dẫn địa điểm giao hàng chi tiết hơn.', value='', style='margin-top:0px' required)
-              .bill1
-                table.bill1_table
-                  thead
-                    tr
-                      th#th.product-remove Xo&aacute;
-                      th#th.product-name S&#x1EA3;n ph&#x1EA9;m
-                      th#th.product-total T&#x1ED5;ng
-                  tbody#menu_product
-                  //
-                    tr.product_1
+          .bill1
+            table.bill1_table
+              thead
+                tr
+                  th#th.product-remove Xo&aacute;
+                  th#th.product-name S&#x1EA3;n ph&#x1EA9;m
+                  th#th.product-total T&#x1ED5;ng
+              tbody#menu_product
+              //
+                tr.product_1
 
-                        <td><a href="#" class="remove" aria-label="Xóa sản phẩm này" data-product_id="" data-product_sku="">×</a></td>
-                        <td class="product-name">
-                        Asus ROG Phone 3 (Strix Edition) - Black&nbsp;<strong class="product-quantity">× 1</strong><br></td>
-                        <td class="product-total">
-                        <span class="prix">13,450,000&nbsp;<span class="class_prix">₫</span></span></td>
-                  tfoot
-                    tr.cart-subtotal
-                      //
-                        <th colspan="2">Tạm tính</th>
-                        <td><span class="Price">58,480,000&nbsp;<span>₫</span></span></td>
-                    tr.shipping-totals.shipping
-                      th(colspan='2') Giao h&agrave;ng
-                      td
-                        span.Price mi&#x1EC5;n ph&iacute;
-                    tr.order-total
-                      th(colspan='2') Dung l&#x1B0;&#x1EE3;ng - 8GB/128GB
-                      td
-                        strong
-                          span._Price
-                            | 0&nbsp;
-                            span._Price &#x20AB;
-                    tr.order-total
-                      th(colspan='2')
-                        | G&oacute;i b&#x1EA3;o h&agrave;nh - Icare (12 th&aacute;ng ph&#x1EA7;n c&#x1EE9;ng kh&ocirc;ng bao g&#x1ED3;m ngu&#x1ED3;n, m&agrave;n h&igrave;nh v&agrave; v&acirc;n tay)
-                      td
-                        strong
-                          span._Price
-                            | 0&nbsp;
-                            span._Price &#x20AB;
-                    tr#total_order.order-total
-                      //
-                        <th colspan="2">Tổng</th>
-                        <td><strong><span class="_Price" style="color:red;font-size:18px">58,480,000&nbsp;<span class="_Price">₫</span></span></strong></td>
-              .payment
-                ul.payment1
-                  li
-                    input(type='radio', name='op', value='bacs', checked='')
-                    span(style='margin-left:15px') Chuy&#x1EC3;n kho&#x1EA3;n ng&acirc;n h&agrave;ng
-                  li
-                    input(type='radio', name='op', value='')
-                    span(style='margin-left:15px; margin-top:10px') Tr&#x1EA3; ti&#x1EC1;n khi nh&acirc;n h&agrave;ng
-                .confirm
-                  .confirm1
-                    p
-                      | Th&ocirc;ng tin c&aacute; nh&acirc;n c&#x1EE7;a b&#x1EA1;n s&#x1EBD; &dstrok;&#x1B0;&#x1EE3;c s&#x1EED; d&#x1EE5;ng &dstrok;&#x1EC3; x&#x1EED; l&yacute; &dstrok;&#x1A1;n &dstrok;&#x1EB7;t h&agrave;ng c&#x1EE7;a b&#x1EA1;n, h&#x1ED7; tr&#x1EE3; tr&#x1EA3;i nghi&#x1EC7;m c&#x1EE7;a b&#x1EA1;n tr&ecirc;n to&agrave;n b&#x1ED9; trang web v&agrave; cho c&aacute;c m&#x1EE5;c &dstrok;&iacute;ch kh&aacute;c &dstrok;&#x1B0;&#x1EE3;c m&ocirc; t&#x1EA3; trong 
-                      a.woocommerce-privacy-policy-link(href='https://clickbuy.com.vn/?page_id=3', target='_blank') ch&iacute;nh s&aacute;ch ri&ecirc;ng t&#x1B0;
-                      |  c&#x1EE7;a ch&uacute;ng t&ocirc;i.
-                    button#place_order.button_alt(type='submit', value='Đặt hàng', data-value='Đặt hàng' onclick="return page()") &Dstrok;&#x1EB7;t h&agrave;ng
+                    <td><a href="#" class="remove" aria-label="Xóa sản phẩm này" data-product_id="" data-product_sku="">×</a></td>
+                    <td class="product-name">
+                    Asus ROG Phone 3 (Strix Edition) - Black&nbsp;<strong class="product-quantity">× 1</strong><br></td>
+                    <td class="product-total">
+                    <span class="prix">13,450,000&nbsp;<span class="class_prix">₫</span></span></td>
+              tfoot
+                tr.cart-subtotal
+                  //
+                    <th colspan="2">Tạm tính</th>
+                    <td><span class="Price">58,480,000&nbsp;<span>₫</span></span></td>
+                tr.shipping-totals.shipping
+                  th(colspan='2') Giao h&agrave;ng
+                  td
+                    span.Price mi&#x1EC5;n ph&iacute;
+                tr.order-total
+                  th(colspan='2') Dung l&#x1B0;&#x1EE3;ng - 8GB/128GB
+                  td
+                    strong
+                      span._Price
+                        | 0&nbsp;
+                        span._Price &#x20AB;
+                tr.order-total
+                  th(colspan='2')
+                    | G&oacute;i b&#x1EA3;o h&agrave;nh - Icare (12 th&aacute;ng ph&#x1EA7;n c&#x1EE9;ng kh&ocirc;ng bao g&#x1ED3;m ngu&#x1ED3;n, m&agrave;n h&igrave;nh v&agrave; v&acirc;n tay)
+                  td
+                    strong
+                      span._Price
+                        | 0&nbsp;
+                        span._Price &#x20AB;
+                tr#total_order.order-total
+                  //
+                    <th colspan="2">Tổng</th>
+                    <td><strong><span class="_Price" style="color:red;font-size:18px">58,480,000&nbsp;<span class="_Price">₫</span></span></strong></td>
+          .payment
+            ul.payment1
+              li
+                input(type='radio', name='op', value='bacs', checked='')
+                span(style='margin-left:15px') Chuy&#x1EC3;n kho&#x1EA3;n ng&acirc;n h&agrave;ng
+              li
+                input(type='radio', name='op', value='')
+                span(style='margin-left:15px; margin-top:10px') Tr&#x1EA3; ti&#x1EC1;n khi nh&acirc;n h&agrave;ng
+            .confirm
+              .confirm1
+                p
+                  | Th&ocirc;ng tin c&aacute; nh&acirc;n c&#x1EE7;a b&#x1EA1;n s&#x1EBD; &dstrok;&#x1B0;&#x1EE3;c s&#x1EED; d&#x1EE5;ng &dstrok;&#x1EC3; x&#x1EED; l&yacute; &dstrok;&#x1A1;n &dstrok;&#x1EB7;t h&agrave;ng c&#x1EE7;a b&#x1EA1;n, h&#x1ED7; tr&#x1EE3; tr&#x1EA3;i nghi&#x1EC7;m c&#x1EE7;a b&#x1EA1;n tr&ecirc;n to&agrave;n b&#x1ED9; trang web v&agrave; cho c&aacute;c m&#x1EE5;c &dstrok;&iacute;ch kh&aacute;c &dstrok;&#x1B0;&#x1EE3;c m&ocirc; t&#x1EA3; trong 
+                  a.woocommerce-privacy-policy-link(href='https://clickbuy.com.vn/?page_id=3', target='_blank') ch&iacute;nh s&aacute;ch ri&ecirc;ng t&#x1B0;
+                  |  c&#x1EE7;a ch&uacute;ng t&ocirc;i.
+                button#place_order.button_alt(type='submit', value='Đặt hàng', data-value='Đặt hàng' onclick="return page()") &Dstrok;&#x1EB7;t h&agrave;ng
 #footer.container
   .row
     .col
@@ -301,22 +296,22 @@ script.
   placeholder.push(items.placeholder)
   }
   }
-  // location.href = 'bill.html'
-  if(placeholder.length == 0)
-  location.href = '/bill'
-  else
-  {
-  var alert = document.getElementById("_warning");
-  var html =  '   <div class="warning">  '  +
-  '                       <ul class="alert">  '  +
-  '                           <li>  '  +
-  '                               <strong>Lưu ý:<span style="color:red"> (*)</span> là mục bắc buộc phải nhập  '  +
-  '                           </li>  '  +
-  '             '  +
-  '                       </ul>  '  +
-  '                  </div>  ' ;
-  alert.innerHTML = html;
-  }
+  
+   location.href = '/bill'
+  //- if(placeholder.length == 0)
+  //- location.href = '/bill'
+  //- else
+  //- {
+  //- var alert = document.getElementById("_warning");
+  //- var html =  '   <div class="warning">  '  +
+  //- '                       <ul class="alert">  '  +
+  //- '                           <li>  '  +
+  //- '                               <strong>Lưu ý:<span style="color:red"> (*)</span> là mục bắc buộc phải nhập  '  +
+  //- '                           </li>  '  +
+  //- '             '  +
+  //- '                       </ul>  '  +
+  //- '                  </div>  ' ;
+  //- alert.innerHTML = html;
   }
 
 script(src='js/promotion_detail.js')

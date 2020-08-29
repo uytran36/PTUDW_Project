@@ -21,3 +21,6 @@ function bill()
     }
     tbody.innerHTML = html;
 }
+
+localStorage.removeItem('list_product')
+localStorage.removeItem('Total')

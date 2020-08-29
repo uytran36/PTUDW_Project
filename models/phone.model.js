@@ -25,7 +25,10 @@ var phoneSchema = new mongoose.Schema({
     memoire: String, 
     do_phan_giai: String,
     dung_luong_pin: String,
+    feedback: [{rating:String, name: String, binhluan: String, mail:String}]
 });
+
 var phone = mongoose.model('phone', phoneSchema, 'phone');
+
 
 module.exports = phone;
