@@ -29,15 +29,17 @@ const bill=(req,res)=>
 
 const search=(req,res)=>{
     var keyword = req.query.keyword.toLowerCase();
-    var flag = false;
+    var keyword2 = req.query.keyword;
+    var result = [];
     phone.find().then(function(phones){
         for (var p of phones)
-            if (p.name.toLowerCase() == keyword){
-                flag = true   
-                res.render('detail/detail', {phones: phones[phones.indexOf(p)]});
-            }
-            if(!flag)    
-                throw new Error('Not found');
+            if (p.name.toLowerCase().indexOf(keyword) !== -1){
+                result.push(p);
+            }  
+        if(result.length !== 0)        
+            res.render('search_phone/search_phone', {phones: result, keyword2});
+        else    
+            throw new Error('Not found');
     })
     .catch(() => {
         res.render('error/error')
