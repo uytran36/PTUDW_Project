@@ -1,6 +1,10 @@
+
+*{
+    box-sizing: border-box;
+}
 body {
     background-color: whitesmoke;
-    font: 14px/18px Helvetica,Arial,sans-serif;
+    font: 15px Helvetica,Arial,sans-serif;
 }
 /*HEADER VÀ FOOTER*/
 .wrapMenu {
@@ -124,80 +128,73 @@ div.container{
 #footer {
     margin-top: 10px;
 }
-/*END OF HEADER AND FOOTER*/
-div.container{
-    background-color: white;
-    border: solid 1px whitesmoke;
+/*END OF HEADER, FOOTER*/
+
+
+#type_phone{
+    margin: 0 auto;
+}
+#row1 .btn{
+    background-color:#ff9c00;
+    font-size: 15px;
+    width:119px;
+    text-align: center;
+    margin-left: 5px;
+    color: #F2E6CE;
+}
+#row1 .btn_main{
+    background-color: #D95829;
+}
+#row1 .btn:hover{
+    background-color: #D95829;
+}
+#navBar{
+    width: 1138px;
+    margin-left: 5px;
+}
+#navBar nav a{
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+#sort
+{
+    align-content: center;
+    padding-bottom: 11px;
+    color: #D95829 ;
+}
+.name_phone nav a:hover{
+    color: #18778C;
+}
+.dropdown-menu a
+{
+    font-size:14px;
+    text-align: center;
+    margin-left: 1em;
+    width: fit-content;
+    padding-left: 1em;
+}
+.dropdown-menu a:hover{
+    background-color: #F2E6CE;
+    color: #18778C;
 }
 
-ul{
-    list-style-type: none;
-}
-.fa-mobile-phone{
-    text-align: center;
-}
-.fa-apple{
-    text-align: center;
-}
-.container{
-    width: 100%;
-    padding: 0;
-    margin-top: 20px;
-}
-#banner1{
-    margin-top: 1px;
-    width: 100%;
-    height: 48%;
-}
-#banner2{
-    width: 100%;
-    height: 48%;
-    margin-top: 16px;
-}
-#promotion{
-    box-sizing: content-box;
-    height: 40px;
-    width: 1138px;
-    text-align: center;
-    margin-top: 20px;
-    margin-left: 15px;
-    padding-top: 15px;
-    background-color: #F2E6CE;
-    color: #BF3326;
-}
-#promotion a{
-    color: #BF3326;
-    text-decoration: none;
-}
-#promotion_banner{
-    box-sizing: content-box;
-    width: 1138px;
-    height: 35px;
-    text-align: center;
-    margin-top: 20px;
-    margin-left: 15px;
-    padding-top: 10px;
-    background-color: #BF3326;
-    color: #f1f1f1;
-}
-#title_phone{
-    padding-top: 6px;
-}
 .product{
     background-color: white;
     border: solid 1px whitesmoke;
-    float: left;
-    height: 350px;
-    width: 227.7px;
+    height: 380px;
+    width: 228px;
 }
-.product a img {
+.product img{
     width: 180px;
-    height: 180px;
+    height:180px;
     margin: 30px 20px;
 }
-.manager_product{
-    margin-left: 30px;
+
+.name_phone{
+    text-align: justify;
+    margin-left: 5px;
 }
+
 .info_promotion{
     width: fit-content;
     padding: 1px 5px;
@@ -208,10 +205,7 @@ ul{
     border-radius: 4px;
     margin: 0 auto;
 }
-.name_phone{
-    text-align: justify;
-    margin-left: 5px;
-}
+
 .product a{
     color: black;
     text-decoration: none;
@@ -219,6 +213,7 @@ ul{
 .product a:hover{
     color: #18778C;
     font-weight: bold;
+    cursor: pointer;
 }
 .product img:hover{
     margin-top: 25px;
@@ -231,54 +226,31 @@ ul{
     text-align: justify;
     margin-left: 5px;
 }
-.promo_price{
-    text-align: justify;
-    margin-left: 5px;
-    font-weight: bold;
-    font-size: 11px;
-    color: black;
-}
-#row4{
-    margin-top: 2em;
-}
-#title_phone{
-    float: left;
-    text-align: left;
-    padding-left: 2%;
-}
-#type_phone{
-    margin-left:50%;
+
+.btnBuy{
     float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 40px;
+    width: 80px;
+    border: solid 1px red;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
 }
-#type_phone .btn{
-    margin-left: 5px;
+#mua_ngay{
+    color: #D95829
 }
-#list_phone1{
-    margin-top: 2%;
+#mua_ngay:hover{
+    color: white;
 }
-#row4{
-    background-color: #18778C;
-    width: 1138px;
-    margin-left: 0%;
-    height: 53px;
-    align-content: center;
-    color: #F2E6CE;
+.btnBuy:hover {
+    background-color: #D95829;
 }
-#row5{
-    margin-top: -2%;
-}
+
 .product:hover{
     box-shadow: 0 0 11px rgba(33,33,33,.2); 
-}
-.btn{
-    background-color: #ff9c00;
-}
-.btn:hover{
-    background-color: #D95829;
-    color: #F2E6CE;
-}
-.btn{
-    color: #F2E6CE;
 }
 @media screen and (max-width: 1100px) {
     .line {
@@ -348,10 +320,6 @@ ul{
     #navbarSupportedContent input {
         width: 300px;
         margin-top: -7px;
-    }
-
-    #promo, #news {
-        color: black;
     }
 }
 
@@ -425,8 +393,6 @@ ul{
         width: 150px;
         margin-top: -7px;
     }
-    
-    #promo, #news {
-        color: black;
-    }
 }
+
+

@@ -46,6 +46,13 @@ const search=(req,res)=>{
     })
 }
 
+const type=(req, res) =>{
+    var type_phone = req.params.type_phone;
+    phone.find({type: type_phone}).then(function(phones){
+        res.render('type_phone/type_phone', {phones: phones});
+    })
+}
+
 const post_comment=(req,res)=>
 {
     var name_phone = req.params.name_phone;
@@ -74,6 +81,7 @@ module.exports = {
     detail,
     payer,
     search,
+    type,
     bill,
     post_comment
 }

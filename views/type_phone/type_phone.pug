@@ -1,0 +1,168 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  title Minh
+  link(rel='icon', href='image/logo.png')
+  link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css', integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk', crossorigin='anonymous')
+  link(rel='stylesheet', href='../css/type_phone.css')
+  link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+#header
+  nav#nav_bar.navbar.navbar-expand-lg.navbar-light
+    // phần để tạo 3 dấu gạch
+    .hamburger
+      .line
+      .line
+      .line
+    .wrapHead
+      a#logo.navbar-brand(href='acceuil.html')
+        img#kdm(src='../image/KDM.png')
+      #navbarSupportedContent
+        form.form-inline.my-2.my-lg-0(id="formSearch", method="GET")
+          input.form-control.mr-sm-2(id='txtSearch', type='search', placeholder='Rechercher sur KDM', aria-label='Search', name="keyword")
+          // button submit
+          button#btn-search(type='submit')
+            svg.bi.bi-search(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+              path(fill-rule='evenodd', d='M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z')
+              path(fill-rule='evenodd', d='M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z')
+          // end of button submit
+      // kết thúc phần để tạo 3 dấu gạch
+      .wrapMenu
+        // button iphone
+        .dropdown
+          button.dropbtn
+            span.fa.fa-apple
+              br
+              | IPHONE
+          .dropdown-content
+            a(href='#') Iphone 11 | 11 Pro Max
+            a(href='#') Iphone XS | XS Max
+            a(href='#') Iphone X | XR
+            a(href='') Iphone 8 | 8 Plus
+            a(href='') Iphone 7 | 7 Plus
+            a(href='') Iphone 6 | 6 Plus
+        // end of button iphone
+        // button phone
+        .dropdown
+          button.dropbtn
+            span.fa.fa-mobile-phone
+              br
+              | PHONE
+          .dropdown-content
+            a(href='#') Samsung
+            a(href='#') Oppo
+            a(href='#') Xiaomi
+            a(href='') Huawei
+            a(href='') Vivo
+        // end of button phone
+        // button promotion
+        .dropdown
+          button.dropbtn
+            span.fa.fa-percent
+              br
+              a(href='promotion.html')
+              |                 PROMOTION
+        // end of button promotion
+        // button news
+        .dropdown
+          button.dropbtn
+            span.fa.fa-newspaper-o
+              br
+              a(href='news.html')
+              |                 NEWS
+        // end of button news
+.container
+  #row1.row
+    case phones[0].type
+      when 'xiaomiMI'
+        #type_phone
+          .btn.btn_main(type='button', id='btnXiaomi') Xiaomi
+          .btn(type='button', id='btnIphone') iPhone
+          .btn(type='button', id='btnSamsung') Samsung
+          .btn(type='button', id='btnSony') Sony
+      when 'iPhone'
+        #type_phone
+          .btn(type='button', id='btnXiaomi') Xiaomi
+          .btn.btn_main(type='button', id='btnIphone') iPhone
+          .btn(type='button', id='btnSamsung') Samsung
+          .btn(type='button', id='btnSony') Sony
+      when 'samsung'
+        #type_phone
+          .btn(type='button', id='btnXiaomi') Xiaomi
+          .btn(type='button', id='btnIphone') iPhone
+          .btn.btn_main(type='button', id='btnSamsung') Samsung
+          .btn(type='button', id='btnSony') Sony
+      when 'sony'
+        #type_phone
+          .btn(type='button', id='btnXiaomi') Xiaomi
+          .btn(type='button', id='btnIphone') iPhone
+          .btn(type='button', id='btnSamsung') Samsung
+          .btn.btn_main(type='button', id='btnSony') Sony
+    
+  hr
+  #row2.row
+    #navBar.navbar
+      h4 &Dstrok;i&#x1EC7;n tho&#x1EA1;i
+      nav
+        a(href='#') D&#x1B0;&#x1EDB;i 3 tri&#x1EC7;u
+        a(href='#') T&#x1EEB; 3-7 tri&#x1EC7;u
+        a(href='#') T&#x1EEB; 7-10 tri&#x1EC7;u
+        .dropdown
+          button#sort.btn.btn.dropdown-toggle(type='button', data-toggle='dropdown') S&#x1EAF;p x&#x1EBF;p
+          .dropdown-menu
+            a.dropdown-item(href='#') Gi&aacute; th&#x1EA5;p &dstrok;&#x1EBF;n cao
+            a.dropdown-item(href='#') Gi&aacute; cao &dstrok;&#x1EBF;n th&#x1EA5;p
+  .row#manager_product  
+    each phone in phones
+      .product
+        a(onclick='return Product(this)')
+          img(src=phone.img)
+          .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+          br
+          .name_phone #{phone.name}
+          .price #{phone.prix}&dstrok;
+        a#mua_ngay.btnBuy(href='/payer') Mua ngay
+// footer
+#footer.container
+  .row
+    .col
+      p TH&Ocirc;NG TIN H&#x1ED6; TR&#x1EE2;
+      hr
+      ul
+        li
+          a(href='') Ch&iacute;nh s&aacute;ch b&#x1EA3;o h&agrave;nh
+        li
+          a(href='politique_client.html') Ch&iacute;nh s&aacute;ch b&#x1EA3;o m&#x1EAD;t th&ocirc;ng tin kh&aacute;ch h&agrave;ng
+    .col
+      p TH&Ocirc;NG TIN LI&Ecirc;N L&#x1EA0;C
+      hr
+      ul
+        | S&#x1ED1; &dstrok;i&#x1EC7;n tho&#x1EA1;i:
+        li
+          | 0941.559.273
+        li
+          | 0937.022.743
+        |           Email:
+        li
+          | kdmobile@gmail.com
+        li
+          | kdmobile@yahoo.com
+    .col
+      p &Dstrok;&#x1ECB;a ch&#x1EC9; c&#x1EED;a h&agrave;ng
+      hr
+      ul
+        li
+          | 252 V&otilde; V&abreve;n Ng&acirc;n, Th&#x1EE7; &Dstrok;&#x1EE9;c, HCM
+        li
+          | 290 Ho&agrave;ng V&abreve;n Th&#x1EE5;, T&acirc;n B&igrave;nh, HCM
+        li
+          | 43 C&#x1EA7;u Gi&#x1EA5;y, H&agrave; N&#x1ED9;i
+        li
+          | 453 Nguy&#x1EC5;n Tr&atilde;i, H&agrave; N&#x1ED9;i
+script(src='../js/promotion_detail.js')
+script(src='../js/trang_sanpham/sanpham.js')
+script(src='../js/search.js')
+script(src='../js/type_phone.js')
+script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js', integrity='sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj', crossorigin='anonymous')
+script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo', crossorigin='anonymous')
+script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js', integrity='sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI', crossorigin='anonymous')

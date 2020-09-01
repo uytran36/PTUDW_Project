@@ -15,7 +15,7 @@ function Product(x)
         }
         function onJsonReady(data)
         {
-            location.href = "acceuil/"+name_phone
+            location.href = "../acceuil/"+name_phone
         }
 }
 
