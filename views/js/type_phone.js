@@ -4,17 +4,21 @@ var btnSamsung = document.getElementById('btnSamsung');
 var btnSony = document.getElementById('btnSony');
 
 btnXiaomi.onclick = function(){
-    location.href = '../search/xiaomiMI';
+    localStorage.setItem('name_phone', 'xiaomi');
+    location.href = '../type/xiaomiMI';
 }
 
 btnIphone.onclick = function(){
-    location.href = '../search/iPhone';
+    localStorage.setItem('name_phone', 'iphone');
+    location.href = '../type/iPhone';
 }
 
 btnSamsung.onclick = function(){
-    location.href = '../search/samsung';
+    localStorage.setItem('name_phone', 'samsung');
+    location.href = '../type/samsung';
 }
 
 btnSony.onclick = function(){
-    location.href = '../search/sony';
+    localStorage.setItem('name_phone', 'sony');
+    location.href = '../type/sony';
 }

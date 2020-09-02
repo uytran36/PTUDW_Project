@@ -35,7 +35,7 @@ const search=(req,res)=>{
         for (var p of phones)
             if (p.name.toLowerCase().indexOf(keyword) !== -1){
                 result.push(p);
-            }  
+            }
         if(result.length !== 0)        
             res.render('search_phone/search_phone', {phones: result, keyword2});
         else    
@@ -53,6 +53,68 @@ const type=(req, res) =>{
     })
 }
 
+const sort=(req,res) =>{
+    var keyword = req.query.keyword.toLowerCase();
+    var keyword2 = req.query.keyword;
+    var result = [];
+    var price = req.query.price;
+    switch (price){
+        case '0-5m':
+            var itemPrice = 5000000;
+            phone.find().then(function(phones){
+            for (var p of phones){
+                var prix = p.prix.replace(/[.,]/g,'')
+                prix = parseInt(prix);
+                if (p.name.toLowerCase().indexOf(keyword) !== -1 && prix <= itemPrice)
+                    result.push(p);   
+            } 
+                if(result.length !== 0)        
+                    res.render('search_phone/search_phone', {phones: result, keyword2});
+                else    
+                    throw new Error('Not found');
+            })
+            .catch(() => {
+                res.render('error/error')
+            })
+            break;
+        case '5-10m':
+            var itemPrice = 10000000;
+            phone.find().then(function(phones){
+            for (var p of phones){
+                var prix = p.prix.replace(/[.,]/g,'')
+                prix = parseInt(prix);
+                if (p.name.toLowerCase().indexOf(keyword) !== -1 && 5000000 < prix && prix <= itemPrice)
+                    result.push(p);   
+            } 
+                if(result.length !== 0)        
+                    res.render('search_phone/search_phone', {phones: result, keyword2});
+                else    
+                    throw new Error('Not found');
+            })
+            .catch(() => {
+                res.render('error/error')
+            })
+            break;        
+        case '10m':
+            var itemPrice = 10000000;
+            phone.find().then(function(phones){
+            for (var p of phones){
+                var prix = p.prix.replace(/[.,]/g,'')
+                prix = parseInt(prix);
+                if (p.name.toLowerCase().indexOf(keyword) !== -1 && prix > itemPrice)
+                    result.push(p);   
+            } 
+                if(result.length !== 0)        
+                    res.render('search_phone/search_phone', {phones: result, keyword2});
+                else    
+                    throw new Error('Not found');
+            })
+            .catch(() => {
+                res.render('error/error')
+            })
+            break;        
+        }        
+}
 const post_comment=(req,res)=>
 {
     var name_phone = req.params.name_phone;
@@ -82,6 +144,7 @@ module.exports = {
     payer,
     search,
     type,
+    sort,
     bill,
     post_comment
 }
