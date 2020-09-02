@@ -136,7 +136,13 @@ const post_comment=(req,res)=>
     console.log(req.body)
 }
 
+const news=(req, res)=> {
+    res.render('news');
+}
 
+const promo=(req, res)=> {
+    res.render('promo');
+}
 
 module.exports = {
     homepage,
@@ -146,5 +152,7 @@ module.exports = {
     type,
     sort,
     bill,
-    post_comment
+    post_comment,
+    news,
+    promo
 }

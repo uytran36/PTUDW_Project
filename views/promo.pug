@@ -2,10 +2,10 @@ doctype html
 head
   meta(charset='UTF-8')
   meta(name='viewport', content='width=device-width, initial-scale=1.0')
-  title Minh
+  title Khuy&#x1EBF;n m&atilde;i
   link(rel='icon', href='image/logo.png')
   link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css', integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk', crossorigin='anonymous')
-  link(rel='stylesheet', href='../css/type_phone.css')
+  link(rel='stylesheet', href='css/style_promo.css')
   link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
 #header
   nav#nav_bar.navbar.navbar-expand-lg.navbar-light
@@ -15,11 +15,11 @@ head
       .line
       .line
     .wrapHead
-      a#logo.navbar-brand(href='../acceuil')
-        img#kdm(src='../image/KDM.png')
+      a#logo.navbar-brand(href='/acceuil')
+        img#kdm(src='image/KDM.png')
       #navbarSupportedContent
-        form.form-inline.my-2.my-lg-0(id="formSearch", method="GET")
-          input.form-control.mr-sm-2(id='txtSearch', type='search', placeholder='Rechercher sur KDM', aria-label='Search', name="keyword")
+        form.form-inline.my-2.my-lg-0
+          input.form-control.mr-sm-2(id='', type='search', placeholder='Rechercher sur KDM', aria-label='Search')
           // button submit
           button#btn-search(type='submit')
             svg.bi.bi-search(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
@@ -52,76 +52,87 @@ head
             a(href='/search/samsung') Samsung
             a(href='/search/sony') Sony
             a(href='/search/xiaomiMI') Xiaomi
-            a(href='') Huawei
-            a(href='') Vivo
         // end of button phone
         // button promotion
         .dropdown
           button.dropbtn
             span.fa.fa-percent
               br
-              a(href='promo')
-              |                 PROMOTION
+              a#promo(href='promo') PROMOTION
         // end of button promotion
         // button news
         .dropdown
           button.dropbtn
             span.fa.fa-newspaper-o
               br
-              a(href='news')
-              |                 NEWS
+              a#news(href='news') NEWS
         // end of button news
-.container
-  #row1.row
-    case phones[0].type
-      when 'xiaomiMI'
-        #type_phone
-          .btn.btn_main(type='button', id='btnXiaomi') Xiaomi
-          .btn(type='button', id='btnIphone') iPhone
-          .btn(type='button', id='btnSamsung') Samsung
-          .btn(type='button', id='btnSony') Sony
-      when 'iPhone'
-        #type_phone
-          .btn(type='button', id='btnXiaomi') Xiaomi
-          .btn.btn_main(type='button', id='btnIphone') iPhone
-          .btn(type='button', id='btnSamsung') Samsung
-          .btn(type='button', id='btnSony') Sony
-      when 'samsung'
-        #type_phone
-          .btn(type='button', id='btnXiaomi') Xiaomi
-          .btn(type='button', id='btnIphone') iPhone
-          .btn.btn_main(type='button', id='btnSamsung') Samsung
-          .btn(type='button', id='btnSony') Sony
-      when 'sony'
-        #type_phone
-          .btn(type='button', id='btnXiaomi') Xiaomi
-          .btn(type='button', id='btnIphone') iPhone
-          .btn(type='button', id='btnSamsung') Samsung
-          .btn.btn_main(type='button', id='btnSony') Sony
-    
-  hr
-  #row2.row
-    #navBar.navbar
-      h4 &Dstrok;i&#x1EC7;n tho&#x1EA1;i
-      nav
-        a(id='0-5m', href='#') D&#x1B0;&#x1EDB;i 5 tri&#x1EC7;u
-        a(id='5-10m', href='#') T&#x1EEB; 5-10 tri&#x1EC7;u
-        a(id='10m', href='#') Tr&ecirc;n 10 tri&#x1EC7;u
-        .dropdown
-          button#sort.btn.btn.dropdown-toggle(type='button', data-toggle='dropdown') S&#x1EAF;p x&#x1EBF;p
-          .dropdown-menu
-            a.dropdown-item(href='#') Gi&aacute; th&#x1EA5;p &dstrok;&#x1EBF;n cao
-            a.dropdown-item(href='#') Gi&aacute; cao &dstrok;&#x1EBF;n th&#x1EA5;p
-  .row#manager_product  
-    each phone in phones
+#body.container
+  .popularNews
+    .media
+      a(href='promotion_detail.html')
+        img.mr-3(src='img_promo/promo 1.png', alt='...', width='200px')
+      .media-body
+        .typeInfo Khuy&#x1EBF;n m&atilde;i
+        .datePost 05/07/2020
+        a(href='promotion_detail.html')
+          h5.mt-0 TH&Aacute;NG SI&Ecirc;U KHUY&#x1EBE;N M&Atilde;I &ndash; LAN TO&#x1EA2; Y&Ecirc;U TH&#x1AF;&#x1A0;NG &ndash; T&#x1EA0;I 43 C&#x1EA6;U GI&#x1EA4;Y V&Agrave; 453 NGUY&#x1EC4;N TR&Atilde;I
+        p T&#x1EAD;n h&#x1B0;&#x1EDF;ng nh&#x1EEF;ng &#x1B0;u &dstrok;&atilde;i h&#x1EA5;p d&#x1EAB;n t&#x1EA1;i 43 C&#x1EA7;u Gi&#x1EA5;y v&agrave; 453 Nguy&#x1EC5;n Tr&atilde;i nh&eacute;!
+  .popularNews
+    .media
+      a(href='promotion_detail2.html')
+        img.mr-3(src='img_promo/promo 5.jpg', alt='...', width='200px')
+      .media-body
+        .typeInfo Khuy&#x1EBF;n m&atilde;i
+        .datePost 20/06/2020
+        a(href='promotion_detail2.html')
+          h5.mt-0 Si&ecirc;u Sale cu&#x1ED1;i tu&#x1EA7;n &ndash; iPhone gi&aacute; kh&ocirc;ng t&#x1B0;&#x1EDF;ng!
+        p iPhone &dstrok;&atilde; gi&#x1EA3;m gi&aacute; s&#x1EAD;p s&agrave;n v&agrave;o cu&#x1ED1;i tu&#x1EA7;n n&agrave;y, c&ograve;n ch&#x1EA7;n ch&#x1EDD; g&igrave; n&#x1EEF;a b&#x1EA1;n &#x1A1;i?
+  h2#titleSale(style='text-align: center;') S&Abreve;N SALE M&#x1ED6;I NG&Agrave;Y
+  .row
+    .manager_product
       .product
-        a(onclick='return Product(this)')
-          img(src=phone.img)
+        a(href='#')
+          img(src='img_phone/iPhone/iPhone 11 Pro Max.jpg', alt='11_pro_max')
           .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
           br
-          .name_phone #{phone.name}
-          .price #{phone.prix}&dstrok;
-        a#mua_ngay.btnBuy(href='/payer') Mua ngay
+          .name_phone iPhone 11 Pro Max 64GB
+          .price 33.990.000&dstrok;
+          .promo_price Gi&#x1EA3;m th&ecirc;m 4.500.000&dstrok;
+      .product
+        a(href='#')
+          img(src='img_phone/iPhone/iPhone 11 Pro.jpg', alt='11_pro')
+          .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+          br
+          .name_phone iPhone 11 Pro 256GB
+          .price 34.990.000&dstrok;
+          .promo_price Gi&#x1EA3;m th&ecirc;m 4.000.000&dstrok;
+      .product
+        a(href='#')
+          img(src='img_phone/samsung/Samsung Note/SS Galaxy Note 10+.jpg', alt='Note10+')
+          .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+          br
+          .name_phone Samsung Galaxy Note 10+
+          .price 17.990.000&dstrok;
+          .promo_price
+            | Gi&aacute; c&utilde;: 
+            span(style='text-decoration: line-through;') 26.990.000&dstrok;
+      .product
+        a(href='#')
+          img(src='img_phone/samsung/Samsung S/SS Galaxy S20 Ultra.jpg', alt='20Ultra')
+          .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+          br
+          .name_phone Samsung Galaxy S20 Ultra
+          .price 18.990.000&dstrok;
+          .promo_price(style='text-decoration: line-through;') 22.990.000&dstrok;
+      .product
+        a(href='#')
+          img(src='img_phone/samsung/Samsung A/SS Galaxy A80.jpg', alt='SsA80')
+          .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
+          br
+          .name_phone Samsung Galaxy A80
+          .price 8.990.000&dstrok;
+          .promo_price Gi&#x1EA3;m th&ecirc;m 1.000.000&dstrok;
 // footer
 #footer.container
   .row
@@ -142,7 +153,7 @@ head
           | 0941.559.273
         li
           | 0937.022.743
-        |           Email:
+        |                     Email:
         li
           | kdmobile@gmail.com
         li
@@ -159,10 +170,8 @@ head
           | 43 C&#x1EA7;u Gi&#x1EA5;y, H&agrave; N&#x1ED9;i
         li
           | 453 Nguy&#x1EC5;n Tr&atilde;i, H&agrave; N&#x1ED9;i
-script(src='../js/promotion_detail.js')
-script(src='../js/trang_sanpham/sanpham.js')
-script(src='../js/search.js')
-script(src='../js/type_phone.js')
+// end of footer
+script(src='js/promotion_detail.js')
 script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js', integrity='sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj', crossorigin='anonymous')
 script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo', crossorigin='anonymous')
 script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js', integrity='sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI', crossorigin='anonymous')

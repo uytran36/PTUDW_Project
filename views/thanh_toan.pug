@@ -19,7 +19,7 @@ head
       .line
       .line
     .wrapHead
-      a#logo.navbar-brand(href='acceuil.html')
+      a#logo.navbar-brand(href='/acceuil')
         img#kdm(src='image/KDM.png')
       #navbarSupportedContent
         form.form-inline.my-2.my-lg-0
@@ -53,11 +53,9 @@ head
               br
               | PHONE
           .dropdown-content
-            a(href='#') Samsung
-            a(href='#') Oppo
-            a(href='#') Xiaomi
-            a(href='') Huawei
-            a(href='') Vivo
+            a(href='/search/samsung') Samsung
+            a(href='/search/sony') Sony
+            a(href='/search/xiaomiMI') Xiaomi
         // end of button phone
         // button promotion
         .dropdown
