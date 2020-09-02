@@ -31,11 +31,16 @@ const search=(req,res)=>{
     var keyword = req.query.keyword.toLowerCase();
     var keyword2 = req.query.keyword;
     var result = [];
+    var order = req.query.order;
     phone.find().then(function(phones){
         for (var p of phones)
             if (p.name.toLowerCase().indexOf(keyword) !== -1){
                 result.push(p);
             }
+        if(order == 'asc')
+            result.sort(function(a, b){ return parseInt(a.prix.replace(/[.,]/g,'')) - parseInt(b.prix.replace(/[.,]/g,''))})
+        if(order == 'dsc')
+            result.sort(function(a, b){ return parseInt(b.prix.replace(/[.,]/g,'')) - parseInt(a.prix.replace(/[.,]/g,''))})
         if(result.length !== 0)        
             res.render('search_phone/search_phone', {phones: result, keyword2});
         else    
@@ -48,7 +53,12 @@ const search=(req,res)=>{
 
 const type=(req, res) =>{
     var type_phone = req.params.type_phone;
+    var order = req.query.order;
     phone.find({type: type_phone}).then(function(phones){
+        if(order == 'asc')
+            phones.sort(function(a, b){ return parseInt(a.prix.replace(/[.,]/g,'')) - parseInt(b.prix.replace(/[.,]/g,''))})
+        if(order == 'dsc')
+            phones.sort(function(a, b){ return parseInt(b.prix.replace(/[.,]/g,'')) - parseInt(a.prix.replace(/[.,]/g,''))})
         res.render('type_phone/type_phone', {phones: phones});
     })
 }
@@ -58,16 +68,21 @@ const sort=(req,res) =>{
     var keyword2 = req.query.keyword;
     var result = [];
     var price = req.query.price;
+    var order = req.query.order;
     switch (price){
         case '0-5m':
             var itemPrice = 5000000;
             phone.find().then(function(phones){
-            for (var p of phones){
-                var prix = p.prix.replace(/[.,]/g,'')
-                prix = parseInt(prix);
-                if (p.name.toLowerCase().indexOf(keyword) !== -1 && prix <= itemPrice)
-                    result.push(p);   
-            } 
+                for (var p of phones){
+                    var prix = p.prix.replace(/[.,]/g,'')
+                    prix = parseInt(prix);
+                    if (p.name.toLowerCase().indexOf(keyword) !== -1 && prix <= itemPrice)
+                        result.push(p);   
+                }
+                if(order == 'asc')
+                    result.sort(function(a, b){ return parseInt(a.prix.replace(/[.,]/g,'')) - parseInt(b.prix.replace(/[.,]/g,''))})
+                if(order == 'dsc')
+                    result.sort(function(a, b){ return parseInt(b.prix.replace(/[.,]/g,'')) - parseInt(a.prix.replace(/[.,]/g,''))})
                 if(result.length !== 0)        
                     res.render('search_phone/search_phone', {phones: result, keyword2});
                 else    
@@ -80,12 +95,16 @@ const sort=(req,res) =>{
         case '5-10m':
             var itemPrice = 10000000;
             phone.find().then(function(phones){
-            for (var p of phones){
-                var prix = p.prix.replace(/[.,]/g,'')
-                prix = parseInt(prix);
-                if (p.name.toLowerCase().indexOf(keyword) !== -1 && 5000000 < prix && prix <= itemPrice)
-                    result.push(p);   
-            } 
+                for (var p of phones){
+                    var prix = p.prix.replace(/[.,]/g,'')
+                    prix = parseInt(prix);
+                    if (p.name.toLowerCase().indexOf(keyword) !== -1 && 5000000 < prix && prix <= itemPrice)
+                        result.push(p);   
+                }
+                if(order == 'asc')
+                    result.sort(function(a, b){ return parseInt(a.prix.replace(/[.,]/g,'')) - parseInt(b.prix.replace(/[.,]/g,''))})
+                if(order == 'dsc')
+                    result.sort(function(a, b){ return parseInt(b.prix.replace(/[.,]/g,'')) - parseInt(a.prix.replace(/[.,]/g,''))}) 
                 if(result.length !== 0)        
                     res.render('search_phone/search_phone', {phones: result, keyword2});
                 else    
@@ -98,12 +117,16 @@ const sort=(req,res) =>{
         case '10m':
             var itemPrice = 10000000;
             phone.find().then(function(phones){
-            for (var p of phones){
-                var prix = p.prix.replace(/[.,]/g,'')
-                prix = parseInt(prix);
-                if (p.name.toLowerCase().indexOf(keyword) !== -1 && prix > itemPrice)
-                    result.push(p);   
-            } 
+                for (var p of phones){
+                    var prix = p.prix.replace(/[.,]/g,'')
+                    prix = parseInt(prix);
+                    if (p.name.toLowerCase().indexOf(keyword) !== -1 && prix > itemPrice)
+                        result.push(p);   
+                }
+                if(order == 'asc')
+                    result.sort(function(a, b){ return parseInt(a.prix.replace(/[.,]/g,'')) - parseInt(b.prix.replace(/[.,]/g,''))})
+                if(order == 'dsc')
+                    result.sort(function(a, b){ return parseInt(b.prix.replace(/[.,]/g,'')) - parseInt(a.prix.replace(/[.,]/g,''))}) 
                 if(result.length !== 0)        
                     res.render('search_phone/search_phone', {phones: result, keyword2});
                 else    

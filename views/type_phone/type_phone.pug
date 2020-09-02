@@ -104,14 +104,14 @@ head
     #navBar.navbar
       h4 &Dstrok;i&#x1EC7;n tho&#x1EA1;i
       nav
-        a(id='0-5m', href='#') D&#x1B0;&#x1EDB;i 5 tri&#x1EC7;u
-        a(id='5-10m', href='#') T&#x1EEB; 5-10 tri&#x1EC7;u
-        a(id='10m', href='#') Tr&ecirc;n 10 tri&#x1EC7;u
+        a(id='0-5m', href='javascript:void(0)') D&#x1B0;&#x1EDB;i 5 tri&#x1EC7;u
+        a(id='5-10m', href='javascript:void(0)') T&#x1EEB; 5-10 tri&#x1EC7;u
+        a(id='10m', href='javascript:void(0)') Tr&ecirc;n 10 tri&#x1EC7;u
         .dropdown
           button#sort.btn.btn.dropdown-toggle(type='button', data-toggle='dropdown') S&#x1EAF;p x&#x1EBF;p
           .dropdown-menu
-            a.dropdown-item(href='#') Gi&aacute; th&#x1EA5;p &dstrok;&#x1EBF;n cao
-            a.dropdown-item(href='#') Gi&aacute; cao &dstrok;&#x1EBF;n th&#x1EA5;p
+            a.dropdown-item(href='javascript:void(0)', id='Aasc') Gi&aacute; th&#x1EA5;p &dstrok;&#x1EBF;n cao
+            a.dropdown-item(href='javascript:void(0)', id='Ddsc') Gi&aacute; cao &dstrok;&#x1EBF;n th&#x1EA5;p
   .row#manager_product  
     each phone in phones
       .product

@@ -2,14 +2,15 @@ var btnXiaomi = document.getElementById('btnXiaomi');
 var btnIphone = document.getElementById('btnIphone');
 var btnSamsung = document.getElementById('btnSamsung');
 var btnSony = document.getElementById('btnSony');
-
+var Aasc = document.getElementById('Aasc');
+var Ddsc = document.getElementById('Ddsc');
 btnXiaomi.onclick = function(){
-    localStorage.setItem('name_phone', 'xiaomi');
+    localStorage.setItem('name_phone', 'xiaomiMI');
     location.href = '../type/xiaomiMI';
 }
 
 btnIphone.onclick = function(){
-    localStorage.setItem('name_phone', 'iphone');
+    localStorage.setItem('name_phone', 'iPhone');
     location.href = '../type/iPhone';
 }
 
@@ -21,4 +22,10 @@ btnSamsung.onclick = function(){
 btnSony.onclick = function(){
     localStorage.setItem('name_phone', 'sony');
     location.href = '../type/sony';
+}
+Aasc.onclick = function ascen(){
+    location.href = '../type/' + localStorage.getItem('name_phone') + '?order=asc';
+}
+Ddsc.onclick = function descen(){
+    location.href = '../type/' + localStorage.getItem('name_phone') + '?order=dsc';
 }
