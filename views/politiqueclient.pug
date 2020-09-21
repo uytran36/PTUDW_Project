@@ -1,0 +1,179 @@
+doctype html
+head
+  // Required meta tags
+  meta(charset='utf-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  link(rel='icon', href='image/logo.png')
+  // Bootstrap CSS
+  link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css', integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk', crossorigin='anonymous')
+  link(rel='stylesheet', href='css/politique_client.css')
+  link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+  title Ch&iacute;nh s&aacute;ch b&#x1EA3;o m&#x1EAD;t th&ocirc;ng tin kh&aacute;ch h&agrave;ng
+#header
+  nav#nav_bar.navbar.navbar-expand-lg.navbar-light
+    // phần để tạo 3 dấu gạch
+    .hamburger
+      .line
+      .line
+      .line
+    .wrapHead
+      a#logo.navbar-brand(href='/acceuil')
+        img#kdm(src='image/KDM.png')
+      #navbarSupportedContent
+        form.form-inline.my-2.my-lg-0
+          input.form-control.mr-sm-2(type='search', placeholder='Rechercher sur KDM', aria-label='Search')
+          // button submit
+          button#btn-search(type='submit')
+            svg.bi.bi-search(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+              path(fill-rule='evenodd', d='M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z')
+              path(fill-rule='evenodd', d='M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z')
+          // end of button submit
+      // kết thúc phần để tạo 3 dấu gạch
+      .wrapMenu
+        // button iphone
+        .dropdown
+          button.dropbtn
+            span.fa.fa-apple
+              br
+              | IPHONE
+          .dropdown-content
+            a(href='#') Iphone 11 | 11 Pro Max
+            a(href='#') Iphone XS | XS Max
+            a(href='#') Iphone X | XR
+            a(href='') Iphone 8 | 8 Plus
+            a(href='') Iphone 7 | 7 Plus
+            a(href='') Iphone 6 | 6 Plus
+        // end of button iphone
+        // button phone
+        .dropdown
+          button.dropbtn
+            span.fa.fa-mobile-phone
+              br
+              | PHONE
+          .dropdown-content
+            a(href='#') Samsung
+            a(href='#') Oppo
+            a(href='#') Xiaomi
+            a(href='') Huawei
+            a(href='') Vivo
+        // end of button phone
+        // button promotion
+        .dropdown
+          button.dropbtn
+            span.fa.fa-percent
+              br
+              a#promo(href='/promo') PROMOTION
+        // end of button promotion
+        // button news
+        .dropdown
+          button.dropbtn
+            span.fa.fa-newspaper-o
+              br
+              a#news(href='/news') NEWS
+        // end of button news
+.container
+  h3 Ch&iacute;nh s&aacute;ch b&#x1EA3;o m&#x1EAD;t th&ocirc;ng tin kh&aacute;ch h&agrave;ng
+  hr
+  b 1. M&#x1EE5;c &dstrok;&iacute;ch v&agrave; ph&#x1EA1;m vi thu th&#x1EAD;p th&ocirc;ng tin
+  p
+    b.bcolor KD Mobile
+    |  kh&ocirc;ng b&aacute;n, chia s&#x1EBB; hay trao &dstrok;&#x1ED5;i th&ocirc;ng tin c&aacute; nh&acirc;n c&#x1EE7;a kh&aacute;ch h&agrave;ng thu th&#x1EAD;p tr&ecirc;n trang web cho m&#x1ED9;t b&ecirc;n th&#x1EE9; ba n&agrave;o kh&aacute;c.
+  p Th&ocirc;ng tin c&aacute; nh&acirc;n thu th&#x1EAD;p &dstrok;&#x1B0;&#x1EE3;c s&#x1EBD; ch&#x1EC9; &dstrok;&#x1B0;&#x1EE3;c s&#x1EED; d&#x1EE5;ng trong n&#x1ED9;i b&#x1ED9; c&ocirc;ng ty.
+  b 2. Ph&#x1EA1;m vi s&#x1EED; d&#x1EE5;ng th&ocirc;ng tin
+  p
+    | Th&ocirc;ng tin c&aacute; nh&acirc;n thu th&#x1EAD;p &dstrok;&#x1B0;&#x1EE3;c s&#x1EBD; ch&#x1EC9; &dstrok;&#x1B0;&#x1EE3;c 
+    b.bcolor KD Mobile
+    |  s&#x1EED; d&#x1EE5;ng trong n&#x1ED9;i b&#x1ED9; c&ocirc;ng ty v&agrave; cho m&#x1ED9;t ho&#x1EB7;c t&#x1EA5;t c&#x1EA3; c&aacute;c m&#x1EE5;c &dstrok;&iacute;ch sau &dstrok;&acirc;y:
+  ul
+    li H&#x1ED7; tr&#x1EE3; kh&aacute;ch h&agrave;ng
+    li Cung c&#x1EA5;p th&ocirc;ng tin li&ecirc;n quan &dstrok;&#x1EBF;n d&#x1ECB;ch v&#x1EE5;
+    li
+      | X&#x1EED; l&yacute; &dstrok;&#x1A1;n &dstrok;&#x1EB7;t h&agrave;ng v&agrave; cung c&#x1EA5;p d&#x1ECB;ch v&#x1EE5; v&agrave; th&ocirc;ng tin qua trang web c&#x1EE7;a ch&uacute;ng t&ocirc;i theo y&ecirc;u c&#x1EA7;u c&#x1EE7;a b&#x1EA1;n
+    li
+      | Ch&uacute;ng t&ocirc;i c&oacute; th&#x1EC3; s&#x1EBD; g&#x1EED;i th&ocirc;ng tin s&#x1EA3;n ph&#x1EA9;m, d&#x1ECB;ch v&#x1EE5; m&#x1EDB;i, th&ocirc;ng tin v&#x1EC1; c&aacute;c s&#x1EF1; ki&#x1EC7;n s&#x1EAF;p t&#x1EDB;i
+    li
+      | Ngo&agrave;i ra, ch&uacute;ng t&ocirc;i s&#x1EBD; s&#x1EED; d&#x1EE5;ng th&ocirc;ng tin b&#x1EA1;n cung c&#x1EA5;p &dstrok;&#x1EC3; h&#x1ED7; tr&#x1EE3; qu&#x1EA3;n l&yacute; t&agrave;i kho&#x1EA3;n kh&aacute;ch h&agrave;ng; x&aacute;c nh&#x1EAD;n v&agrave; th&#x1EF1;c hi&#x1EC7;n c&aacute;c giao d&#x1ECB;ch t&agrave;i ch&iacute;nh li&ecirc;n quan &dstrok;&#x1EBF;n c&aacute;c kho&#x1EA3;n thanh to&aacute;n tr&#x1EF1;c tuy&#x1EBF;n c&#x1EE7;a b&#x1EA1;n.
+  b 3. Th&#x1EDD;i gian l&#x1B0;u tr&#x1EEF; th&ocirc;ng tin
+  p
+    | &Dstrok;&#x1ED1;i v&#x1EDB;i th&ocirc;ng tin c&aacute; nh&acirc;n, 
+    b.bcolor KD Mobile
+    |  ch&#x1EC9; x&oacute;a &dstrok;i d&#x1EEF; li&#x1EC7;u n&agrave;y n&#x1EBF;u kh&aacute;ch h&agrave;ng c&oacute; y&ecirc;u c&#x1EA7;u, kh&aacute;ch h&agrave;ng y&ecirc;u c&#x1EA7;u g&#x1EED;i mail v&#x1EC1; 
+    span kdmobile@gmail.com
+    | .
+  b 4. &Dstrok;&#x1ECB;a ch&#x1EC9; c&#x1EE7;a &dstrok;&#x1A1;n v&#x1ECB; thu th&#x1EAD;p v&agrave; qu&#x1EA3;n l&yacute; th&ocirc;ng tin c&aacute; nh&acirc;n
+  p &Dstrok;&#x1ECB;a ch&#x1EC9;: 252 V&otilde; V&abreve;n Ng&acirc;n, Th&#x1EE7; &Dstrok;&#x1EE9;c, HCM
+  p Hotline: 0941.559.273 hay 0937.022.743
+  p Website: 
+  p Email: kdmobile@gmail.com hay kdmobile@yahoo.com 
+  b
+    | 5. Ph&#x1B0;&#x1A1;ng ti&#x1EC7;n v&agrave; c&ocirc;ng c&#x1EE5; &dstrok;&#x1EC3; ng&#x1B0;&#x1EDD;i d&ugrave;ng ti&#x1EBF;p c&#x1EAD;n v&agrave; ch&#x1EC9;nh s&#x1EED;a d&#x1EEF; li&#x1EC7;u c&aacute; nh&acirc;n c&#x1EE7;a m&igrave;nh
+  p
+    b.bcolor KD Mobile
+    |   kh&ocirc;ng thu th&#x1EAD;p th&ocirc;ng tin kh&aacute;ch h&agrave;ng qua trang web, th&ocirc;ng tin c&aacute; nh&acirc;n kh&aacute;ch h&agrave;ng &dstrok;&#x1B0;&#x1EE3;c th&#x1EF1;c hi&#x1EC7;n thu th&#x1EAD;p qua email li&ecirc;n h&#x1EC7; &dstrok;&#x1EB7;t mua s&#x1EA3;n ph&#x1EA9;m, d&#x1ECB;ch v&#x1EE5; g&#x1EED;i v&#x1EC1; h&#x1ED9;p mail c&#x1EE7;a ch&uacute;ng t&ocirc;i: 
+    b  kdmobile@gmail.com 
+    |  ho&#x1EB7;c s&#x1ED1; &dstrok;i&#x1EC7;n tho&#x1EA1;i li&ecirc;n h&#x1EC7; &dstrok;&#x1EB7;t mua s&#x1EA3;n ph&#x1EA9;m g&#x1ECD;i v&#x1EC1; 
+    b  0941.559.273 
+    |  hay 0937.022.743 .
+  p
+    | B&#x1EA1;n c&oacute; th&#x1EC3; li&ecirc;n h&#x1EC7; &dstrok;&#x1ECB;a ch&#x1EC9; email c&ugrave;ng s&#x1ED1; &dstrok;i&#x1EC7;n tho&#x1EA1;i tr&ecirc;n &dstrok;&#x1EC3; y&ecirc;u c&#x1EA7;u 
+    b.bcolor KD Mobile
+    |  ch&#x1EC9;nh s&#x1EED;a d&#x1EEF; li&#x1EC7;u c&aacute; nh&acirc;n c&#x1EE7;a m&igrave;nh.
+  b 6. Cam k&#x1EBF;t b&#x1EA3;o m&#x1EAD;t th&ocirc;ng tin c&aacute; nh&acirc;n kh&aacute;ch h&agrave;ng
+  p
+    | T&#x1EA1;i 
+    b.bcolor KD Mobile
+    | , vi&#x1EC7;c b&#x1EA3;o v&#x1EC7; th&ocirc;ng tin c&aacute; nh&acirc;n c&#x1EE7;a b&#x1EA1;n l&agrave; r&#x1EA5;t quan tr&#x1ECD;ng, b&#x1EA1;n &dstrok;&#x1B0;&#x1EE3;c &dstrok;&#x1EA3;m b&#x1EA3;o r&#x1EB1;ng th&ocirc;ng tin cung c&#x1EA5;p cho ch&uacute;ng t&ocirc;i s&#x1EBD; &dstrok;&#x1B0;&#x1EE3;c b&#x1EA3;o m&#x1EAD;t. 
+    b.bcolor KD Mobile
+    |  cam k&#x1EBF;t kh&ocirc;ng chia s&#x1EBB;, b&aacute;n ho&#x1EB7;c cho thu&ecirc; th&ocirc;ng tin c&aacute; nh&acirc;n c&#x1EE7;a b&#x1EA1;n cho b&#x1EA5;t k&#x1EF3; ng&#x1B0;&#x1EDD;i n&agrave;o kh&aacute;c. 
+    b.bcolor KD Mobile
+    |  cam k&#x1EBF;t ch&#x1EC9; s&#x1EED; d&#x1EE5;ng c&aacute;c th&ocirc;ng tin c&#x1EE7;a b&#x1EA1;n v&agrave;o c&aacute;c tr&#x1B0;&#x1EDD;ng h&#x1EE3;p sau:
+    ul
+      li N&acirc;ng cao ch&#x1EA5;t l&#x1B0;&#x1EE3;ng d&#x1ECB;ch v&#x1EE5; d&agrave;nh cho kh&aacute;ch h&agrave;ng
+      li Gi&#x1EA3;i quy&#x1EBF;t c&aacute;c tranh ch&#x1EA5;p, khi&#x1EBF;u n&#x1EA1;i
+      li Khi c&#x1A1; quan ph&aacute;p lu&#x1EAD;t c&oacute; y&ecirc;u c&#x1EA7;u.
+    b.bcolor KD Mobile
+    |  hi&#x1EC3;u r&#x1EB1;ng quy&#x1EC1;n l&#x1EE3;i c&#x1EE7;a b&#x1EA1;n trong vi&#x1EC7;c b&#x1EA3;o v&#x1EC7; th&ocirc;ng tin c&aacute; nh&acirc;n c&utilde;ng ch&iacute;nh l&agrave; tr&aacute;ch nhi&#x1EC7;m c&#x1EE7;a ch&uacute;ng t&ocirc;i n&ecirc;n trong b&#x1EA5;t k&#x1EF3; tr&#x1B0;&#x1EDD;ng h&#x1EE3;p c&oacute; th&#x1EAF;c m&#x1EAF;c, g&oacute;p &yacute; n&agrave;o li&ecirc;n quan &dstrok;&#x1EBF;n ch&iacute;nh s&aacute;ch b&#x1EA3;o m&#x1EAD;t c&#x1EE7;a 
+    b.bcolor KD Mobile
+    | , vui l&ograve;ng li&ecirc;n h&#x1EC7; qua s&#x1ED1; hotline 0941.559.273 ho&#x1EB7;c email: kdmobile@gmail.com.
+#footer.container
+  .row
+    .col
+      p TH&Ocirc;NG TIN H&#x1ED6; TR&#x1EE2;
+      hr
+      ul
+        li
+          a(href='/politiquedegaranti') Ch&iacute;nh s&aacute;ch b&#x1EA3;o h&agrave;nh
+        li
+          a(href='/politiqueclient') Ch&iacute;nh s&aacute;ch b&#x1EA3;o m&#x1EAD;t th&ocirc;ng tin kh&aacute;ch h&agrave;ng
+    .col
+      p TH&Ocirc;NG TIN LI&Ecirc;N L&#x1EA0;C
+      hr
+      ul
+        | S&#x1ED1; &dstrok;i&#x1EC7;n tho&#x1EA1;i:
+        li
+          | 0941.559.273
+        li
+          | 0937.022.743
+        |                     Email:
+        li
+          | kdmobile@gmail.com
+        li
+          | kdmobile@yahoo.com
+    .col
+      p &Dstrok;&#x1ECB;a ch&#x1EC9; c&#x1EED;a h&agrave;ng
+      hr
+      ul
+        li
+          | 252 V&otilde; V&abreve;n Ng&acirc;n, Th&#x1EE7; &Dstrok;&#x1EE9;c, HCM
+        li
+          | 290 Ho&agrave;ng V&abreve;n Th&#x1EE5;, T&acirc;n B&igrave;nh, HCM
+        li
+          | 43 C&#x1EA7;u Gi&#x1EA5;y, H&agrave; N&#x1ED9;i
+        li
+          | 453 Nguy&#x1EC5;n Tr&atilde;i, H&agrave; N&#x1ED9;i
+// Optional JavaScript
+script(src='js/promotion_detail.js')
+// jQuery first, then Popper.js, then Bootstrap JS
+script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js', integrity='sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj', crossorigin='anonymous')
+script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo', crossorigin='anonymous')
+script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js', integrity='sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI', crossorigin='anonymous')

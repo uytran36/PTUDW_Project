@@ -2,13 +2,12 @@ doctype html
 head
   meta(charset='UTF-8')
   meta(name='viewport', content='width=device-width, initial-scale=1.0')
-  title Xiaomi Mi 10 Pro
+  title=phones.name
   link(rel='icon', href='../image/logo.png')
   // Bootstrap CSS
   link(rel='stylesheet', href='../css/style_detail.css')
   link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css', integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk', crossorigin='anonymous')
   link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
-  title Uyen
 // HEADER
 #header
   nav#nav_bar.navbar.navbar-expand-lg.navbar-light
@@ -62,14 +61,14 @@ head
           button.dropbtn
             span.fa.fa-percent
               br
-              a#promo(href='promo') PROMOTION
+              a#promo(href='/promo') PROMOTION
         // end of button promotion
         // button news
         .dropdown
           button.dropbtn
             span.fa.fa-newspaper-o
               br
-              a#news(href='news') NEWS
+              a#news(href='/news') NEWS
         // end of button news
 // CONTENT
 #content1.container
@@ -294,9 +293,9 @@ head
       hr
       ul
         li
-          a(href='') Ch&iacute;nh s&aacute;ch b&#x1EA3;o h&agrave;nh
+          a(href='/politiquedegaranti') Ch&iacute;nh s&aacute;ch b&#x1EA3;o h&agrave;nh
         li
-          a(href='politique_client.html') Ch&iacute;nh s&aacute;ch b&#x1EA3;o m&#x1EAD;t th&ocirc;ng tin kh&aacute;ch h&agrave;ng
+          a(href='/politiqueclient') Ch&iacute;nh s&aacute;ch b&#x1EA3;o m&#x1EAD;t th&ocirc;ng tin kh&aacute;ch h&agrave;ng
     .col
       p TH&Ocirc;NG TIN LI&Ecirc;N L&#x1EA0;C
       hr

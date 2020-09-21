@@ -1,0 +1,227 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  link(rel='icon', href='image/logo.png')
+  title Ch&iacute;nh s&aacute;ch b&#x1EA3;o h&agrave;nh
+  link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css', integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk', crossorigin='anonymous')
+  link(rel='stylesheet', href='css/politique.css')
+  link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+#header
+  nav#nav_bar.navbar.navbar-expand-lg.navbar-light
+    // phần để tạo 3 dấu gạch
+    .hamburger
+      .line
+      .line
+      .line
+    .wrapHead
+      a#logo.navbar-brand(href='/acceuil')
+        img#kdm(src='image/KDM.png')
+      #navbarSupportedContent
+        form.form-inline.my-2.my-lg-0
+          input.form-control.mr-sm-2(type='search', placeholder='Rechercher sur KDM', aria-label='Search')
+          // button submit
+          button#btn-search(type='submit')
+            svg.bi.bi-search(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
+              path(fill-rule='evenodd', d='M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z')
+              path(fill-rule='evenodd', d='M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z')
+          // end of button submit
+      // kết thúc phần để tạo 3 dấu gạch
+      .wrapMenu
+        // button iphone
+        .dropdown
+          button.dropbtn
+            span.fa.fa-apple
+              br
+              | IPHONE
+          .dropdown-content
+            a(href='#') Iphone 11 | 11 Pro Max
+            a(href='#') Iphone XS | XS Max
+            a(href='#') Iphone X | XR
+            a(href='') Iphone 8 | 8 Plus
+            a(href='') Iphone 7 | 7 Plus
+            a(href='') Iphone 6 | 6 Plus
+        // end of button iphone
+        // button phone
+        .dropdown
+          button.dropbtn
+            span.fa.fa-mobile-phone
+              br
+              | PHONE
+          .dropdown-content
+            a(href='#') Samsung
+            a(href='#') Oppo
+            a(href='#') Xiaomi
+            a(href='') Huawei
+            a(href='') Vivo
+        // end of button phone
+        // button promotion
+        .dropdown
+          button.dropbtn
+            span.fa.fa-percent
+              br
+              a#promo(href='/promo') PROMOTION
+        // end of button promotion
+        // button news
+        .dropdown
+          button.dropbtn
+            span.fa.fa-newspaper-o
+              br
+              a#news(href='/news') NEWS
+        // end of button news
+.content
+  .container
+    .page
+      .page1
+        h2 Ch&iacute;nh s&aacute;ch b&#x1EA3;o h&agrave;nh
+        .page1_1
+          p
+            | KD Mobile r&#x1EA5;t ti&#x1EBF;c v&agrave; xin l&#x1ED7;i v&igrave; s&#x1EF1; b&#x1EA5;t ti&#x1EC7;n c&#x1EE7;a Qu&yacute; kh&aacute;ch khi s&#x1EA3;n ph&#x1EA9;m kh&ocirc;ng may ph&aacute;t sinh l&#x1ED7;i ph&#x1EA3;i b&#x1EA3;o h&agrave;nh. Hi v&#x1ECD;ng chi ti&#x1EBF;t ch&iacute;nh s&aacute;ch &dstrok;&#x1ED5;i tr&#x1EA3; &ndash; b&#x1EA3;o h&agrave;nh t&#x1EA1;i CLICKBUY c&utilde;ng nh&#x1B0; th&ocirc;ng tin li&ecirc;n h&#x1EC7; c&aacute;c b&#x1ED9; ph&#x1EAD;n h&#x1ED7; tr&#x1EE3; d&#x1B0;&#x1EDB;i &dstrok;&acirc;y c&oacute; th&#x1EC3; gi&uacute;p Qu&yacute; kh&aacute;ch y&ecirc;n t&acirc;m h&#x1A1;n trong qu&aacute; tr&igrave;nh s&#x1EED; d&#x1EE5;ng s&#x1EA3;n ph&#x1EA9;m.
+          p
+            strong Hotline khi&#x1EBF;u n&#x1EA1;i v&#x1EC1; s&#x1EA3;n ph&#x1EA9;m d&#x1ECB;ch v&#x1EE5;: 
+            strong 0976.73.2468
+          p
+            strong Hotline ti&#x1EBF;p nh&#x1EAD;n b&#x1EA3;o h&agrave;nh: 
+            strong 0466.83.9292
+          p
+            strong
+              span.color(style='color:#cf2e2e') I. 
+              span.color(style='color:#f41d0d') QUY &Dstrok;&#x1ECA;NH V&#x1EC0; &Dstrok;&#x1ED4;I TR&#x1EA2; S&#x1EA2;N PH&#x1EA8;M
+          img#doi_sp(src='https://msg2viw9dj.vcdn.com.vn/uploads/2019/06/image-1024x482.png', alt='', style='width:90%')
+          p(style='margin-top: 15px;')
+            strong &Dstrok;i&#x1EC1;u ki&#x1EC7;n ti&#x1EBF;p nh&#x1EAD;n &dstrok;&#x1ED5;i tr&#x1EA3; s&#x1EA3;n ph&#x1EA9;m
+          div
+            img(src='https://hcm.clickbuy.com.vn/uploads/2019/05/csbh-2-1024x170.png', alt='', style='width:90%')
+          p
+            | &ndash;&nbsp; V&#x1EDB;i c&aacute;c tr&#x1B0;&#x1EDD;ng h&#x1EE3;p qu&aacute; th&#x1EDD;i h&#x1EA1;n x&#x1EED; l&yacute; v&#x1EAB;n kh&ocirc;ng c&oacute; m&aacute;y &dstrok;&#x1EC3; &dstrok;&#x1ED5;i ngay th&igrave; Clickbuy cam k&#x1EBF;t:
+          p &Dstrok;&#x1ED5;i cho kh&aacute;ch h&agrave;ng m&#x1ED9;t s&#x1EA3;n ph&#x1EA9;m t&#x1B0;&#x1A1;ng &dstrok;&#x1B0;&#x1A1;ng v&#x1EDB;i gi&aacute; tr&#x1ECB; hi&#x1EC7;n t&#x1EA1;i c&#x1EE7;a s&#x1EA3;n ph&#x1EA9;m
+          p Ho&agrave;n tr&#x1EA3; ti&#x1EC1;n l&#x1EA1;i cho kh&aacute;ch h&agrave;ng theo c&ocirc;ng th&#x1EE9;c sau:
+          p
+            strong
+              em Gi&aacute; nh&#x1EAD;p l&#x1EA1;i = Gi&aacute; m&aacute;y t&#x1EA1;i th&#x1EDD;i &dstrok;i&#x1EC3;m hi&#x1EC7;n t&#x1EA1;i X 80%
+          p
+            strong
+              u L&#x1B0;u &yacute;:
+          p
+            | C&aacute;c tr&#x1B0;&#x1EDD;ng h&#x1EE3;p m&aacute;y b&#x1ECB; c&#x1EA5;n m&oacute;p nh&#x1EB9; KD Mobile s&#x1EBD; v&#x1EAB;n b&#x1EA3;o h&agrave;nh s&#x1EED;a ch&#x1EEF;a, nh&#x1B0;ng kh&ocirc;ng &dstrok;&#x1ED5;i m&#x1EDB;i ( d&ugrave; kh&aacute;ch h&agrave;ng c&oacute; mua g&oacute;i b&#x1EA3;o h&agrave;nh v&agrave;ng). Tr&#x1B0;&#x1EDD;ng h&#x1EE3;p c&#x1EA5;n m&oacute;p n&#x1EB7;ng g&acirc;y n&#x1EE9;t v&#x1EE1;, ch&#x1EBF;t m&agrave;n h&igrave;nh, c&#x1EA3;m &#x1EE9;ng, ch&#x1EBF;t ngu&#x1ED3;n KD Mobile s&#x1EBD; t&#x1EEB; ch&#x1ED1;i b&#x1EA3;o h&agrave;nh v&agrave; h&#x1ED7; tr&#x1EE3; s&#x1EED;a ch&#x1EEF;a c&oacute; t&iacute;nh ph&iacute;.
+          p
+            | Ch&#x1EC9; &aacute;p d&#x1EE5;ng m&aacute;y &dstrok;&#x1ED5;i m&aacute;y, t&#x1EA5;t c&#x1EA3; c&aacute;c ph&#x1EE5; ki&#x1EC7;n k&egrave;m theo nh&#x1B0;: tai nghe, c&aacute;p, s&#x1EA1;c&mldr; kh&ocirc;ng &dstrok;&#x1ED5;i k&egrave;m
+          p
+            | Tr&#x1B0;&#x1EDD;ng h&#x1EE3;p kh&aacute;ch h&agrave;ng &dstrok;&#x1B0;&#x1EE3;c &dstrok;&#x1ED5;i m&aacute;y nh&#x1B0;ng mu&#x1ED1;n &dstrok;&#x1ED5;i sang d&ograve;ng m&aacute;y kh&aacute;c c&oacute; gi&aacute; tr&#x1ECB; cao h&#x1A1;n ho&#x1EB7;c mu&#x1ED1;n ho&agrave;n l&#x1EA1;i ti&#x1EC1;n m&#x1EB7;t. 
+            strong
+              em KD Mobile h&#x1ED7; tr&#x1EE3; nh&#x1EAD;p l&#x1EA1;i m&aacute;y nh&#x1B0; sau: 
+            | Gi&aacute; nh&#x1EAD;p l&#x1EA1;i = Gi&aacute; tr&#x1ECB; m&aacute;y hi&#x1EC7;n t&#x1EA1;i x 80%
+          p
+            strong
+              span.color(style='color:#cf2e2e') B&#x1EA2;O H&Agrave;NH TR&#x1ECC;N &Dstrok;&#x1EDC;I IPHONE C&Utilde;
+          ul
+            li
+              | Ch&#x1EC9; &aacute;p d&#x1EE5;ng v&#x1EDB;i &dstrok;i&#x1EC7;n tho&#x1EA1;i&nbsp;
+              strong iPhone c&utilde; &ndash; Tr&#x1EA3; b&#x1EA3;o h&agrave;nh &ndash; iPhone Lock
+            li
+              | Ch&#x1EC9; &Aacute;p d&#x1EE5;ng khi kh&aacute;ch h&agrave;ng&nbsp;
+              strong n&acirc;ng c&#x1EA5;p b&#x1EA3;o h&agrave;nh iCare Pro
+            li
+              | M&aacute;y &dstrok;&#x1B0;&#x1EE3;c&nbsp;
+              strong T
+              strong &iacute;nh l&#x1EA1;i b&#x1EA3;o h&agrave;nh t&#x1EEB; ban &dstrok;&#x1EA7;u n&#x1EBF;u l&#x1ED7;i
+              | : Trong th&#x1EDD;i gian c&ograve;n b&#x1EA3;o h&agrave;nh, n&#x1EBF;u m&aacute;y l&#x1ED7;i s&#x1EBD; &dstrok;&#x1B0;&#x1EE3;c t&iacute;nh l&#x1EA1;i b&#x1EA3;o h&agrave;nh l&agrave; 12 th&aacute;ng. N&#x1EBF;u ti&#x1EBF;p t&#x1EE5;c l&#x1ED7;i trong 12 th&aacute;ng n&agrave;y s&#x1EBD; ti&#x1EBF;p t&#x1EE5;c &dstrok;&#x1B0;&#x1EE3;c t&iacute;nh l&#x1EA1;i b&#x1EA3;o h&agrave;nh.
+            li
+              | M&aacute;y &dstrok;&#x1B0;&#x1EE3;c ch&iacute;nh s&aacute;ch 1 &dstrok;&#x1ED5;i 1 n&#x1EBF;u l&#x1ED7;i trong th&#x1EDD;i gian 12 th&aacute;ng k&#x1EC3; t&#x1EEB; ng&agrave;y mua &dstrok;&#x1EA7;u ti&ecirc;n. Sau 12 th&aacute;ng k&#x1EC3; t&#x1EEB; ng&agrave;y mua &dstrok;&#x1EA7;u ti&ecirc;n n&#x1EBF;u m&aacute;y l&#x1ED7;i s&#x1EBD; &dstrok;&#x1B0;&#x1EE3;c s&#x1EEF;a ch&#x1EEF;a mi&#x1EC5;n ph&iacute; nh&#x1B0;ng kh&ocirc;ng &dstrok;&#x1B0;&#x1EE3;c &dstrok;&#x1ED5;i m&#x1EDB;i.
+            li
+              | Pin ch&#x1EC9; b&#x1EA3;o h&agrave;nh 12 th&aacute;ng k&#x1EC3; t&#x1EEB; ng&agrave;y mua ban &dstrok;&#x1EA7;u,
+              strong &nbsp;Sau 12 th&aacute;ng Pin s&#x1EBD; kh&ocirc;ng &dstrok;&#x1B0;&#x1EE3;c b&#x1EA3;o h&agrave;nh.
+            li Tr&#x1B0;&#x1EDD;ng h&#x1EE3;p m&aacute;y &dstrok;&#x1B0;&#x1EE3;c b&#x1EA3;o h&agrave;nh s&#x1EED;a ch&#x1EEF;a kh&ocirc;ng s&#x1EED;a &dstrok;&#x1B0;&#x1EE3;c. Qu&yacute; kh&aacute;ch s&#x1EBD; &dstrok;&#x1B0;&#x1EE3;c x&#x1EED; l&yacute;:
+            li &Dstrok;&#x1ED5;i m&aacute;y c&utilde; t&#x1B0;&#x1A1;ng &dstrok;&#x1B0;&#x1A1;ng
+            li Nh&#x1EAD;p l&#x1EA1;i theo c&ocirc;ng th&#x1EE9;c: Gi&aacute; ni&ecirc;m y&#x1EBF;t X 80%
+            li
+              | T&#x1EEB; ch&#x1ED1;i b&#x1EA3;o h&agrave;nh: &Aacute;p d&#x1EE5;ng ch&iacute;nh s&aacute;ch ti&#x1EBF;p nh&#x1EAD;n v&agrave; t&#x1EEB; ch&#x1ED1;i b&#x1EA3;o h&agrave;nh nh&#x1B0; c&aacute;c g&oacute;i b&#x1EA3;o h&agrave;nh hi&#x1EC7;n t&#x1EA1;i.
+          p
+            strong
+              span.color(style='color:#e71e10') III &ndash; CH
+              span.color(style='color:#e52a12') &Iacute;NH S&Aacute;CH B&#x1EA2;O H&Agrave;NH ANDROID M&#x1EDA;I &ndash; C&Utilde;
+          img(src='https://msg2viw9dj.vcdn.com.vn/uploads/2019/10/13.png', alt='', style='width:90%')
+          p(style='margin-top:15px;')
+            strong 1. &Dstrok;I&#x1EC0;U KI&#x1EC6;N TI&#x1EBE;P NH&#x1EAC;N B&#x1EA2;O H&Agrave;NH
+          p
+            | M&aacute;y &dstrok;&atilde; &dstrok;&#x1B0;&#x1EE3;c &dstrok;&abreve;ng xu&#x1EA5;t kh&#x1ECF;i t&#x1EA5;t c&#x1EA3;
+            | c&aacute;c t&agrave;i kho&#x1EA3;n c&#x1EE7;a h&atilde;ng nh&#x1B0; iCloud, Samsung Account,&mldr;
+          p
+            | M&aacute;y &dstrok;&atilde; &dstrok;&#x1B0;&#x1EE3;c th&aacute;o sim, th&#x1EBB; nh&#x1EDB;, bao
+            | da, &#x1ED1;p l&#x1B0;ng ra kh&#x1ECF;i thi&#x1EBF;t b&#x1ECB;, KD Mobile ch&#x1EC9; nh&#x1EAD;n l&#x1EA1;i m&aacute;y tr&#x1EA7;n.2.
+          p
+            strong 2. &Dstrok;I&#x1EC0;U KI&#x1EC6;N T&#x1EEA; CH&#x1ED0;I B&#x1EA2;O H&Agrave;NH:
+          p
+            | S&#x1EA3;n ph&#x1EA9;m kh&ocirc;ng c&oacute; tem b&#x1EA3;o h&agrave;nh c&#x1EE7;a
+            | KD Mobile ho&#x1EB7;c tem b&#x1EA3;o h&agrave;nh c&oacute; d&#x1EA5;u hi&#x1EC7;u b&#x1ECB; r&aacute;ch.
+          p
+            | S&#x1EA3;n ph&#x1EA9;m b&#x1ECB; v&agrave;o n&#x1B0;&#x1EDB;c, b&#x1ECB; th&#x1EA5;m n&#x1B0;&#x1EDB;c
+            | (K&#x1EC3; c&#x1EA3; c&aacute;c s&#x1EA3;n ph&#x1EA9;m c&oacute; ch&#x1EE9;c n&abreve;ng ch&#x1ED1;ng th&#x1EA5;m n&#x1B0;&#x1EDB;c).
+          p
+            | M&aacute;y c&oacute; d&#x1EA5;u hi&#x1EC7;u m&#x1EA5;t Boot do c&agrave;i rom,
+            | c&agrave;i ph&#x1EA7;n m&#x1EC1;m sai.
+          p
+            | M&aacute;y c&oacute; d&#x1EA5;u hi&#x1EC7;u s&#x1EED;a ch&#x1EEF;a, th&aacute;o bung
+            | m&aacute;y tr&#x1B0;&#x1EDB;c khi &dstrok;&#x1EBF;n c&#x1EED;a h&agrave;ng.
+          p
+            | S&#x1EA3;n ph&#x1EA9;m b&#x1ECB; h&#x1B0; do thi&ecirc;n tai, h&#x1ECF;a
+            | ho&#x1EA1;n, l&#x1EE5;t l&#x1ED9;i, s&eacute;t &dstrok;&aacute;nh.
+          p
+            | S&#x1EA3;n ph&#x1EA9;m b&#x1ECB; bi&#x1EBF;n d&#x1EA1;ng do t&aacute;c &dstrok;&#x1ED9;ng
+            | nhi&#x1EC7;t, t&aacute;c &dstrok;&#x1ED9;ng b&ecirc;n ngo&agrave;i.
+          p
+            strong L&#x1B0;u &yacute;:
+          p
+            | V&#x1EDB;i g&oacute;i b&#x1EA3;o h&agrave;nh iCare+ ch&#x1EC9; &aacute;p d&#x1EE5;ng
+            | b&#x1EA3;o h&agrave;nh trong tr&#x1B0;&#x1EDD;ng h&#x1EE3;p b&#x1ECB; l&#x1ED7;i c&#x1EA3;m &#x1EE9;ng, li&#x1EC7;t c&#x1EA3;m &#x1EE9;ng, kh&ocirc;ng &aacute;p d&#x1EE5;ng v&#x1EDB;i nh&#x1EEF;ng
+            | l&#x1ED7;i do qu&aacute; tr&igrave;nh gi&agrave; h&oacute;a linh ki&#x1EC7;n c&#x1EE7;a nh&agrave; cung c&#x1EA5;p (VD: &dstrok;i&#x1EC3;m ch&#x1EBF;t ph&aacute;t sinh
+            | sau 15 ng&agrave;y, h&#x1ED3;ng m&agrave;n, &aacute;m v&agrave;ng, &aacute;m m&agrave;n h&igrave;nh ph&aacute;t sinh theo th&#x1EDD;i gian s&#x1EED; d&#x1EE5;ng).
+            | Nh&#x1EEF;ng l&#x1ED7;i n&agrave;y n&#x1EBF;u ph&aacute;t sinh trong th&#x1EDD;i h&#x1EA1;n &dstrok;&#x1ED5;i m&aacute;y, kh&aacute;ch h&agrave;ng s&#x1EBD; &dstrok;&#x1B0;&#x1EE3;c &dstrok;&#x1ED5;i m&aacute;y
+            | m&#x1EDB;i.
+          p
+            | V&#x1EDB;i g&oacute;i b&#x1EA3;o h&agrave;nh v&agrave;ng c&#x1EA3; ngu&#x1ED3;n v&agrave; m&agrave;n h&igrave;nh ch&#x1EC9; &aacute;p d&#x1EE5;ng b&#x1EA3;o h&agrave;nh trong tr&#x1B0;&#x1EDD;ng h&#x1EE3;p b&#x1ECB; l&#x1ED7;i c&#x1EA3;m &#x1EE9;ng, li&#x1EC7;t c&#x1EA3;m &#x1EE9;ng, kh&ocirc;ng &aacute;p d&#x1EE5;ng v&#x1EDB;i nh&#x1EEF;ng l&#x1ED7;i do qu&aacute; tr&igrave;nh gi&agrave; h&oacute;a linh ki&#x1EC7;n c&#x1EE7;a nh&agrave; cung c&#x1EA5;p (VD: &dstrok;i&#x1EC3;m ch&#x1EBF;t ph&aacute;t sinh sau 15 ng&agrave;y, h&#x1ED3;ng m&agrave;n, &aacute;m v&agrave;ng, &aacute;m m&agrave;n h&igrave;nh ph&aacute;t sinh theo th&#x1EDD;i gian s&#x1EED; d&#x1EE5;ng). Nh&#x1EEF;ng l&#x1ED7;i n&agrave;y n&#x1EBF;u ph&aacute;t sinh trong th&#x1EDD;i h&#x1EA1;n &dstrok;&#x1ED5;i m&aacute;y, kh&aacute;ch h&agrave;ng s&#x1EBD; &dstrok;&#x1B0;&#x1EE3;c &dstrok;&#x1ED5;i m&aacute;y m&#x1EDB;i.
+          p
+            strong
+              | L&#x1B0;u &yacute;: Nh&#x1EEF;ng s&#x1EA3;n ph&#x1EA9;m &dstrok;i&#x1EC7;n tho&#x1EA1;i ch&#x1ED1;ng n&#x1B0;&#x1EDB;c n&#x1EBF;u ph&aacute;t sinh b&#x1EA3;o h&agrave;nh, sau khi b&#x1EA3;o h&agrave;nh xong th&igrave; s&#x1EBD; kh&ocirc;ng cam k&#x1EBF;t kh&#x1EA3; n&abreve;ng ch&#x1ED1;ng n&#x1B0;&#x1EDB;c c&#x1EE7;a s&#x1EA3;n ph&#x1EA9;m.
+          br
+          br
+#footer.container
+  .row
+    .col
+      p TH&Ocirc;NG TIN H&#x1ED6; TR&#x1EE2;
+      hr
+      ul
+        li
+          a(href='/politiquedegaranti') Ch&iacute;nh s&aacute;ch b&#x1EA3;o h&agrave;nh
+        li
+          a(href='/politiqueclient') Ch&iacute;nh s&aacute;ch b&#x1EA3;o m&#x1EAD;t th&ocirc;ng tin kh&aacute;ch h&agrave;ng
+    .col
+      p TH&Ocirc;NG TIN LI&Ecirc;N L&#x1EA0;C
+      hr
+      ul
+        | S&#x1ED1; &dstrok;i&#x1EC7;n tho&#x1EA1;i:
+        li
+          | 0941.559.273
+        li
+          | 0937.022.743
+        |                     Email:
+        li
+          | kdmobile@gmail.com
+        li
+          | kdmobile@yahoo.com
+    .col
+      p &Dstrok;&#x1ECB;a ch&#x1EC9; c&#x1EED;a h&agrave;ng
+      hr
+      ul
+        li
+          | 252 V&otilde; V&abreve;n Ng&acirc;n, Th&#x1EE7; &Dstrok;&#x1EE9;c, HCM
+        li
+          | 290 Ho&agrave;ng V&abreve;n Th&#x1EE5;, T&acirc;n B&igrave;nh, HCM
+        li
+          | 43 C&#x1EA7;u Gi&#x1EA5;y, H&agrave; N&#x1ED9;i
+        li
+          | 453 Nguy&#x1EC5;n Tr&atilde;i, H&agrave; N&#x1ED9;i
+script(src='js/promotion_detail.js')
+script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js', integrity='sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj', crossorigin='anonymous')
+script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo', crossorigin='anonymous')
+script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js', integrity='sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI', crossorigin='anonymous')
