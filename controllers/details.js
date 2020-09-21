@@ -152,11 +152,9 @@ const post_comment=(req,res)=>
             {
                 console.log(err)
             }
-            console.log(result)
         }
     )
     res.redirect('/acceuil/'+name_phone)
-    console.log(req.body)
 }
 
 const news=(req, res)=> {

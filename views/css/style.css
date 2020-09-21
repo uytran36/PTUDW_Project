@@ -18,7 +18,7 @@ body {
     height: 25px;
 
 }
-  
+
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
@@ -197,6 +197,7 @@ ul{
 }
 .manager_product{
     margin-left: 30px;
+    cursor: pointer;
 }
 .info_promotion{
     width: fit-content;
