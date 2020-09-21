@@ -9,7 +9,7 @@ var iPhone = [
         "imgsub": [
             "../img_phone/iPhone/iPhone 6 - 1.jpg",
             "../img_phone/iPhone/iPhone 6 - 2.jpg",
-            "../img_phone/iPhone/iPhone 6 - 3.jpg",
+            "../img_phone/iPhone/iPhone 6 - 3.jpg"
         ],
         "operating_system":"iOS 12",
         "screen_size": "4.7 inches",
@@ -22,7 +22,6 @@ var iPhone = [
         "dung_luong_pin":"Li-Po 1715mAh",
         "feedback":[]
     },
-    //iphone 7
     {
         "name" :"iPhone 7",
         "prix":"4.500.000",
@@ -32,7 +31,7 @@ var iPhone = [
         "imgsub": [
             "../img_phone/iPhone/iPhone 7 - 1.jpg",
             "../img_phone/iPhone/iPhone 7 - 2.jpg",
-            "../img_phone/iPhone/iPhone 7 - 3.jpg",
+            "../img_phone/iPhone/iPhone 7 - 3.jpg"
         ],
         "operating_system":"iOS 10",
         "screen_size": "4.7 inches",
@@ -45,7 +44,6 @@ var iPhone = [
         "dung_luong_pin":"Li-Po 1960mAh",
         "feedback":[]
     },
-    //iphone 7 plus
     {
         "name" :"iPhone 7 Plus",
         "prix":"7.200.000",
@@ -55,7 +53,7 @@ var iPhone = [
         "imgsub": [
             "../img_phone/iPhone/iPhone 7 Plus - 1.jpg",
             "../img_phone/iPhone/iPhone 7 Plus - 2.jpg",
-            "../img_phone/iPhone/iPhone 7 Plus - 3.jpg",
+            "../img_phone/iPhone/iPhone 7 Plus - 3.jpg"
         ],
         "operating_system":"iOS 12",
         "screen_size": "5.5 inches",
@@ -68,7 +66,6 @@ var iPhone = [
         "dung_luong_pin":"Li-Po 2900mAh",
         "feedback":[]
     },
-    //iphone 8 plus
     {
         "name" :"iPhone 8 Plus",
         "prix":"9.000.000",
@@ -78,7 +75,7 @@ var iPhone = [
         "imgsub": [
             "../img_phone/iPhone/iPhone 8 Plus - 1.jpg",
             "../img_phone/iPhone/iPhone 8 Plus - 2.jpg",
-            "../img_phone/iPhone/iPhone 8 Plus - 3.jpg",
+            "../img_phone/iPhone/iPhone 8 Plus - 3.jpg"
         ],
         "operating_system":"iOS 12",
         "screen_size": "5.5 inches",
@@ -91,7 +88,6 @@ var iPhone = [
         "dung_luong_pin":"Li-Po 2691mAh",
         "feedback":[]
     },
-    //iphone 11
     {
         "name" :"iPhone 11",
         "prix":"18.500.000",
@@ -101,7 +97,7 @@ var iPhone = [
         "imgsub": [
             "../img_phone/iPhone/iPhone 11 - 1.jpg",
             "../img_phone/iPhone/iPhone 11 - 2.jpg",
-            "../img_phone/iPhone/iPhone 11 - 3.jpg",
+            "../img_phone/iPhone/iPhone 11 - 3.jpg"
         ],
         "operating_system":"iOS 13",
         "screen_size": "6.1 inches",
@@ -114,7 +110,6 @@ var iPhone = [
         "dung_luong_pin":"Li-Po 3110mAh",
         "feedback":[]
     },
-    //iphone 11 pro
     {
         "name" :"iPhone 11 Pro",
         "prix":"26.500.000",
@@ -124,7 +119,7 @@ var iPhone = [
         "imgsub": [
             "../img_phone/iPhone/iPhone 11 Pro - 1.jpg",
             "../img_phone/iPhone/iPhone 11 Pro - 2.jpg",
-            "../img_phone/iPhone/iPhone 11 Pro - 3.jpg",
+            "../img_phone/iPhone/iPhone 11 Pro - 3.jpg"
         ],
         "operating_system":"iOS 13",
         "screen_size": "5.8 inches",
@@ -137,7 +132,6 @@ var iPhone = [
         "dung_luong_pin":"Li-Po 3190mAh",
         "feedback":[]
     },
-    // iphone 11 pro max
     {
         "name" :"iPhone 11 Pro Max",
         "prix":"27.000.000",
@@ -147,7 +141,7 @@ var iPhone = [
         "imgsub": [
             "../img_phone/iPhone/iPhone 11 Pro Max - 1.jpg",
             "../img_phone/iPhone/iPhone 11 Pro Max - 2.jpg",
-            "../img_phone/iPhone/iPhone 11 Pro Max - 3.jpg",
+            "../img_phone/iPhone/iPhone 11 Pro Max - 3.jpg"
         ],
         "operating system":"iOS 13",
         "screen_size": "6.5 inches",
@@ -160,7 +154,6 @@ var iPhone = [
         "dung_luong_pin":"Li-Po 3500mAh",
         "feedback":[]
     },
-    //iphone X
     {
         "name" :"iPhone X",
         "prix":"8.800.000",
@@ -170,7 +163,7 @@ var iPhone = [
         "imgsub": [
             "../img_phone/iPhone/iPhone X - 1.jpg",
             "../img_phone/iPhone/iPhone X - 2.jpg",
-            "../img_phone/iPhone/iPhone X - 3.jpg",
+            "../img_phone/iPhone/iPhone X - 3.jpg"
         ],
         "operating system":" Apples iOS",
         "screen_size": "5.8 inches",
@@ -183,7 +176,6 @@ var iPhone = [
         "dung_luong_pin":"Li-Po 2716mAh",
         "feedback":[]
     },
-    //iphone XR
     {
         "name" :"iPhone XR",
         "prix":"11.200.000",
@@ -193,7 +185,7 @@ var iPhone = [
         "imgsub": [
             "../img_phone/iPhone/iPhone XR - 1.jpg",
             "../img_phone/iPhone/iPhone XR - 2.jpg",
-            "../img_phone/iPhone/iPhone XR - 3.jpg",
+            "../img_phone/iPhone/iPhone XR - 3.jpg"
         ],
         "operating_system":"iOS 12",
         "screen_size": "5.8 inches",
@@ -206,7 +198,6 @@ var iPhone = [
         "dung_luong_pin":"Li-Po 2942mAh",
         "feedback":[]
     },
-    //iphone XS
     {
         "name" :"iPhone XS",
         "prix":"20.500.000",
@@ -216,7 +207,7 @@ var iPhone = [
         "imgsub": [
             "../img_phone/iPhone/iPhone XS - 1.jpg",
             "../img_phone/iPhone/iPhone XS - 2.jpg",
-            "../img_phone/iPhone/iPhone XS - 3.jpg",
+            "../img_phone/iPhone/iPhone XS - 3.jpg"
         ],
         "operating_system":"iOS 12",
         "screen_size": "5.8 inches",
@@ -229,7 +220,6 @@ var iPhone = [
         "dung_luong_pin":"Pin chuẩn N/A",
         "feedback":[]
     },
-    //iphone XS Max
     {
         "name" :"iPhone XS Max",
         "prix":"23.000.000",
@@ -239,7 +229,7 @@ var iPhone = [
         "imgsub": [
             "../img_phone/iPhone/iPhone XS - 1.jpg",
             "../img_phone/iPhone/iPhone XS - 2.jpg",
-            "../img_phone/iPhone/iPhone XS - 3.jpg",
+            "../img_phone/iPhone/iPhone XS - 3.jpg"
         ],
         "operating_system":"iOS 12",
         "screen_size": "6.5 inches",
@@ -256,7 +246,6 @@ var iPhone = [
 //SAMSUNG
 //A
 var samsungA =[
-    //A10
     {
         "name" :"Samsung Galaxy A10",
         "prix":"2.900.000",
@@ -266,7 +255,7 @@ var samsungA =[
         "imgsub": [
             "../img_phone/samsung/Samsung A/SS Galaxy A10 - 1.jpg",
             "../img_phone/samsung/Samsung A/SS Galaxy A10 - 2.jpg",
-            "../img_phone/samsung/Samsung A/SS Galaxy A10 - 3.jpg",
+            "../img_phone/samsung/Samsung A/SS Galaxy A10 - 3.jpg"
         ],
         "operating system":"Android 9.0",
         "screen size": "6.2 inches",
@@ -279,7 +268,6 @@ var samsungA =[
         "dung_luong_pin":"Li-Po 4000mAh",
         "feedback":[]
     },
-    //A20s
     {
         "name" :"Samsung Galaxy A20s",
         "prix":"3.500.000",
@@ -289,7 +277,7 @@ var samsungA =[
         "imgsub": [
             "../img_phone/samsung/Samsung A/SS Galaxy A20s - 1.jpg",
             "../img_phone/samsung/Samsung A/SS Galaxy A20s - 2.jpg",
-            "../img_phone/samsung/Samsung A/SS Galaxy A20s - 3.jpg",
+            "../img_phone/samsung/Samsung A/SS Galaxy A20s - 3.jpg"
         ],
         "operating system":"Android 9.0",
         "screen size": "6.5 inches",
@@ -302,7 +290,6 @@ var samsungA =[
         "dung_luong_pin":"Li-Po 4000mAh",
         "feedback":[]
     },
-    //A30
     {
         "name" :"Samsung Galaxy A30",
         "prix":"6.000.000",
@@ -312,7 +299,7 @@ var samsungA =[
         "imgsub": [
             "../img_phone/samsung/Samsung A/SS Galaxy A30 - 1.jpg",
             "../img_phone/samsung/Samsung A/SS Galaxy A30 - 2.jpg",
-            "../img_phone/samsung/Samsung A/SS Galaxy A30 - 3.jpg",
+            "../img_phone/samsung/Samsung A/SS Galaxy A30 - 3.jpg"
         ],
         "operating system":"Android 9.0",
         "screen size": "6.4 inches",
@@ -325,7 +312,6 @@ var samsungA =[
         "dung_luong_pin":"Li-Po 4000mAh",
         "feedback":[]
     },
-    //A50
     {
         "name" :"Samsung Galaxy A50",
         "prix":"6.100.000",
@@ -335,7 +321,7 @@ var samsungA =[
         "imgsub": [
             "../img_phone/samsung/Samsung A/SS Galaxy A50 - 1.jpg",
             "../img_phone/samsung/Samsung A/SS Galaxy A50 - 2.jpg",
-            "../img_phone/samsung/Samsung A/SS Galaxy A50 - 3.jpg",
+            "../img_phone/samsung/Samsung A/SS Galaxy A50 - 3.jpg"
         ],
         "operating system":"Android 9.0",
         "screen size": "6.4 inches",
@@ -348,7 +334,6 @@ var samsungA =[
         "dung_luong_pin":"Li-Po 4000mAh",
         "feedback":[]
     },
-    //A51
     {
         "name" :"Samsung Galaxy A51",
         "prix":"6.300.000",
@@ -358,7 +343,7 @@ var samsungA =[
         "imgsub": [
             "../img_phone/samsung/Samsung A/SS Galaxy A51 - 1.jpg",
             "../img_phone/samsung/Samsung A/SS Galaxy A51 - 2.jpg",
-            "../img_phone/samsung/Samsung A/SS Galaxy A51 - 3.jpg",
+            "../img_phone/samsung/Samsung A/SS Galaxy A51 - 3.jpg"
         ],
         "operating system":"Android 9.0",
         "screen size": "6.5 inches",
@@ -371,7 +356,6 @@ var samsungA =[
         "dung_luong_pin":"Li-Po 4000mAh",
         "feedback":[]
     },
-    //A70
     {
         "name" :"Samsung Galaxy A70",
         "prix":"6.500.000",
@@ -381,7 +365,7 @@ var samsungA =[
         "imgsub": [
             "../img_phone/samsung/Samsung A/SS Galaxy A70 - 1.jpg",
             "../img_phone/samsung/Samsung A/SS Galaxy A70 - 2.jpg",
-            "../img_phone/samsung/Samsung A/SS Galaxy A70 - 3.jpg",
+            "../img_phone/samsung/Samsung A/SS Galaxy A70 - 3.jpg"
         ],
         "operating system":"Android 9.0",
         "screen size": "6.7 inches",
@@ -394,7 +378,6 @@ var samsungA =[
         "dung_luong_pin":"Li-Po 4500mAh",
         "feedback":[]
     },
-    //A71
     {
         "name" :"Samsung Galaxy A71",
         "prix":"7.900.000",
@@ -404,7 +387,7 @@ var samsungA =[
         "imgsub": [
             "../img_phone/samsung/Samsung A/SS Galaxy A71 - 1.jpg",
             "../img_phone/samsung/Samsung A/SS Galaxy A71 - 2.jpg",
-            "../img_phone/samsung/Samsung A/SS Galaxy A71 - 3.jpg",
+            "../img_phone/samsung/Samsung A/SS Galaxy A71 - 3.jpg"
         ],
         "operating system":"Android 10",
         "screen size": "6.7 inches",
@@ -417,7 +400,7 @@ var samsungA =[
         "dung_luong_pin":"Li-Po 4500mAh",
         "feedback":[]
     },
-    //A80
+   
     {
         "name" :"Samsung Galaxy A80",
         "prix":"8.500.000",
@@ -427,7 +410,7 @@ var samsungA =[
         "imgsub": [
             "../img_phone/samsung/Samsung A/SS Galaxy A80 - 1.jpg",
             "../img_phone/samsung/Samsung A/SS Galaxy A80 - 2.jpg",
-            "../img_phone/samsung/Samsung A/SS Galaxy A80 - 3.jpg",
+            "../img_phone/samsung/Samsung A/SS Galaxy A80 - 3.jpg"
         ],
         "operating system":"Android 9.0",
         "screen size": "6.7 inches",
@@ -445,7 +428,7 @@ var samsungA =[
 
 //M
 var samsungM = [
-    //M10
+   
     {
         "name" :"Samsung Galaxy M10",
         "prix":"3.000.000",
@@ -455,7 +438,7 @@ var samsungM = [
         "imgsub": [
             "../img_phone/samsung/Samsung M/SS Galaxy M10 - 1.jpg",
             "../img_phone/samsung/Samsung M/SS Galaxy M10 - 2.jpg",
-            "../img_phone/samsung/Samsung M/SS Galaxy M10 - 3.jpg",
+            "../img_phone/samsung/Samsung M/SS Galaxy M10 - 3.jpg"
         ],
         "operating system":"Android 8.1",
         "screen size": "6.2 inches",
@@ -468,7 +451,7 @@ var samsungM = [
         "dung_luong_pin":"Li-Po 3400mAh",
         "feedback":[]
     },
-    //M11
+  
     {
         "name" :"Samsung Galaxy M11",
         "prix":"3.500.000",
@@ -478,7 +461,7 @@ var samsungM = [
         "imgsub": [
             "../img_phone/samsung/Samsung M/SS Galaxy M11 - 1.jpg",
             "../img_phone/samsung/Samsung M/SS Galaxy M11 - 2.jpg",
-            "../img_phone/samsung/Samsung M/SS Galaxy M11 - 3.jpg",
+            "../img_phone/samsung/Samsung M/SS Galaxy M11 - 3.jpg"
         ],
         "operating system":"Android 10",
         "screen size": "6.4 inches",
@@ -491,7 +474,7 @@ var samsungM = [
         "dung_luong_pin":"Li-Po 5000mAh",
         "feedback":[]
     },
-    //M20
+    
     {
         "name" :"Samsung Galaxy M20",
         "prix":"4.890.000",
@@ -501,7 +484,7 @@ var samsungM = [
         "imgsub": [
             "../img_phone/samsung/Samsung M/SS Galaxy M20 - 1.jpg",
             "../img_phone/samsung/Samsung M/SS Galaxy M20 - 2.jpg",
-            "../img_phone/samsung/Samsung M/SS Galaxy M20 - 3.jpg",
+            "../img_phone/samsung/Samsung M/SS Galaxy M20 - 3.jpg"
         ],
         "operating system":"Android 8.1",
         "screen size": "6.3 inches",
@@ -514,7 +497,7 @@ var samsungM = [
         "dung_luong_pin":"Li-Po 5000mAh",
         "feedback":[]
     },
-    //M21
+    
     {
         "name" :"Samsung Galaxy M21",
         "prix":"4.500.000",
@@ -524,7 +507,7 @@ var samsungM = [
         "imgsub": [
             "../img_phone/samsung/Samsung M/SS Galaxy M21 - 1.jpg",
             "../img_phone/samsung/Samsung M/SS Galaxy M21 - 2.jpg",
-            "../img_phone/samsung/Samsung M/SS Galaxy M21 - 3.jpg",
+            "../img_phone/samsung/Samsung M/SS Galaxy M21 - 3.jpg"
         ],
         "operating system":"Android 10",
         "screen size": "6.4 inches",
@@ -537,7 +520,7 @@ var samsungM = [
         "dung_luong_pin":"Li-Po 6000mAh",
         "feedback":[]
     },
-    //M30
+   
     {
         "name" :"Samsung Galaxy M30",
         "prix":"3.800.000",
@@ -547,7 +530,7 @@ var samsungM = [
         "imgsub": [
             "../img_phone/samsung/Samsung M/SS Galaxy M30 - 1.jpg",
             "../img_phone/samsung/Samsung M/SS Galaxy M30 - 2.jpg",
-            "../img_phone/samsung/Samsung M/SS Galaxy M30 - 3.jpg",
+            "../img_phone/samsung/Samsung M/SS Galaxy M30 - 3.jpg"
         ],
         "operating system":"Android 9.0",
         "screen size": "6.4 inches",
@@ -560,7 +543,7 @@ var samsungM = [
         "dung_luong_pin":"Li-Po 5000mAh",
         "feedback":[]
     },
-    //M30s
+    
     {
         "name" :"Samsung Galaxy M30s",
         "prix":"6.890.000",
@@ -570,7 +553,7 @@ var samsungM = [
         "imgsub": [
             "../img_phone/samsung/Samsung M/SS Galaxy M30s - 1.jpg",
             "../img_phone/samsung/Samsung M/SS Galaxy M30s - 2.jpg",
-            "../img_phone/samsung/Samsung M/SS Galaxy M30s - 3.jpg",
+            "../img_phone/samsung/Samsung M/SS Galaxy M30s - 3.jpg"
         ],
         "operating system":"Android 9.0",
         "screen size": "6.4 inches",
@@ -583,7 +566,7 @@ var samsungM = [
         "dung_luong_pin":"Li-Po 6000mAh",
         "feedback":[]
     },
-    //M31
+    
     {
         "name" :"Samsung Galaxy M31",
         "prix":"6.190.000",
@@ -593,7 +576,7 @@ var samsungM = [
         "imgsub": [
             "../img_phone/samsung/Samsung M/SS Galaxy M31 - 1.jpg",
             "../img_phone/samsung/Samsung M/SS Galaxy M31 - 2.jpg",
-            "../img_phone/samsung/Samsung M/SS Galaxy M31 - 3.jpg",
+            "../img_phone/samsung/Samsung M/SS Galaxy M31 - 3.jpg"
         ],
         "operating system":"Android 9.0",
         "screen size": "6.4 inches",
@@ -610,7 +593,7 @@ var samsungM = [
 
 //S
 var samsungN = [
-    //Note 8
+   
     {
         "name" :"Samsung Galaxy Note 8",
         "prix":"6.490.000",
@@ -620,7 +603,7 @@ var samsungN = [
         "imgsub": [
             "../img_phone/samsung/Samsung Note/SS Galaxy Note 8 - 1.jpg",
             "../img_phone/samsung/Samsung Note/SS Galaxy Note 8 - 2.jpg",
-            "../img_phone/samsung/Samsung Note/SS Galaxy Note 8 - 3.jpg",
+            "../img_phone/samsung/Samsung Note/SS Galaxy Note 8 - 3.jpg"
         ],
         "operating system":"Android OS,v7.1.2",
         "screen size": "6.3 inches",
@@ -633,7 +616,7 @@ var samsungN = [
         "dung_luong_pin":"Li-Po 3300mAh",
         "feedback":[]
     },
-    //Note 9
+   
     {
         "name" :"Samsung Galaxy Note 9",
         "prix":"7.490.000",
@@ -643,7 +626,7 @@ var samsungN = [
         "imgsub": [
             "../img_phone/samsung/Samsung Note/SS Galaxy Note 9 - 1.jpg",
             "../img_phone/samsung/Samsung Note/SS Galaxy Note 9 - 2.jpg",
-            "../img_phone/samsung/Samsung Note/SS Galaxy Note 9 - 3.jpg",
+            "../img_phone/samsung/Samsung Note/SS Galaxy Note 9 - 3.jpg"
         ],
         "operating system":"Android OS,v8.1",
         "screen size": "6.4 inches",
@@ -656,7 +639,7 @@ var samsungN = [
         "dung_luong_pin":"Li-Po 4000mAh",
         "feedback":[]
     },
-    //note 10
+  
     {
         "name" :"Samsung Galaxy Note 10",
         "prix":"22.900.000",
@@ -666,7 +649,7 @@ var samsungN = [
         "imgsub": [
             "../img_phone/samsung/Samsung Note/SS Galaxy Note 10 - 1.jpg",
             "../img_phone/samsung/Samsung Note/SS Galaxy Note 10 - 2.jpg",
-            "../img_phone/samsung/Samsung Note/SS Galaxy Note 10 - 3.jpg",
+            "../img_phone/samsung/Samsung Note/SS Galaxy Note 10 - 3.jpg"
         ],
         "operating system":"Android 9.0",
         "screen size": "6.3 inches",
@@ -679,7 +662,7 @@ var samsungN = [
         "dung_luong_pin":"Li-Po 3500mAh",
         "feedback":[]
     },
-    //note 10 lite
+    
     {
         "name" :"Samsung Galaxy Note 10 Lite",
         "prix":"13.900.000",
@@ -689,7 +672,7 @@ var samsungN = [
         "imgsub": [
             "../img_phone/samsung/Samsung Note/SS Galaxy Note 10 Lite - 1.jpg",
             "../img_phone/samsung/Samsung Note/SS Galaxy Note 10 Lite - 2.jpg",
-            "../img_phone/samsung/Samsung Note/SS Galaxy Note 10 Lite - 3.jpg",
+            "../img_phone/samsung/Samsung Note/SS Galaxy Note 10 Lite - 3.jpg"
         ],
         "operating system":"Android 10",
         "screen size": "6.7 inches",
@@ -702,7 +685,7 @@ var samsungN = [
         "dung_luong_pin":"Li-Po 4500mAh",
         "feedback":[]
     },
-    //note 10+
+   
     {
         "name" :"Samsung Galaxy Note 10 Plus",
         "prix":"26.900.000",
@@ -712,7 +695,7 @@ var samsungN = [
         "imgsub": [
             "../img_phone/samsung/Samsung Note/SS Galaxy Note 10+ - 1.jpg",
             "../img_phone/samsung/Samsung Note/SS Galaxy Note 10+ - 2.jpg",
-            "../img_phone/samsung/Samsung Note/SS Galaxy Note 10+ - 3.jpg",
+            "../img_phone/samsung/Samsung Note/SS Galaxy Note 10+ - 3.jpg"
         ],
         "operating system":"Android 9.0",
         "screen size": "6.8 inches",
@@ -725,7 +708,7 @@ var samsungN = [
         "dung_luong_pin":"Li-Po 4300mAh",
         "feedback":[]
     },
-    //note FE
+  
     {
         "name" :"Samsung Galaxy Note FE",
         "prix":"9.900.000",
@@ -735,7 +718,7 @@ var samsungN = [
         "imgsub": [
             "../img_phone/samsung/Samsung Note/SS Galaxy Note FE - 1.jpg",
             "../img_phone/samsung/Samsung Note/SS Galaxy Note FE - 2.jpg",
-            "../img_phone/samsung/Samsung Note/SS Galaxy Note FE - 3.jpg",
+            "../img_phone/samsung/Samsung Note/SS Galaxy Note FE - 3.jpg"
         ],
         "operating system":"Android 7.0",
         "screen size": "5.7 inches",
@@ -752,7 +735,6 @@ var samsungN = [
 
 //S
 var samsungS = [
-    //S8
     {
         "name" :"Samsung Galaxy S8",
         "prix":"7.000.000",
@@ -762,7 +744,7 @@ var samsungS = [
         "imgsub": [
             "../img_phone/samsung/Samsung S/SS Galaxy S8 - 1.jpg",
             "../img_phone/samsung/Samsung S/SS Galaxy S8 - 2.jpg",
-            "../img_phone/samsung/Samsung S/SS Galaxy S8 - 3.jpg",
+            "../img_phone/samsung/Samsung S/SS Galaxy S8 - 3.jpg"
         ],
         "operating system":"Android 7.0",
         "screen size": "5.8 inches",
@@ -775,7 +757,6 @@ var samsungS = [
         "dung_luong_pin":"Li-Po 3000mAh",
         "feedback":[]
     },
-    //S8+
     {
         "name" :"Samsung Galaxy S8 Plus",
         "prix":"14.000.000",
@@ -785,7 +766,7 @@ var samsungS = [
         "imgsub": [
             "../img_phone/samsung/Samsung S/SS Galaxy S8+ - 1.jpg",
             "../img_phone/samsung/Samsung S/SS Galaxy S8+ - 2.jpg",
-            "../img_phone/samsung/Samsung S/SS Galaxy S8+ - 3.jpg",
+            "../img_phone/samsung/Samsung S/SS Galaxy S8+ - 3.jpg"
         ],
         "operating system":"Android 7.0",
         "screen size": "6.2 inches",
@@ -798,7 +779,6 @@ var samsungS = [
         "dung_luong_pin":"Li-Po 3500mAh",
         "feedback":[]
     },
-    //S9
     {
         "name" :"Samsung Galaxy S9",
         "prix":"6.000.000",
@@ -808,7 +788,7 @@ var samsungS = [
         "imgsub": [
             "../img_phone/samsung/Samsung S/SS Galaxy S9 - 1.jpg",
             "../img_phone/samsung/Samsung S/SS Galaxy S9 - 2.jpg",
-            "../img_phone/samsung/Samsung S/SS Galaxy S9 - 3.jpg",
+            "../img_phone/samsung/Samsung S/SS Galaxy S9 - 3.jpg"
         ],
         "operating system":"Android 8.0",
         "screen size": "5.8 inches",
@@ -821,7 +801,6 @@ var samsungS = [
         "dung_luong_pin":"Li-Po 3000mAh",
         "feedback":[]
     },
-    //S9+
     {
         "name" :"Samsung Galaxy S9 Plus",
         "prix":"6.800.000",
@@ -831,7 +810,7 @@ var samsungS = [
         "imgsub": [
             "../img_phone/samsung/Samsung S/SS Galaxy S9+ - 1.jpg",
             "../img_phone/samsung/Samsung S/SS Galaxy S9+ - 2.jpg",
-            "../img_phone/samsung/Samsung S/SS Galaxy S9+ - 3.jpg",
+            "../img_phone/samsung/Samsung S/SS Galaxy S9+ - 3.jpg"
         ],
         "operating system":"Android 8.0",
         "screen size": "6.2 inches",
@@ -844,7 +823,6 @@ var samsungS = [
         "dung_luong_pin":"Li-Po 3500mAh",
         "feedback":[]
     },
-    //S10+
     {
         "name" :"Samsung Galaxy S10 Plus",
         "prix":"11.400.000",
@@ -854,7 +832,7 @@ var samsungS = [
         "imgsub": [
             "../img_phone/samsung/Samsung S/SS Galaxy S10+ - 1.jpg",
             "../img_phone/samsung/Samsung S/SS Galaxy S10+ - 2.jpg",
-            "../img_phone/samsung/Samsung S/SS Galaxy S10+ - 3.jpg",
+            "../img_phone/samsung/Samsung S/SS Galaxy S10+ - 3.jpg"
         ],
         "operating system":"Android 9.0",
         "screen size": "6.4 inches",
@@ -867,7 +845,6 @@ var samsungS = [
         "dung_luong_pin":"Li-Po 4100mAh",
         "feedback":[]
     },
-    //S20
     {
         "name" :"Samsung Galaxy S20",
         "prix":"21.400.000",
@@ -877,7 +854,7 @@ var samsungS = [
         "imgsub": [
             "../img_phone/samsung/Samsung S/SS Galaxy S20 - 1.jpg",
             "../img_phone/samsung/Samsung S/SS Galaxy S20 - 2.jpg",
-            "../img_phone/samsung/Samsung S/SS Galaxy S20 - 3.jpg",
+            "../img_phone/samsung/Samsung S/SS Galaxy S20 - 3.jpg"
         ],
         "operating system":"Android 10",
         "screen size": "6.2 inches",
@@ -890,7 +867,6 @@ var samsungS = [
         "dung_luong_pin":"Li-Po 4000mAh",
         "feedback":[]
     },
-    //S20 Ultra
     {
         "name" :"Samsung Galaxy S20 Ultra",
         "prix":"29.900.000",
@@ -900,7 +876,7 @@ var samsungS = [
         "imgsub": [
             "../img_phone/samsung/Samsung S/SS Galaxy S20 Ultra - 1.jpg",
             "../img_phone/samsung/Samsung S/SS Galaxy S20 Ultra - 2.jpg",
-            "../img_phone/samsung/Samsung S/SS Galaxy S20 Ultra - 3.jpg",
+            "../img_phone/samsung/Samsung S/SS Galaxy S20 Ultra - 3.jpg"
         ],
         "operating system":"Android 10",
         "screen size": "6.9 inches",
@@ -917,7 +893,6 @@ var samsungS = [
 
 //SONY
 var sony = [
-    //Xperia 5
     {
         "name" :"Sony Xperia 5",
         "prix":"17.990.000",
@@ -927,7 +902,7 @@ var sony = [
         "imgsub": [
             "../img_phone/Sony/Sony Xperia 5 - 1.jpg",
             "../img_phone/Sony/Sony Xperia 5 - 2.jpg",
-            "../img_phone/Sony/Sony Xperia 5 - 3.jpg",
+            "../img_phone/Sony/Sony Xperia 5 - 3.jpg"
         ],
         "operating system":"Android 9.0",
         "screen size": "6.1 inches",
@@ -940,7 +915,6 @@ var sony = [
         "dung_luong_pin":"3140mAh",
         "feedback":[]
     },
-    //Xperia I
     {
         "name" :"Sony Xperia I",
         "prix":"20.000.000",
@@ -950,7 +924,7 @@ var sony = [
         "imgsub": [
             "../img_phone/Sony/Sony Xperia I - 1.jpg",
             "../img_phone/Sony/Sony Xperia I - 2.jpg",
-            "../img_phone/Sony/Sony Xperia I - 3.jpg",
+            "../img_phone/Sony/Sony Xperia I - 3.jpg"
         ],
         "operating system":"Android 10",
         "screen size": "6.5 inches",
@@ -963,7 +937,6 @@ var sony = [
         "dung_luong_pin":"3330mAh",
         "feedback":[]
     },
-    //Xperia I mark II
     {
         "name" :"Sony Xperia I mark II",
         "prix":"20.990.000",
@@ -973,7 +946,7 @@ var sony = [
         "imgsub": [
             "../img_phone/Sony/Sony Xperia I mark II - 1.jpg",
             "../img_phone/Sony/Sony Xperia I mark II - 2.jpg",
-            "../img_phone/Sony/Sony Xperia I mark II - 3.jpg",
+            "../img_phone/Sony/Sony Xperia I mark II - 3.jpg"
         ],
         "operating system":"Android 10",
         "screen size": "6.5 inches",
@@ -986,7 +959,6 @@ var sony = [
         "dung_luong_pin":"4000mAh",
         "feedback":[]
     },
-    //Xperia XZ Premium
     {
         "name" :"Sony Xperia XZ Premium",
         "prix":"18.490.000",
@@ -996,7 +968,7 @@ var sony = [
         "imgsub": [
             "../img_phone/Sony/Sony Xperia XZ Premium - 1.jpg",
             "../img_phone/Sony/Sony Xperia XZ Premium - 2.jpg",
-            "../img_phone/Sony/Sony Xperia XZ Premium - 3.jpg",
+            "../img_phone/Sony/Sony Xperia XZ Premium - 3.jpg"
         ],
         "operating system":"Android 8.0",
         "screen size": "5.5 inches",
@@ -1009,7 +981,6 @@ var sony = [
         "dung_luong_pin":"3230mAh",
         "feedback":[]
     },
-    //Xperia XZ2
     {
         "name" :"Sony Xperia XZ2",
         "prix":"4.290.000",
@@ -1019,7 +990,7 @@ var sony = [
         "imgsub": [
             "../img_phone/Sony/Sony Xperia XZ2 - 1.jpg",
             "../img_phone/Sony/Sony Xperia XZ2 - 2.jpg",
-            "../img_phone/Sony/Sony Xperia XZ2 - 3.jpg",
+            "../img_phone/Sony/Sony Xperia XZ2 - 3.jpg"
         ],
         "operating system":"Android OS",
         "screen size": "5.7 inches",
@@ -1037,7 +1008,6 @@ var sony = [
 //XIAOMI
 //MI Series
 var xiaomiMI = [
-    //Mi 8 Pro
     {
         "name" :"Xiaomi Mi 8 Pro",
         "prix":"12.290.000",
@@ -1047,7 +1017,7 @@ var xiaomiMI = [
         "imgsub": [
             "../img_phone/xiaomi/Mi Series/Mi 8 Pro - 1.jpg",
             "../img_phone/xiaomi/Mi Series/Mi 8 Pro - 2.jpg",
-            "../img_phone/xiaomi/Mi Series/Mi 8 Pro - 3.jpg",
+            "../img_phone/xiaomi/Mi Series/Mi 8 Pro - 3.jpg"
         ],
         "operating system":"Android 8.1",
         "screen size": "5.7 inches",
@@ -1060,7 +1030,6 @@ var xiaomiMI = [
         "dung_luong_pin":"Li-Po 3000mAh",
         "feedback":[]
     },
-    //Mi 9
     {
         "name" :"Xiaomi Mi 9",
         "prix":"11.090.000",
@@ -1070,7 +1039,7 @@ var xiaomiMI = [
         "imgsub": [
             "../img_phone/xiaomi/Mi Series/Mi 9 - 1.jpg",
             "../img_phone/xiaomi/Mi Series/Mi 9 - 2.jpg",
-            "../img_phone/xiaomi/Mi Series/Mi 9 - 3.jpg",
+            "../img_phone/xiaomi/Mi Series/Mi 9 - 3.jpg"
         ],
         "operating system":"Android 9.0",
         "screen size": "6.4 inches",
@@ -1083,7 +1052,6 @@ var xiaomiMI = [
         "dung_luong_pin":"Li-Po 3300mAh",
         "feedback":[]
     },
-    //Mi 9 SE
     {
         "name" :"Xiaomi Mi 9 SE",
         "prix":"6.990.000",
@@ -1093,7 +1061,7 @@ var xiaomiMI = [
         "imgsub": [
             "../img_phone/xiaomi/Mi Series/Mi 9 SE - 1.jpg",
             "../img_phone/xiaomi/Mi Series/Mi 9 SE - 2.jpg",
-            "../img_phone/xiaomi/Mi Series/Mi 9 SE - 3.jpg",
+            "../img_phone/xiaomi/Mi Series/Mi 9 SE - 3.jpg"
         ],
         "operating system":"Android 9.0",
         "screen size": "5.92 inches",
@@ -1106,7 +1074,6 @@ var xiaomiMI = [
         "dung_luong_pin":"Li-Po 3070mAh",
         "feedback":[]
     },
-    //Mi 9T
     {
         "name" :"Xiaomi Mi 9T",
         "prix":"7.290.000",
@@ -1116,7 +1083,7 @@ var xiaomiMI = [
         "imgsub": [
             "../img_phone/xiaomi/Mi Series/Mi 9T - 1.jpg",
             "../img_phone/xiaomi/Mi Series/Mi 9T - 2.jpg",
-            "../img_phone/xiaomi/Mi Series/Mi 9T - 3.jpg",
+            "../img_phone/xiaomi/Mi Series/Mi 9T - 3.jpg"
         ],
         "operating system":"Android 9.0",
         "screen size": "6.39 inches",
@@ -1129,7 +1096,6 @@ var xiaomiMI = [
         "dung_luong_pin":"Li-Po 4000mAh",
         "feedback":[]
     },
-    //Mi A3
     {
         "name" :"Xiaomi Mi A3",
         "prix":"3.990.000",
@@ -1139,7 +1105,7 @@ var xiaomiMI = [
         "imgsub": [
             "../img_phone/xiaomi/Mi Series/Mi A3 - 1.jpg",
             "../img_phone/xiaomi/Mi Series/Mi A3 - 2.jpg",
-            "../img_phone/xiaomi/Mi Series/Mi A3 - 3.jpg",
+            "../img_phone/xiaomi/Mi Series/Mi A3 - 3.jpg"
         ],
         "operating system":"Android OS",
         "screen size": "6.01 inches",
@@ -1152,7 +1118,6 @@ var xiaomiMI = [
         "dung_luong_pin":"Li-Po 4030mAh",
         "feedback":[]
     },
-    //Mi Max 3
     {
         "name" :"Xiaomi Mi Max 3",
         "prix":"3.790.000",
@@ -1162,7 +1127,7 @@ var xiaomiMI = [
         "imgsub": [
             "../img_phone/xiaomi/Mi Series/Mi Max 3 - 1.jpg",
             "../img_phone/xiaomi/Mi Series/Mi Max 3 - 2.jpg",
-            "../img_phone/xiaomi/Mi Series/Mi Max 3 - 3.jpg",
+            "../img_phone/xiaomi/Mi Series/Mi Max 3 - 3.jpg"
         ],
         "operating system":"Android 8.1",
         "screen size": "6.9 inches",
@@ -1175,7 +1140,6 @@ var xiaomiMI = [
         "dung_luong_pin":"Li-Po 5000mAh",
         "feedback":[]
     },
-    //Mi Note 10 Lite
     {
         "name" :"Xiaomi Mi Note 10 Lite",
         "prix":"7.990.000",
@@ -1185,7 +1149,7 @@ var xiaomiMI = [
         "imgsub": [
             "../img_phone/xiaomi/Mi Series/Mi Note 10 Lite - 1.jpg",
             "../img_phone/xiaomi/Mi Series/Mi Note 10 Lite - 2.jpg",
-            "../img_phone/xiaomi/Mi Series/Mi Note 10 Lite - 3.jpg",
+            "../img_phone/xiaomi/Mi Series/Mi Note 10 Lite - 3.jpg"
         ],
         "operating system":"Android 8.1",
         "screen size": "6.47 inches",
@@ -1198,7 +1162,6 @@ var xiaomiMI = [
         "dung_luong_pin":"Li-Po 5260mAh",
         "feedback":[]
     },
-    //Mi Note 10 Pro
     {
         "name" :"Xiaomi Mi Note 10 Pro",
         "prix":"13.490.000",
@@ -1208,7 +1171,7 @@ var xiaomiMI = [
         "imgsub": [
             "../img_phone/xiaomi/Mi Series/Mi 8 Pro - 1.jpg",
             "../img_phone/xiaomi/Mi Series/Mi 8 Pro - 2.jpg",
-            "../img_phone/xiaomi/Mi Series/Mi 8 Pro - 3.jpg",
+            "../img_phone/xiaomi/Mi Series/Mi 8 Pro - 3.jpg"
         ],
         "operating system":"Android 8.1",
         "screen size": "6.47 inches",
@@ -1226,7 +1189,6 @@ var xiaomiMI = [
 
 //Redmi Series
 var xiaomiRM = [
-    // Redmi 7
     {
         "name" :"Xiaomi Redmi 7",
         "prix":"3.190.000",
@@ -1236,7 +1198,7 @@ var xiaomiRM = [
         "imgsub": [
             "../img_phone/xiaomi/Redmi Series/Redmi 7 - 1.jpg",
             "../img_phone/xiaomi/Redmi Series/Redmi 7 - 2.jpg",
-            "../img_phone/xiaomi/Redmi Series/Redmi 7 - 3.jpg",
+            "../img_phone/xiaomi/Redmi Series/Redmi 7 - 3.jpg"
         ],
         "operating system":"Android 9.0",
         "screen size": "6.47 inches",
@@ -1250,7 +1212,6 @@ var xiaomiRM = [
         "feedback":[]
 
     },
-    //Redmi 7A
     {
         "name" :"Xiaomi Redmi 7A",
         "prix":"2.990.000",
@@ -1260,7 +1221,7 @@ var xiaomiRM = [
         "imgsub": [
             "../img_phone/xiaomi/Redmi Series/Redmi 7A - 1.jpg",
             "../img_phone/xiaomi/Redmi Series/Redmi 7A - 2.jpg",
-            "../img_phone/xiaomi/Redmi Series/Redmi 7A - 3.jpg",
+            "../img_phone/xiaomi/Redmi Series/Redmi 7A - 3.jpg"
         ],
         "operating system":"Android OS",
         "screen size": "5.45 inches",
@@ -1273,7 +1234,6 @@ var xiaomiRM = [
         "dung_luong_pin":"Li-Po 4000mAh",
         "feedback":[]
     },
-    //Redmi 8
     {
         "name" :"Xiaomi Redmi 8",
         "prix":"2.190.000",
@@ -1283,7 +1243,7 @@ var xiaomiRM = [
         "imgsub": [
             "../img_phone/xiaomi/Redmi Series/Redmi 8 - 1.jpg",
             "../img_phone/xiaomi/Redmi Series/Redmi 8 - 2.jpg",
-            "../img_phone/xiaomi/Redmi Series/Redmi 8 - 3.jpg",
+            "../img_phone/xiaomi/Redmi Series/Redmi 8 - 3.jpg"
         ],
         "operating system":"Android 9.0",
         "screen size": "6.2 inches",
@@ -1296,7 +1256,6 @@ var xiaomiRM = [
         "dung_luong_pin":"Li-Po 5000mAh",
         "feedback":[]
     },
-    //Redmi 8A
     {
         "name" :"Xiaomi Redmi 8A",
         "prix":"2.190.000",
@@ -1306,7 +1265,7 @@ var xiaomiRM = [
         "imgsub": [
             "../img_phone/xiaomi/Redmi Series/Redmi 8A - 1.jpg",
             "../img_phone/xiaomi/Redmi Series/Redmi 8A - 2.jpg",
-            "../img_phone/xiaomi/Redmi Series/Redmi 8A - 3.jpg",
+            "../img_phone/xiaomi/Redmi Series/Redmi 8A - 3.jpg"
         ],
         "operating system":"Android OS",
         "screen size": "6.22 inches",
@@ -1319,7 +1278,6 @@ var xiaomiRM = [
         "dung_luong_pin":"Li-Po 5000mAh",
         "feedback":[]
     },
-    //Redmi 9
     {
         "name" :"Xiaomi Redmi 9",
         "prix":"2.990.000",
@@ -1329,7 +1287,7 @@ var xiaomiRM = [
         "imgsub": [
             "../img_phone/xiaomi/Redmi Series/Redmi 9 - 1.jpg",
             "../img_phone/xiaomi/Redmi Series/Redmi 9 - 2.jpg",
-            "../img_phone/xiaomi/Redmi Series/Redmi 9 - 3.jpg",
+            "../img_phone/xiaomi/Redmi Series/Redmi 9 - 3.jpg"
         ],
         "operating system":"Android 10",
         "screen size": "6.53 inches",
@@ -1342,7 +1300,6 @@ var xiaomiRM = [
         "dung_luong_pin":"Li-Po 5000mAh",
         "feedback":[]
     },
-    //Redmi Note 7 Pro
     {
         "name" :"Xiaomi Redmi Note 7 Pro",
         "prix":"3.790.000",
@@ -1352,7 +1309,7 @@ var xiaomiRM = [
         "imgsub": [
             "../img_phone/xiaomi/Redmi Series/Redmi Note 7 Pro - 1.jpg",
             "../img_phone/xiaomi/Redmi Series/Redmi Note 7 Pro - 2.jpg",
-            "../img_phone/xiaomi/Redmi Series/Redmi Note 7 Pro - 3.jpg",
+            "../img_phone/xiaomi/Redmi Series/Redmi Note 7 Pro - 3.jpg"
         ],
         "operating system":"Android 9.0",
         "screen size": "6.3 inches",
@@ -1365,7 +1322,6 @@ var xiaomiRM = [
         "dung_luong_pin":"Li-Po 5000mAh",
         "feedback":[]
     },
-    //Redmi Note 8
     {
         "name" :"Xiaomi Redmi Note 8",
         "prix":"3.450.000",
@@ -1375,7 +1331,7 @@ var xiaomiRM = [
         "imgsub": [
             "../img_phone/xiaomi/Redmi Series/Redmi Note 8 - 1.jpg",
             "../img_phone/xiaomi/Redmi Series/Redmi Note 8 - 2.jpg",
-            "../img_phone/xiaomi/Redmi Series/Redmi Note 8 - 3.jpg",
+            "../img_phone/xiaomi/Redmi Series/Redmi Note 8 - 3.jpg"
         ],
         "operating system":"Android 9",
         "screen size": "6.3 inches",
@@ -1388,7 +1344,6 @@ var xiaomiRM = [
         "dung_luong_pin":"Li-Po 4000mAh",
         "feedback":[]
     },
-    //Redmi Note 8 Pro
     {
         "name" :"Xiaomi Redmi Note 8 Pro",
         "prix":"4.290.000",
@@ -1398,7 +1353,7 @@ var xiaomiRM = [
         "imgsub": [
             "../img_phone/xiaomi/Redmi Series/Redmi Note 8 Pro - 1.jpg",
             "../img_phone/xiaomi/Redmi Series/Redmi Note 8 Pro - 2.jpg",
-            "../img_phone/xiaomi/Redmi Series/Redmi Note 8 Pro - 3.jpg",
+            "../img_phone/xiaomi/Redmi Series/Redmi Note 8 Pro - 3.jpg"
         ],
         "operating system":"Android 9",
         "screen size": "6.53 inches",
@@ -1411,7 +1366,6 @@ var xiaomiRM = [
         "dung_luong_pin":"Li-Po 4500mAh",
         "feedback":[]
     },
-    //Redmi Note 9
     {
         "name" :"Xiaomi Redmi Note 9",
         "prix":"4.600.000",
@@ -1421,7 +1375,7 @@ var xiaomiRM = [
         "imgsub": [
             "../img_phone/xiaomi/Redmi Series/Redmi Note 9 - 1.jpg",
             "../img_phone/xiaomi/Redmi Series/Redmi Note 9 - 2.jpg",
-            "../img_phone/xiaomi/Redmi Series/Redmi Note 9 - 3.jpg",
+            "../img_phone/xiaomi/Redmi Series/Redmi Note 9 - 3.jpg"
         ],
         "operating system":"Android 10",
         "screen size": "6.53 inches",
@@ -1434,7 +1388,6 @@ var xiaomiRM = [
         "dung_luong_pin":"Li-Po 5020mAh",
         "feedback":[]
     },
-    //Redmi Note 9 Pro
     {
         "name" :"Xiaomi Redmi Note 9 Pro",
         "prix":"5.900.000",
@@ -1444,7 +1397,7 @@ var xiaomiRM = [
         "imgsub": [
             "../img_phone/xiaomi/Redmi Series/Redmi Note 9 Pro - 1.jpg",
             "../img_phone/xiaomi/Redmi Series/Redmi Note 9 Pro - 2.jpg",
-            "../img_phone/xiaomi/Redmi Series/Redmi Note 9 Pro - 3.jpg",
+            "../img_phone/xiaomi/Redmi Series/Redmi Note 9 Pro - 3.jpg"
         ],
         "operating system":"Android 10",
         "screen size": "6.67 inches",
@@ -1457,7 +1410,6 @@ var xiaomiRM = [
         "dung_luong_pin":"Li-Po 5020mAh",
         "feedback":[]
     },
-    //Redmi Note 9S
     {
         "name" :"Xiaomi Redmi Note 9S",
         "prix":"4.690.000",
@@ -1467,7 +1419,7 @@ var xiaomiRM = [
         "imgsub": [
             "../img_phone/xiaomi/Redmi Series/Redmi Note 9S - 1.jpg",
             "../img_phone/xiaomi/Redmi Series/Redmi Note 9S - 2.jpg",
-            "../img_phone/xiaomi/Redmi Series/Redmi Note 9S - 3.jpg",
+            "../img_phone/xiaomi/Redmi Series/Redmi Note 9S - 3.jpg"
         ],
         "operating system":"Android 10",
         "screen size": "6.67 inches",
