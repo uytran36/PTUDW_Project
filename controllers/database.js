@@ -6,6 +6,11 @@ var iPhone = [
         "type":"iPhone",
         "type_concrete":"1",
         "img":"../img_phone/iPhone/iPhone 6.jpg", 
+        "imgsub": [
+            "../img_phone/iPhone/iPhone 6 - 1.jpg",
+            "../img_phone/iPhone/iPhone 6 - 2.jpg",
+            "../img_phone/iPhone/iPhone 6 - 3.jpg",
+        ],
         "operating_system":"iOS 12",
         "screen_size": "4.7 inches",
         "camera_truoc":"5.0 MP",
@@ -24,6 +29,11 @@ var iPhone = [
         "type":"iPhone",
         "type_concrete":"1",
         "img":"../img_phone/iPhone/iPhone 7.jpg",
+        "imgsub": [
+            "../img_phone/iPhone/iPhone 7 - 1.jpg",
+            "../img_phone/iPhone/iPhone 7 - 2.jpg",
+            "../img_phone/iPhone/iPhone 7 - 3.jpg",
+        ],
         "operating_system":"iOS 10",
         "screen_size": "4.7 inches",
         "camera_truoc":"7.0 MP",
