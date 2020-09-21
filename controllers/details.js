@@ -26,7 +26,14 @@ const bill=(req,res)=>
 {
     res.render('bill');
 }
-
+const pclient=(req,res)=>
+{
+    res.render('politiqueclient');
+}
+const pgaranti=(req,res)=>
+{
+    res.render('politiquedegaranti');
+}
 const search=(req,res)=>{
     var keyword = req.query.keyword.toLowerCase();
     var keyword2 = req.query.keyword;
@@ -175,5 +182,7 @@ module.exports = {
     bill,
     post_comment,
     news,
-    promo
+    promo,
+    pclient,
+    pgaranti
 }
