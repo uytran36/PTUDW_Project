@@ -11,7 +11,7 @@ const detail=(req,res)=>
     phone.find({name:name_phone}).then(function(phones){
         if(phones.length == 0)
             throw new Error('Not found');
-        res.render('detail/detail', {phones: phones[0]})
+        res.render('detail', {phones: phones[0]})
     })
     .catch(() => {
         res.render('notfound')
@@ -42,12 +42,12 @@ const search=(req,res)=>{
         if(order == 'dsc')
             result.sort(function(a, b){ return parseInt(b.prix.replace(/[.,]/g,'')) - parseInt(a.prix.replace(/[.,]/g,''))})
         if(result.length !== 0)        
-            res.render('search_phone/search_phone', {phones: result, keyword2});
+            res.render('search_phone', {phones: result, keyword2});
         else    
             throw new Error('Not found');
     })
     .catch(() => {
-        res.render('error/error')
+        res.render('error')
     })
 }
 
@@ -59,7 +59,7 @@ const type=(req, res) =>{
             phones.sort(function(a, b){ return parseInt(a.prix.replace(/[.,]/g,'')) - parseInt(b.prix.replace(/[.,]/g,''))})
         if(order == 'dsc')
             phones.sort(function(a, b){ return parseInt(b.prix.replace(/[.,]/g,'')) - parseInt(a.prix.replace(/[.,]/g,''))})
-        res.render('type_phone/type_phone', {phones: phones});
+        res.render('type_phone', {phones: phones});
     })
 }
 
@@ -84,12 +84,12 @@ const sort=(req,res) =>{
                 if(order == 'dsc')
                     result.sort(function(a, b){ return parseInt(b.prix.replace(/[.,]/g,'')) - parseInt(a.prix.replace(/[.,]/g,''))})
                 if(result.length !== 0)        
-                    res.render('search_phone/search_phone', {phones: result, keyword2});
+                    res.render('search_phone', {phones: result, keyword2});
                 else    
                     throw new Error('Not found');
             })
             .catch(() => {
-                res.render('error/error')
+                res.render('error')
             })
             break;
         case '5-10m':
@@ -106,12 +106,12 @@ const sort=(req,res) =>{
                 if(order == 'dsc')
                     result.sort(function(a, b){ return parseInt(b.prix.replace(/[.,]/g,'')) - parseInt(a.prix.replace(/[.,]/g,''))}) 
                 if(result.length !== 0)        
-                    res.render('search_phone/search_phone', {phones: result, keyword2});
+                    res.render('search_phone', {phones: result, keyword2});
                 else    
                     throw new Error('Not found');
             })
             .catch(() => {
-                res.render('error/error')
+                res.render('error')
             })
             break;        
         case '10m':
@@ -128,12 +128,12 @@ const sort=(req,res) =>{
                 if(order == 'dsc')
                     result.sort(function(a, b){ return parseInt(b.prix.replace(/[.,]/g,'')) - parseInt(a.prix.replace(/[.,]/g,''))}) 
                 if(result.length !== 0)        
-                    res.render('search_phone/search_phone', {phones: result, keyword2});
+                    res.render('search_phone', {phones: result, keyword2});
                 else    
                     throw new Error('Not found');
             })
             .catch(() => {
-                res.render('error/error')
+                res.render('error')
             })
             break;        
         }        

@@ -1,11 +1,11 @@
 //IPHONE
 var iPhone = [
-
     {
         "name" :"iPhone 6",
         "prix":"3.000.000",
         "type":"iPhone",
-        "img":"../img_phone/iPhone/iPhone 6 .jpg",
+        "type_concrete":"1",
+        "img":"../img_phone/iPhone/iPhone 6.jpg", 
         "operating_system":"iOS 12",
         "screen_size": "4.7 inches",
         "camera_truoc":"5.0 MP",
@@ -14,14 +14,16 @@ var iPhone = [
         "RAM":"2GB",
         "memoire":"64 GB",
         "do_phan_giai":"750 x 1334 pixel",
-        "dung_luong_pin":"Li-Po 1715mAh"
+        "dung_luong_pin":"Li-Po 1715mAh",
+        "feedback":[]
     },
     //iphone 7
     {
         "name" :"iPhone 7",
         "prix":"4.500.000",
         "type":"iPhone",
-        "img":"../img_phone/iPhone/iPhone 7 .jpg",
+        "type_concrete":"1",
+        "img":"../img_phone/iPhone/iPhone 7.jpg",
         "operating_system":"iOS 10",
         "screen_size": "4.7 inches",
         "camera_truoc":"7.0 MP",
@@ -30,13 +32,15 @@ var iPhone = [
         "RAM":"2GB",
         "memoire":"32 GB",
         "do_phan_giai":"750 x 1334 pixel",
-        "dung_luong_pin":"Li-Po 1960mAh"
+        "dung_luong_pin":"Li-Po 1960mAh",
+        "feedback":[]
     },
     //iphone 7 plus
     {
         "name" :"iPhone 7 Plus",
         "prix":"7.200.000",
         "type":"iPhone",
+        "type_concrete":"1",
         "img":"../img_phone/iPhone/iPhone 7 Plus.jpg",
         "operating_system":"iOS 12",
         "screen_size": "5.5 inches",
@@ -46,13 +50,15 @@ var iPhone = [
         "RAM":"3GB",
         "memoire":"32 GB",
         "do_phan_giai":"1920 x 1080 pixel",
-        "dung_luong_pin":"Li-Po 2900mAh"
+        "dung_luong_pin":"Li-Po 2900mAh",
+        "feedback":[]
     },
     //iphone 8 plus
     {
         "name" :"iPhone 8 Plus",
         "prix":"9.000.000",
         "type":"iPhone",
+        "type_concrete":"1",
         "img":"../img_phone/iPhone/iPhone 8 Plus.jpg",
         "operating_system":"iOS 12",
         "screen_size": "5.5 inches",
@@ -62,13 +68,15 @@ var iPhone = [
         "RAM":"3GB",
         "memoire":"64 GB",
         "do_phan_giai":"1920 x 1080 pixel",
-        "dung_luong_pin":"Li-Po 2691mAh"
+        "dung_luong_pin":"Li-Po 2691mAh",
+        "feedback":[]
     },
     //iphone 11
     {
         "name" :"iPhone 11",
         "prix":"18.500.000",
         "type":"iPhone",
+        "type_concrete":"1",
         "img":"../img_phone/iPhone/iPhone 11.jpg",
         "operating_system":"iOS 13",
         "screen_size": "6.1 inches",
@@ -78,13 +86,15 @@ var iPhone = [
         "RAM":"4GB",
         "memoire":"64 GB",
         "do_phan_giai":"828 x 1792 pixel",
-        "dung_luong_pin":"Li-Po 3110mAh"
+        "dung_luong_pin":"Li-Po 3110mAh",
+        "feedback":[]
     },
     //iphone 11 pro
     {
         "name" :"iPhone 11 Pro",
         "prix":"26.500.000",
         "type":"iPhone",
+        "type_concrete":"1",
         "img":"../img_phone/iPhone/iPhone 11 Pro.jpg",
         "operating_system":"iOS 13",
         "screen_size": "5.8 inches",
@@ -94,13 +104,15 @@ var iPhone = [
         "RAM":"4GB",
         "memoire":"64 GB",
         "do_phan_giai":"1125 x 2436 pixel",
-        "dung_luong_pin":"Li-Po 3190mAh" 
+        "dung_luong_pin":"Li-Po 3190mAh",
+        "feedback":[]
     },
     // iphone 11 pro max
     {
         "name" :"iPhone 11 Pro Max",
         "prix":"27.000.000",
         "type":"iPhone",
+        "type_concrete":"1",
         "img":"../img_phone/iPhone/iPhone 11 Pro Max.jpg",
         "operating system":"iOS 13",
         "screen_size": "6.5 inches",
@@ -110,13 +122,15 @@ var iPhone = [
         "RAM":"4GB",
         "memoire":"64 GB",
         "do_phan_giai":"1242 x 2688 pixel",
-        "dung_luong_pin":"Li-Po 3500mAh"
+        "dung_luong_pin":"Li-Po 3500mAh",
+        "feedback":[]
     },
     //iphone X
     {
         "name" :"iPhone X",
         "prix":"8.800.000",
         "type":"iPhone",
+        "type_concrete":"1",
         "img":"../img_phone/iPhone/iPhone X.jpg",
         "operating system":" Apples iOS",
         "screen_size": "5.8 inches",
@@ -126,13 +140,15 @@ var iPhone = [
         "RAM":"3GB",
         "memoire":"64 GB",
         "do_phan_giai":"OLED, Super Retina",
-        "dung_luong_pin":"Li-Po 2716mAh"
+        "dung_luong_pin":"Li-Po 2716mAh",
+        "feedback":[]
     },
     //iphone XR
     {
         "name" :"iPhone XR",
         "prix":"11.200.000",
         "type":"iPhone",
+        "type_concrete":"1",
         "img":"../img_phone/iPhone/iPhone XR.jpg",
         "operating_system":"iOS 12",
         "screen_size": "5.8 inches",
@@ -142,13 +158,15 @@ var iPhone = [
         "RAM":"3GB",
         "memoire":"64 GB",
         "do_phan_giai":"828 x 1792 pixels",
-        "dung_luong_pin":"Li-Po 2942mAh"
+        "dung_luong_pin":"Li-Po 2942mAh",
+        "feedback":[]
     },
     //iphone XS
     {
         "name" :"iPhone XS",
         "prix":"20.500.000",
         "type":"iPhone",
+        "type_concrete":"1",
         "img":"../img_phone/iPhone/iPhone XS.jpg",
         "operating_system":"iOS 12",
         "screen_size": "5.8 inches",
@@ -158,13 +176,15 @@ var iPhone = [
         "RAM":"3GB",
         "memoire":"64 GB",
         "do_phan_giai":"1125 x 2436 pixels",
-        "dung_luong_pin":"Pin chuẩn N/A"
+        "dung_luong_pin":"Pin chuẩn N/A",
+        "feedback":[]
     },
     //iphone XS Max
     {
         "name" :"iPhone XS Max",
         "prix":"23.000.000",
         "type":"iPhone",
+        "type_concrete":"1",
         "img":"../img_phone/iPhone/iPhone XS Max.jpg",
         "operating_system":"iOS 12",
         "screen_size": "6.5 inches",
@@ -174,7 +194,8 @@ var iPhone = [
         "RAM":"4GB",
         "memoire":"64 GB",
         "do_phan_giai":"1242 x 2688 pixels",
-        "dung_luong_pin":"Li-Po 3174mAh"
+        "dung_luong_pin":"Li-Po 3174mAh",
+        "feedback":[]
     }
 ]
 //SAMSUNG
@@ -195,7 +216,8 @@ var samsungA =[
         "RAM":"2GB",
         "memoire":"32 GB",
         "do_phan_giai":"720 x 1520 pixels",
-        "dung_luong_pin":"Li-Po 4000mAh"
+        "dung_luong_pin":"Li-Po 4000mAh",
+        "feedback":[]
     },
     //A20s
     {
@@ -212,7 +234,8 @@ var samsungA =[
         "RAM":"3GB",
         "memoire":"32 GB",
         "do_phan_giai":"720 x 1520 pixels",
-        "dung_luong_pin":"Li-Po 4000mAh"
+        "dung_luong_pin":"Li-Po 4000mAh",
+        "feedback":[]
     },
     //A30
     {
@@ -229,7 +252,8 @@ var samsungA =[
         "RAM":"4GB",
         "memoire":"64 GB",
         "do_phan_giai":"720 x 1560 pixels",
-        "dung_luong_pin":"Li-Po 4000mAh"
+        "dung_luong_pin":"Li-Po 4000mAh",
+        "feedback":[]
     },
     //A50
     {
@@ -246,7 +270,8 @@ var samsungA =[
         "RAM":"4GB",
         "memoire":"64 GB",
         "do_phan_giai":"1080 x 2340 pixels",
-        "dung_luong_pin":"Li-Po 4000mAh"
+        "dung_luong_pin":"Li-Po 4000mAh",
+        "feedback":[]
     },
     //A51
     {
@@ -263,7 +288,8 @@ var samsungA =[
         "RAM":"6GB",
         "memoire":"128 GB",
         "do_phan_giai":"1080 x 2340 pixels",
-        "dung_luong_pin":"Li-Po 4000mAh"
+        "dung_luong_pin":"Li-Po 4000mAh",
+        "feedback":[]
     },
     //A70
     {
@@ -280,7 +306,8 @@ var samsungA =[
         "RAM":"6GB",
         "memoire":"128 GB",
         "do_phan_giai":"1080 x 2400 pixels",
-        "dung_luong_pin":"Li-Po 4500mAh"
+        "dung_luong_pin":"Li-Po 4500mAh",
+        "feedback":[]
     },
     //A71
     {
@@ -297,7 +324,8 @@ var samsungA =[
         "RAM":"8GB",
         "memoire":"128 GB",
         "do_phan_giai":"1080 x 2400 pixels",
-        "dung_luong_pin":"Li-Po 4500mAh"
+        "dung_luong_pin":"Li-Po 4500mAh",
+        "feedback":[]
     },
     //A80
     {
@@ -314,7 +342,9 @@ var samsungA =[
         "RAM":"8GB",
         "memoire":"128 GB",
         "do_phan_giai":"1080 x 2400 pixels",
-        "dung_luong_pin":"Li-Po 3700mAh"
+        "dung_luong_pin":"Li-Po 3700mAh",
+        "feedback":[]
+
     }
 ]
 
@@ -335,7 +365,8 @@ var samsungM = [
         "RAM":"2GB",
         "memoire":"16 GB",
         "do_phan_giai":"720 x 1520 pixels",
-        "dung_luong_pin":"Li-Po 3400mAh"
+        "dung_luong_pin":"Li-Po 3400mAh",
+        "feedback":[]
     },
     //M11
     {
@@ -352,7 +383,8 @@ var samsungM = [
         "RAM":"3GB",
         "memoire":"32 GB",
         "do_phan_giai":"720 x 1560 pixels",
-        "dung_luong_pin":"Li-Po 5000mAh"
+        "dung_luong_pin":"Li-Po 5000mAh",
+        "feedback":[]
     },
     //M20
     {
@@ -369,7 +401,8 @@ var samsungM = [
         "RAM":"3GB",
         "memoire":"32 GB",
         "do_phan_giai":"1080 x 2340 pixels",
-        "dung_luong_pin":"Li-Po 5000mAh"
+        "dung_luong_pin":"Li-Po 5000mAh",
+        "feedback":[]
     },
     //M21
     {
@@ -386,7 +419,8 @@ var samsungM = [
         "RAM":"4GB",
         "memoire":"64 GB",
         "do_phan_giai":"1080 x 2340 pixels",
-        "dung_luong_pin":"Li-Po 6000mAh"
+        "dung_luong_pin":"Li-Po 6000mAh",
+        "feedback":[]
     },
     //M30
     {
@@ -403,7 +437,8 @@ var samsungM = [
         "RAM":"4GB",
         "memoire":"64 GB",
         "do_phan_giai":"1080 x 2340 pixels",
-        "dung_luong_pin":"Li-Po 5000mAh"
+        "dung_luong_pin":"Li-Po 5000mAh",
+        "feedback":[]
     },
     //M30s
     {
@@ -420,7 +455,8 @@ var samsungM = [
         "RAM":"4GB",
         "memoire":"64 GB",
         "do_phan_giai":"1080 x 2400 pixels",
-        "dung_luong_pin":"Li-Po 6000mAh"
+        "dung_luong_pin":"Li-Po 6000mAh",
+        "feedback":[]
     },
     //M31
     {
@@ -428,7 +464,7 @@ var samsungM = [
         "prix":"6.190.000",
         "type":"samsung",
         "type_concrete":"samsungM",
-        "img":"../img_phone/samsung/Samsung M/SS Galaxy M30s.jpg",
+        "img":"../img_phone/samsung/Samsung M/SS Galaxy M31.jpg",
         "operating system":"Android 9.0",
         "screen size": "6.4 inches",
         "camera truoc":"32 MP",
@@ -437,7 +473,8 @@ var samsungM = [
         "RAM":"6GB",
         "memoire":"128 GB",
         "do_phan_giai":"1080 x 2340 pixels",
-        "dung_luong_pin":"Li-Po 6000mAh"
+        "dung_luong_pin":"Li-Po 6000mAh",
+        "feedback":[]
     }   
 ]
 
@@ -458,7 +495,8 @@ var samsungN = [
         "RAM":"6GB",
         "memoire":"128 GB",
         "do_phan_giai":"1440 x 2560 pixels",
-        "dung_luong_pin":"Li-Po 3300mAh"
+        "dung_luong_pin":"Li-Po 3300mAh",
+        "feedback":[]
     },
     //Note 9
     {
@@ -475,7 +513,8 @@ var samsungN = [
         "RAM":"6GB",
         "memoire":"128 GB",
         "do_phan_giai":"1440 x 2960 pixels",
-        "dung_luong_pin":"Li-Po 4000mAh"
+        "dung_luong_pin":"Li-Po 4000mAh",
+        "feedback":[]
     },
     //note 10
     {
@@ -492,7 +531,8 @@ var samsungN = [
         "RAM":"8GB",
         "memoire":"256 GB",
         "do_phan_giai":"1080 x 2280 pixels",
-        "dung_luong_pin":"Li-Po 3500mAh"
+        "dung_luong_pin":"Li-Po 3500mAh",
+        "feedback":[]
     },
     //note 10 lite
     {
@@ -509,7 +549,8 @@ var samsungN = [
         "RAM":"8GB",
         "memoire":"128 GB",
         "do_phan_giai":"1080 x 2280 pixels",
-        "dung_luong_pin":"Li-Po 4500mAh"
+        "dung_luong_pin":"Li-Po 4500mAh",
+        "feedback":[]
     },
     //note 10+
     {
@@ -526,15 +567,16 @@ var samsungN = [
         "RAM":"12GB",
         "memoire":"256 GB",
         "do_phan_giai":"1440 x 3040 pixels",
-        "dung_luong_pin":"Li-Po 4300mAh"
+        "dung_luong_pin":"Li-Po 4300mAh",
+        "feedback":[]
     },
     //note FE
     {
-        "name" :"Samsung Galaxy Note 10 Lite",
+        "name" :"Samsung Galaxy Note FE",
         "prix":"9.900.000",
         "type":"samsung",
         "type_concrete":"samsungN",
-        "img":"../img_phone/samsung/Samsung Note/SS Galaxy Note 10+.jpg",
+        "img":"../img_phone/samsung/Samsung Note/SS Galaxy Note FE.jpg",
         "operating system":"Android 7.0",
         "screen size": "5.7 inches",
         "camera truoc":"5 MP",
@@ -543,7 +585,8 @@ var samsungN = [
         "RAM":"4GB",
         "memoire":"64 GB",
         "do_phan_giai":"1440 x 2560 pixels",
-        "dung_luong_pin":"Li-Po 3200mAh"
+        "dung_luong_pin":"Li-Po 3200mAh",
+        "feedback":[]
     }
 ]
 
@@ -564,7 +607,8 @@ var samsungS = [
         "RAM":"4GB",
         "memoire":"64 GB",
         "do_phan_giai":"1440 x 2960 pixels",
-        "dung_luong_pin":"Li-Po 3000mAh"
+        "dung_luong_pin":"Li-Po 3000mAh",
+        "feedback":[]
     },
     //S8+
     {
@@ -581,7 +625,8 @@ var samsungS = [
         "RAM":"4GB",
         "memoire":"64 GB",
         "do_phan_giai":"1440 x 2960 pixels",
-        "dung_luong_pin":"Li-Po 3500mAh"
+        "dung_luong_pin":"Li-Po 3500mAh",
+        "feedback":[]
     },
     //S9
     {
@@ -598,7 +643,8 @@ var samsungS = [
         "RAM":"4GB",
         "memoire":"64 GB",
         "do_phan_giai":"1440 x 2960 pixels",
-        "dung_luong_pin":"Li-Po 3000mAh"
+        "dung_luong_pin":"Li-Po 3000mAh",
+        "feedback":[]
     },
     //S9+
     {
@@ -615,7 +661,8 @@ var samsungS = [
         "RAM":"6GB",
         "memoire":"64 GB",
         "do_phan_giai":"1440 x 2960 pixels",
-        "dung_luong_pin":"Li-Po 3500mAh"
+        "dung_luong_pin":"Li-Po 3500mAh",
+        "feedback":[]
     },
     //S10+
     {
@@ -632,7 +679,8 @@ var samsungS = [
         "RAM":"8GB",
         "memoire":"128 GB",
         "do_phan_giai":"1440 x 3040 pixels",
-        "dung_luong_pin":"Li-Po 4100mAh"
+        "dung_luong_pin":"Li-Po 4100mAh",
+        "feedback":[]
     },
     //S20
     {
@@ -649,7 +697,8 @@ var samsungS = [
         "RAM":"12GB",
         "memoire":"128 GB",
         "do_phan_giai":"1440 x 3200 pixels",
-        "dung_luong_pin":"Li-Po 4000mAh"
+        "dung_luong_pin":"Li-Po 4000mAh",
+        "feedback":[]
     },
     //S20 Ultra
     {
@@ -666,7 +715,8 @@ var samsungS = [
         "RAM":"12GB",
         "memoire":"128 GB",
         "do_phan_giai":"1440 x 3200 pixels",
-        "dung_luong_pin":"Li-Po 5000mAh"
+        "dung_luong_pin":"Li-Po 5000mAh",
+        "feedback":[]
     }
 ]
 
@@ -677,6 +727,7 @@ var sony = [
         "name" :"Sony Xperia 5",
         "prix":"17.990.000",
         "type":"sony",
+        "type_concrete":"1",
         "img":"../img_phone/Sony/Sony Xperia 5.jpg",
         "operating system":"Android 9.0",
         "screen size": "6.1 inches",
@@ -686,13 +737,15 @@ var sony = [
         "RAM":"6GB",
         "memoire":"128 GB",
         "do_phan_giai":"1080 x 2520 pixels",
-        "dung_luong_pin":"3140mAh"
+        "dung_luong_pin":"3140mAh",
+        "feedback":[]
     },
     //Xperia I
     {
         "name" :"Sony Xperia I",
         "prix":"20.000.000",
         "type":"sony",
+        "type_concrete":"1",
         "img":"../img_phone/Sony/Sony Xperia I.jpg",
         "operating system":"Android 10",
         "screen size": "6.5 inches",
@@ -702,13 +755,15 @@ var sony = [
         "RAM":"8GB",
         "memoire":"256 GB",
         "do_phan_giai":"1644 x 3840 pixels",
-        "dung_luong_pin":"3330mAh"
+        "dung_luong_pin":"3330mAh",
+        "feedback":[]
     },
     //Xperia I mark II
     {
         "name" :"Sony Xperia I mark II",
         "prix":"20.990.000",
         "type":"sony",
+        "type_concrete":"1",
         "img":"../img_phone/Sony/Sony Xperia I mark II.jpg",
         "operating system":"Android 10",
         "screen size": "6.5 inches",
@@ -718,13 +773,15 @@ var sony = [
         "RAM":"8GB",
         "memoire":"256 GB",
         "do_phan_giai":"1644 x 3840 pixels",
-        "dung_luong_pin":"4000mAh"
+        "dung_luong_pin":"4000mAh",
+        "feedback":[]
     },
     //Xperia XZ Premium
     {
         "name" :"Sony Xperia XZ Premium",
         "prix":"18.490.000",
         "type":"sony",
+        "type_concrete":"1",
         "img":"../img_phone/Sony/Sony Xperia XZ Premium.jpg",
         "operating system":"Android 8.0",
         "screen size": "5.5 inches",
@@ -734,13 +791,15 @@ var sony = [
         "RAM":"4GB",
         "memoire":"64 GB",
         "do_phan_giai":"2160 x 3840 pixels",
-        "dung_luong_pin":"3230mAh"
+        "dung_luong_pin":"3230mAh",
+        "feedback":[]
     },
     //Xperia XZ2
     {
         "name" :"Sony Xperia XZ2",
         "prix":"4.290.000",
         "type":"sony",
+        "type_concrete":"1",
         "img":"../img_phone/Sony/Sony Xperia XZ2.jpg",
         "operating system":"Android OS",
         "screen size": "5.7 inches",
@@ -750,7 +809,8 @@ var sony = [
         "RAM":"4GB",
         "memoire":"64 GB",
         "do_phan_giai":"1080 x 2160 pixels",
-        "dung_luong_pin":"3180mAh"
+        "dung_luong_pin":"3180mAh",
+        "feedback":[]
     }
 ]
 
@@ -761,7 +821,8 @@ var xiaomiMI = [
     {
         "name" :"Xiaomi Mi 8 Pro",
         "prix":"12.290.000",
-        "type":"xiaomiMI",
+        "type":"xiaomi",
+        "type_concrete":"xiaomiMI",
         "img":"../img_phone/xiaomi/Mi Series/Mi 8 Pro.jpg",
         "operating system":"Android 8.1",
         "screen size": "5.7 inches",
@@ -771,13 +832,15 @@ var xiaomiMI = [
         "RAM":"8GB",
         "memoire":"128 GB",
         "do_phan_giai":"1080 x 2160 pixels",
-        "dung_luong_pin":"Li-Po 3000mAh"
+        "dung_luong_pin":"Li-Po 3000mAh",
+        "feedback":[]
     },
     //Mi 9
     {
         "name" :"Xiaomi Mi 9",
         "prix":"11.090.000",
-        "type":"xiaomiMI",
+        "type":"xiaomi",
+        "type_concrete":"xiaomiMI",
         "img":"../img_phone/xiaomi/Mi Series/Mi 9.png",
         "operating system":"Android 9.0",
         "screen size": "6.4 inches",
@@ -787,13 +850,15 @@ var xiaomiMI = [
         "RAM":"6GB",
         "memoire":"128 GB",
         "do_phan_giai":"1080 x 2160 pixels",
-        "dung_luong_pin":"Li-Po 3300mAh"
+        "dung_luong_pin":"Li-Po 3300mAh",
+        "feedback":[]
     },
     //Mi 9 SE
     {
         "name" :"Xiaomi Mi 9 SE",
         "prix":"6.990.000",
-        "type":"xiaomiMI",
+        "type":"xiaomi",
+        "type_concrete":"xiaomiMI",
         "img":"../img_phone/xiaomi/Mi Series/Mi 9 SE.png",
         "operating system":"Android 9.0",
         "screen size": "5.92 inches",
@@ -803,13 +868,15 @@ var xiaomiMI = [
         "RAM":"6GB",
         "memoire":"64 GB",
         "do_phan_giai":"1080 x 2160 pixels",
-        "dung_luong_pin":"Li-Po 3070mAh"
+        "dung_luong_pin":"Li-Po 3070mAh",
+        "feedback":[]
     },
     //Mi 9T
     {
         "name" :"Xiaomi Mi 9T",
         "prix":"7.290.000",
-        "type":"xiaomiMI",
+        "type":"xiaomi",
+        "type_concrete":"xiaomiMI",
         "img":"../img_phone/xiaomi/Mi Series/Mi 9T.png",
         "operating system":"Android 9.0",
         "screen size": "6.39 inches",
@@ -819,13 +886,15 @@ var xiaomiMI = [
         "RAM":"6GB",
         "memoire":"64 GB",
         "do_phan_giai":"1080 x 2160 pixels",
-        "dung_luong_pin":"Li-Po 4000mAh"
+        "dung_luong_pin":"Li-Po 4000mAh",
+        "feedback":[]
     },
     //Mi A3
     {
         "name" :"Xiaomi Mi A3",
         "prix":"3.990.000",
-        "type":"xiaomiMI",
+        "type":"xiaomi",
+        "type_concrete":"xiaomiMI",
         "img":"../img_phone/xiaomi/Mi Series/Mi A3.png",
         "operating system":"Android OS",
         "screen size": "6.01 inches",
@@ -835,13 +904,15 @@ var xiaomiMI = [
         "RAM":"4GB",
         "memoire":"64 GB",
         "do_phan_giai":"1080 x 2160 pixels",
-        "dung_luong_pin":"Li-Po 4030mAh"
+        "dung_luong_pin":"Li-Po 4030mAh",
+        "feedback":[]
     },
     //Mi Max 3
     {
         "name" :"Xiaomi Mi Max 3",
         "prix":"3.790.000",
-        "type":"xiaomiMI",
+        "type":"xiaomi",
+        "type_concrete":"xiaomiMI",
         "img":"../img_phone/xiaomi/Mi Series/Mi Max 3.png",
         "operating system":"Android 8.1",
         "screen size": "6.9 inches",
@@ -851,14 +922,16 @@ var xiaomiMI = [
         "RAM":"4GB",
         "memoire":"64 GB",
         "do_phan_giai":"1080 x 2160 pixels",
-        "dung_luong_pin":"Li-Po 5000mAh"
+        "dung_luong_pin":"Li-Po 5000mAh",
+        "feedback":[]
     },
     //Mi Note 10 Lite
     {
         "name" :"Xiaomi Mi Note 10 Lite",
         "prix":"7.990.000",
-        "type":"xiaomiMI",
-        "img":"../img_phone/xiaomi/Mi Series/Mi Mi Note 10 Lite.png",
+        "type":"xiaomi",
+        "type_concrete":"xiaomiMI",
+        "img":"../img_phone/xiaomi/Mi Series/Mi Note 10 Lite.png",
         "operating system":"Android 8.1",
         "screen size": "6.47 inches",
         "camera truoc":"32 MP",
@@ -867,14 +940,16 @@ var xiaomiMI = [
         "RAM":"6GB",
         "memoire":"64 GB",
         "do_phan_giai":"1080 x 2160 pixels",
-        "dung_luong_pin":"Li-Po 5260mAh"
+        "dung_luong_pin":"Li-Po 5260mAh",
+        "feedback":[]
     },
     //Mi Note 10 Pro
     {
         "name" :"Xiaomi Mi Note 10 Pro",
         "prix":"13.490.000",
-        "type":"xiaomiMI",
-        "img":"../img_phone/xiaomi/Mi Series/Mi Mi Note 10 Pro.png",
+        "type":"xiaomi",
+        "type_concrete":"xiaomiMI",
+        "img":"../img_phone/xiaomi/Mi Series/Mi Note 10 Pro.png",
         "operating system":"Android 8.1",
         "screen size": "6.47 inches",
         "camera truoc":"32 MP",
@@ -883,7 +958,8 @@ var xiaomiMI = [
         "RAM":"8GB",
         "memoire":"256 GB",
         "do_phan_giai":"1080 x 2160 pixels",
-        "dung_luong_pin":"Li-Po 5260mAh"
+        "dung_luong_pin":"Li-Po 5260mAh",
+        "feedback":[]
     }
 ]
 
@@ -894,6 +970,8 @@ var xiaomiRM = [
     {
         "name" :"Xiaomi Redmi 7",
         "prix":"3.190.000",
+        "type":"xiaomi",
+        "type_concrete":"xiaomiRM",
         "img":"../img_phone/xiaomi/Redmi Series/Redmi 7.png",
         "operating system":"Android 9.0",
         "screen size": "6.47 inches",
@@ -903,12 +981,16 @@ var xiaomiRM = [
         "RAM":"3GB",
         "memoire":"32 GB",
         "do_phan_giai":"720 x 1440 pixels",
-        "dung_luong_pin":"Li-Po 4000mAh"
+        "dung_luong_pin":"Li-Po 4000mAh",
+        "feedback":[]
+
     },
     //Redmi 7A
     {
         "name" :"Xiaomi Redmi 7A",
         "prix":"2.990.000",
+        "type":"xiaomi",
+        "type_concrete":"xiaomiRM",
         "img":"../img_phone/xiaomi/Redmi Series/Redmi 7A.png",
         "operating system":"Android OS",
         "screen size": "5.45 inches",
@@ -918,12 +1000,15 @@ var xiaomiRM = [
         "RAM":"2GB",
         "memoire":"32 GB",
         "do_phan_giai":"720 x 1440 pixels",
-        "dung_luong_pin":"Li-Po 4000mAh"
+        "dung_luong_pin":"Li-Po 4000mAh",
+        "feedback":[]
     },
     //Redmi 8
     {
         "name" :"Xiaomi Redmi 8",
         "prix":"2.190.000",
+        "type":"xiaomi",
+        "type_concrete":"xiaomiRM",
         "img":"../img_phone/xiaomi/Redmi Series/Redmi 8.jpg",
         "operating system":"Android 9.0",
         "screen size": "6.2 inches",
@@ -933,12 +1018,15 @@ var xiaomiRM = [
         "RAM":"3GB",
         "memoire":"32 GB",
         "do_phan_giai":"720 x 1520 pixels",
-        "dung_luong_pin":"Li-Po 5000mAh"
+        "dung_luong_pin":"Li-Po 5000mAh",
+        "feedback":[]
     },
     //Redmi 8A
     {
         "name" :"Xiaomi Redmi 8A",
         "prix":"2.190.000",
+        "type":"xiaomi",
+        "type_concrete":"xiaomiRM",
         "img":"../img_phone/xiaomi/Redmi Series/Redmi 8A.jpg",
         "operating system":"Android OS",
         "screen size": "6.22 inches",
@@ -948,12 +1036,15 @@ var xiaomiRM = [
         "RAM":"2GB",
         "memoire":"32 GB",
         "do_phan_giai":"720 x 1520 pixels",
-        "dung_luong_pin":"Li-Po 5000mAh"
+        "dung_luong_pin":"Li-Po 5000mAh",
+        "feedback":[]
     },
     //Redmi 9
     {
         "name" :"Xiaomi Redmi 9",
         "prix":"2.990.000",
+        "type":"xiaomi",
+        "type_concrete":"xiaomiRM",
         "img":"../img_phone/xiaomi/Redmi Series/Redmi 9.png",
         "operating system":"Android 10",
         "screen size": "6.53 inches",
@@ -963,12 +1054,15 @@ var xiaomiRM = [
         "RAM":"3GB",
         "memoire":"64 GB",
         "do_phan_giai":"720 x 1600 pixels",
-        "dung_luong_pin":"Li-Po 5000mAh"
+        "dung_luong_pin":"Li-Po 5000mAh",
+        "feedback":[]
     },
     //Redmi Note 7 Pro
     {
         "name" :"Xiaomi Redmi Note 7 Pro",
         "prix":"3.790.000",
+        "type":"xiaomi",
+        "type_concrete":"xiaomiRM",
         "img":"../img_phone/xiaomi/Redmi Series/Redmi Note 7 Pro.jpg",
         "operating system":"Android 9.0",
         "screen size": "6.3 inches",
@@ -978,12 +1072,15 @@ var xiaomiRM = [
         "RAM":"4 GB",
         "memoire":"64 GB",
         "do_phan_giai":"720 x 1520 pixels",
-        "dung_luong_pin":"Li-Po 5000mAh"
+        "dung_luong_pin":"Li-Po 5000mAh",
+        "feedback":[]
     },
     //Redmi Note 8
     {
         "name" :"Xiaomi Redmi Note 8",
         "prix":"3.450.000",
+        "type":"xiaomi",
+        "type_concrete":"xiaomiRM",
         "img":"../img_phone/xiaomi/Redmi Series/Redmi Note 8.png",
         "operating system":"Android 9",
         "screen size": "6.3 inches",
@@ -993,12 +1090,15 @@ var xiaomiRM = [
         "RAM":"4 GB",
         "memoire":"64 GB",
         "do_phan_giai":"1080 x 2340 pixels",
-        "dung_luong_pin":"Li-Po 4000mAh"
+        "dung_luong_pin":"Li-Po 4000mAh",
+        "feedback":[]
     },
     //Redmi Note 8 Pro
     {
         "name" :"Xiaomi Redmi Note 8 Pro",
         "prix":"4.290.000",
+        "type":"xiaomi",
+        "type_concrete":"xiaomiRM",
         "img":"../img_phone/xiaomi/Redmi Series/Redmi Note 8 Pro.png",
         "operating system":"Android 9",
         "screen size": "6.53 inches",
@@ -1008,12 +1108,15 @@ var xiaomiRM = [
         "RAM":"6 GB",
         "memoire":"64 GB",
         "do_phan_giai":"1080 x 2340 pixels",
-        "dung_luong_pin":"Li-Po 4500mAh"
+        "dung_luong_pin":"Li-Po 4500mAh",
+        "feedback":[]
     },
     //Redmi Note 9
     {
         "name" :"Xiaomi Redmi Note 9",
         "prix":"4.600.000",
+        "type":"xiaomi",
+        "type_concrete":"xiaomiRM",
         "img":"../img_phone/xiaomi/Redmi Series/Redmi Note 9.png",
         "operating system":"Android 10",
         "screen size": "6.53 inches",
@@ -1023,12 +1126,15 @@ var xiaomiRM = [
         "RAM":"4 GB",
         "memoire":"128 GB",
         "do_phan_giai":"1080 x 2340 pixels",
-        "dung_luong_pin":"Li-Po 5020mAh"
+        "dung_luong_pin":"Li-Po 5020mAh",
+        "feedback":[]
     },
     //Redmi Note 9 Pro
     {
         "name" :"Xiaomi Redmi Note 9 Pro",
         "prix":"5.900.000",
+        "type":"xiaomi",
+        "type_concrete":"xiaomiRM",
         "img":"../img_phone/xiaomi/Redmi Series/Redmi Note 9 Pro.png",
         "operating system":"Android 10",
         "screen size": "6.67 inches",
@@ -1038,12 +1144,15 @@ var xiaomiRM = [
         "RAM":"6 GB",
         "memoire":"128 GB",
         "do_phan_giai":"1080 x 2400 pixels",
-        "dung_luong_pin":"Li-Po 5020mAh"
+        "dung_luong_pin":"Li-Po 5020mAh",
+        "feedback":[]
     },
     //Redmi Note 9S
     {
         "name" :"Xiaomi Redmi Note 9S",
         "prix":"4.690.000",
+        "type":"xiaomi",
+        "type_concrete":"xiaomiRM",
         "img":"../img_phone/xiaomi/Redmi Series/Redmi Note 9S.png",
         "operating system":"Android 10",
         "screen size": "6.67 inches",
@@ -1053,7 +1162,8 @@ var xiaomiRM = [
         "RAM":"4 GB",
         "memoire":"64 GB",
         "do_phan_giai":"1080 x 2340 pixels",
-        "dung_luong_pin":"Li-Po 5020mAh"
+        "dung_luong_pin":"Li-Po 5020mAh",
+        "feedback":[]
     }
 ]
 
