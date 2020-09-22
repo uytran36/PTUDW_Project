@@ -15,7 +15,7 @@ form.onsubmit = function(){
     localStorage.setItem('name_phone', name_phone);
     localStorage.setItem('price', '');
     if(name_phone !== '')
-        form.action = '../search';
+        form.action = '/search';
     else
     {
         localStorage.clear();

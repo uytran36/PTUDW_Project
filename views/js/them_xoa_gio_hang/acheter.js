@@ -20,7 +20,6 @@ document.getElementById("ship-checkbox").onclick = function(e)
        '                           <div id="info8">  '  + 
        '                               <span class="input-wrapper" style="width:100%"><input type="text" class="input-text "  id="billing_last_name" placeholder="Số nhà, tên đường, phường/ xã" value="" style="width:99.5%"></span>  <span class="input-wrapper">  '  + 
        '                          </div>  ' ; 
-       console.log(html);
         info_html.innerHTML = html;
     }
     else 
@@ -45,7 +44,6 @@ function HienThiDanhSach()
     var bill = document.getElementById("menu_product")
     var html = '';
     var total = [];
-    console.log(list_product)
     for(i = 0; i < list_product.length; i++)
     {
         html+='   <tr class="product_1" >  '  + 
@@ -57,7 +55,6 @@ function HienThiDanhSach()
         total.push(Number(list_product[i].prix.split('.').join(''))*list_product[i].count);
     }
     _total = total.reduce((a,b)=>a+b,0)
-    console.log(_total)
     string_total =_total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     var total_prix = document.getElementById("total_order");
     localStorage.setItem('Total', string_total)

@@ -98,8 +98,8 @@ head
                 span.input-wrapper
               #info3
                 span.input-wrapper
-                  select#billing_city.select(value='', autocomplete='address-level2', data-allow_clear='true', data-placeholder='Tỉnh / Thành phố', style='width:95.5%', required='')
-                    option(value='', selected='selected') T&#x1EC9;nh / Th&agrave;nh ph&#x1ED1;
+                  select#billing_city.select(value='', autocomplete='address-level2', placeholder='Tỉnh / Thành phố', style='width:95.5%', required='')
+                    option(value='', selected='selected') Tỉnh/ Thành phố
                     option(value='An Giang') An Giang
                     option(value='Vũng Tàu') V&utilde;ng T&agrave;u
                     option(value='Bắc Giang') B&#x1EAF;c Giang
@@ -277,46 +277,8 @@ head
           | 43 C&#x1EA7;u Gi&#x1EA5;y, H&agrave; N&#x1ED9;i
         li
           | 453 Nguy&#x1EC5;n Tr&atilde;i, H&agrave; N&#x1ED9;i
-script.
-  function page()
-  {
-  var name = document.getElementById("validationDefault01")
-  var number_phone = document.getElementById("validationDefault02")
-  var email = document.getElementById("validationDefault03")
-  var city = document.getElementById("billing_city")
-  var address = document.getElementById("validationDefault04")
-  var str = [];
-  str.push(name)
-  str.push(number_phone)
-  str.push(email)
-  str.push(city)
-  str.push(address)
-  var placeholder = []
-  for(var items of str)
-  {
-  if(items.value == '')
-  {
-  placeholder.push(items.placeholder)
-  }
-  }
-  // location.href = 'bill.html'
-  if(placeholder.length == 0)
-  location.href = '/bill'
-  else
-  {
-  var alert = document.getElementById("_warning");
-  var html =  '   <div class="warning">  '  +
-  '                       <ul class="alert">  '  +
-  '                           <li>  '  +
-  '                               <strong>Lưu ý:<span style="color:red"> (*)</span> là mục bắc buộc phải nhập  '  +
-  '                           </li>  '  +
-  '             '  +
-  '                       </ul>  '  +
-  '                  </div>  ' ;
-  alert.innerHTML = html;
-  }
-  }
 
+script(src='js/checkValid_Form.js')
 script(src='js/promotion_detail.js')
 script(src='js/them_xoa_gio_hang/acheter.js', type='text/javascript')
 script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js', integrity='sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj', crossorigin='anonymous')
