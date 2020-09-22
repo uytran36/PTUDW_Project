@@ -23,20 +23,14 @@ form.onsubmit = function(){
     }
 }
 btn05m.onclick = function sort1(){
-    if(localStorage.getItem('name_phone') == 'xiaomiMI')
-        localStorage.setItem('name_phone', 'xiaomi');
     localStorage.setItem('price', '0-5m');
     location.href = '../search/sort?keyword=' + localStorage.getItem('name_phone') + '&price=0-5m';
 }
 btn510m.onclick = function sort2(){
-    if(localStorage.getItem('name_phone') == 'xiaomiMI')
-        localStorage.setItem('name_phone', 'xiaomi');
     localStorage.setItem('price', '5-10m');
     location.href = '../search/sort?keyword=' + localStorage.getItem('name_phone') + '&price=5-10m';
 }
 btn10m.onclick = function sort3(){
-    if(localStorage.getItem('name_phone') == 'xiaomiMI')
-        localStorage.setItem('name_phone', 'xiaomi');
     localStorage.setItem('price', '10m');
     location.href = '../search/sort?keyword=' + localStorage.getItem('name_phone') + '&price=10m';
 }
