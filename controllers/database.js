@@ -400,7 +400,6 @@ var samsungA =[
         "dung_luong_pin":"Li-Po 4500mAh",
         "feedback":[]
     },
-   
     {
         "name" :"Samsung Galaxy A80",
         "prix":"8.500.000",
