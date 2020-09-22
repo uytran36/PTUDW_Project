@@ -119,7 +119,7 @@ head
           br
           .name_phone #{phone.name}
           .price #{phone.prix}&dstrok;
-        a#mua_ngay.btnBuy(href='/payer') Mua ngay
+        a#mua_ngay.btnBuy(href='/payer', onclick='return Acheter(this)') Mua ngay
 // footer
 #footer.container
   .row
@@ -159,6 +159,7 @@ head
           | 453 Nguy&#x1EC5;n Tr&atilde;i, H&agrave; N&#x1ED9;i
 script(src='../js/promotion_detail.js')
 script(src='../js/trang_sanpham/sanpham.js')
+script(src="../js/them_xoa_gio_hang/local.js")
 script(src='../js/search.js')
 script(src='../js/type_phone.js')
 script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js', integrity='sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj', crossorigin='anonymous')
