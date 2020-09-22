@@ -118,7 +118,8 @@ head
           .info_promotion Hotsale t&#x1EEB; ng&agrave;y 24/7 &dstrok;&#x1EBF;n 26/7
           br
           .name_phone #{phone.name}
-          .price #{phone.prix}&dstrok;
+          span.price=phone.prix
+          span.price &#x20AB;
         a#mua_ngay.btnBuy(href='/payer', onclick='return Acheter(this)') Mua ngay
 // footer
 #footer.container
