@@ -5,8 +5,8 @@ var btnSony = document.getElementById('btnSony');
 var Aasc = document.getElementById('Aasc');
 var Ddsc = document.getElementById('Ddsc');
 btnXiaomi.onclick = function(){
-    localStorage.setItem('name_phone', 'xiaomiMI');
-    location.href = '../type/xiaomiMI';
+    localStorage.setItem('name_phone', 'xiaomi');
+    location.href = '../type/xiaomi';
 }
 
 btnIphone.onclick = function(){
