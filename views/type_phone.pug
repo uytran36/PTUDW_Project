@@ -3,7 +3,7 @@ head
   meta(charset='UTF-8')
   meta(name='viewport', content='width=device-width, initial-scale=1.0')
   title KD Mobile
-  link(rel='icon', href='image/logo.png')
+  link(rel='icon', href='/image/logo.png')
   link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css', integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk', crossorigin='anonymous')
   link(rel='stylesheet', href='../css/type_phone.css')
   link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
@@ -35,12 +35,12 @@ head
               br
               | IPHONE
           .dropdown-content
-            a(href='#') Iphone 11 | 11 Pro Max
-            a(href='#') Iphone XS | XS Max
-            a(href='#') Iphone X | XR
-            a(href='') Iphone 8 | 8 Plus
-            a(href='') Iphone 7 | 7 Plus
-            a(href='') Iphone 6 | 6 Plus
+            a(href='/search?keyword=iphone+11') Iphone 11 | 11 Pro Max
+            a(href='/search?keyword=iphone+XS') Iphone XS | XS Max
+            a(href='/search?keyword=iphone+X') Iphone X | XR
+            a(href='/search?keyword=iphone+8') Iphone 8 | 8 Plus
+            a(href='/search?keyword=iphone+7') Iphone 7 | 7 Plus
+            a(href='/search?keyword=iphone+6') Iphone 6 | 6 Plus
         // end of button iphone
         // button phone
         .dropdown
@@ -49,11 +49,9 @@ head
               br
               | PHONE
           .dropdown-content
-            a(href='/search/samsung') Samsung
-            a(href='/search/sony') Sony
-            a(href='/search/xiaomiMI') Xiaomi
-            a(href='') Huawei
-            a(href='') Vivo
+            a(href='/type/samsung') Samsung
+            a(href='/type/sony') Sony
+            a(href='/type/xiaomi') Xiaomi
         // end of button phone
         // button promotion
         .dropdown
@@ -74,7 +72,7 @@ head
 .container
   #row1.row
     case phones[0].type
-      when 'xiaomiMI'
+      when 'xiaomi'
         #type_phone
           .btn.btn_main(type='button', id='btnXiaomi') Xiaomi
           .btn(type='button', id='btnIphone') iPhone

@@ -1,6 +1,6 @@
 [{
   "_id": {
-    "$oid": "5f68b9ffa290871ec85fc7fe"
+    "$oid": "5f698225ecba0952b87a5c04"
   },
   "name": "iPhone 6",
   "prix": "3.000.000",
@@ -24,7 +24,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68b9ffa290871ec85fc7ff"
+    "$oid": "5f69823aecba0952b87a5c05"
   },
   "name": "iPhone 7",
   "prix": "4.500.000",
@@ -48,7 +48,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68b9ffa290871ec85fc800"
+    "$oid": "5f69825aecba0952b87a5c06"
   },
   "name": "iPhone 7 Plus",
   "prix": "7.200.000",
@@ -72,7 +72,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68b9ffa290871ec85fc801"
+    "$oid": "5f69825aecba0952b87a5c07"
   },
   "name": "iPhone 8 Plus",
   "prix": "9.000.000",
@@ -96,7 +96,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68b9ffa290871ec85fc802"
+    "$oid": "5f69825aecba0952b87a5c08"
   },
   "name": "iPhone 11",
   "prix": "18.500.000",
@@ -120,7 +120,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68b9ffa290871ec85fc803"
+    "$oid": "5f69825aecba0952b87a5c09"
   },
   "name": "iPhone 11 Pro",
   "prix": "26.500.000",
@@ -144,7 +144,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68b9ffa290871ec85fc804"
+    "$oid": "5f69825aecba0952b87a5c0a"
   },
   "name": "iPhone 11 Pro Max",
   "prix": "27.000.000",
@@ -167,7 +167,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68b9ffa290871ec85fc805"
+    "$oid": "5f69825aecba0952b87a5c0b"
   },
   "name": "iPhone X",
   "prix": "8.800.000",
@@ -190,7 +190,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68b9ffa290871ec85fc806"
+    "$oid": "5f69825aecba0952b87a5c0c"
   },
   "name": "iPhone XR",
   "prix": "11.200.000",
@@ -214,7 +214,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68b9ffa290871ec85fc807"
+    "$oid": "5f69825aecba0952b87a5c0d"
   },
   "name": "iPhone XS",
   "prix": "20.500.000",
@@ -238,7 +238,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68b9ffa290871ec85fc808"
+    "$oid": "5f69825aecba0952b87a5c0e"
   },
   "name": "iPhone XS Max",
   "prix": "23.000.000",
@@ -262,7 +262,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba1da290871ec85fc809"
+    "$oid": "5f698275ecba0952b87a5c0f"
   },
   "name": "Samsung Galaxy A10",
   "prix": "2.900.000",
@@ -282,7 +282,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba1da290871ec85fc80a"
+    "$oid": "5f698275ecba0952b87a5c10"
   },
   "name": "Samsung Galaxy A20s",
   "prix": "3.500.000",
@@ -302,7 +302,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba1da290871ec85fc80b"
+    "$oid": "5f698275ecba0952b87a5c11"
   },
   "name": "Samsung Galaxy A30",
   "prix": "6.000.000",
@@ -322,7 +322,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba1da290871ec85fc80c"
+    "$oid": "5f698275ecba0952b87a5c12"
   },
   "name": "Samsung Galaxy A50",
   "prix": "6.100.000",
@@ -342,7 +342,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba1da290871ec85fc80d"
+    "$oid": "5f698275ecba0952b87a5c13"
   },
   "name": "Samsung Galaxy A51",
   "prix": "6.300.000",
@@ -362,7 +362,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba1da290871ec85fc80e"
+    "$oid": "5f698275ecba0952b87a5c14"
   },
   "name": "Samsung Galaxy A70",
   "prix": "6.500.000",
@@ -382,7 +382,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba1da290871ec85fc80f"
+    "$oid": "5f698275ecba0952b87a5c15"
   },
   "name": "Samsung Galaxy A71",
   "prix": "7.900.000",
@@ -402,7 +402,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba1da290871ec85fc810"
+    "$oid": "5f698275ecba0952b87a5c16"
   },
   "name": "Samsung Galaxy A80",
   "prix": "8.500.000",
@@ -422,7 +422,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba2fa290871ec85fc811"
+    "$oid": "5f698296ecba0952b87a5c17"
   },
   "name": "Samsung Galaxy M10",
   "prix": "3.000.000",
@@ -442,7 +442,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba2fa290871ec85fc812"
+    "$oid": "5f698296ecba0952b87a5c18"
   },
   "name": "Samsung Galaxy M11",
   "prix": "3.500.000",
@@ -462,7 +462,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba2fa290871ec85fc813"
+    "$oid": "5f698296ecba0952b87a5c19"
   },
   "name": "Samsung Galaxy M20",
   "prix": "4.890.000",
@@ -482,7 +482,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba2fa290871ec85fc814"
+    "$oid": "5f698296ecba0952b87a5c1a"
   },
   "name": "Samsung Galaxy M21",
   "prix": "4.500.000",
@@ -502,7 +502,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba2fa290871ec85fc815"
+    "$oid": "5f698296ecba0952b87a5c1b"
   },
   "name": "Samsung Galaxy M30",
   "prix": "3.800.000",
@@ -522,7 +522,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba2fa290871ec85fc816"
+    "$oid": "5f698296ecba0952b87a5c1c"
   },
   "name": "Samsung Galaxy M30s",
   "prix": "6.890.000",
@@ -542,7 +542,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba2fa290871ec85fc817"
+    "$oid": "5f698296ecba0952b87a5c1d"
   },
   "name": "Samsung Galaxy M31",
   "prix": "6.190.000",
@@ -562,7 +562,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba42a290871ec85fc818"
+    "$oid": "5f6982c6ecba0952b87a5c1e"
   },
   "name": "Samsung Galaxy Note 8",
   "prix": "6.490.000",
@@ -582,7 +582,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba42a290871ec85fc819"
+    "$oid": "5f6982c6ecba0952b87a5c1f"
   },
   "name": "Samsung Galaxy Note 9",
   "prix": "7.490.000",
@@ -602,7 +602,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba42a290871ec85fc81a"
+    "$oid": "5f6982c6ecba0952b87a5c20"
   },
   "name": "Samsung Galaxy Note 10",
   "prix": "22.900.000",
@@ -622,7 +622,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba42a290871ec85fc81b"
+    "$oid": "5f6982c6ecba0952b87a5c21"
   },
   "name": "Samsung Galaxy Note 10 Lite",
   "prix": "13.900.000",
@@ -642,7 +642,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba42a290871ec85fc81c"
+    "$oid": "5f6982c6ecba0952b87a5c22"
   },
   "name": "Samsung Galaxy Note 10 Plus",
   "prix": "26.900.000",
@@ -662,7 +662,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba42a290871ec85fc81d"
+    "$oid": "5f6982c6ecba0952b87a5c23"
   },
   "name": "Samsung Galaxy Note FE",
   "prix": "9.900.000",
@@ -682,7 +682,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba51a290871ec85fc81e"
+    "$oid": "5f6982e6ecba0952b87a5c24"
   },
   "name": "Samsung Galaxy S8",
   "prix": "7.000.000",
@@ -702,7 +702,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba51a290871ec85fc81f"
+    "$oid": "5f6982e6ecba0952b87a5c25"
   },
   "name": "Samsung Galaxy S8 Plus",
   "prix": "14.000.000",
@@ -722,7 +722,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba51a290871ec85fc820"
+    "$oid": "5f6982e6ecba0952b87a5c26"
   },
   "name": "Samsung Galaxy S9",
   "prix": "6.000.000",
@@ -742,7 +742,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba51a290871ec85fc821"
+    "$oid": "5f6982e6ecba0952b87a5c27"
   },
   "name": "Samsung Galaxy S9 Plus",
   "prix": "6.800.000",
@@ -762,7 +762,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba51a290871ec85fc822"
+    "$oid": "5f6982e6ecba0952b87a5c28"
   },
   "name": "Samsung Galaxy S10 Plus",
   "prix": "11.400.000",
@@ -782,7 +782,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba51a290871ec85fc823"
+    "$oid": "5f6982e6ecba0952b87a5c29"
   },
   "name": "Samsung Galaxy S20",
   "prix": "21.400.000",
@@ -802,7 +802,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba51a290871ec85fc824"
+    "$oid": "5f6982e6ecba0952b87a5c2a"
   },
   "name": "Samsung Galaxy S20 Ultra",
   "prix": "29.900.000",
@@ -822,7 +822,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba62a290871ec85fc825"
+    "$oid": "5f6982f4ecba0952b87a5c2b"
   },
   "name": "Sony Xperia 5",
   "prix": "17.990.000",
@@ -842,7 +842,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba62a290871ec85fc826"
+    "$oid": "5f6982f4ecba0952b87a5c2c"
   },
   "name": "Sony Xperia I",
   "prix": "20.000.000",
@@ -862,7 +862,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba62a290871ec85fc827"
+    "$oid": "5f6982f4ecba0952b87a5c2d"
   },
   "name": "Sony Xperia I mark II",
   "prix": "20.990.000",
@@ -882,7 +882,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba62a290871ec85fc828"
+    "$oid": "5f6982f4ecba0952b87a5c2e"
   },
   "name": "Sony Xperia XZ Premium",
   "prix": "18.490.000",
@@ -902,7 +902,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba62a290871ec85fc829"
+    "$oid": "5f6982f4ecba0952b87a5c2f"
   },
   "name": "Sony Xperia XZ2",
   "prix": "4.290.000",
@@ -922,7 +922,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba88a290871ec85fc82a"
+    "$oid": "5f698301ecba0952b87a5c30"
   },
   "name": "Xiaomi Mi 8 Pro",
   "prix": "12.290.000",
@@ -942,7 +942,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba88a290871ec85fc82b"
+    "$oid": "5f698301ecba0952b87a5c31"
   },
   "name": "Xiaomi Mi 9",
   "prix": "11.090.000",
@@ -962,7 +962,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba88a290871ec85fc82c"
+    "$oid": "5f698301ecba0952b87a5c32"
   },
   "name": "Xiaomi Mi 9 SE",
   "prix": "6.990.000",
@@ -982,7 +982,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba88a290871ec85fc82d"
+    "$oid": "5f698301ecba0952b87a5c33"
   },
   "name": "Xiaomi Mi 9T",
   "prix": "7.290.000",
@@ -1002,7 +1002,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba88a290871ec85fc82e"
+    "$oid": "5f698301ecba0952b87a5c34"
   },
   "name": "Xiaomi Mi A3",
   "prix": "3.990.000",
@@ -1022,7 +1022,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba88a290871ec85fc82f"
+    "$oid": "5f698301ecba0952b87a5c35"
   },
   "name": "Xiaomi Mi Max 3",
   "prix": "3.790.000",
@@ -1042,7 +1042,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba88a290871ec85fc830"
+    "$oid": "5f698301ecba0952b87a5c36"
   },
   "name": "Xiaomi Mi Note 10 Lite",
   "prix": "7.990.000",
@@ -1062,7 +1062,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68ba88a290871ec85fc831"
+    "$oid": "5f698301ecba0952b87a5c37"
   },
   "name": "Xiaomi Mi Note 10 Pro",
   "prix": "13.490.000",
@@ -1082,7 +1082,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68baa4a290871ec85fc832"
+    "$oid": "5f69830becba0952b87a5c38"
   },
   "name": "Xiaomi Redmi 7",
   "prix": "3.190.000",
@@ -1102,7 +1102,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68baa4a290871ec85fc833"
+    "$oid": "5f69830becba0952b87a5c39"
   },
   "name": "Xiaomi Redmi 7A",
   "prix": "2.990.000",
@@ -1122,7 +1122,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68baa4a290871ec85fc834"
+    "$oid": "5f69830becba0952b87a5c3a"
   },
   "name": "Xiaomi Redmi 8",
   "prix": "2.190.000",
@@ -1142,7 +1142,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68baa4a290871ec85fc835"
+    "$oid": "5f69830becba0952b87a5c3b"
   },
   "name": "Xiaomi Redmi 8A",
   "prix": "2.190.000",
@@ -1162,7 +1162,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68baa4a290871ec85fc836"
+    "$oid": "5f69830becba0952b87a5c3c"
   },
   "name": "Xiaomi Redmi 9",
   "prix": "2.990.000",
@@ -1182,7 +1182,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68baa4a290871ec85fc837"
+    "$oid": "5f69830becba0952b87a5c3d"
   },
   "name": "Xiaomi Redmi Note 7 Pro",
   "prix": "3.790.000",
@@ -1202,7 +1202,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68baa4a290871ec85fc838"
+    "$oid": "5f69830becba0952b87a5c3e"
   },
   "name": "Xiaomi Redmi Note 8",
   "prix": "3.450.000",
@@ -1222,7 +1222,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68baa4a290871ec85fc839"
+    "$oid": "5f69830becba0952b87a5c3f"
   },
   "name": "Xiaomi Redmi Note 8 Pro",
   "prix": "4.290.000",
@@ -1242,7 +1242,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68baa4a290871ec85fc83a"
+    "$oid": "5f69830becba0952b87a5c40"
   },
   "name": "Xiaomi Redmi Note 9",
   "prix": "4.600.000",
@@ -1262,7 +1262,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68baa4a290871ec85fc83b"
+    "$oid": "5f69830becba0952b87a5c41"
   },
   "name": "Xiaomi Redmi Note 9 Pro",
   "prix": "5.900.000",
@@ -1282,7 +1282,7 @@
   "feedback": []
 },{
   "_id": {
-    "$oid": "5f68baa4a290871ec85fc83c"
+    "$oid": "5f69830becba0952b87a5c42"
   },
   "name": "Xiaomi Redmi Note 9S",
   "prix": "4.690.000",
