@@ -5,7 +5,7 @@ head
   title KD
   link(rel='icon' href='image/logo.png')
   link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk' crossorigin='anonymous')
-  link(rel='stylesheet' href='css/promotion_detail.css')
+  link(rel='stylesheet' href='/css/promotion_detail.css')
   link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
 #header
   nav#nav_bar.navbar.navbar-expand-lg.navbar-light
@@ -15,8 +15,8 @@ head
       .line
       .line
     .wrapHead
-      a#logo.navbar-brand(href='acceuil.html')
-        img#kdm(src='image/KDM.png')
+      a#logo.navbar-brand(href='/acceuil')
+        img#kdm(src='/image/KDM.png')
       #navbarSupportedContent
         form.form-inline.my-2.my-lg-0
           input.form-control.mr-sm-2(type='search' placeholder='Rechercher sur KDM' aria-label='Search')
@@ -49,25 +49,23 @@ head
               br
               | PHONE
           .dropdown-content
-            a(href='#') Samsung
-            a(href='#') Oppo
-            a(href='#') Xiaomi
-            a(href='') Huawei
-            a(href='') Vivo
+            a(href='/type/samsung') Samsung
+            a(href='/type/sony') Sony
+            a(href='/type/xiaomiMI') Xiaomi
         // end of button phone
         // button promotion
         .dropdown
           button.dropbtn
             span.fa.fa-percent
               br
-              a#promo(href='promo.html') PROMOTION
+              a#promo(href='/promo') PROMOTION
         // end of button promotion
         // button news
         .dropdown
           button.dropbtn
             span.fa.fa-newspaper-o
               br
-              a#news(href='news.html') NEWS
+              a#news(href='/news') NEWS
         // end of button news
 #body.container
   article.content
@@ -77,10 +75,10 @@ head
     hr
     p.titre
       | Th&#x1EDD;i gian &aacute;p d&#x1EE5;ng: T&#x1EEB; 20/3 &ndash; H&#x1EBF;t 31/3/2020
-    img(src='img_promo/promo 1.png')
+    img(src='/img_promo/promo 1.png')
     p.titre
       | 1. IPHONE GI&Aacute; &Dstrok;&Atilde; T&#x1ED0;T NAY L&#x1EA0;I C&Ograve;N &Dstrok;&#x1AF;&#x1EE2;C GI&#x1EA2;M GI&Aacute;
-    img(src='img_promo/promo 2.jpg')
+    img(src='/img_promo/promo 2.jpg')
     p
       ul
         li
@@ -94,10 +92,10 @@ head
           span 50.000 &dstrok;/ s&#x1EA3;n ph&#x1EA9;m
     p.titre
       | 2. SAMSUNG X&Aacute;CH TAY GI&Aacute; CAM K&#x1EBE;T T&#x1ED0;T NH&#x1EA4;T &ndash; M&Aacute;Y ZIN NGUY&Ecirc;N B&#x1EA2;N
-    img(src='img_promo/promo 3.png')
+    img(src='/img_promo/promo 3.png')
     p.titre
       | 3. MUA XIAOMI &ndash; REALME M&#x1EDA;I NGUY&Ecirc;N SEAL &ndash; GI&Aacute; &Dstrok;&Atilde; C&#x1EF0;C T&#x1ED0;T &ndash; NAY C&Ograve;N GI&#x1EA2;M GI&Aacute; TH&Ecirc;M &ndash; BONUS TH&Ecirc;M QU&Agrave; T&#x1EB6;NG C&#x1EF0;C CH&#x1EA4;T
-    img(src='img_promo/promo 4.png')
+    img(src='/img_promo/promo 4.png')
 // footer
 #footer.container
   .row
