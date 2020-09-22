@@ -125,6 +125,13 @@ div.container{
     margin-top: 10px;
 }
 /*END OF HEADER AND FOOTER*/
+/*caroussel*/
+.carousel-control-prev, .carousel-control-next {
+    height: 30px; 
+    width: 30px; 
+    margin: auto 0;
+}
+
 div.container{
     background-color: white;
     border: solid 1px whitesmoke;
