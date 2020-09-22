@@ -358,6 +358,20 @@ ul{
     #promo, #news {
         color: black;
     }
+    #row4 {
+        width: 100%;
+        height: 100px;
+    }
+
+    #title_phone {
+        margin: 0 auto;
+    }
+    #type_phone {
+        margin: 0 auto;
+    }
+    .product {
+        margin-left: 15%;
+    }
 }
 
 
@@ -433,5 +447,20 @@ ul{
     
     #promo, #news {
         color: black;
+    }
+
+    #row4 {
+        width: 100%;
+        height: 100px;
+    }
+
+    #title_phone {
+        margin: 0 auto;
+    }
+    #type_phone {
+        margin: 0 auto;
+    }
+    .product {
+        margin-left: 15%;
     }
 }
