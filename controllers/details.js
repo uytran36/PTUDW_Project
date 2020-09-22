@@ -172,6 +172,22 @@ const promo=(req, res)=> {
     res.render('promo');
 }
 
+const promo1=(req, res)=> {
+    res.render('promo1');
+}
+
+const promo2=(req, res)=> {
+    res.render('promo2');
+}
+
+const news1=(req, res)=> {
+    res.render('news1');
+}
+
+const news2=(req, res)=> {
+    res.render('news2');
+}
+
 module.exports = {
     homepage,
     detail,
@@ -182,7 +198,11 @@ module.exports = {
     bill,
     post_comment,
     news,
+    news1,
+    news2,
     promo,
+    promo1,
+    promo2,
     pclient,
     pgaranti
 }
