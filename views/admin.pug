@@ -27,12 +27,24 @@ head
         th SDT
         th Email
         th &Dstrok;&#x1ECB;a ch&#x1EC9;
-        th T&ecirc;n s&#x1EA3;n ph&#x1EA9;m
-        th S&#x1ED1; l&#x1B0;&#x1EE3;ng
-        th Th&agrave;nh ti&#x1EC1;n
         th Chi ti&#x1EBF;t &dstrok;&#x1A1;n h&agrave;ng
+      - var n = 1
+      - var i = 1
+      each _bill in bill
+        tr
+        th=i++
+        th  #{_bill._id}
+        th #{_bill.time}
+        th #{_bill.name}
+        th #{_bill.number_phone}
+        th #{_bill.email}
+        th #{_bill.address}
+        th 
+          a.btn-detail(href='/admin/loggedin/'+_bill._id) Chi ti&#x1EBF;t
+
 #footer.container
   p(style='text-align: center;') &copy; By KD Mobile, 2020
+  
 script(src='js/detail.js', type='text/javascript')
 script(src='js/promotion_detail.js')
 script(src='js/admin.js')

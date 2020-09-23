@@ -100,7 +100,7 @@ function validateEmail(email)
     var list_product = JSON.parse(localStorage.getItem('list_product'))
     var info = {};
     var today = new Date();
-    var time = 'Date: ' + today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear() +'  Time:'+ today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    var time = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear()
     var note = document.getElementById('billing_last_name').value
     info.name = name.value
     info.address = address.value
