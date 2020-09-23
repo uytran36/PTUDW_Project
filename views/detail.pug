@@ -80,13 +80,32 @@ head
       .row
         img.picform1(src=''+phones.img , alt='image')
       .imagectcontent1
-        a(href='image_detail_telephone.html', style='text-decoration: none;')
+        a#myBtn(style='text-decoration: none;')
           button.btn.btn-outline-dark.btn-lg(style='margin-top: 2%;', type='button')
             svg.bi.bi-image(width='1.5em', height='1.5em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
               path(fill-rule='evenodd', d='M14.002 2h-12a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zm-12-1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12z')
               path(d='M10.648 7.646a.5.5 0 0 1 .577-.093L15.002 9.5V14h-14v-2l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71z')
               path(fill-rule='evenodd', d='M4.502 7a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z')
           p H&igrave;nh &#x1EA3;nh
+        #myModal.modal_img
+          // Modal content
+          .modal-content_img_sub
+            .close1 &times;
+            br
+            #carouselExampleCaptions.carousel.slide(data-ride='carousel')
+              .carousel-inner
+                .carousel-item.active
+                  img.d-block(src=''+phones.imgsub[0], alt='image', width='70%', height='70%', style=' margin:0 auto')
+                .carousel-item
+                  img.d-block(src=''+phones.imgsub[1], alt='image', width='70%', height='70%', style=' margin:0 auto')
+                .carousel-item
+                  img.d-block(src=''+phones.imgsub[2], alt='image', width='70%', height='70%', style=' margin:0 auto')
+              a.carousel-control-prev(href='#carouselExampleCaptions', role='button', data-slide='prev')
+                span.carousel-control-prev-icon(aria-hidden='true', style='background-color: gray;')
+                span.sr-only Previous
+              a.carousel-control-next(href='#carouselExampleCaptions', role='button', data-slide='next')
+                span.carousel-control-next-icon(aria-hidden='true', style='background-color: gray;')
+                span.sr-only Next
     #div2.col-5
       h2.giadtform2
         | Gi&aacute;: 
@@ -323,12 +342,15 @@ head
         li
           | 453 Nguy&#x1EC5;n Tr&atilde;i, H&agrave; N&#x1ED9;i
 // JS
+
 script(src='../js/feedback/fb.js')
+script(src='../js/img_sub.js')
 script(src="../js/them_xoa_gio_hang/local.js")
-script(src='js/script_detail.js')
+script(src='js/img_sub.js')
 script(src='js/promotion_detail.js')
 script(src='js/search.js')
 script(src='js/type_phone.js')
+
 // Optional JavaScript
 // jQuery first, then Popper.js, then Bootstrap JS
 script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js', integrity='sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj', crossorigin='anonymous')
