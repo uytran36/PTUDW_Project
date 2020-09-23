@@ -1,0 +1,39 @@
+.wrapHead {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#admin {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#btn-logout {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+  
+table, th, td {
+    border: 1px solid black;
+}
+
+.btn-detail {
+    margin-left: 18px;
+}
+.functions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.functions span {
+    padding-right: 20px;
+}
+
+.functions button {
+    margin-top: 20px;
+}
