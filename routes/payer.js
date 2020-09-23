@@ -8,6 +8,7 @@ router.post('/payer', ctrPage.post_bill)
 router.get('/bill', ctrPage.bill)
 router.get('/politiqueclient', ctrPage.pclient)
 router.get('/politiquedegaranti', ctrPage.pgaranti)
+router.get('/admin', ctrPage.All_Bills)
 
 router.get('/news', ctrPage.news)
 router.get('/news/news1', ctrPage.news1)

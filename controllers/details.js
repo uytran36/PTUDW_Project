@@ -18,6 +18,16 @@ const detail=(req,res)=>
         res.render('notfound')
     })
 }
+const All_Bills=(req,res)=>
+{
+    _bill.find().then(function(bills)
+    {
+        if(bills.length == 0)
+            throw new Error('Not found');
+        res.render('admin', {bills:bills})
+    })
+}
+
 
 const payer=(req,res)=>
 {
@@ -211,5 +221,6 @@ module.exports = {
     promo2,
     pclient,
     pgaranti,
-    post_bill
+    post_bill,
+    All_Bills
 }
