@@ -234,3 +234,197 @@ div.container{
 .product:hover{
     box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
+
+@media screen and (max-width: 1100px) {
+    .line {
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 5px;
+    }
+
+    .hamburger {
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 15px;
+     
+    }
+    
+    .wrapHead {
+        height: 40px;
+        margin-left: 1%;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .wrapMenu {
+        display: none;
+    }
+
+    .wrapMenu.open {
+        display: block;
+        background-color: white;
+        height: fit-content;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+    } 
+    
+    nav.open {
+        padding-bottom: 100px;
+    }
+
+    .dropbtn {
+        background-color: white;
+        border: 2px solid #F2E6CE;
+        border-radius: 5px;
+        color: black;
+        padding: 1px;
+        font-size: 13px;
+        text-align: center;
+        width: 95px;
+        height: 45px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .dropdown:hover .dropbtn span {
+        color: black;
+        font-weight: bold;
+    }
+    
+    #kdm {
+        content: url(logo.png);
+        width: 35px;
+        margin-top: -7px;
+    }
+
+    #navbarSupportedContent input {
+        width: 300px;
+        margin-top: -7px;
+    }
+
+    #promo, #news {
+        color: black;
+    }
+
+    #promotion_banner {
+        width: 100%;
+    }
+    
+    #row4 {
+        width: 100%;
+        height: 100px;
+    }
+
+    #title_phone {
+        margin: 0 auto;
+    }
+    
+    #type_phone {
+        margin: 0 auto;
+    }
+
+    .product {
+        margin-left: 15%;
+    }
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .line {
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 5px;
+    }
+
+    .hamburger {
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 15px;
+     
+    }
+    
+    .wrapHead {
+        height: 40px;
+        margin-left: 1%;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .wrapMenu {
+        display: none;
+    }
+
+    .wrapMenu.open {
+        display: block;
+        background-color: white;
+        height: fit-content;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+    } 
+    
+    nav.open {
+        padding-bottom: 100px;
+    }
+
+    .dropbtn {
+        background-color: white;
+        border: 2px solid #F2E6CE;
+        border-radius: 5px;
+        color: black;
+        padding: 1px;
+        font-size: 13px;
+        text-align: center;
+        width: 95px;
+        height: 45px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .dropdown:hover .dropbtn span {
+        color: black;
+        font-weight: bold;
+    }
+    
+    #kdm {
+        content: url(logo.png);
+        width: 35px;
+        margin-top: -7px;
+    }
+
+    #navbarSupportedContent input {
+        width: 150px;
+        margin-top: -7px;
+    }
+    
+    #promo, #news {
+        color: black;
+    }
+    
+    #promotion_banner {
+        width: 100%;
+    }
+    
+    #row4 {
+        width: 100%;
+        height: 100px;
+    }
+
+    #title_phone {
+        margin: 0 auto;
+    }
+
+    #type_phone {
+        margin: 0 auto;
+    }
+
+    .product {
+        margin-left: 15%;
+    }
+}

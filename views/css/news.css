@@ -123,6 +123,9 @@ div.container{
     margin-top: 10px;
 }
 
+.manager_product {
+    cursor: pointer;
+}
 /*chuyển menu thành icon khi thay đổi size */
 @media screen and (max-width: 1100px) {
     .line {
