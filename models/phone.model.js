@@ -29,7 +29,7 @@ var phoneSchema = new mongoose.Schema({
     imgsub:[String, String, String]
 });
 
-var phone = mongoose.model('phone', phoneSchema, 'phone');
 
+var phone = mongoose.model('phone', phoneSchema, 'phone');
 
 module.exports = phone;

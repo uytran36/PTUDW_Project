@@ -27,7 +27,7 @@ function validateEmail(email)
   placeholder.push(items.placeholder)
   }
   }
-  console.log(placeholder)
+  
   var error = '';
   var dem = 0;
   var dem1 = 0; 
@@ -96,5 +96,37 @@ function validateEmail(email)
   '                  </div>  ' ;
   alert.innerHTML = html;
   if(dem == 0)
+  {
+    var list_product = JSON.parse(localStorage.getItem('list_product'))
+    var info = {};
+    var today = new Date();
+    var time = 'Date: ' + today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear() +'  Time:'+ today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    var note = document.getElementById('billing_last_name').value
+    info.name = name.value
+    info.address = address.value
+    info.number_phone = number_phone.value
+    info.city = city.value
+    info.email = email.value
+    info.note = note
+    info.list_product = list_product
+    info.total = localStorage.getItem('Total')
+    info.time = time
+
+    fetch('/payer', {
+      method: 'POST', // or 'PUT'
+      headers: {
+        'Content-Type': 'application/json',
+        },
+      body: JSON.stringify(info),
+    })
+    .then(response => response.json())
+    .then(data => {
+    console.log('Success:', data);
+    })
+  .catch((error) => {
+    console.error('Error:', error);
+  });
   location.href='/bill'
+  
+  }
   }
