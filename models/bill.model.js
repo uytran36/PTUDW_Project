@@ -22,7 +22,9 @@ var billSchema = new mongoose.Schema({
     time: String
 });
 
+
 var bill = mongoose.model('bill', billSchema, 'bill');
+
 
 
 

@@ -7,5 +7,6 @@ var router = express.Router();
 
 router.get('/', adm.Home);
 router.get('/loggedin', adm.login);
+router.get('/loggedin/:id', adm.bill_detail);
 
 module.exports = router;
