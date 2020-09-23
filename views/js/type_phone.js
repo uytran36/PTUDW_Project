@@ -4,6 +4,22 @@ var btnSamsung = document.getElementById('btnSamsung');
 var btnSony = document.getElementById('btnSony');
 var Aasc = document.getElementById('Aasc');
 var Ddsc = document.getElementById('Ddsc');
+var navBarSamsung = document.getElementById('navBarSamsung');
+var navBarSony = document.getElementById('navBarSony');
+var navBarXiaomi = document.getElementById('navBarXiaomi');
+
+navBarSamsung.onclick = function(){
+    localStorage.setItem('name_phone', 'samsung');
+    location.href = '../type/samsung';
+}
+navBarSony.onclick = function(){
+    localStorage.setItem('name_phone', 'sony');
+    location.href = '../type/sony';
+}
+navBarXiaomi.onclick = function(){
+    localStorage.setItem('name_phone', 'xiaomi');
+    location.href = '../type/xiaomi';
+}
 btnXiaomi.onclick = function(){
     localStorage.setItem('name_phone', 'xiaomi');
     location.href = '../type/xiaomi';
