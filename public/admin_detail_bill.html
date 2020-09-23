@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="css/admin.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bill.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -28,32 +28,66 @@
   <div class="container" id="body">
     <div class="wrap-content">
         <h3 style="text-align: center;">Thông tin chi tiết hóa đơn</h3>
-        <table>
-            <tr>
-                <th>STT</th>
-                <th>Mã đơn hàng</th>
-                <th>Ngày đặt hàng</th>
-                <th>Họ tên</th>
-                <th>SDT</th>
-                <th>Email</th>
-                <th>Địa chỉ</th>
-                <th>Tên sản phẩm</th>
-                <th>Số lượng</th>
-                <th>Thành tiền</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>000001</td>
-                <td>01/01/2020</td>
-                <td>Trần Khánh Gia Uy</td>
-                <td>0941111111</td>
-                <td>uytran36@gmail.com</td>
-                <td>227 Nguyễn Văn Cừ, Phường 4, Quận 5, TPHCM</td>
-                <td>iPhone 6</td>
-                <td>3</td>
-                <td>30.000.000</td>
-            </tr>
-        </table>
+        <div class="content1">
+            <div class="bill">
+                <div class="payer">
+                    <ul class="bill_detail">
+                        <li id="code_bill">
+                            Mã đơn hàng: <br><strong>109381</strong>
+                        </li>
+                        <li id="bill_date">
+                            Ngày: <br><strong>09/08/2020</strong>
+                        </li>
+                        <li id="bill_total">
+                           Tổng cộng: <br><strong style="color:red">56,980,000₫</strong>
+                        </li>
+                        <li id="bill_method">
+                            Phương thức thanh toán:<br><strong>Chuyển khoản ngân hàng</strong>
+                        </li>
+                    </ul>
+                    <div class="order_details">
+                        <h2 class="details_title">Chi tiết đơn hàng</h2>
+                        <table class="_order_details">
+                            <thead style="background-color:whitesmoke">
+                                <tr>
+                                    <th class="product_name">Sản phẩm</th>
+                                    <th class="product total">Tổng</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="order_items">
+                                    <td class="product_name">
+                                        <a href="#" style="color:black">Samsung galaxy Note20</a>
+                                        <strong>x 1</strong>
+                                        <br>
+                                       <span style="font-weight: 600;">Màu sắc:</span> grey
+                                    </td>
+                                    <td class="price" style="color:red">23,900,000₫</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th>Giao nhận hàng</th>
+                                    <td>Miễn phí giao hàng</td>
+                                </tr>
+                                <tr>
+                                    <th>Phương thức thanh toán</th>
+                                    <td>Chuyển khoản ngân hàng</td>
+                                </tr>
+                                <tr>
+                                    <th>Tổng cộng:</th>
+                                    <td style="color:red">69,000,000₫</td>
+                                </tr>
+                                <tr>
+                                    <th>Lưu ý:</th>
+                                    <td>Không có</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            </div>
 
         <div class="functions">
             <form action="">
