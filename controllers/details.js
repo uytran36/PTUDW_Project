@@ -1,4 +1,5 @@
 var phone = require('../models/phone.model');
+var _bill = require('../models/bill.model')
 const { render } = require('pug');
 
 const homepage=(req,res)=>
@@ -164,6 +165,11 @@ const post_comment=(req,res)=>
     res.redirect('/acceuil/'+name_phone)
 }
 
+const post_bill=(req, res)=>
+{
+    _bill.create(req.body);
+}
+
 const news=(req, res)=> {
     res.render('news');
 }
@@ -204,5 +210,6 @@ module.exports = {
     promo1,
     promo2,
     pclient,
-    pgaranti
+    pgaranti,
+    post_bill
 }

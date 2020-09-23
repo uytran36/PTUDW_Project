@@ -1,9 +1,18 @@
 var phone = require('../../models/phone.model')
+var bill = require('../../models/bill.model')
 
 module.exports.index = async function(req,res){
     phone.find().then(function(phones)
     {
         res.json(phones)
+    })
+}
+
+module.exports.bill = async function(req,res)
+{
+    bill.find().then(function(bill)
+    {
+        res.json(bill)
     })
 }
 
