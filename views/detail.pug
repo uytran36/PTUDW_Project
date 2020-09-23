@@ -21,7 +21,7 @@ head
         img#kdm(src='../image/KDM.png')
       #navbarSupportedContent
         form.form-inline.my-2.my-lg-0
-          input.form-control.mr-sm-2(type='search', placeholder='Rechercher sur KDM', aria-label='Search')
+          input.form-control.mr-sm-2(type='search', placeholder='Rechercher sur KDM', aria-label='Search', name="keyword")
           // button submit
           button#btn-search(type='submit')
             svg.bi.bi-search(width='1em', height='1em', viewbox='0 0 16 16', fill='currentColor', xmlns='http://www.w3.org/2000/svg')
@@ -327,6 +327,8 @@ script(src='../js/feedback/fb.js')
 script(src="../js/them_xoa_gio_hang/local.js")
 script(src='js/script_detail.js')
 script(src='js/promotion_detail.js')
+script(src='js/search.js')
+script(src='js/type_phone.js')
 // Optional JavaScript
 // jQuery first, then Popper.js, then Bootstrap JS
 script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js', integrity='sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj', crossorigin='anonymous')

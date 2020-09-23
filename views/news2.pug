@@ -20,7 +20,7 @@ head
         img#kdm(src='/image/KDM.png')
       #navbarSupportedContent
         form.form-inline.my-2.my-lg-0
-          input.form-control.mr-sm-2(type='search' placeholder='Rechercher sur KDM' aria-label='Search')
+          input.form-control.mr-sm-2(type='search' placeholder='Rechercher sur KDM' aria-label='Search', name="keyword")
           // button submit
           button#btn-search(type='submit')
             svg.bi.bi-search(width='1em' height='1em' viewbox='0 0 16 16' fill='currentColor' xmlns='http://www.w3.org/2000/svg')
@@ -36,12 +36,12 @@ head
               br
               | IPHONE
           .dropdown-content
-            a(href='/search?keyword=iphone+11') Iphone 11 | 11 Pro Max
-            a(href='/search?keyword=iphone+XS') Iphone XS | XS Max
-            a(href='/search?keyword=iphone+X') Iphone X | XR
-            a(href='/search?keyword=iphone+8') Iphone 8 | 8 Plus
-            a(href='/search?keyword=iphone+7') Iphone 7 | 7 Plus
-            a(href='/search?keyword=iphone+6') Iphone 6 | 6 Plus
+            a(href='javascript:void(0)', id='navBarIphone11') Iphone 11 | 11 Pro Max
+            a(href='javascript:void(0)', id='navBarIphoneXS') Iphone XS | XS Max
+            a(href='javascript:void(0)', id='navBarIphoneX') Iphone X | XR
+            a(href='javascript:void(0)', id='navBarIphone8') Iphone 8 | 8 Plus
+            a(href='javascript:void(0)', id='navBarIphone7') Iphone 7 | 7 Plus
+            a(href='javascript:void(0)', id='navBarIphone6') Iphone 6 | 6 Plus
         // end of button iphone
         // button phone
         .dropdown
@@ -50,9 +50,9 @@ head
               br
               | PHONE
           .dropdown-content
-            a(href='/type/samsung') Samsung
-            a(href='/type/sony') Sony
-            a(href='/type/xiaomi') Xiaomi
+            a(href='javascript:void(0)', id='navBarSamsung') Samsung
+            a(href='javascript:void(0)', id='navBarSony') Sony
+            a(href='javascript:void(0)', id='navBarXiaomi') Xiaomi
         // end of button phone
         // button promotion
         .dropdown
@@ -162,6 +162,8 @@ head
         li
           | 453 Nguy&#x1EC5;n Tr&atilde;i, H&agrave; N&#x1ED9;i
 // end of footer
+script(src='js/search.js')
+script(src='js/type_phone.js')
 script(src='js/promotion_detail.js')
 script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js' integrity='sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj' crossorigin='anonymous')
 script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js' integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo' crossorigin='anonymous')
