@@ -19,19 +19,28 @@ head
       a#logo.navbar-brand(href='acceuil.html')
         img#kdm(src='image/KDM.png')
 #body.container
-  fieldset#login
-    legend#Title
-      | Admin login
-    label.text(for='acc') Account:
-    input#acc(type='text')
-    br
-    label.text(for='pass') Password:
-    input#pass(type='password')
-    br
-    #btn
-      a(href='acceuil.html')
-        button#cancel Cancel
-      button#log Login
+  //- fieldset#login
+  //-   legend#Title
+  //-     | Admin login
+  //-   label.text(for='acc') Account:
+  //-   input#acc(type='text')
+  //-   br
+  //-   label.text(for='pass') Password:
+  //-   input#pass(type='password')
+  //-   br
+  //-   #btn
+  //-     a(href='acceuil.html')
+  //-       button#cancel Cancel
+  //-   input(type='submit', value='Log In', method="POST")
+  form(action='/admin/loggedin' method='post')
+    .container
+      label(for='uname')
+        b Username
+      input(type='text' placeholder='Enter Username' name='uname' required='')
+      label(for='psw')
+        b Password
+      input(type='password' placeholder='Enter Password' name='psw' required='')
+      button(type='submit') Login
 #footer.container
   hr
   #foot &copy;By KD Mobile, 2020

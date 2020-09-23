@@ -7,5 +7,7 @@ var router = express.Router();
 
 router.get('/', adm.Home);
 router.get('/loggedin', adm.login);
+router.post('/loggedin', adm.loggedin);
+router.get('/logout',adm.logout);
 
 module.exports = router;
