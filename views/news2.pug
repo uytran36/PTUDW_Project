@@ -19,7 +19,7 @@ head
       a#logo.navbar-brand(href='/acceuil')
         img#kdm(src='/image/KDM.png')
       #navbarSupportedContent
-        form.form-inline.my-2.my-lg-0(id="formSearch", method="GET")
+        form.form-inline.my-2.my-lg-0(id="formSearch", method="GET" action='/search')
           input.form-control.mr-sm-2(id='txtSearch', type='search', placeholder='Rechercher sur KDM', aria-label='Search', name="keyword")
           // button submit
           button#btn-search(type='submit')
