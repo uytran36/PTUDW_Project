@@ -4,7 +4,16 @@ const { render } = require('pug');
 
 const Home = (req, res) => {
     if(req.session.isLoggedIn)
-        res.render('admin');
+    {
+        bill.find().then(function(bill){
+            if(bill.length == 0)
+                throw new Error('Not found');
+            res.render('admin', {bill:bill})
+        })
+        .catch(() => {
+            res.render('notfound')
+        })
+    }
     else
         res.render('login');
 };
@@ -24,7 +33,7 @@ const login = (req,res) => {
         bill.find().then(function(bill){
             if(bill.length == 0)
                 throw new Error('Not found');
-            res.render('admin', {bill: bill})
+            res.render('admin', {bill:bill})
         })
         .catch(() => {
             res.render('notfound')
@@ -50,10 +59,31 @@ const bill_detail = (req, res) => {
     })
 }
 
+const post_bill_detail = async (req, res) => {
+    var id = req.params.id;
+    var status = req.body;
+    if(req.body.status == 'cancel')
+    {
+        var _bill = await bill.deleteOne({_id:id}).then(function(response)
+        {
+            console.log('Number deleted: ', response.deletedCount)
+        }
+        )
+    }
+    else
+    {
+        var _bill = await bill.findOneAndUpdate({_id:id}, req.body, {new:true})
+        console.log(_bill)
+    }
+    res.redirect('/admin/loggedin')
+    
+}
+
 module.exports = {
     Home,
     login,
     loggedin,
     logout,
-    bill_detail
+    bill_detail,
+    post_bill_detail
 }

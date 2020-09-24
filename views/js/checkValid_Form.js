@@ -111,6 +111,7 @@ function validateEmail(email)
     info.list_product = list_product
     info.total = localStorage.getItem('Total')
     info.time = time
+    info.status= 'Đang chờ'
 
     fetch('/payer', {
       method: 'POST', // or 'PUT'

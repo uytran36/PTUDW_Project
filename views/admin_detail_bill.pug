@@ -74,15 +74,17 @@ head
                   th L&#x1B0;u &yacute;:
                   td Kh&ocirc;ng c&oacute;
     .functions
-      form(action='')
-        input(type='radio', name='gender', value='confirmed', checked='true')
+      form(action='/admin/loggedin/'+ bill._id, method='POST')
+        input(type='radio', name='status', value='Xác nhận', checked='true')
         span X&aacute;c nh&#x1EAD;n &dstrok;&#x1A1;n h&agrave;ng
-        input(type='radio', name='gender', value='shipping')
+        input(type='radio', name='status', value='Đang giao hàng')
         span &Dstrok;ang giao h&agrave;ng
-        input(type='radio', name='gender', value='received')
+        input(type='radio', name='status', value='Đã nhận hàng')
         span &Dstrok;&atilde; nh&#x1EAD;n h&agrave;ng
-        input(type='radio', name='gender', value='canceled')
+        input(type='radio', name='status', value='cancel')
         span H&#x1EE7;y &dstrok;&#x1A1;n h&agrave;ng
+        br
+        button(type='submit', name='') Lưu
       button(onclick='window.print()') In &dstrok;&#x1A1;n h&agrave;ng
 #footer.container
   p(style='text-align: center;') &copy; By KD Mobile, 2020

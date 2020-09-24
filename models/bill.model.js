@@ -19,7 +19,8 @@ var billSchema = new mongoose.Schema({
     note: String,
     list_product: [{name:String, count: Number, prix:String}],
     total: String,
-    time: String
+    time: String,
+    status: String
 });
 
 

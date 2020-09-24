@@ -20,16 +20,18 @@ head
     h3(style='text-align: center;') Th&ocirc;ng tin h&oacute;a &dstrok;&#x1A1;n
     table
       tr
-        th STT
+        th #{a}
         th M&atilde; &dstrok;&#x1A1;n h&agrave;ng
         th Ng&agrave;y &dstrok;&#x1EB7;t h&agrave;ng
         th H&#x1ECD; t&ecirc;n
         th SDT
         th Email
         th &Dstrok;&#x1ECB;a ch&#x1EC9;
+        th Th&agrave;nh Ph&#x1ED1;
+        th Tr&#x1EA1;ng th&aacute;i
         th Chi ti&#x1EBF;t &dstrok;&#x1A1;n h&agrave;ng
-      - var n = 1
-      - var i = 1
+
+      -var i = 1
       each _bill in bill
         tr
         th=i++
@@ -39,6 +41,8 @@ head
         th #{_bill.number_phone}
         th #{_bill.email}
         th #{_bill.address}
+        th #{_bill.city}
+        th #{_bill.status}
         th 
           a.btn-detail(href='/admin/loggedin/'+_bill._id) Chi ti&#x1EBF;t
 
