@@ -1,6 +1,9 @@
 body{
     background-color: whitesmoke;
 }
+#promo, #news {
+  color: #F2E6CE;
+}
 .container{
   padding-bottom: 0.5%;
 }

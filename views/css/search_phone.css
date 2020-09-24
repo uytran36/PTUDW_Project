@@ -2,6 +2,9 @@ body {
     background-color: whitesmoke;
     font: 14px/18px Helvetica,Arial,sans-serif;
 }
+#promo, #news {
+    color: #F2E6CE;
+}
 /*HEADER VÀ FOOTER*/
 .wrapMenu {
     float: right;

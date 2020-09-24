@@ -161,6 +161,11 @@ ul{
     height: 48%;
     margin-top: 16px;
 }
+
+#promo, #news {
+    color: #F2E6CE;
+}
+
 #promotion{
     box-sizing: content-box;
     height: 40px;

@@ -118,6 +118,9 @@ div.container{
     width: 200px;
 }
 
+#promo, #news {
+    color: #F2E6CE;
+}
 /*chuyển menu thành icon khi thay đổi size */
 @media screen and (max-width: 1100px) {
     .line {
